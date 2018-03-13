@@ -1,5 +1,7 @@
 import os
 import pandas
+import pickle
+import atexit
 
 from dotenv import load_dotenv
 from geopy.geocoders import GoogleV3
@@ -127,14 +129,33 @@ class LocationService:
     LocationService connects to Google's geocoder.
     '''
 
-    def __init__(self, google_api_key):
+    def __init__(self, google_api_key, file_path="./addresses.dict"):
         self.geolocator = GoogleV3(google_api_key)
 
-    def get_address(self, latitude, longitude):
-        str_coordinates = "%f, %f" % (latitude, longitude)
-        location = self.geolocator.reverse(str_coordinates, exactly_one=True)
-        return GoogleAddress(location)
+        self.file_path = file_path
+        self.addresses = dict()
 
+        if os.path.exists(file_path):
+            file = open(file_path, "rb")
+            self.addresses = pickle.load(file)
+            file.close()
+
+        atexit.register(self.save_data)
+
+    def get_address(self, latitude, longitude):
+        if (latitude, longitude) in self.addresses:
+            return self.addresses[(latitude, longitude)]
+        else:
+            str_coordinates = "%f, %f" % (latitude, longitude)
+            location = self.geolocator.reverse(str_coordinates, exactly_one=True)
+            address = GoogleAddress(location)
+            self.addresses[(latitude, longitude)] = address
+            return address
+
+    def save_data(self):
+        file = open(self.file_path, "wb")
+        pickle.dump(self.addresses, file)
+        file.close()
 
 def read_airport_data(data_path, locator):
     data = pandas.read_csv(data_path)
