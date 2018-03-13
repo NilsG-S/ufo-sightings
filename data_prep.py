@@ -154,8 +154,6 @@ def read_airport_data(data_path, locator):
     data = data.loc[(data["country"] == "US") & (~data["state"].isin(["US-AK", "US-HI"])) &
                     (~data["type"].isin(excluded_types))]
 
-    print(len(data))
-
     # Reduce the data size. (This is for testing only.)
     data = data.iloc[0:10]
 
@@ -168,6 +166,26 @@ def read_airport_data(data_path, locator):
 
 def read_sighting_data(data_path, locator):
     data = pandas.read_csv(data_path)
+
+    # Remove unnecessary columns.
+    data = data.filter(["datetime", "city", "state", "country", "shape", "duration (seconds)", "latitude",
+                        "longitude"])
+
+    # Rename some of the columns to better names.
+    data = data.rename(columns={"datetime": "date_time", "duration (seconds)": "duration_seconds",
+                                "latitude": "latitude_deg", "longitude": "longitude_deg"})
+
+    # Keep only the entries that are in the continental US.
+    data = data.loc[(data["country"] == "us") & (~data["state"].isin(["as", "hi"]))]
+
+    # Keep only the entries where date_time follows the format "mm/dd/yy hh:mm".
+    data = data.loc[(data["date_time"].str.match("\d\d/\d\d/\d\d \d\d:\d\d"))]
+
+    # Create a date column taken from the date_time column.
+    data["date"] = data.apply(lambda x: x["date_time"].split(' ', 1)[0], axis=1)
+
+    # Create a time column taken from the date_time column.
+    data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
     return data
 
@@ -188,11 +206,13 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 
 locator = LocationService(google_api_key)
 
-airport_data = read_airport_data("./RawData/airports.csv", locator)
-print(airport_data)
+#airport_data = read_airport_data("./RawData/airports.csv", locator)
+#print(airport_data)
 
-#sighting_data = read_sighting_data("./RawData/complete.csv")
-
+sighting_data = read_sighting_data("./RawData/complete.csv", locator)
+print(sighting_data)
+datetime = sighting_data["date_time"][0]
+print(datetime)
 #meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv")
 
 #save_data(airport_data)
