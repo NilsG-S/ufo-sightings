@@ -185,11 +185,11 @@ def read_sighting_data(data_path, locator):
     data = data.loc[(data["date_time"].str.match("\d\d/\d\d/\d\d \d\d:\d\d"))]
 
     # Keep only valid floats for latitudes and convert them to floats.
-    data = data.loc[(data["latitude_deg"].str.match("-?\d+(\\\\.\d+)?"))]
+    data = data.loc[(data["latitude_deg"].str.match("-?\\d+(\\.\\d+)?"))]
     data["latitude_deg"] = data.apply(lambda x: float(x["latitude_deg"]), axis=1)
 
     # Keep only valid floats for longitudes and convert them to floats.
-    data = data.loc[(data["longitude_deg"].str.match("-?\d+(\\\\.\d+)?"))]
+    data = data.loc[(data["longitude_deg"].str.match("-?\\d+(\\.\\d+)?"))]
     data["longitude_deg"] = data.apply(lambda x: float(x["longitude_deg"]), axis=1)
 
     # Create a date column taken from the date_time column.
@@ -233,8 +233,8 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 
 locator = LocationService(google_api_key)
 
-airport_data = read_airport_data("./RawData/airports.csv", locator)
-print(airport_data)
+#airport_data = read_airport_data("./RawData/airports.csv", locator)
+#print(airport_data)
 
 sighting_data = read_sighting_data("./RawData/complete.csv", locator)
 print(sighting_data)
