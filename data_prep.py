@@ -37,6 +37,7 @@ class GoogleAddress:
         get_address returns the address of this GoogleAddress.
         :return: <str> the address as a string
         '''
+
         return self.address
 
     def get_house_number(self):
@@ -44,6 +45,7 @@ class GoogleAddress:
         get_house_number returns the house number of this GoogleAddress.
         :return: <str | None> the house number or None if there is no house number known
         '''
+
         if "street_number" in self.address_components.keys():
             return self.address_components["street_number"]
 
@@ -55,6 +57,7 @@ class GoogleAddress:
         get_street_name returns the street name of this GoogleAddress.
         :return: <str | None> the street name or None if there is no street name known
         '''
+
         if "route" in self.address_components.keys():
             return self.address_components["route"]
 
@@ -66,6 +69,7 @@ class GoogleAddress:
         get_city returns the city of this GoogleAddress.
         :return: <str | None> the city or None if there is no zip code known
         '''
+
         if "locality" in self.address_components.keys():
             return self.address_components["locality"]
 
@@ -77,6 +81,7 @@ class GoogleAddress:
         get_zip_code returns the zip code of this GoogleAddress.
         :return: <str | None> the zip code or None if there is no zip_code known
         '''
+
         if "postal_code" in self.address_components.keys():
             return self.address_components["postal_code"]
 
@@ -88,6 +93,7 @@ class GoogleAddress:
         get_county returns the county of this GoogleAddress.
         :return: <str | None> the county or None if there is no county known
         '''
+
         if "administrative_area_level_2" in self.address_components.keys():
             return self.address_components["administrative_area_level_2"]
 
@@ -99,6 +105,7 @@ class GoogleAddress:
         get_state returns the state of this GoogleAddress.
         :return: <str | None> the state or None if there is no state known
         '''
+
         if "administrative_area_level_1" in self.address_components.keys():
             return self.address_components["administrative_area_level_1"]
 
@@ -110,6 +117,7 @@ class GoogleAddress:
         get_country returns the country of this GoogleAddress.
         :return: <str | None> the country or None if there is no country known
         '''
+
         if "country" in self.address_components.keys():
             return self.address_components["country"]
 
@@ -121,43 +129,102 @@ class GoogleAddress:
         __str__ returns the full address as a string
         :return: <str> the full address
         '''
+
         return self.address
 
 
 class LocationService:
     '''
-    LocationService connects to Google's geocoder.
+    LocationService gives addresses based on coordinates.
     '''
 
     def __init__(self, google_api_key, file_path="./addresses.dict"):
+        '''
+        :param google_api_key: <str> a google api key to use
+        :param file_path: <str> the file path to where to load the saved addresses to
+            and where to save the addresses to
+            Default Value: "./addresses.dict"
+        Class Variables:
+        self.geolocator: <geopy.gecoders.GoogleV3> the geocoder that connects to google to
+            get address information
+        self.file_path: <str> the file path to where to load the saved addresses to
+            and where to save the addresses to
+        self.addresses: <dict <(float latitude, float longitude): GoogleAddress address> a dictionary
+            that maps a latitude, longitude coordinate pair to the GoogleAddress at that position.
+        '''
+
         self.geolocator = GoogleV3(google_api_key)
 
         self.file_path = file_path
-        self.addresses = dict()
+
+        self.addresses = self.load_addresses(self.file_path)
+
+        # Register the function self.save_addresses to run when object is deleted.
+        atexit.register(self.save_addresses, self.file_path)
+
+    def load_addresses(self):
+        '''
+        load_addresses loads the pickled addresses dictionary data.
+        :param file_path: <str> the file path to try to load the addresses dictionary from
+        :return: <dict <(float latitude, float longitude): GoogleAddress address> the addresses dictionary
+            loaded from the file at file_path or an empty dictionary if there is no file at file_path
+        '''
+
+        addresses = dict()
 
         if os.path.exists(file_path):
             file = open(file_path, "rb")
-            self.addresses = pickle.load(file)
+            addresses = pickle.load(file)
             file.close()
 
-        atexit.register(self.save_data)
+        return addresses
 
-    def get_address(self, latitude, longitude):
-        if (latitude, longitude) in self.addresses:
-            return self.addresses[(latitude, longitude)]
-        else:
-            str_coordinates = "%f, %f" % (latitude, longitude)
-            location = self.geolocator.reverse(str_coordinates, exactly_one=True)
-            address = GoogleAddress(location)
-            self.addresses[(latitude, longitude)] = address
-            return address
+    def save_addresses(self):
+        '''
+        save_addresses pickles and saves self.addresses to the file path self.file_path.
+        :return: None
+        '''
 
-    def save_data(self):
         file = open(self.file_path, "wb")
         pickle.dump(self.addresses, file)
         file.close()
 
+    def get_address(self, latitude, longitude):
+        '''
+        get_address gets the GoogleAddress that corresponds to the latitude and longitude
+        given.
+        :param latitude: <float> valid latitude
+        :param longitude: <float> valid longitude
+        :return: <GoogleAddress> the address that corresponds to the latitude and longitude supplied
+        '''
+
+        # If the latitude, longitude pair has already been found, return that value.
+        if (latitude, longitude) in self.addresses:
+            return self.addresses[(latitude, longitude)]
+
+        else:
+            # Turn the coordinate pair into a string to pass to Google.
+            str_coordinates = "%f, %f" % (latitude, longitude)
+
+            # Have the GoogleV3 geolocator get the location from Google.
+            location = self.geolocator.reverse(str_coordinates, exactly_one=True)
+
+            # Change the location into a GoogleAddress
+            address = GoogleAddress(location)
+
+            # Store the newly found GoogleAddress
+            self.addresses[(latitude, longitude)] = address
+
+            return address
+
 def read_airport_data(data_path, locator):
+    '''
+    read_airport_data reads in the airport data located at data_path and cleans the data.
+    :param data_path: <str> the data_path where the airport data is located
+    :param locator: <LocationService> the LocationService to use to get the addresses for the data
+    :return: <pandas.DataFrame> the cleaned airport data
+    '''
+
     data = pandas.read_csv(data_path)
 
     # Remove unnecessary columns.
@@ -191,6 +258,13 @@ def read_airport_data(data_path, locator):
 
 
 def read_sighting_data(data_path, locator):
+    '''
+    read_sighting_data reads in the ufo sighting data located at data_path and cleans the data.
+    :param data_path: <str> the data_path where the ufo sighting data is located
+    :param locator: <LocationService> the LocationService to use to get the addresses for the data
+    :return: <pandas.DataFrame> the cleaned ufo sighting data
+    '''
+
     data = pandas.read_csv(data_path, converters={"latitude": str, "longitude": str})
 
     # Remove unnecessary columns.
@@ -246,6 +320,13 @@ def read_sighting_data(data_path, locator):
 
 
 def read_meteorite_data(data_path, locator):
+    '''
+    read_meteorite_data reads in the meteorite data located at data_path and cleans the data.
+    :param data_path: <str> the data_path where the meteorite data is located
+    :param locator: <LocationService> the LocationService to use to get the addresses for the data
+    :return: <pandas.DataFrame> the cleaned meteorite data
+    '''
+
     data = pandas.read_csv(data_path)
 
     # Remove unnecessary columns.
@@ -277,13 +358,21 @@ def read_meteorite_data(data_path, locator):
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
 
+    # Remove all data where the zip code is Null, None, Na or NaN.
     data = data.loc[~data["zip_code"].isnull()]
 
     return data
 
 
-def save_data(data):
-    pass
+def save_data(data, file_path):
+    '''
+    save_data saves the pandas.DataFrame as a csv at file_path.
+    :param data: <pandas.DataFrame> the data to be saved
+    :param file_path: <str> the location to save the data at
+    :return: None
+    '''
+
+    data.to_csv(file_path)
 
 
 load_dotenv("./.env")
