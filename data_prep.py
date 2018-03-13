@@ -143,8 +143,18 @@ def read_airport_data(data_path, locator):
     data = data.filter(["id", "ident", "type", "name", "latitude_deg", "longitude_deg", "elevation_ft",
                         "iso_country", "iso_region", "municipality"])
 
-    # Keep only the entries that are in the continental US.
-    data = data.loc[(data["iso_country"] == "US") & (~data["iso_region"].isin(["US-AK", "US-HI"]))]
+    # Rename some of the columns to better names.
+    data = data.rename(columns={"ident": "airport_code", "iso_country": "country",
+                                "iso_region": "state", "municipality": "city"})
+
+    # Excluding airports that are closed, heliports or small.
+    excluded_types = ["closed", "heliport", "small_airport"]
+
+    # Keep only the entries that are in the continental US and are not of an excluded type.
+    data = data.loc[(data["country"] == "US") & (~data["state"].isin(["US-AK", "US-HI"])) &
+                    (~data["type"].isin(excluded_types))]
+
+    print(len(data))
 
     # Reduce the data size. (This is for testing only.)
     data = data.iloc[0:10]
