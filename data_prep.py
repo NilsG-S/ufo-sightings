@@ -162,7 +162,7 @@ class LocationService:
         # Register the function self.save_addresses to run when object is deleted.
         atexit.register(self.save_addresses, self.file_path)
 
-    def load_addresses(self):
+    def load_addresses(self, file_path):
         '''
         load_addresses loads the pickled addresses dictionary data.
         :param file_path: <str> the file path to try to load the addresses dictionary from
@@ -381,11 +381,11 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 
 locator = LocationService(google_api_key)
 
-#airport_data = read_airport_data("./RawData/airports.csv", locator)
-#print(airport_data)
+airport_data = read_airport_data("./RawData/airports.csv", locator)
+print(airport_data)
 
-#sighting_data = read_sighting_data("./RawData/complete.csv", locator)
-#print(sighting_data)
+sighting_data = read_sighting_data("./RawData/complete.csv", locator)
+print(sighting_data)
 
 meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
 print(meteorite_data)
