@@ -147,6 +147,9 @@ def read_airport_data(data_path, locator):
     data = data.rename(columns={"ident": "airport_code", "iso_country": "country",
                                 "iso_region": "state", "municipality": "city"})
 
+    # Turn the values in the states column into just state codes.
+    data["state"] = data.apply(lambda x: x["state"].split('-', 1)[1], axis=1)
+
     # Excluding airports that are closed, heliports or small.
     excluded_types = ["closed", "heliport", "small_airport"]
 
@@ -157,7 +160,7 @@ def read_airport_data(data_path, locator):
     # Reduce the data size. (This is for testing only.)
     data = data.iloc[0:10]
 
-    # Get the address of each airport.
+    # Get the zip code of each airport.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                  axis=1)
 
@@ -165,7 +168,7 @@ def read_airport_data(data_path, locator):
 
 
 def read_sighting_data(data_path, locator):
-    data = pandas.read_csv(data_path)
+    data = pandas.read_csv(data_path, converters={"latitude": str, "longitude": str})
 
     # Remove unnecessary columns.
     data = data.filter(["datetime", "city", "state", "country", "shape", "duration (seconds)", "latitude",
@@ -181,11 +184,35 @@ def read_sighting_data(data_path, locator):
     # Keep only the entries where date_time follows the format "mm/dd/yy hh:mm".
     data = data.loc[(data["date_time"].str.match("\d\d/\d\d/\d\d \d\d:\d\d"))]
 
+    # Keep only valid floats for latitudes and convert them to floats.
+    data = data.loc[(data["latitude_deg"].str.match("-?\d+(\\\\.\d+)?"))]
+    data["latitude_deg"] = data.apply(lambda x: float(x["latitude_deg"]), axis=1)
+
+    # Keep only valid floats for longitudes and convert them to floats.
+    data = data.loc[(data["longitude_deg"].str.match("-?\d+(\\\\.\d+)?"))]
+    data["longitude_deg"] = data.apply(lambda x: float(x["longitude_deg"]), axis=1)
+
     # Create a date column taken from the date_time column.
     data["date"] = data.apply(lambda x: x["date_time"].split(' ', 1)[0], axis=1)
 
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
+
+    # Turn the values in the states column into uppercase.
+    data["state"] = data.apply(lambda x: x["state"].upper(), axis=1)
+
+    # Turn the values in the country column into uppercase.
+    data["country"] = data.apply(lambda x: x["country"].upper(), axis=1)
+
+    # Turn the values in the city column into title case.
+    data["city"] = data.apply(lambda x: x["city"].title(), axis=1)
+
+    # Reduce the data size. (This is for testing only.)
+    data = data.iloc[0:10]
+
+    # Get the address of each sighting.
+    data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
+                                  axis=1)
 
     return data
 
@@ -206,13 +233,12 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 
 locator = LocationService(google_api_key)
 
-#airport_data = read_airport_data("./RawData/airports.csv", locator)
-#print(airport_data)
+airport_data = read_airport_data("./RawData/airports.csv", locator)
+print(airport_data)
 
 sighting_data = read_sighting_data("./RawData/complete.csv", locator)
 print(sighting_data)
-datetime = sighting_data["date_time"][0]
-print(datetime)
+
 #meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv")
 
 #save_data(airport_data)
