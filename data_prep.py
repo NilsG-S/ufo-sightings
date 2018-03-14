@@ -23,14 +23,19 @@ class GoogleAddress:
         self.address_components: <dict <str, str>> a dictionary that keeps all the components of the address
         '''
 
-        self.address = location.address
+        if location is None:
+            self.address = ""
+            self.address_components = dict()
 
-        self.address_components = dict()
+        else:
+            self.address = location.address
 
-        # Load all the address components from the location parameter with a key that is the first value of
-        # the types list and the value is the long_name of the component.
-        for value in location.raw["address_components"]:
-            self.address_components[value["types"][0]] = value["long_name"]
+            self.address_components = dict()
+
+            # Load all the address components from the location parameter with a key that is the first
+            # value of the types list and the value is the long_name of the component.
+            for value in location.raw["address_components"]:
+                self.address_components[value["types"][0]] = value["long_name"]
 
     def get_address(self):
         '''
@@ -46,7 +51,7 @@ class GoogleAddress:
         :return: <str | None> the house number or None if there is no house number known
         '''
 
-        if "street_number" in self.address_components.keys():
+        if "street_number" in self.address_components:
             return self.address_components["street_number"]
 
         else:
@@ -58,7 +63,7 @@ class GoogleAddress:
         :return: <str | None> the street name or None if there is no street name known
         '''
 
-        if "route" in self.address_components.keys():
+        if "route" in self.address_components:
             return self.address_components["route"]
 
         else:
@@ -70,7 +75,7 @@ class GoogleAddress:
         :return: <str | None> the city or None if there is no zip code known
         '''
 
-        if "locality" in self.address_components.keys():
+        if "locality" in self.address_components:
             return self.address_components["locality"]
 
         else:
@@ -82,7 +87,7 @@ class GoogleAddress:
         :return: <str | None> the zip code or None if there is no zip_code known
         '''
 
-        if "postal_code" in self.address_components.keys():
+        if "postal_code" in self.address_components:
             return self.address_components["postal_code"]
 
         else:
@@ -94,7 +99,7 @@ class GoogleAddress:
         :return: <str | None> the county or None if there is no county known
         '''
 
-        if "administrative_area_level_2" in self.address_components.keys():
+        if "administrative_area_level_2" in self.address_components:
             return self.address_components["administrative_area_level_2"]
 
         else:
@@ -106,7 +111,7 @@ class GoogleAddress:
         :return: <str | None> the state or None if there is no state known
         '''
 
-        if "administrative_area_level_1" in self.address_components.keys():
+        if "administrative_area_level_1" in self.address_components:
             return self.address_components["administrative_area_level_1"]
 
         else:
@@ -118,7 +123,7 @@ class GoogleAddress:
         :return: <str | None> the country or None if there is no country known
         '''
 
-        if "country" in self.address_components.keys():
+        if "country" in self.address_components:
             return self.address_components["country"]
 
         else:
@@ -160,7 +165,7 @@ class LocationService:
         self.addresses = self.load_addresses(self.file_path)
 
         # Register the function self.save_addresses to run when object is deleted.
-        atexit.register(self.save_addresses, self.file_path)
+        atexit.register(self.save_addresses)
 
     def load_addresses(self, file_path):
         '''
@@ -248,7 +253,7 @@ def read_airport_data(data_path, locator):
     print(len(data))
 
     # Reduce the data size. (This is for testing only.)
-    data = data.iloc[0:10]
+    #data = data.iloc[0:10]
 
     # Get the zip code of each airport.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
@@ -297,6 +302,12 @@ def read_sighting_data(data_path, locator):
 
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
+
+    # Get the two digit year for each date.
+    data["year"] = data.apply(lambda x: int(x["date"].split('/', 2)[2]), axis=1)
+
+    # Filter out all the years that are not between 2010 and 2018.
+    data = data[data["year"].between(10, 18, inclusive=True)]
 
     # Turn the values in the states column into uppercase.
     data["state"] = data.apply(lambda x: x["state"].upper(), axis=1)
@@ -384,11 +395,11 @@ locator = LocationService(google_api_key)
 airport_data = read_airport_data("./RawData/airports.csv", locator)
 print(airport_data)
 
-sighting_data = read_sighting_data("./RawData/complete.csv", locator)
-print(sighting_data)
+#sighting_data = read_sighting_data("./RawData/complete.csv", locator)
+#print(sighting_data)
 
-meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
-print(meteorite_data)
+#meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
+#print(meteorite_data)
 
 #save_data(airport_data)
 
