@@ -250,11 +250,6 @@ def read_airport_data(data_path, locator):
     data = data.loc[(data["country"] == "US") & (~data["state"].isin(["US-AK", "US-HI"])) &
                     (~data["type"].isin(excluded_types))]
 
-    print(len(data))
-
-    # Reduce the data size. (This is for testing only.)
-    #data = data.iloc[0:10]
-
     # Get the zip code of each airport.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                  axis=1)
@@ -321,7 +316,7 @@ def read_sighting_data(data_path, locator):
     print(len(data))
 
     # Reduce the data size. (This is for testing only.)
-    data = data.iloc[0:10]
+    data = data.iloc[0:20000]
 
     # Get the address of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
@@ -362,9 +357,6 @@ def read_meteorite_data(data_path, locator):
 
     print(len(data))
 
-    # Reduce the data size. (This is for testing only.)
-    data = data.iloc[0:10]
-
     # Get the address of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
@@ -392,11 +384,11 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 
 locator = LocationService(google_api_key)
 
-airport_data = read_airport_data("./RawData/airports.csv", locator)
-print(airport_data)
+#airport_data = read_airport_data("./RawData/airports.csv", locator)
+#print(airport_data)
 
-#sighting_data = read_sighting_data("./RawData/complete.csv", locator)
-#print(sighting_data)
+sighting_data = read_sighting_data("./RawData/complete.csv", locator)
+print(sighting_data)
 
 #meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
 #print(meteorite_data)
