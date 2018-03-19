@@ -351,12 +351,16 @@ def read_meteorite_data(data_path, locator):
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
+    data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
+                                 axis=1)
+
+    data = data.loc[data['country'] == "United States"]
+
     # Get the address of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
 
-    # Remove all data where the zip code is Null, None, Na or NaN.
-    data = data.loc[~data["zip_code"].isnull()]
+    data = data.filter(["name", "id", "mass_grams", "date", "time", "country", "zip_code"])
 
     return data
 
@@ -372,12 +376,12 @@ locator = LocationService(google_api_key)
 
 # Clean and save the airport data.
 airport_data = read_airport_data("./RawData/airports.csv", locator)
-airport_data.to_csv("./CleanData/AirportData.csv")
+airport_data.to_csv("./CleanData/AirportData.csv", index=False)
 
 # Clean and save the ufo sighting data.
 sighting_data = read_sighting_data("./RawData/complete.csv", locator)
-sighting_data.to_csv("./CleanData/UFOSightingData.csv")
+sighting_data.to_csv("./CleanData/UFOSightingData.csv", index=False)
 
 # Clean and save the meteorite data.
 meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
-meteorite_data.to_csv("./CleanData/MeteoriteData.csv")
+meteorite_data.to_csv("./CleanData/MeteoriteData.csv", index=False)
