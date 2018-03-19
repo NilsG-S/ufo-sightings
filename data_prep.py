@@ -222,6 +222,7 @@ class LocationService:
 
             return address
 
+
 def read_airport_data(data_path, locator):
     '''
     read_airport_data reads in the airport data located at data_path and cleans the data.
@@ -313,11 +314,6 @@ def read_sighting_data(data_path, locator):
     # Turn the values in the city column into title case.
     data["city"] = data.apply(lambda x: x["city"].title(), axis=1)
 
-    print(len(data))
-
-    # Reduce the data size. (This is for testing only.)
-    data = data.iloc[0:20000]
-
     # Get the address of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
@@ -355,8 +351,6 @@ def read_meteorite_data(data_path, locator):
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
-    print(len(data))
-
     # Get the address of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
@@ -367,34 +361,23 @@ def read_meteorite_data(data_path, locator):
     return data
 
 
-def save_data(data, file_path):
-    '''
-    save_data saves the pandas.DataFrame as a csv at file_path.
-    :param data: <pandas.DataFrame> the data to be saved
-    :param file_path: <str> the location to save the data at
-    :return: None
-    '''
-
-    data.to_csv(file_path)
-
-
+# Load the environment file for environment variable.
 load_dotenv("./.env")
 
+# Load the Google API Key from the environment file.
 google_api_key = os.getenv("GOOGLE_API_KEY")
 
+# Create a LocationService object with the Google API Key.
 locator = LocationService(google_api_key)
 
-#airport_data = read_airport_data("./RawData/airports.csv", locator)
-#print(airport_data)
+# Clean and save the airport data.
+airport_data = read_airport_data("./RawData/airports.csv", locator)
+airport_data.to_csv("./CleanData/AirportData.csv")
 
+# Clean and save the ufo sighting data.
 sighting_data = read_sighting_data("./RawData/complete.csv", locator)
-print(sighting_data)
+sighting_data.to_csv("./CleanData/UFOSightingData.csv")
 
-#meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
-#print(meteorite_data)
-
-#save_data(airport_data)
-
-#save_data(sighting_data)
-
-#save_data(meteorite_data)
+# Clean and save the meteorite data.
+meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
+meteorite_data.to_csv("./CleanData/MeteoriteData.csv")

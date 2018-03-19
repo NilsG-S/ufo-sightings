@@ -1,0 +1,1442 @@
+,id,airport_code,type,name,latitude_deg,longitude_deg,elevation_ft,country,state,city,zip_code
+36,321919,00NK,seaplane_base,Cliche Cove Seaplane Base,44.8118612,-73.3698057,96.0,US,NY,Beekmantown,12901
+91,6605,01MD,seaplane_base,Annapolis Seaplane Base,38.999199,-76.456001,,US,MD,Annapolis,21409
+92,6606,01ME,seaplane_base,Saint Peter's Seaplane Base,46.77890014648438,-68.50029754638672,608.0,US,ME,Portage Lake,04768
+94,6608,01MN,seaplane_base,Barnes Seaplane Base,47.89960098266602,-92.55740356445312,1358.0,US,MN,Cook,55723
+160,6669,02NH,seaplane_base,Iroquois Landing Seaplane Base,44.65710067749024,-71.21910095214844,1180.0,US,NH,Dummer,03588
+188,6696,03AK,seaplane_base,Joe Clouds Seaplane Base,60.72722244262695,-151.13278198242188,150.0,US,AK,Kenai,99611
+209,6716,03M,seaplane_base,Lakeside Marina Seaplane Base,44.320899963378906,-69.88950347900389,165.0,US,ME,East Winthrop,04364
+264,45410,04IN,seaplane_base,Lake Gage Seaplane Base,41.701389,-85.113056,954.0,US,IN,Angola,46703
+312,6810,05B,seaplane_base,Van Buren Seaplane Base,47.15890121459999,-67.9319992065,440.0,US,ME,Van Buren,04785
+370,6864,06B,seaplane_base,Lucky Landing Marina and Seaplane Base,44.9070014954,-68.80500030520001,115.0,US,ME,Bangor,04401
+378,6872,06I,seaplane_base,Patoka Reservoir Landing Area Seaplane Base,38.43339920043945,-86.69110107421875,536.0,US,IN,French Lick,47521
+439,6928,07I,seaplane_base,Lake Monroe Seaplane Base,39.05870056152344,-86.44609832763672,538.0,US,IN,Bloomington,47401
+457,6946,07NH,seaplane_base,Diving Rock Seaplane Base,43.17559814453125,-72.06390380859375,1404.0,US,NH,Washington,03280
+486,6970,08CT,seaplane_base,Seavair's Landing Seaplane Base,41.89599990844727,-73.09310150146484,881.0,US,CT,Winsted,06098
+496,45416,08IN,seaplane_base,Winona Lake Seaplane Base,41.223056,-85.830556,812.0,US,IN,Winona Lake,46580
+507,6990,08MN,seaplane_base,Christenson Point Seaplane Base,47.66939926147461,-93.0543975830078,1372.0,US,MN,Chisholm/Hibbing,55781
+545,7025,09I,seaplane_base,International Falls Seaplane Base,48.60580062866211,-93.37079620361328,1110.0,US,MN,International Falls,56649
+584,7062,09Y,seaplane_base,Wipline Seaplane Base,44.81660079956055,-93.0155029296875,687.0,US,MN,Inver Grove Hgts,55076
+691,320961,0FA5,seaplane_base,Briley Farm Seaplane Base,28.5727778,-81.62861109999999,66.0,US,FL,Oakland,34760
+698,7168,0FD6,seaplane_base,Fulton Seaplane Base,27.90749931335449,-80.48639678955078,,US,FL,Sebastian,32951
+702,7172,0FL2,seaplane_base,Alligator Drink Seaplane Base,28.787799835205078,-81.16419982910156,19.0,US,FL,Geneva,32732
+705,7175,0FL5,seaplane_base,Lake Conway South Seaplane Base,28.458599090576172,-81.34970092773438,80.0,US,FL,Belle Isle,32809
+708,7178,0FL8,seaplane_base,Gary Gale Seaplane Base,30.19389915466309,-81.68190002441406,,US,FL,Jacksonville,32212
+711,7181,0G5,seaplane_base,Grand Marais/Cook County Seaplane Base,47.8263,-90.3835,1635.0,US,MN,Grand Marais,55604
+863,7329,0MN0,seaplane_base,Winner's Landing Seaplane Base,44.79690170288086,-92.98410034179688,690.0,US,MN,St Paul Park,55071
+865,7331,0MN2,seaplane_base,Grindstone Lake Seaplane Base,46.13330078125,-93.00299835205078,1025.0,US,MN,Sandstone,55072
+866,7332,0MN3,seaplane_base,Lower Hay Lake Seaplane Base,46.67779922485352,-94.2925033569336,1230.0,US,MN,Jenkins,56474
+867,7333,0MN4,seaplane_base,Paul's Seaplane Base,46.47719955444336,-94.3031005859375,1200.0,US,MN,Nisswa,56468
+971,7436,0O0,seaplane_base,San Luis Reservoir Seaplane Base,37.05830001831055,-121.1259994506836,544.0,US,CA,Los Banos,95322
+1022,7487,0PN1,seaplane_base,Pete's Water Landing Seaplane Base,40.69940185546875,-79.618896484375,757.0,US,PA,Freeport,16229
+1084,7549,0TN1,seaplane_base,Tims Ford Seaplane Base,35.2223014831543,-86.22000122070312,785.0,US,TN,Tullahoma,37330
+1132,7596,0W0,seaplane_base,Seattle Seaplanes Seaplane Base,47.627601623535156,-122.33200073242188,14.0,US,WA,Seattle,98109
+1133,7597,0W7,seaplane_base,Floathaven Seaplane Base,48.72819900512695,-122.33599853515624,307.0,US,WA,Bellingham,98229
+1187,7648,0Z3,seaplane_base,Shannons Pond Seaplane Base,59.058998107910156,-158.57699584960938,80.0,US,AK,Dillingham,99576
+1211,7671,10MA,seaplane_base,Beaver Lake Seaplane Base,42.26259994506836,-72.30699920654297,384.0,US,MA,Ware,01082
+1213,7673,10MN,seaplane_base,Lookout Lake Seaplane Base,46.4375,-93.9561004638672,1200.0,US,MN,Ironton,56455
+1261,7718,11LA,seaplane_base,Tiger Pass Seaplane Base,29.2588005065918,-89.35299682617188,,US,LA,Venice,70091
+1297,7748,11WN,seaplane_base,Diedrich Seaplane Base,43.35419845581055,-89.57119750976562,774.0,US,WI,Lodi,53555
+1309,7757,12FL,seaplane_base,Timberlachen Seaplane Base,28.59280014038086,-81.40390014648438,89.0,US,FL,Orlando,32804
+1311,7759,12GE,seaplane_base,Harvest Lake Seaplane Base,31.73080062866211,-81.35970306396484,4.0,US,GA,Riceboro,31323
+1312,7760,12I,seaplane_base,Brookville Reservoir Seaplane Base,39.51029968261719,-85.0,748.0,US,IN,Brookville,47012
+1319,7767,12JY,balloonport,Clinton Elks Lodge Balloonport,40.60419845581055,-74.9207992553711,37.0,US,NJ,Pittstown,08867
+1329,7777,12MN,seaplane_base,Eastman Seaplane Base,46.48049926757813,-94.28109741210938,1200.0,US,MN,Lake Hubert,56468
+1388,7829,13M,balloonport,Aeronut Park Balloonport,42.60419845581055,-83.85859680175781,980.0,US,MI,Howell,48843
+1411,7852,13S,seaplane_base,Lake Louise Seaplane Base,62.28290176391602,-146.5189971923828,2362.0,US,AK,Lake Louise,99588
+1425,7866,13Z,seaplane_base,Loring Seaplane Base,55.601299285900005,-131.636993408,0.0,US,AK,Loring,99901
+1560,7994,16K,seaplane_base,Port Alice Seaplane Base,55.803000000000004,-133.597,0.0,US,AK,Port Alice,99921
+1568,8001,16MN,seaplane_base,Baudette Flying Service Seaplane Base,48.83190155029297,-94.70439910888672,1060.0,US,MN,Baudette,56623
+1574,8007,16NH,seaplane_base,Bossey's Seaplane Base,43.60419845581055,-71.51249694824219,624.0,US,NH,Meredith,03253
+1575,8008,16NJ,seaplane_base,Hummel Seaplane Base,39.93730163574219,-74.13569641113281,,US,NJ,Island Heights,08732
+1594,8027,16WI,seaplane_base,Lac Vieux Desert Seaplane Base,46.12160110473633,-89.12100219726562,1690.0,US,WI,Phelps,54554
+1598,8029,16Z,seaplane_base,Mc Grath Seaplane Base,62.958000183100005,-155.593002319,325.0,US,AK,Mcgrath,99627
+1621,8050,17MN,seaplane_base,Jackson Seaplane Base,46.7169,-93.210197,1224.0,US,MN,Mc Gregor,55760
+1742,8159,19P,seaplane_base,Port Protection Seaplane Base,56.328800201415994,-133.61000061035,0.0,US,AK,Port Protection,99927
+1746,8162,19T,seaplane_base,Tan Tar A Resort Seaplane Base,38.133399963378906,-92.7334976196289,659.0,US,MO,Osage Beach,65065
+1801,8218,1C4,seaplane_base,Raintree Seaplane Base,39.56919860839844,-75.8478012084961,,US,MD,Elkton,21921
+1869,8285,1FL0,seaplane_base,Garner Landing Seaplane Base,28.103599548339844,-81.80590057373047,147.0,US,FL,Auburndale,33823
+1874,8290,1FL5,seaplane_base,West Bay Creek Seaplane Base,30.302099227905273,-85.8644027709961,,US,FL,West Bay,32413
+1949,8364,1IN7,seaplane_base,Lake Wawasee Seaplane Base,41.4035987854,-85.706100463867,859.0,US,IN,Syracuse,46567
+1994,8408,1LA4,seaplane_base,Bayou Fourchon Seaplane Base,29.10580062866211,-90.19090270996094,,US,LA,Leeville,70357
+2034,8448,1ME,seaplane_base,Chesuncook Lake House Seaplane Base,46.0609016418457,-69.40940093994139,942.0,US,ME,Chesuncook,04441
+2036,8450,1MI0,seaplane_base,Ashman Island Seaplane Base,46.06859970092773,-83.72419738769531,580.0,US,MI,Drummond Island,49726
+2085,8499,1MU1,seaplane_base,Lake Taney Como Seaplane Base,36.66669845581055,-93.154296875,716.0,US,MO,Rockaway Beach,65616
+2152,8565,1O0,seaplane_base,Lake Woahink Seaplane Base,43.90420150756836,-124.11499786376952,39.0,US,OR,Florence,97439
+2331,8742,1WI5,seaplane_base,Beaver Dam Lake Seaplane Base,43.51499938964844,-88.95259857177734,871.0,US,WI,Randolph,53916
+2367,8775,1Z9,seaplane_base,Ellamar Seaplane Base,60.893818,-146.704038,0.0,US,AK,Ellamar,99677
+2432,8833,21H,seaplane_base,Skyline Seaplane Base,48.48320007324219,-122.68499755859376,,US,WA,Anacortes,98221
+2437,8837,21JY,seaplane_base,Soaring Sun Seaplane Base,39.70000076293945,-74.15280151367188,,US,NJ,Harvey Cedars,08008
+2442,8842,21M,seaplane_base,Currier's Seaplane Base,45.4625015258789,-69.61949920654297,1028.0,US,ME,Greenville Junction,04442
+2445,8845,21MN,seaplane_base,Amundson Seaplane Base,44.929100036621094,-93.61750030517578,935.0,US,MN,Orono/Lake Minnetonka,55391
+2478,8877,22CA,seaplane_base,Commodore Center Seaplane Base,37.87990188598633,-122.51399993896484,,US,CA,Sausalito,94941
+2503,8899,22MN,seaplane_base,Eastmans Medicine Lake Seaplane Base,44.99470138549805,-93.42610168457031,820.0,US,MN,Plymouth,55441
+2569,8952,23MD,seaplane_base,Breezecroft Seaplane Base,39.25559997558594,-76.20690155029297,10.0,US,MD,Chestertown,21620
+2619,8993,24FA,seaplane_base,Lake Weir Seaplane Base,29.03440093994141,-81.95059967041016,56.0,US,FL,Oklawaha,32179
+2696,9064,25MN,seaplane_base,Shirt Lake Seaplane Base,46.43059921264648,-93.83309936523438,1272.0,US,MN,Deerwood,56444
+2805,9158,27MA,seaplane_base,Wamsetto Seaplane Base,41.82059860229492,-71.11470031738281,,US,MA,Berkley,02779
+2862,9210,28MN,seaplane_base,Vasa Park Seaplane Base,44.963600158691406,-93.62249755859376,930.0,US,MN,Spring Park,55356
+2866,9213,28NC,balloonport,Balloonport of Greensboro Balloonport,35.9557991027832,-79.81890106201172,800.0,US,NC,Greensboro,27406
+2890,9233,29A,seaplane_base,Island Lake Seaplane Base,61.628898620600005,-149.617996216,370.0,US,AK,Wasilla,99623
+2900,9243,29FA,seaplane_base,Caloosa Downtown Seaplane Base,26.63500022888184,-81.875,2.0,US,FL,Fort Myers,33901
+2912,9255,29LS,seaplane_base,L Auberge du Lac Hotel Seaplane Base,30.207801,-93.265298,8.0,US,LA,Lake Charles,70601
+2915,45453,29ME,seaplane_base,Teconnet Seaplane Base,44.448,-69.530333,194.0,US,ME,China,04962
+2940,45869,29VT,seaplane_base,Middle Hero Seaplane Base,44.756389,-73.266667,105.0,US,VT,Grand Isle,05458
+2945,9283,2A4,seaplane_base,Vor Lake Waterlane Seaplane Base,66.89929962158203,-151.4720001220703,631.0,US,AK,Bettles,99726
+3042,9366,2D3,seaplane_base,Gooding Lake Seaplane Base,61.62770080566406,-149.23899841308594,500.0,US,AK,Palmer,99654
+3079,9401,2G6,seaplane_base,Mc Laughlin Seaplane Base,37.3205986023,-77.3458023071,7.0,US,VA,Chester,23836
+3170,45530,2JY7,balloonport,Alba Vineyard Balloonport,40.615689,-75.164167,240.0,US,NJ,Milford,08865
+3202,9511,2LA3,seaplane_base,Exxon Intracoastal City Terminal Seaplane Base,29.824899673461914,-92.13289642333984,8.0,US,LA,Intracoastal City,70510
+3223,9529,2M5,seaplane_base,Stockton Lake Seaplane Base,37.650001525878906,-93.7584991455078,867.0,US,MO,Stockton,65785
+3229,9535,2MA6,seaplane_base,Flynns Noquochoke Seaplane Base,41.59360122680664,-71.06529998779297,,US,MA,Westport,02790
+3230,9536,2MA7,seaplane_base,Falls Pond Seaplane Base,41.95840072631836,-71.32640075683594,175.0,US,MA,North Attleborough,02760
+3300,9598,2N7,seaplane_base,Little Ferry Seaplane Base,40.85010147094727,-74.03289794921875,,US,NJ,Little Ferry,07643
+3341,9638,2NK0,seaplane_base,Northwest Waterbird Seaplane Base,43.59339904785156,-73.6250991821289,320.0,US,NY,Bolten Landing,12814
+3372,9666,2OG3,seaplane_base,Wiley's Seaplane Base,45.43099975585938,-122.6500015258789,12.0,US,OR,Lake Oswego,97034
+3448,9738,2R3,seaplane_base,Island Lake Seaplane Base,60.70439910888672,-151.31100463867188,140.0,US,AK,Kenai,99611
+3457,9747,2SC3,seaplane_base,Melrose Landing Seaplane Base,32.139198303222656,-80.86810302734375,,US,SC,Hilton Head,29915
+3458,9748,2SC4,seaplane_base,Salty Fare Landng Seaplane Base,32.233898162841804,-80.75420379638672,,US,SC,Hilton Head,29926
+3556,325325,2VI2,seaplane_base,Redoubt View Seaplane Base,60.419038,-152.354894,385.0,US,AK,Kenai,99682
+3557,9843,2VT2,seaplane_base,Northern Lights Seaplane Base,44.87279891967773,-73.28170013427734,95.0,US,VT,Alburg,05440
+3563,9849,2WA2,seaplane_base,Quartermaster Harbor Seaplane Base,47.37950134277344,-122.44499969482422,,US,WA,Dockton,98070
+3597,9879,2X2,seaplane_base,Willow Seaplane Base,61.74399948120117,-150.0590057373047,200.0,US,AK,Willow,99688
+3621,9901,2Y3,seaplane_base,Yakutat Seaplane Base,59.5625,-139.74099731445312,,US,AK,Yakutat,99689
+3622,9902,2Z1,seaplane_base,Entrance Island Seaplane Base,57.412201,-133.43848,,US,AK,Entrance Island,99820
+3625,9905,2Z5,seaplane_base,Chena River Seaplane Base,64.83290100097656,-147.84800720214844,440.0,US,AK,Fairbanks,99709
+3626,9906,2Z6,seaplane_base,False Island Seaplane Base,57.5321998596,-135.212997437,,US,AK,False Island,99835
+3646,9924,30LA,seaplane_base,Venice Base Heliport & Seaplane Base,29.271099090576172,-89.35579681396484,7.0,US,LA,Venice,70091
+3670,9944,30W,seaplane_base,Sweetwater Bay Seaplane Base,44.95190048217773,-87.80840301513672,579.0,US,WI,Oconto,54153
+3829,10085,34FA,seaplane_base,Gezik Seaplane Base,28.25189971923828,-80.66889953613281,,US,FL,Rockledge,32952
+3846,10101,34MN,seaplane_base,Peil/Juliar Seaplane Base,44.959999084472656,-93.64939880371094,627.0,US,MN,Mound,55364
+3887,10140,35JY,balloonport,Cyber Density Balloon Spot Balloonport,40.43439865112305,-74.63469696044922,75.0,US,NJ,Belle Mead,08502
+3902,45522,35NH,seaplane_base,Cobbetts Pond Seaplane Base,42.806914,-71.275853,177.0,US,NH,Windham,03087
+3933,10183,36H,seaplane_base,Squaw Harbor Seaplane Base,55.2332992554,-160.552001953,0.0,US,AK,Squaw Harbor,99661
+3965,45870,36VT,seaplane_base,North Hero Passage Seaplane Base,44.854721999999995,-73.285556,102.0,US,VT,North Hero,05474
+4075,10316,39B,seaplane_base,Nugent Chamberlain Lake Seaplane Base,46.21670150756836,-69.24949645996094,945.0,US,ME,Chesuncook,04462
+4120,10359,3A3,seaplane_base,Seymour Lake Seaplane Base,61.6134986877,-149.666000366,320.0,US,AK,Wasilla,99623
+4166,10402,3C3,seaplane_base,Campbell Lake Seaplane Base,61.133099,-149.942003,20.0,US,AK,Anchorage,99515
+4210,299722,3FA8,seaplane_base,Searey Central SPB,28.766111,-81.74611,67.0,US,FL,Tavares,32778
+4220,10449,3FD9,seaplane_base,Prairie Lake Private Res Sp Mooring Facility,28.6567001343,-81.35340118410002,86.0,US,FL,Altamonte Springs,32730
+4253,10482,3H3,seaplane_base,Cottonwood Lake Seaplane Base,61.597599029499996,-149.315994263,300.0,US,AK,Wasilla,99654
+4311,10537,3K9,seaplane_base,Upper Wasilla Lake Seaplane Base,61.5886993408,-149.38499450700002,330.0,US,AK,Wasilla,99654
+4335,10561,3LA2,seaplane_base,Southern Natural Gas Co. Seaplane Base,30.280799865722656,-89.9542007446289,,US,LA,Lacombe,70445
+4377,301251,3ME7,seaplane_base,Peru / Destiny Cove SPB,44.460597,-70.396957,580.0,US,ME,,04290
+4378,10602,3ME8,seaplane_base,Mast Cove Seaplane Base,43.99499893188477,-70.64129638671875,267.0,US,ME,Naples,04055
+4388,10611,3MI9,seaplane_base,Ness Landing Seaplane Base,45.90390014648438,-86.97029876708984,580.0,US,MI,Rapid River,49878
+4389,10612,3MN0,seaplane_base,Shadduck Seaplane Base,45.292198181152344,-94.0947036743164,991.0,US,MN,Annandale,55302
+4443,321922,3NH2,seaplane_base,Flying Loon Seaplane Base,42.973763899999994,-72.0847278,1400.0,US,NH,Nelson,03457
+4596,10811,3TN2,seaplane_base,Merian Seaplane Base,35.82170104980469,-84.61100006103516,740.0,US,TN,Kingston,37854
+4705,10905,3Z8,seaplane_base,Golden Horn Lodge Seaplane Base,59.7470016479,-158.875,91.0,US,AK,Golden Horn Lodge,99576
+4706,10906,3Z9,seaplane_base,Haines Seaplane Base,59.23500061035156,-135.44099426269528,,US,AK,Haines,99827
+4805,10992,42FL,seaplane_base,Plantation Key Seaplane Base,24.971200942993164,-80.59559631347656,,US,FL,Marathon,33036
+4850,11029,43FD,seaplane_base,Cole's Seaplane Base,28.291099548339844,-81.38719940185547,53.0,US,FL,Kissimmee,34744
+4854,11033,43I,seaplane_base,Mississinewa Reservoir Landing Area Seaplane Base,40.70370101928711,-85.93250274658203,737.0,US,IN,Peru,46992
+4918,11091,44NJ,seaplane_base,Highlands Seaplane Base,40.366798400878906,-74.03289794921875,,US,NJ,Rumson,07704
+4985,325107,46AL,seaplane_base,Sly Pig's Base Seaplane Base,33.198332,-86.475,396.0,US,AL,Sylacauga,35151
+5098,11252,48NH,seaplane_base,Winter Harbor Seaplane Base,43.59389877319336,-71.26139831542969,504.0,US,NH,Wolfeboro,03894
+5115,45867,48VT,seaplane_base,Cub Cove Seaplane Base,44.553546999999995,-73.23149699999999,95.0,US,VT,Colchester,05446
+5168,11319,4A3,seaplane_base,Lake Lucille Seaplane Base,61.57460021972656,-149.47300720214844,300.0,US,AK,Wasilla,99654
+5171,11321,4AK0,seaplane_base,Niklason Lake Seaplane Base,61.6291999817,-149.270996094,380.0,US,AK,Wasilla,99654
+5257,11405,4FD4,seaplane_base,Bay Seaplanes Seaplane Base,30.18490028381348,-85.7499008178711,,US,FL,Panama City,32407
+5258,11406,4FD5,seaplane_base,Grand Lagoon Seaplane Base,30.134899139404297,-85.73410034179688,,US,FL,Panama City,32408
+5320,11466,4IN1,seaplane_base,Big Long Lake Seaplane Base,41.56449890136719,-85.23359680175781,955.0,US,IN,Kendallville,46795
+5321,11467,4IN2,seaplane_base,Oliver Lake Seaplane Base,41.5702018737793,-85.4052963256836,900.0,US,IN,La Grange,46795
+5359,11505,4LA0,seaplane_base,Port Sulphur Seaplane Base,29.46269989013672,-89.70279693603516,,US,LA,Port Sulphur,70083
+5401,11545,4ME4,seaplane_base,Lovewell Pond Seaplane Base,44.00680160522461,-70.93360137939453,390.0,US,ME,Fryeburg,04037
+5471,11609,4NJ2,seaplane_base,Passaic River Seaplane Base,40.82929992675781,-74.12039947509766,,US,NJ,Rutherford,07070
+5491,11628,4NY2,seaplane_base,Edo Seaplane Base,40.78340148925781,-73.86620330810547,,US,NY,College Point,11356
+5499,11635,4O6,seaplane_base,Cherokee Seaplane Base,36.58340072631836,-94.91690063476562,739.0,US,OK,Afton,74331
+5508,11644,4OH6,balloonport,Wingfoot Lake Airship Operations Balloonport,41.009498596191406,-81.35790252685547,1164.0,US,OH,Akron Suffield,44260
+5541,11677,4P5,seaplane_base,Franks Seaplane Base,45.88330078125,-90.00019836425781,1650.0,US,WI,Lac Du Flambeau,54538
+5562,45760,4PS3,medium_airport,Paraport Airstrip,41.788416999999995,-79.518586,1400.0,US,PA,Warren,16436
+5697,11820,4Z7,seaplane_base,Hyder Seaplane Base,55.903324,-130.009975,,US,AK,Hyder,99923
+5721,11840,50MI,seaplane_base,Burgess Lake Seaplane Base,43.15729904174805,-85.29419708251953,799.0,US,MI,Greenville,48838
+5767,11878,51MI,seaplane_base,Cass Lake-Cove Island Seaplane Base,42.6161003112793,-83.35600280761719,990.0,US,MI,Pontiac,48328
+5796,11904,52B,seaplane_base,Greenville Seaplane Base,45.46120071411133,-69.59780120849611,1028.0,US,ME,Greenville,04441
+5839,11945,52Z,seaplane_base,Summit Lake Seaplane Base,60.6411018371582,-149.4969940185547,1300.0,US,AK,Moose Pass,99631
+5858,11963,53LA,seaplane_base,Shell Central Facilities Seaplane Base,29.05719947814941,-89.30280303955078,,US,LA,Venice,70091
+5886,11989,54AK,seaplane_base,Kalmbach Lake Seaplane Base,61.60710144042969,-149.57400512695312,400.0,US,AK,Wasilla,99654
+5912,12014,54NJ,seaplane_base,Highlands Seaplane Base,40.41680145263672,-73.99960327148438,,US,NJ,Highlands,07732
+5958,12057,55NJ,balloonport,Garden State Balloonport,40.633399963378906,-74.76629638671875,185.0,US,NJ,Whitehouse,08889
+6018,12114,57A,seaplane_base,Tokeen Seaplane Base,55.937099456800006,-133.32699585,,US,AK,Tokeen,99921
+6019,12115,57AK,seaplane_base,Lost Lake SPB Seaplane Base,61.3349990845,-149.996994019,120.0,US,AK,Wasilla,99654
+6041,12137,57MN,seaplane_base,Namakan Seaplane Base,48.40679931640625,-92.66680145263672,1119.0,US,MN,Ray,55771
+6062,12158,58A,seaplane_base,Tolsona Lake Seaplane Base,62.11339950559999,-146.041000366,2000.0,US,AK,Tolsona Lake,99588
+6090,12183,58NJ,seaplane_base,Harrah's Landing Seaplane Base,39.38619995117188,-74.4260025024414,17.0,US,NJ,Atlantic City,08401
+6116,46296,59ID,balloonport,Palisades Field,43.184833000000005,-111.049361,5624.0,US,ID,Palisades,83428
+6151,12243,5A8,medium_airport,Aleknagik / New Airport,59.2826004028,-158.617996216,66.0,US,AK,Aleknagik,99555
+6152,12244,5AK,seaplane_base,Tazlina /Smokey Lake/ Seaplane Base,62.0634002686,-146.44900512700002,2407.0,US,AK,Tazlina,99588
+6162,12254,5AL,seaplane_base,Fish River Seaplane Base,30.45000076293945,-87.80780029296875,3.0,US,AL,Fairhope,36532
+6198,12287,5BL,seaplane_base,Homer-Beluga Lake Seaplane Base,59.64469909667969,-151.5019989013672,25.0,US,AK,Homer,99603
+6199,12288,5C5,seaplane_base,El Capitan Lodge Seaplane Base,55.95859909057617,-133.25300598144528,,US,AK,Craig,99921
+6209,12298,5CA9,seaplane_base,Konocti  - Clear Lake Seaplane Base,38.977699,-122.718002,1326.0,US,CA,Kelseyville,95451
+6273,12360,5G3,seaplane_base,East Dakota Flying Club Seaplane Base,43.9651985168,-97.029800415,1600.0,US,SD,Madison,57075
+6324,12411,5IN7,seaplane_base,Clear Lake Seaplane Base,41.735599517821996,-84.837196350098,1037.0,US,IN,Clear Lake,46737
+6325,12412,5IN8,seaplane_base,Crooked Lake Seaplane Base,41.672401,-85.041395,989.0,US,IN,Angola,46703
+6335,12422,5J2,seaplane_base,Siltcoos Lake Seaplane Base,43.86650085449219,-124.08499908447266,9.0,US,OR,Florence,97493
+6344,12429,5KE,seaplane_base,Ketchikan Harbor Seaplane Base,55.349899,-131.67700200000002,,US,AK,Ketchikan,99901
+6347,12432,5KS0,balloonport,Anthony Balloonport,37.09450149536133,-97.9614028930664,1250.0,US,KS,Anthony,67003
+6364,12446,5L6,seaplane_base,Wasilla Lake Seaplane Base,61.5863990784,-149.408004761,330.0,US,AK,Wasilla,99654
+6371,12453,5LA6,seaplane_base,E-8 Tank Battery Seaplane Base,28.950199127197266,-89.38780212402344,,US,LA,Venice,70091
+6395,12476,5MA8,seaplane_base,South Pond Seaplane Base,42.00870132446289,-72.76260375976562,225.0,US,MA,Southwick,06093
+6407,12488,5ME,seaplane_base,Brandy Pond Seaplane Base,43.9546012878418,-70.59110260009766,267.0,US,ME,Naples,04055
+6424,12505,5MN6,seaplane_base,Northbound Seaplane Base,47.15639877319336,-93.5239028930664,1273.0,US,MN,Grand Papids,55744
+6685,12760,5Z1,seaplane_base,Juneau Harbor Seaplane Base,58.29890060424805,-134.40800476074222,,US,AK,Juneau,99801
+6689,12764,5Z9,seaplane_base,Lake Brooks Seaplane Base,58.554798126221,-155.77699279785,36.0,US,AK,Katmai National Park,
+6693,12767,60B,seaplane_base,Moose River Seaplane Base,45.6333999633789,-70.26619720458984,1157.0,US,ME,Jackman,04945
+6782,12853,62AK,seaplane_base,Wallis Lake Seaplane Base,61.5728988647461,-149.5749969482422,320.0,US,AK,Wasilla,99623
+6791,12860,62FD,seaplane_base,Doctors Lake Seaplane Base,30.12529945373535,-81.74420166015625,,US,FL,Orange Park,32003
+6829,12890,63A,seaplane_base,Lloyd R. Roundtree Seaplane Facility Seaplane Base,56.81129837036133,-132.96000671386722,,US,AK,Petersburg,99833
+6963,45253,66AK,seaplane_base,June Lake Seaplane Base,61.63,-149.569167,406.0,US,AK,Wasilla,99654
+7047,13093,68A,seaplane_base,Wrangell Seaplane Base,56.46630096435547,-132.3800048828125,,US,AK,Wrangell,99929
+7065,13109,68JY,seaplane_base,Hancock Pond Seaplane Base,43.93170166015625,-70.75669860839844,500.0,US,ME,Denmark,04022
+7091,42775,69AK,seaplane_base,Memory Lake Seaplane Base,61.62888717651367,-149.42361450195312,463.0,US,AK,Wasilla,99654
+7138,13175,6A7,seaplane_base,Brocker Lake Seaplane Base,61.4818000793,-149.772994995,100.0,US,AK,Big Lake,99654
+7278,13305,6IN7,seaplane_base,Lake Pleasant Seaplane Base,41.756999969482,-85.091903686523,960.0,US,IN,Angola,46776
+7280,13307,6IN9,seaplane_base,Lake James Seaplane Base,41.700000762939,-85.03929901123,964.0,US,IN,Angola,46703
+7329,13355,6MA0,seaplane_base,Lake Gardner Seaplane Base,42.86149978637695,-70.94339752197266,87.0,US,MA,Amesbury,01913
+7337,13363,6MA8,seaplane_base,Acushnet River Seaplane Base,41.64730072021485,-70.9175033569336,,US,MA,New Bedford,02719
+7338,13364,6MA9,seaplane_base,Cuttyhunk Harbor Seaplane Base,41.423199,-70.927298,0.0,US,MA,Cuttyhunk,02713
+7361,13386,6MN4,seaplane_base,North Center Lake Seaplane Base,45.39720153808594,-92.83159637451172,900.0,US,MN,Lindstrom,55045
+7362,13387,6MN5,seaplane_base,Gale's Seaplane Base,45.20769882202149,-94.1624984741211,1011.0,US,MN,French Lake,55302
+7363,13388,6MN6,seaplane_base,Goose Lake Seaplane Base,44.88750076293945,-93.84210205078124,967.0,US,MN,Waconia,55387
+7384,13406,6N6,seaplane_base,Evers Seaplane Base,40.84590148925781,-73.81620025634766,,US,NY,New York,10465
+7385,13407,6N7,seaplane_base,New York Skyports Inc Seaplane Base,40.734001,-73.9729,,US,NY,New York,10010
+7418,13440,6NJ7,seaplane_base,Greenwood Lake Seaplane Base,41.18009948730469,-74.33429718017578,635.0,US,NJ,West Milford,07421
+7437,13459,6NY6,seaplane_base,Firemans White Lake Seaplane Base,41.68429946899414,-74.83159637451172,1323.0,US,NY,Kauneonga Lake,12786
+7626,13639,70B,seaplane_base,Millinocket Seaplane Base,45.7283811,-68.84448559999998,492.0,US,ME,Millinocket,04462
+7648,13658,70MY,seaplane_base,Loon Lane Seaplane Base,44.60329818725586,-93.52220153808594,944.0,US,MN,New Prague,55352
+7691,13694,71MN,seaplane_base,Mattison's Seaplane Base,45.28179931640625,-92.9665985107422,902.0,US,MN,Forest Lake,55025
+7815,45448,74ME,seaplane_base,Labrador Landing Seaplane Base,44.065175,-69.53352199999999,54.0,US,ME,New Castle,04553
+7843,13834,75B,seaplane_base,Seven G S Seaplane Base,44.49169921875,-69.99120330810547,329.0,US,ME,Mount Vernon,04352
+7878,13869,75PN,seaplane_base,Beaver Seaplane Base,40.68560028076172,-80.31009674072266,682.0,US,PA,Beaver,15009
+7885,13875,75U,seaplane_base,Harry S Truman Dam & Reservoir Seaplane Base,38.21670150756836,-93.41690063476562,706.0,US,MO,Warsaw,65355
+7894,13882,76B,seaplane_base,Long Lake Seaplane Base,43.97090148925781,-70.60369873046875,267.0,US,ME,Naples,04055
+7954,13937,77ME,seaplane_base,Long Pond Seaplane Base,44.43339920043945,-70.21620178222656,474.0,US,ME,North Livermore,04253
+7982,13963,78B,seaplane_base,Buckhorn Camps Seaplane Base,45.65420150756836,-68.94950103759766,500.0,US,ME,Norcross/Millinocket/,04462
+7993,13974,78K,seaplane_base,Yes Bay Lodge Seaplane Base,55.916301727299995,-131.80099487299998,,US,AK,Yes Bay,99901
+8017,13995,78U,seaplane_base,Snake River Seaplane Base,46.39989852905274,-117.0510025024414,735.0,US,ID,Lewiston,99403
+8022,13999,78Z,seaplane_base,Nancy Lake Seaplane Base,61.68500137329102,-149.97999572753906,218.0,US,AK,Nancy Lake,99688
+8201,14159,7IN8,seaplane_base,Dewart Lake Seaplane Base,41.371946,-85.772778,865.0,US,IN,Warsaw,46567
+8213,14170,7K2,seaplane_base,Skagway Seaplane Base,59.4468994140625,-135.322998046875,,US,AK,Skagway,99840
+8238,14195,7LA7,seaplane_base,Romere Pass Seaplane Base,29.27630043029785,-89.24199676513672,,US,LA,Venice,70091
+8257,45469,7MA2,seaplane_base,Craig Cove Seaplane Base,41.780556,-70.947222,53.0,US,MA,East Freetown,02717
+8280,14237,7MN2,seaplane_base,Eagles Nest Seaplane Base,47.82849884033203,-92.09970092773438,1490.0,US,MN,Tower,55731
+8302,14257,7N2,seaplane_base,Peekskill Seaplane Base,41.24589920043945,-73.96209716796875,,US,NY,Peekskill,10596
+8303,14258,7N3,seaplane_base,Sands Point Seaplane Base,40.83760070800781,-73.71620178222656,,US,NY,Port Washington,11050
+8493,14441,7VA7,seaplane_base,Brammer Seaplane Base,37.033501,-79.699799,795.0,US,VA,Union Hall,24176
+8511,14459,7WI1,seaplane_base,Little Clam Lake Seaplane Base,46.15859985351562,-90.8843002319336,1456.0,US,WI,Clam Lake,54517
+8535,11486,80AK,seaplane_base,Morvro Lake Seaplane Base,61.60200119018555,-149.78399658203125,300.0,US,AK,Houston,99654
+8543,321920,80FA,seaplane_base,Lake Marian Seaplane Base,27.886388899999996,-81.0838888,62.0,US,FL,Kenansville,34739
+8592,45404,81IN,seaplane_base,Bass Lake Seaplane Base,41.228889,-86.58166700000001,713.0,US,IN,Winona,46534
+8656,14590,83B,seaplane_base,Northern Maine Regional Seaplane Base,46.70750045776367,-68.06109619140625,500.0,US,ME,Presque Isle,04757
+8673,14606,83MN,seaplane_base,Ponderosa Seaplane Base,46.86309814453125,-93.9894027709961,1316.0,US,MN,Outing,56662
+8687,14620,83Q,seaplane_base,Port of Poulsbo Marina Moorage Seaplane Base,47.734001159668,-122.64700317383002,0.0,US,WA,Poulsbo,98370
+8712,14642,84K,seaplane_base,Meyers Chuck Seaplane Base,55.7396011353,-132.255004883,0.0,US,AK,Meyers Chuck,99919
+8745,45256,85AK,seaplane_base,Marion Seaplane Base,61.509167000000005,-149.908611,150.0,US,AK,Big Lake,99654
+8746,14671,85B,seaplane_base,Shin Pond Seaplane Base,46.10419845581055,-68.56199645996094,780.0,US,ME,Patten,04765
+8783,14707,85VA,seaplane_base,Land's End Seaplane Base,37.853599548339844,-76.24669647216797,,US,VA,Reedville,22539
+8787,45251,86AK,seaplane_base,Hoppe'S Seaplane Base,61.55143100000001,-149.94575,180.0,US,AK,Big Lake,99623
+8824,14746,87B,seaplane_base,Portage Lake Municipal Seaplane Base,46.76029968261719,-68.48079681396484,608.0,US,ME,Portage Lake,04768
+8904,14822,89FL,seaplane_base,Lake Hiawassee Seaplane Base,28.52919960021973,-81.48090362548828,70.0,US,FL,Orlando,32835
+8997,14905,8FA0,seaplane_base,Lake Gibson Seaplane Base,28.108600616455078,-81.95870208740234,142.0,US,FL,Lakeland,33809
+9054,14960,8IL7,seaplane_base,Dutch Creek Seaplane Base,42.37110137939453,-88.24700164794922,737.0,US,IL,Mc Henry,60050
+9056,14962,8IL9,seaplane_base,Little Sister Seaplane Base,41.20000076293945,-89.35009765625,450.0,US,IL,Hennepin,61327
+9079,14984,8K9,seaplane_base,Murphys Pullout Seaplane Base,55.38959884643555,-131.73800659179688,,US,AK,Ketchikan,99901
+9097,14998,8LA1,seaplane_base,Chevron USA Inc. Seaplane Base,29.263308000000002,-89.35226800000001,5.0,US,LA,Venice,70091
+9137,15036,8MN0,seaplane_base,Lake Zumbro Seaplane Base,44.20159912109375,-92.4834976196289,920.0,US,MN,Oronoco,55991
+9163,15058,8NA1,seaplane_base,Deep River Seaplane Base,48.62279891967773,-100.78299713134766,1420.0,US,ND,Upham,58789
+9203,321923,8NK8,seaplane_base,Mister Dog Seaplane Base,43.565,-73.60861120000001,360.0,US,NY,Bolton Landing,12827
+9385,15269,8Y4,seaplane_base,Surfside Seaplane Base,45.1500015258789,-93.1168975830078,880.0,US,MN,Lino Lakes,55014
+9425,45255,91AK,seaplane_base,Kucera Seaplane Base,61.576389,-149.943333,175.0,US,AK,Big Lake,99623
+9432,15308,91FL,seaplane_base,Lake Conway North Seaplane Base,28.47920036315918,-81.36759948730469,80.0,US,FL,Orlando,32809
+9464,15338,92B,seaplane_base,Long Lake Seaplane Base,47.19309997558594,-68.23139953613281,581.0,US,ME,Sinclair,04779
+9544,15414,94D,seaplane_base,Wells Seaplane Base,42.84980010986328,-73.90480041503906,210.0,US,NY,Schenectady,12309
+9592,15458,95MN,seaplane_base,Whaletail Lake Seaplane Base,44.93889999389648,-93.7227020263672,948.0,US,MN,Minnetrista,55359
+9613,15478,96AK,seaplane_base,Hackney Landing Seaplane Base,60.28779983520508,-151.3459930419922,208.0,US,AK,Clam Gulch,99568
+9629,15494,96M,seaplane_base,Moberg Air Base,47.49969863891602,-94.94529724121094,1370.0,US,MN,Bemidji,56601
+9650,15511,96WI,seaplane_base,Vette/Blust Seaplane Base,43.94110107421875,-88.49369812011719,750.0,US,WI,Oshkosh,54902
+9654,15514,96Z,seaplane_base,North Whale Seaplane Base,56.116298675500005,-133.121994019,,US,AK,North Whale Pass,99921
+9699,15557,98FD,seaplane_base,Lake Jessup Seaplane Base,28.716899871826172,-81.23310089111328,32.0,US,FL,Oviedo,32773
+9700,15558,98FL,seaplane_base,Sand Lake Seaplane Base,28.4335994720459,-81.49150085449219,90.0,US,FL,Orlando/Buena Vista,32836
+9747,15599,99C,seaplane_base,Quams Marina Seaplane Base,42.95109939575195,-89.27100372314453,843.0,US,WI,Stoughton,53589
+9795,15638,99Z,seaplane_base,Finger Lake Seaplane Base,61.60649871826172,-149.2779998779297,337.0,US,AK,Palmer,99654
+9804,15645,9AK1,seaplane_base,Stormy Hill Seaplane Base,61.63090133666992,-149.23199462890625,500.0,US,AK,Palmer,99645
+9827,15658,9C0,seaplane_base,Peninsula Point Pullout Seaplane Base,55.38470077514648,-131.73800659179688,,US,AK,Ketchikan,99901
+9863,15692,9FD0,seaplane_base,Sage Seadrome Seaplane Base,27.945600509643555,-81.40339660644531,53.0,US,FL,Lake Wales,33898
+9875,15703,9FL3,seaplane_base,Lake Josephine Seaplane Base,27.396900177001953,-81.42669677734375,85.0,US,FL,Sebring,33875
+9976,15799,9M0,seaplane_base,North Country Seaplane Base,47.01490020751953,-92.16819763183594,1370.0,US,MN,Duluth,55803
+9989,15813,9MN0,seaplane_base,Carey Lake Seaplane Base,47.41830062866211,-92.82769775390624,1351.0,US,MN,Hibbing,55746
+9991,15815,9MN2,seaplane_base,Wabana Seaplane Base,47.41859817504883,-93.518798828125,1319.0,US,MN,Grand Rapids,55744
+10014,15836,9N2,seaplane_base,Philadelphia Seaplane Base,39.859001159668004,-75.299598693848,0.0,US,PA,Essington,19029
+10234,16050,9WN6,seaplane_base,Medos Lake Delton Seaplane Base,43.60689926147461,-89.77760314941406,832.0,US,WI,Lake Delton/Wi Dells,53965
+10252,16065,9Y5,seaplane_base,Sky Harbor Seaplane Base,47.45959854125977,-92.47660064697266,1376.0,US,MN,Eveleth,55734
+10254,16067,9Z3,seaplane_base,Kodiak /Lilly Lake/ Seaplane Base,57.8026008605957,-152.38299560546875,130.0,US,AK,Kodiak,99615
+10260,16074,A23,seaplane_base,Saginaw Seaplane Base,56.8862991333,-134.158004761,0.0,US,AK,Saginaw Bay,99830
+10262,16076,A27,seaplane_base,Seldovia Seaplane Base,59.434101104700005,-151.707992554,0.0,US,AK,Seldovia,99663
+10264,16078,A29,seaplane_base,Sitka Seaplane Base,57.052101135253906,-135.34599304199222,,US,AK,Sitka,99835
+10265,16079,A43,seaplane_base,Taku Harbor Seaplane Base,58.0690994263,-134.01499939,0.0,US,AK,Taku Harbor,99801
+10278,45271,AA01,seaplane_base,West Beaver Seaplane Base,61.584961,-149.846531,215.0,US,AK,Big Lake,99654
+10279,45252,AA02,seaplane_base,Horseshoe Lake Seaplane Base,61.571481000000006,-149.924111,140.0,US,AK,Big Lake,99654
+10287,45257,AA11,seaplane_base,Misty Lake Seaplane Base,61.550739,-149.676131,350.0,US,AK,Wasilla,99654
+10288,313161,AA12,seaplane_base,Dove Island Lodge Seaplane Base,57.040833299999996,-135.2955556,0.0,US,AK,Sitka,99835
+10300,45269,AA85,seaplane_base,Walby Lake Seaplane Base,61.61641899999999,-149.221031,114.0,US,AK,Palmer,99645
+10437,16126,AK34,seaplane_base,Kashwitna Lake Seaplane Base,61.835300445600005,-150.080001831,186.0,US,AK,Willow,99688
+10446,16135,AK43,seaplane_base,Jacobsen Lake Seaplane Base,61.5791015625,-149.539001465,350.0,US,AK,Wasilla,99654
+10453,16142,AK5,seaplane_base,Encelewski Lake Seaplane Base,60.25559997558594,-151.30299377441406,230.0,US,AK,Kasilof,99568
+10460,16149,AK56,seaplane_base,Tikchik Lodge Seaplane Base,59.9631996155,-158.477005005,304.0,US,AK,Tikchik,99576
+10461,16150,AK57,seaplane_base,Long Lake Seaplane Base,61.7257003784,-150.09100341799999,180.0,US,AK,Willow,99623
+10466,16155,AK62,seaplane_base,Naukati Bay Seaplane Base,55.849602000000004,-133.227994,,US,AK,Tuxekan Island,
+10482,45246,AK8,seaplane_base,Christiansen Lake Seaplane Base,62.313414,-150.06935,400.0,US,AK,Talkeetna,99676
+10484,16174,AK81,seaplane_base,Amook Bay Seaplane Base,57.4715003967,-153.815002441,,US,AK,Amook Bay,99624
+10554,16238,AL46,seaplane_base,Shoals Creek Seaplane Base,34.902599334716804,-87.58719635009766,510.0,US,AL,Florence,35634
+10565,45237,AL58,seaplane_base,Lower Delta Seaplane Base,30.675476,-87.95987099999999,0.0,US,AL,Spanish Fort,36527
+10581,16264,AL75,seaplane_base,Gulf State Park Seaplane Base,30.2632999420166,-87.63690185546875,,US,AL,Gulf Shores,36561
+10602,16285,AL96,seaplane_base,Bon Secour Seaplane Base,30.29829978942871,-87.74079895019531,,US,AL,Gulf Shores,36542
+10606,16289,ALZ,seaplane_base,Alitak Seaplane Base,56.899501800500005,-154.248001099,,US,AK,Lazy Bay,99615
+11970,16492,B18,seaplane_base,Alton Bay Seaplane Base,43.47760009765625,-71.23699951171875,504.0,US,NH,Alton Bay,03810
+12238,16502,BNF,seaplane_base,Baranof Warm Springs Float and Seaplane Base,57.088799,-134.833146,0.0,US,AK,Baranof,99835
+12267,16505,BQV,seaplane_base,Bartlett Cove Seaplane Base,58.455200195299994,-135.88499450700002,0.0,US,AK,Gustavus,99826
+12709,16514,C39,seaplane_base,Folsom Lake Seaplane Base,38.70719909667969,-121.13300323486328,466.0,US,CA,Folsom,95664
+13969,16706,CDD,seaplane_base,Scotts Seaplane Base,48.2666015625,-92.483497619629,1119.0,US,MN,Crane Lake,55725
+14276,16712,CGA,seaplane_base,Craig Seaplane Base,55.47880172729492,-133.14799499511722,,US,AK,Craig,99921
+14351,312506,CIV,seaplane_base,Chomley Seaplane Base,55.217,-132.21,0.0,US,AK,Chomley,99921
+15020,16830,CN20,seaplane_base,Ferndale Resort Seaplane Base,39.00299835205078,-122.7969970703125,1326.0,US,CA,Kelseyville,95451
+15276,16882,CO28,balloonport,Suckla Farms Balloonport,40.05830001831055,-104.89199829101562,5050.0,US,CO,Dacono,80621
+15711,16973,CT16,seaplane_base,Fetske Seaplane Base,41.375099182128906,-72.37449645996094,,US,CT,Essex,06371
+15725,16987,CT30,seaplane_base,Nayaug Seaplane Landing Area Seaplane Base,41.63899993896485,-72.62809753417969,3.0,US,CT,South Glastonbury,06073
+15772,17033,CT78,seaplane_base,Lord Creek Seaplane Base,41.35150146484375,-72.3551025390625,,US,CT,Lyme,06371
+15775,17036,CT82,seaplane_base,Quaddick Lake Seaplane Base,41.95840072631836,-71.81670379638672,403.0,US,CT,Thompson,06277
+15780,17041,CT87,seaplane_base,Bootlegger's Seaplane Base,41.9984016418457,-72.60590362548828,35.0,US,CT,Enfield,06082
+16150,17057,CYM,seaplane_base,Chatham Seaplane Base,57.5149002075,-134.945999146,0.0,US,AK,Chatham,99835
+16567,301252,D22,seaplane_base,Drummond Island / Yacht Haven SPB,46.024794,-83.75251300000001,581.0,US,MI,,49726
+16569,17067,D28,seaplane_base,Tanglefoot Seaplane Base,48.53889846801758,-116.83200073242188,2438.0,US,ID,Cavanaugh Bay,83821
+16587,17084,D71,seaplane_base,Beaver Lake Seaplane Base,61.58290100097656,-149.83099365234375,150.0,US,AK,Big Lake,99654
+16588,17085,D72,seaplane_base,D&C Fire Lake Flying Club Seaplane Base,61.352500915527344,-149.54600524902344,295.0,US,AK,Eagle River,99577
+16589,17086,D75,seaplane_base,Blodget Lake Seaplane Base,61.5760993958,-149.67599487299998,242.0,US,AK,Wasilla,99654
+17119,17128,DE13,seaplane_base,Rehoboth Bay Seaplane Base,38.68619918823242,-75.08709716796875,,US,DE,Dewey Beach,19971
+17203,300321,DHB,seaplane_base,Deer Harbor SPB,48.6166666667,-123.002777778,,US,WA,Deer Harbor,98245
+17363,17157,E20,seaplane_base,Lake Berryessa Seaplane Base,38.59159851074219,-122.25900268554688,440.0,US,CA,Napa,94558
+17372,17165,E61,seaplane_base,Conchas Lake Seaplane Base,35.38420104980469,-104.21600341796876,4201.0,US,NM,Conchas Dam,88416
+17552,317873,EDA,seaplane_base,Edna Bay Seaplane Base,55.949653000000005,-133.661012,0.0,US,AK,Edna Bay,99921
+19399,17184,EXI,seaplane_base,Excursion Inlet Seaplane Base,58.420502,-135.449005,0.0,US,AK,Excursion Inlet,
+19444,17191,F57,seaplane_base,Jack Browns Seaplane Base,28.0575008392334,-81.76280212402344,140.0,US,FL,Winter Haven,33881
+19453,17199,FA05,seaplane_base,Holiday Isle Seaplane Base,24.93490028381348,-80.60089874267578,,US,FL,Islamorada,33036
+19455,321936,FA07,seaplane_base,Orlando Seaplane Base,28.621111,-81.639167,66.0,US,FL,Orlando,34756
+19464,17209,FA17,seaplane_base,Kissimmee Seaplane Base,28.283599853515625,-81.40899658203125,53.0,US,FL,Kissimmee,34741
+19518,17261,FA73,seaplane_base,Oak Harbor Seaplane Base,28.1289005279541,-81.68789672851562,130.0,US,FL,Haines City,33844
+19523,45357,FA78,seaplane_base,Robinestte Seaplane Base,28.333000000000002,-81.25,58.0,US,FL,St Cloud,34771
+19995,17283,FD12,seaplane_base,Toho Seaplane Base,28.25029945373535,-81.3915023803711,80.0,US,FL,Kissimmee,34744
+20029,17317,FD46,seaplane_base,Goddard Seadrome Seaplane Base,27.755300521850586,-81.51399993896484,78.0,US,FL,Frostproof,33843
+20052,321924,FD69,seaplane_base,Lake Apopka South Seaplane Base,28.5734722,-81.5949445,65.0,US,FL,Winter Garden,34787
+20061,17346,FD78,seaplane_base,Kennedy Seaplane Base,28.60309982299805,-81.84950256347656,94.0,US,FL,Groveland,34736
+20062,17347,FD79,seaplane_base,Jordan Seaplane Base,29.01409912109375,-81.97810363769531,56.0,US,FL,Belleview,34491
+20063,17348,FD80,seaplane_base,Manatee Seaplane Base,29.505800247192386,-82.98390197753906,7.0,US,FL,Old Town,32680
+20081,17366,FD98,seaplane_base,Ferguson Seaplane Base,28.71470069885254,-81.27010345458984,10.0,US,FL,Winter Springs,32708
+20221,17375,FL04,seaplane_base,Pate Lake Seaplane Base,30.692100524902344,-85.75689697265625,90.0,US,FL,Caryville,32427
+20242,17396,FL26,seaplane_base,Kitching Cove Seaplane Base,27.25029945373535,-80.31639862060547,,US,FL,Port St Lucie,34952
+20258,17411,FL42,seaplane_base,King Seaaero Seaplane Base,28.03860092163086,-81.75370025634766,133.0,US,FL,Winter Haven,33881
+20271,17423,FL55,seaplane_base,Sanford Seaplane Base,28.82279968261719,-81.26329803466797,6.0,US,FL,Sanford,32771
+20288,17440,FL72,seaplane_base,Mezrah Seaplane Base,27.94750022888184,-82.39089965820312,6.0,US,FL,Tampa,33619
+22177,17578,GE00,seaplane_base,Morris Seaplane Base,33.60969924926758,-82.13580322265625,102.0,US,GA,Evans,29821
+22287,17596,GNI,seaplane_base,Grand Isle Seaplane Base,29.262698999999998,-89.961197,0.0,US,LA,Grand Isle,70358
+22417,17602,H11,seaplane_base,Sunbury Seaplane Base,40.91310119628906,-76.73300170898438,430.0,US,PA,Sunbury,17857
+22425,17610,H63,seaplane_base,Harlan County Lake Seaplane Base,40.04309844970703,-99.25090026855469,1946.0,US,NE,Alma,68971
+22428,17613,H77,seaplane_base,Bridge Bay Resort Seaplane Base,40.75759887695313,-122.322998046875,1065.0,US,CA,Redding,96003
+22691,45235,HL2,seaplane_base,Hubbard Landing Seaplane Base,31.063610999999998,-87.87,8.0,US,AL,Stockton,36579
+22958,17657,HWI,seaplane_base,Hawk Inlet Seaplane Base,58.12739944458008,-134.75599670410156,,US,AK,Hawk Inlet,99820
+22959,17659,HYL,seaplane_base,Hollis Clark Bay Seaplane Base,55.481601715100005,-132.645996094,0.0,US,AK,Hollis,99921
+22961,17661,I04,seaplane_base,Quad-City Seaplane Base,41.459999084472656,-90.4928970336914,560.0,US,IL,Moline,61265
+23361,17831,ID54,seaplane_base,Bottle Bay Seaplane Base,48.47909927368164,-116.44499969482422,2063.0,US,ID,Sandpoint,83864
+23468,42774,IG22,seaplane_base,Lake Maxinkuckee Seaplane Base,41.20611191,-86.40444183,733.0,US,IN,Culver,46511
+23780,45408,IN02,seaplane_base,Hamilton Lake Seaplane Base,41.552222,-84.917222,900.0,US,IN,Hamilton,46742
+23790,45411,IN12,seaplane_base,Lake Sylvan Seaplane Base,41.481944,-85.343611,916.0,US,IN,Kendallville,46784
+23794,45414,IN16,seaplane_base,Tippecanoe Seaplane Base,41.333056,-85.7675,836.0,US,IN,Warsaw,46538
+23837,18128,IN59,seaplane_base,Jerry W. Humphrey Seaplane Base,37.94499969482422,-87.42449951171875,342.0,US,IN,Newburgh,47630
+23962,18173,IS03,seaplane_base,Fox Lake Seaplane Base,42.41640090942383,-88.15540313720703,737.0,US,IL,Fox Lake,60002
+23977,18188,IS23,seaplane_base,Turner Seaplane Base,42.0099983215332,-88.29109954833984,700.0,US,IL,South Elgin,60177
+24023,18233,IS79,seaplane_base,Jackson Seaplane Base,42.23669815063477,-88.35230255126953,890.0,US,IL,Crystal Lake,60014
+24707,18263,JY03,balloonport,View Finder Balloonport,40.737300872802734,-75.0459976196289,345.0,US,NJ,Broadway,07882
+24736,18292,JY33,balloonport,Harmony Balloonport,40.73949813842773,-75.13800048828125,500.0,US,NJ,Phillipsburg,08865
+24738,18294,JY35,seaplane_base,Allen's Seaplane Base,40.03350067138672,-74.05789947509766,,US,NJ,Brick,08738
+24744,18299,JY42,balloonport,Mabel's Balloonport,40.468299865722656,-75.0238037109375,460.0,US,NJ,Frenchtown,08825
+24758,45557,K03,seaplane_base,Long Lake Sagamore Seaplane Base & Marina,43.968951000000004,-74.428772,1629.0,US,NY,Long Lake,12847
+24970,18531,K21,seaplane_base,Rouses Point Seaplane Base,44.99169921875,-73.363502502441,95.0,US,NY,Rouses Point,12979
+25184,18755,K40,seaplane_base,Anvik Seaplane Base,62.65620040893555,-160.2050018310547,52.0,US,AK,Anvik,99558
+25454,19042,K79J,medium_airport,South Alabama Regional At Bill Benton Field Airport,31.3088,-86.393799,310.0,US,AL,Andalusia/Opp,36421
+25634,3356,KABE,medium_airport,Lehigh Valley International Airport,40.652099609375,-75.44080352783203,393.0,US,PA,Allentown,18109
+25635,3357,KABI,medium_airport,Abilene Regional Airport,32.4113006592,-99.68190002440001,1791.0,US,TX,Abilene,79602
+25636,16091,KABQ,large_airport,Albuquerque International Sunport Airport,35.040199,-106.609001,5355.0,US,NM,Albuquerque,87106
+25637,3358,KABR,medium_airport,Aberdeen Regional Airport,45.44910049438477,-98.42179870605469,1302.0,US,SD,Aberdeen,57401
+25638,3359,KABY,medium_airport,Southwest Georgia Regional Airport,31.535499572753906,-84.19450378417969,197.0,US,GA,Albany,31701
+25641,3360,KACK,medium_airport,Nantucket Memorial Airport,41.25310135,-70.06020355,47.0,US,MA,Nantucket,02554
+25644,3361,KACT,medium_airport,Waco Regional Airport,31.61129951477051,-97.23049926757812,516.0,US,TX,Waco,76708
+25645,3362,KACV,medium_airport,California Redwood Coast-Humboldt County Airport,40.978101,-124.109,221.0,US,CA,Arcata/Eureka,95519
+25646,3363,KACY,medium_airport,Atlantic City International Airport,39.45759963989258,-74.57720184326172,75.0,US,NJ,Atlantic City,08215
+25655,3364,KADW,large_airport,Andrews Air Force Base,38.810798999999996,-76.866997,280.0,US,MD,Camp Springs,20762
+25656,19240,KAE,seaplane_base,Kake Seaplane Base,56.9729995728,-133.945999146,0.0,US,AK,Kake,99830
+25660,3365,KAEX,medium_airport,Alexandria International Airport,31.32740020751953,-92.54979705810548,89.0,US,LA,Alexandria,71303
+25668,3366,KAFW,large_airport,Fort Worth Alliance Airport,32.9875984192,-97.3188018799,722.0,US,TX,Fort Worth,76177
+25669,3367,KAGC,medium_airport,Allegheny County Airport,40.354400634765625,-79.9301986694336,1252.0,US,PA,Pittsburgh,15122
+25672,3368,KAGS,large_airport,Augusta Regional At Bush Field,33.36989974975586,-81.9645004272461,144.0,US,GA,Augusta,30906
+25676,3369,KAHN,medium_airport,Athens Ben Epps Airport,33.94860076904297,-83.32630157470703,808.0,US,GA,Athens,30605
+25696,3370,KAKR,medium_airport,Akron Fulton International Airport,41.0374984741,-81.46690368649999,1067.0,US,OH,Akron,44306
+25697,3371,KALB,medium_airport,Albany International Airport,42.74829864501953,-73.80169677734375,285.0,US,NY,Albany,12211
+25698,3372,KALI,medium_airport,Alice International Airport,27.740900039699998,-98.02690124510002,178.0,US,TX,Alice,78332
+25699,3373,KALM,medium_airport,Alamogordo White Sands Regional Airport,32.839900970500004,-105.990997314,4200.0,US,NM,Alamogordo,88310
+25700,3374,KALN,medium_airport,St Louis Regional Airport,38.89030075069999,-90.04599761959999,544.0,US,IL,Alton/St Louis,62010
+25701,3375,KALO,medium_airport,Waterloo Regional Airport,42.55709838867188,-92.40029907226562,873.0,US,IA,Waterloo,50703
+25702,19275,KALS,medium_airport,San Luis Valley Regional Bergman Field,37.434898,-105.866997,7539.0,US,CO,Alamosa,81101
+25703,3376,KALW,medium_airport,Walla Walla Regional Airport,46.09489822,-118.288002,1194.0,US,WA,Walla Walla,99362
+25705,3377,KAMA,large_airport,Rick Husband Amarillo International Airport,35.219398,-101.706001,3607.0,US,TX,Amarillo,79111
+25710,3378,KANB,medium_airport,Anniston Metropolitan Airport,33.58819962,-85.85810089,612.0,US,AL,Anniston,36203
+25711,3379,KAND,medium_airport,Anderson Regional Airport,34.4945983887,-82.70939636230001,782.0,US,SC,Anderson,29626
+25721,3380,KAOO,medium_airport,Altoona Blair County Airport,40.29639816,-78.31999969,1503.0,US,PA,Altoona,16662
+25723,19291,KAPA,medium_airport,Centennial Airport,39.57009888,-104.84899899999999,5885.0,US,CO,Denver,80112
+25725,19293,KAPF,medium_airport,Naples Municipal Airport,26.1525993347,-81.7752990723,8.0,US,FL,Naples,34104
+25726,3381,KAPG,medium_airport,Phillips Army Air Field,39.466202,-76.1688,57.0,US,MD,Aberdeen Proving Grounds(Aberdeen),21005
+25728,3382,KAPN,medium_airport,Alpena County Regional Airport,45.07809829999999,-83.56030273,690.0,US,MI,Alpena,49707
+25737,19301,KARA,medium_airport,Acadiana Regional Airport,30.0378,-91.883904,24.0,US,LA,New Iberia,70560
+25742,3383,KART,medium_airport,Watertown International Airport,43.99190139770508,-76.02169799804688,325.0,US,NY,Watertown,13634
+25746,19308,KASE,medium_airport,Aspen-Pitkin Co/Sardy Field,39.22320175,-106.8690033,7820.0,US,CO,Aspen,81611
+25752,19314,KAST,medium_airport,Astoria Regional Airport,46.158000946,-123.87899780299999,15.0,US,OR,Astoria,97146
+25757,3384,KATL,large_airport,Hartsfield Jackson Atlanta International Airport,33.63669967651367,-84.4281005859375,1026.0,US,GA,Atlanta,30337
+25760,3385,KATY,medium_airport,Watertown Regional Airport,44.91400146,-97.15470123,1749.0,US,SD,Watertown,57201
+25761,19321,KAUG,medium_airport,Augusta State Airport,44.320598602299995,-69.7973022461,352.0,US,ME,Augusta,04330
+25766,3386,KAUS,large_airport,Austin Bergstrom International Airport,30.194499969482425,-97.6698989868164,542.0,US,TX,Austin,78719
+25767,19326,KAUW,medium_airport,Wausau Downtown Airport,44.9262008667,-89.62660217290001,1201.0,US,WI,Wausau,54403
+25770,3387,KAVL,large_airport,Asheville Regional Airport,35.43619918823242,-82.54180145263672,2165.0,US,NC,Asheville,28732
+25772,3388,KAVP,medium_airport,Wilkes Barre Scranton International Airport,41.338500976599995,-75.72339630130001,962.0,US,PA,Wilkes-Barre/Scranton,18641
+25780,3389,KAXN,medium_airport,Chandler Field,45.866298675500005,-95.3946990967,1425.0,US,MN,Alexandria,56308
+25790,3390,KAZO,medium_airport,Kalamazoo Battle Creek International Airport,42.234901428222656,-85.5521011352539,874.0,US,MI,Kalamazoo,49002
+25794,3391,KBAB,large_airport,Beale Air Force Base,39.136100769,-121.43699646,113.0,US,CA,Marysville,95903
+25795,3392,KBAD,large_airport,Barksdale Air Force Base,32.5018005371,-93.6626968384,166.0,US,LA,Bossier City,71110
+25796,3393,KBAF,medium_airport,Westfield-Barnes Regional Airport,42.157799,-72.715599,271.0,US,MA,Westfield/Springfield,01085
+25797,3394,KBAK,medium_airport,Columbus Municipal Airport,39.2619018555,-85.8963012695,656.0,US,IN,Columbus,47203
+25802,19353,KBBD,medium_airport,Curtis Field,31.179300308200002,-99.32389831540002,1827.0,US,TX,Brady,76825
+25806,19357,KBCE,medium_airport,Bryce Canyon Airport,37.706401825,-112.144996643,7590.0,US,UT,Bryce Canyon,
+25809,3395,KBDE,medium_airport,Baudette International Airport,48.7284011841,-94.61219787600001,1086.0,US,MN,Baudette,56623
+25812,3396,KBDL,large_airport,Bradley International Airport,41.9388999939,-72.68319702149999,173.0,US,CT,Hartford,06096
+25815,3397,KBDR,medium_airport,Igor I Sikorsky Memorial Airport,41.16350173950195,-73.1261978149414,9.0,US,CT,Bridgeport,06615
+25818,19362,KBE,seaplane_base,Bell Island Hot Springs Seaplane Base,55.9291000366,-131.572006226,,US,AK,Bell Island,99901
+25821,3398,KBED,medium_airport,Laurence G Hanscom Field,42.47000122,-71.28900146,133.0,US,MA,Bedford,01731
+25824,3399,KBFD,medium_airport,Bradford Regional Airport,41.8031005859375,-78.64009857177734,2143.0,US,PA,Bradford,16738
+25826,3400,KBFF,medium_airport,Western Neb. Rgnl/William B. Heilig Airport,41.87400055,-103.5960007,3967.0,US,NE,Scottsbluff,69361
+25827,3401,KBFI,large_airport,Boeing Field King County International Airport,47.52999877929688,-122.302001953125,21.0,US,WA,Seattle,98108
+25829,3402,KBFL,medium_airport,Meadows Field,35.43360138,-119.0569992,510.0,US,CA,Bakersfield,93308
+25830,3403,KBFM,medium_airport,Mobile Downtown Airport,30.626800537100006,-88.06809997559998,26.0,US,AL,Mobile,36615
+25836,3404,KBGM,medium_airport,Greater Binghamton/Edwin A Link field,42.20869827,-75.97979736,1636.0,US,NY,Binghamton,13790
+25837,3405,KBGR,large_airport,Bangor International Airport,44.80739974975586,-68.82810211181639,192.0,US,ME,Bangor,04401
+25838,19373,KBHB,medium_airport,Hancock County-Bar Harbor Airport,44.45000076,-68.36150359999999,83.0,US,ME,Bar Harbor,04605
+25841,3406,KBHM,large_airport,Birmingham-Shuttlesworth International Airport,33.56290054,-86.75350189,650.0,US,AL,Birmingham,35212
+25844,3407,KBIF,medium_airport,Biggs Army Air Field (Fort Bliss),31.84950066,-106.3799973,3946.0,US,TX,Fort Bliss/El Paso,79918
+25845,19377,KBIH,medium_airport,Eastern Sierra Regional Airport,37.373100280799996,-118.36399841299999,4124.0,US,CA,Bishop,93514
+25847,3408,KBIL,large_airport,Billings Logan International Airport,45.807701110839844,-108.54299926757812,3652.0,US,MT,Billings,59105
+25848,3409,KBIS,medium_airport,Bismarck Municipal Airport,46.77270126342773,-100.74600219726562,1661.0,US,ND,Bismarck,58504
+25850,3410,KBIX,medium_airport,Keesler Air Force Base,30.4104003906,-88.92440032959999,33.0,US,MS,Biloxi,39534
+25851,3411,KBJC,medium_airport,Rocky Mountain Metropolitan Airport,39.90879822,-105.11699679999998,5673.0,US,CO,Denver,80021
+25852,19380,KBJI,medium_airport,Bemidji Regional Airport,47.50939941,-94.93370056,1391.0,US,MN,Bemidji,56601
+25855,3412,KBKE,medium_airport,Baker City Municipal Airport,44.8372993469,-117.808998108,3373.0,US,OR,Baker City,97814
+25856,3413,KBKF,medium_airport,Buckley Air Force Base,39.701698303200004,-104.75199890100001,5662.0,US,CO,Aurora,80018
+25857,3414,KBKL,medium_airport,Burke Lakefront Airport,41.51750183105469,-81.68329620361328,583.0,US,OH,Cleveland,44114
+25862,3415,KBKW,medium_airport,Raleigh County Memorial Airport,37.787300109899995,-81.1241989136,2504.0,US,WV,Beckley,25813
+25864,19387,KBLF,medium_airport,Mercer County Airport,37.295799255371094,-81.20770263671875,2857.0,US,WV,Bluefield,24701
+25865,19388,KBLH,medium_airport,Blythe Airport,33.6192016602,-114.717002869,399.0,US,CA,Blythe,92225
+25866,3416,KBLI,medium_airport,Bellingham International Airport,48.79280090332031,-122.53800201416016,170.0,US,WA,Bellingham,98226
+25869,3417,KBLV,large_airport,Scott AFB/Midamerica Airport,38.5452,-89.835197,459.0,US,IL,Belleville,62225
+25872,3418,KBMG,medium_airport,Monroe County Airport,39.14599990844727,-86.61669921875,846.0,US,IN,Bloomington,47403
+25873,3419,KBMI,large_airport,Central Illinois Regional Airport at Bloomington-Normal,40.47710037,-88.91590118,871.0,US,IL,Bloomington/Normal,61704
+25877,3420,KBNA,large_airport,Nashville International Airport,36.1245002746582,-86.6781997680664,599.0,US,TN,Nashville,37217
+25880,19397,KBNO,medium_airport,Burns Municipal Airport,43.5918998718,-118.955001831,4148.0,US,OR,Burns,97720
+25882,3421,KBOI,large_airport,Boise Air Terminal/Gowen field,43.56439972,-116.22299960000001,2871.0,US,ID,Boise,83705
+25883,3422,KBOS,large_airport,General Edward Lawrence Logan International Airport,42.36429977,-71.00520325,20.0,US,MA,Boston,02152
+25886,19401,KBPI,medium_airport,Miley Memorial Field,42.58509827,-110.1110001,6990.0,US,WY,Big Piney,83113
+25887,19402,KBPK,medium_airport,Ozark Regional Airport,36.3689002991,-92.4704971313,928.0,US,AR,Mountain Home,72635
+25889,3423,KBPT,medium_airport,Southeast Texas Regional Airport,29.9507999420166,-94.02069854736328,15.0,US,TX,Beaumont/Port Arthur,77705
+25890,3424,KBQK,medium_airport,Brunswick Golden Isles Airport,31.2588005065918,-81.46649932861328,26.0,US,GA,Brunswick,31525
+25893,19406,KBRD,medium_airport,Brainerd Lakes Regional Airport,46.39830017,-94.13809967,1232.0,US,MN,Brainerd,56401
+25894,3425,KBRL,medium_airport,Southeast Iowa Regional Airport,40.783199310302734,-91.12550354003906,698.0,US,IA,Burlington,52601
+25895,3426,KBRO,medium_airport,Brownsville South Padre Island International Airport,25.90679931640625,-97.4259033203125,22.0,US,TX,Brownsville,78521
+25900,3427,KBTL,medium_airport,W K Kellogg Airport,42.3073005676,-85.25150299069999,952.0,US,MI,Battle Creek,49037
+25901,3428,KBTM,medium_airport,Bert Mooney Airport,45.95479965209961,-112.49700164794922,5550.0,US,MT,Butte,59701
+25904,3429,KBTR,large_airport,"Baton Rouge Metropolitan, Ryan Field",30.53319931,-91.14959717,70.0,US,LA,Baton Rouge,70811
+25905,3430,KBTV,medium_airport,Burlington International Airport,44.471900939899996,-73.15329742429998,335.0,US,VT,Burlington,05403
+25908,3431,KBUF,large_airport,Buffalo Niagara International Airport,42.94049835,-78.73220062,728.0,US,NY,Buffalo,14225
+25910,3432,KBUR,medium_airport,Bob Hope Airport,34.200698852539055,-118.35900115966795,778.0,US,CA,Burbank,91505
+25913,19417,KBVI,medium_airport,Beaver County Airport,40.7724990845,-80.39140319820001,1253.0,US,PA,Beaver Falls,15010
+25918,3433,KBVY,medium_airport,Beverly Municipal Airport,42.5842018127,-70.91649627689999,107.0,US,MA,Beverly,01923
+25921,3434,KBWG,medium_airport,Bowling Green Warren County Regional Airport,36.9645004272,-86.41970062259999,547.0,US,KY,Bowling Green,42103
+25922,3435,KBWI,large_airport,Baltimore/Washington International Thurgood Marshall Airport,39.17539978,-76.66829681,146.0,US,MD,Baltimore,21240
+25929,3436,KBYH,medium_airport,Arkansas International Airport,35.9642982483,-89.94400024410002,254.0,US,AR,Blytheville,72315
+25930,19429,KBYI,medium_airport,Burley Municipal Airport,42.5425987244,-113.77200317399999,4150.0,US,ID,Burley,83318
+25931,19430,KBYS,medium_airport,Bicycle Lake Army Air Field,35.2804985046,-116.629997253,2350.0,US,CA,Fort Irwin/Barstow,
+25933,3437,KBZN,medium_airport,Gallatin Field,45.77750015,-111.15299990000001,4473.0,US,MT,Bozeman,59714
+25961,3438,KCAE,large_airport,Columbia Metropolitan Airport,33.93880081176758,-81.11949920654297,236.0,US,SC,Columbia,29170
+25963,3439,KCAK,medium_airport,Akron Canton Regional Airport,40.916099548339844,-81.44219970703125,1228.0,US,OH,Akron,44720
+25965,3440,KCAR,medium_airport,Caribou Municipal Airport,46.8714981079,-68.0178985596,626.0,US,ME,Caribou,04736
+25971,3441,KCBM,large_airport,Columbus Air Force Base,33.643798828099996,-88.44380187990002,219.0,US,MS,Columbus,39705
+25972,19466,KCC,seaplane_base,Coffman Cove Seaplane Base,56.003200531000005,-132.841995239,0.0,US,AK,Coffman Cove,99918
+25977,19470,KCCY,medium_airport,Northeast Iowa Regional Airport,43.072601318400004,-92.61080169680001,1125.0,US,IA,Charles City,50616
+25979,3442,KCDC,medium_airport,Cedar City Regional Airport,37.70100021362305,-113.0989990234375,5622.0,US,UT,Cedar City,84721
+25983,19474,KCDR,medium_airport,Chadron Municipal Airport,42.837600708000004,-103.095001221,3297.0,US,NE,Chadron,69337
+25984,19475,KCDS,medium_airport,Childress Municipal Airport,34.4337997437,-100.288002014,1954.0,US,TX,Childress,79201
+25987,3443,KCEC,medium_airport,Jack Mc Namara Field Airport,41.78020096,-124.23699950000001,61.0,US,CA,Crescent City,95531
+25988,3444,KCEF,medium_airport,Westover ARB/Metropolitan Airport,42.19400024,-72.53479767,241.0,US,MA,Springfield/Chicopee,01022
+25992,3445,KCEW,medium_airport,Bob Sikes Airport,30.778799056999997,-86.522102356,213.0,US,FL,Crestview,32539
+26004,3446,KCGF,medium_airport,Cuyahoga County Airport,41.5651016235,-81.4863967896,879.0,US,OH,Cleveland,44143
+26005,3447,KCGI,medium_airport,Cape Girardeau Regional Airport,37.22529983520508,-89.57080078125,342.0,US,MO,Cape Girardeau,63701
+26009,3448,KCHA,large_airport,Lovell Field,35.03530120849609,-85.20379638671875,683.0,US,TN,Chattanooga,37421
+26014,3449,KCHO,medium_airport,Charlottesville Albemarle Airport,38.13859939575195,-78.4529037475586,639.0,US,VA,Charlottesville,22911
+26016,3450,KCHS,large_airport,Charleston Air Force Base-International Airport,32.89860153,-80.04049683,46.0,US,SC,Charleston,29404
+26020,3451,KCID,large_airport,The Eastern Iowa Airport,41.88470077514648,-91.71080017089844,869.0,US,IA,Cedar Rapids,52404
+26024,3452,KCIU,medium_airport,Chippewa County International Airport,46.25080108642578,-84.47239685058594,800.0,US,MI,Sault Ste Marie,49788
+26027,3453,KCKB,medium_airport,North Central West Virginia Airport,39.2966003418,-80.2281036377,1217.0,US,WV,Clarksburg,26330
+26037,3454,KCLE,large_airport,Cleveland Hopkins International Airport,41.411701202399996,-81.8498001099,791.0,US,OH,Cleveland,44135
+26040,3455,KCLL,medium_airport,Easterwood Field,30.58860016,-96.36380005,320.0,US,TX,College Station,77845
+26041,3456,KCLM,medium_airport,William R Fairchild International Airport,48.120201110839844,-123.5,291.0,US,WA,Port Angeles,98363
+26044,3457,KCLT,large_airport,Charlotte Douglas International Airport,35.2140007019043,-80.94309997558594,748.0,US,NC,Charlotte,28208
+26047,3458,KCMH,large_airport,Port Columbus International Airport,39.99800109863281,-82.89189910888672,815.0,US,OH,Columbus,43219
+26048,3459,KCMI,medium_airport,University of Illinois Willard Airport,40.03919983,-88.27809906,755.0,US,IL,Champaign/Urbana,61822
+26050,3460,KCMX,medium_airport,Houghton County Memorial Airport,47.16839981079102,-88.48909759521484,1095.0,US,MI,Hancock,49913
+26052,19520,KCN,seaplane_base,Chernofski Harbor Seaplane Base,53.4028993416,-167.52027154,0.0,US,AK,Chernofski Harbor,
+26057,3461,KCNM,medium_airport,Cavern City Air Terminal,32.337501525878906,-104.26300048828124,3295.0,US,NM,Carlsbad,88220
+26060,19527,KCNU,medium_airport,Chanute Martin Johnson Airport,37.668800354,-95.4850997925,1002.0,US,KS,Chanute,66720
+26063,19530,KCOD,medium_airport,Yellowstone Regional Airport,44.520198822,-109.024002075,5102.0,US,WY,Cody,82414
+26064,19531,KCOE,medium_airport,Coeur D'Alene - Pappy Boyington Field,47.77429962,-116.8199997,2320.0,US,ID,Coeur d'Alene,83835
+26065,3462,KCOF,medium_airport,Patrick Air Force Base,28.2348995209,-80.6100997925,8.0,US,FL,Cocoa Beach,32925
+26068,19534,KCON,medium_airport,Concord Municipal Airport,43.20270157,-71.50229645,342.0,US,NH,Concord,03301
+26070,3463,KCOS,large_airport,City of Colorado Springs Municipal Airport,38.805801391602,-104.70099639893,6187.0,US,CO,Colorado Springs,80916
+26072,3464,KCOU,medium_airport,Columbia Regional Airport,38.81809997558594,-92.21959686279295,889.0,US,MO,Columbia,65201
+26076,3465,KCPR,large_airport,Casper-Natrona County International Airport,42.90800095,-106.4639969,5350.0,US,WY,Casper,82604
+26086,19549,KCRE,medium_airport,Grand Strand Airport,33.811698913600004,-78.72389984130002,32.0,US,SC,North Myrtle Beach,29582
+26087,19550,KCRG,medium_airport,Jacksonville Executive at Craig Airport,30.3362998962,-81.51439666750002,41.0,US,FL,Jacksonville,32225
+26089,3466,KCRP,large_airport,Corpus Christi International Airport,27.77039909362793,-97.5011978149414,44.0,US,TX,Corpus Christi,78406
+26090,19552,KCRQ,medium_airport,Mc Clellan-Palomar Airport,33.12829971,-117.27999879999999,331.0,US,CA,Carlsbad,92011
+26093,3467,KCRW,large_airport,Yeager Airport,38.37310028076172,-81.59320068359375,981.0,US,WV,Charleston,25311
+26097,3468,KCSG,medium_airport,Columbus Metropolitan Airport,32.516300201416016,-84.93890380859375,397.0,US,GA,Columbus,31909
+26100,3469,KCSV,medium_airport,Crossville Memorial Whitson Field,35.9513015747,-85.08499908450001,1881.0,US,TN,Crossville,38555
+26101,3470,KCTB,medium_airport,Cut Bank International Airport,48.6083984375,-112.375999451,3854.0,US,MT,Cut Bank,59427
+26106,19564,KCUB,medium_airport,Jim Hamilton L.B. Owens Airport,33.970500946,-80.9952011108,193.0,US,SC,Columbia,29205
+26111,3471,KCVG,large_airport,Cincinnati Northern Kentucky International Airport,39.0488014221,-84.6678009033,896.0,US,KY,Cincinnati,41048
+26114,3472,KCVO,medium_airport,Corvallis Municipal Airport,44.49720001,-123.29000090000001,250.0,US,OR,Corvallis,97333
+26115,3473,KCVS,large_airport,Cannon Air Force Base,34.3828010559,-103.321998596,4295.0,US,NM,Clovis,88103
+26117,19571,KCWA,medium_airport,Central Wisconsin Airport,44.7775993347,-89.6668014526,1277.0,US,WI,Mosinee,54455
+26126,3475,KCXO,medium_airport,Conroe-North Houston Regional Airport,30.351801000000002,-95.414497,245.0,US,TX,Houston,77301
+26132,3476,KCYS,medium_airport,Cheyenne Regional Jerry Olson Field,41.15570068,-104.81199649999999,6159.0,US,WY,Cheyenne,82009
+26167,3477,KDAA,medium_airport,Davison Army Air Field,38.715000152600005,-77.1809997559,73.0,US,VA,Fort Belvoir,22060
+26168,3478,KDAB,large_airport,Daytona Beach International Airport,29.179899,-81.058098,34.0,US,FL,Daytona Beach,32114
+26170,19615,KDAG,medium_airport,Barstow Daggett Airport,34.85369873,-116.78700259999998,1930.0,US,CA,Daggett,92365
+26171,3479,KDAL,large_airport,Dallas Love Field,32.847099,-96.851799,487.0,US,TX,Dallas,75235
+26172,3480,KDAN,medium_airport,Danville Regional Airport,36.572898864746094,-79.33609771728516,571.0,US,VA,Danville,24586
+26174,3481,KDAY,large_airport,James M Cox Dayton International Airport,39.90240097045898,-84.21939849853516,1009.0,US,OH,Dayton,45377
+26176,3482,KDBQ,large_airport,Dubuque Regional Airport,42.40200043,-90.70950317,1077.0,US,IA,Dubuque,52003
+26177,3483,KDCA,large_airport,Ronald Reagan Washington National Airport,38.8521,-77.037697,15.0,US,DC,Washington,22202
+26181,3484,KDDC,medium_airport,Dodge City Regional Airport,37.76340103149414,-99.9655990600586,2594.0,US,KS,Dodge City,67801
+26183,3485,KDEC,medium_airport,Decatur Airport,39.83459854125977,-88.8656997680664,682.0,US,IL,Decatur,62521
+26186,3486,KDEN,large_airport,Denver International Airport,39.861698150635,-104.672996521,5431.0,US,CO,Denver,80249
+26188,3487,KDET,medium_airport,Coleman A. Young Municipal Airport,42.40919876,-83.00990295,626.0,US,MI,Detroit,48234
+26191,3488,KDFW,large_airport,Dallas Fort Worth International Airport,32.896800994873054,-97.03800201416016,607.0,US,TX,Dallas-Fort Worth,75261
+26194,3489,KDHN,medium_airport,Dothan Regional Airport,31.3213005065918,-85.44960021972656,401.0,US,AL,Dothan,36350
+26195,19628,KDHT,medium_airport,Dalhart Municipal Airport,36.0225982666,-102.54699707,3991.0,US,TX,Dalhart,79022
+26197,19630,KDIK,medium_airport,Dickinson Theodore Roosevelt Regional Airport,46.7974014282,-102.80200195299999,2592.0,US,ND,Dickinson,58601
+26203,3490,KDLF,large_airport,Laughlin Air Force Base,29.359500885,-100.77799987799999,1082.0,US,TX,Del Rio,78843
+26204,3491,KDLH,large_airport,Duluth International Airport,46.8420982361,-92.19360351559999,1428.0,US,MN,Duluth,55811
+26208,19640,KDLS,medium_airport,Columbia Gorge Regional the Dalles Municipal Airport,45.618499755900004,-121.166999817,247.0,US,OR,The Dalles,98617
+26210,3492,KDMA,medium_airport,Davis Monthan Air Force Base,32.1665000916,-110.883003235,2704.0,US,AZ,Tucson,85707
+26211,3493,KDMN,medium_airport,Deming Municipal Airport,32.262298584,-107.721000671,4314.0,US,NM,Deming,88030
+26214,19644,KDNL,medium_airport,Daniel Field,33.4664993286,-82.0393981934,423.0,US,GA,Augusta,30904
+26218,3494,KDOV,large_airport,Dover Air Force Base,39.12950134,-75.46600342,24.0,US,DE,Dover,19902
+26220,19648,KDPA,medium_airport,Dupage Airport,41.90779877,-88.24859619,759.0,US,IL,Chicago/West Chicago,60185
+26225,19652,KDRA,medium_airport,Desert Rock Airport,36.6194,-116.032997,3314.0,US,NV,Mercury,89060
+26226,3495,KDRI,medium_airport,Beauregard Regional Airport,30.8316993713,-93.3398971558,202.0,US,LA,De Ridder,70634
+26230,19655,KDRT,medium_airport,Del Rio International Airport,29.3742008209,-100.92700195299999,1002.0,US,TX,Del Rio,78840
+26232,3496,KDSM,large_airport,Des Moines International Airport,41.53400039672852,-93.66310119628906,958.0,US,IA,Des Moines,50321
+26239,3497,KDTW,large_airport,Detroit Metropolitan Wayne County Airport,42.212398529052734,-83.35340118408203,645.0,US,MI,Detroit,48174
+26242,19664,KDUG,medium_airport,Bisbee Douglas International Airport,31.4689998627,-109.60399627700001,4154.0,US,AZ,Douglas Bisbee,85607
+26244,3498,KDUJ,medium_airport,DuBois Regional Airport,41.17829895,-78.8986969,1817.0,US,PA,Dubois,15851
+26264,3499,KDYS,large_airport,Dyess Air Force Base,32.4207992554,-99.85459899899999,1789.0,US,TX,Abilene,79607
+26612,19717,KEAT,medium_airport,Pangborn Memorial Airport,47.3988990784,-120.20700073200001,1249.0,US,WA,Wenatchee,98802
+26613,3501,KEAU,medium_airport,Chippewa Valley Regional Airport,44.86579895019531,-91.48429870605469,913.0,US,WI,Eau Claire,54703
+26619,3502,KECG,medium_airport,Elizabeth City Regional Airport & Coast Guard Air Station,36.26060104,-76.17459869,12.0,US,NC,Elizabeth City,27909
+26620,46530,KECP,medium_airport,Northwest Florida Beaches International Airport,30.357105999999998,-85.79541400000001,69.0,US,FL,Panama City Beach,32409
+26629,3503,KEDW,large_airport,Edwards Air Force Base,34.905398999999996,-117.884003,2312.0,US,CA,Edwards,93523
+26630,19727,KEED,medium_airport,Needles Airport,34.7663002014,-114.62300109899999,983.0,US,CA,Needles,92363
+26631,3504,KEEN,medium_airport,Dillant Hopkins Airport,42.898399353027344,-72.27079772949219,488.0,US,NH,Keene,03431
+26633,19729,KEET,medium_airport,Shelby County Airport,33.17699814,-86.78279877,586.0,US,AL,Alabaster,35007
+26635,19731,KEFD,medium_airport,Ellington Airport,29.6072998047,-95.15879821780001,32.0,US,TX,Houston,77034
+26640,3505,KEGE,medium_airport,Eagle County Regional Airport,39.64260101,-106.9179993,6548.0,US,CO,Eagle,81637
+26641,19735,KEGI,medium_airport,Duke Field,30.65040016,-86.52290344,191.0,US,FL,Crestview,32542
+26652,3506,KEKA,medium_airport,Murray Field,40.8033981323,-124.112998962,7.0,US,CA,Eureka,95501
+26654,3507,KEKN,medium_airport,Elkins-Randolph Co-Jennings Randolph Field,38.88940048,-79.85710144,1987.0,US,WV,Elkins,26241
+26655,3508,KEKO,medium_airport,Elko Regional Airport,40.82490158081055,-115.79199981689452,5140.0,US,NV,Elko,89801
+26661,3509,KELD,medium_airport,South Arkansas Regional At Goodwin Field,33.22100067138672,-92.81330108642578,277.0,US,AR,El Dorado,71730
+26663,3510,KELM,medium_airport,Elmira Corning Regional Airport,42.1599006652832,-76.8916015625,954.0,US,NY,Elmira/Corning,14845
+26665,3511,KELO,medium_airport,Ely Municipal Airport,47.82450104,-91.83070374,1456.0,US,MN,Ely,55731
+26666,3512,KELP,medium_airport,El Paso International Airport,31.80719948,-106.37799840000002,3959.0,US,TX,El Paso,79925
+26667,19753,KELY,medium_airport,Ely Airport Yelland Field,39.29970169,-114.84200290000001,6259.0,US,NV,Ely,89301
+26673,3513,KEND,large_airport,Vance Air Force Base,36.339199066199996,-97.9164962769,1307.0,US,OK,Enid,73703
+26675,19760,KENV,medium_airport,Wendover Airport,40.7187004089,-114.03099823,4237.0,US,UT,Wendover,84083
+26676,3514,KENW,medium_airport,Kenosha Regional Airport,42.59569931,-87.92780304,742.0,US,WI,Kenosha,53144
+26685,3515,KERI,large_airport,Erie International Tom Ridge Field,42.0831270134,-80.1738667488,732.0,US,PA,Erie,16505
+26690,3516,KESF,medium_airport,Esler Regional Airport,31.3948993683,-92.29579925540001,112.0,US,LA,Alexandria,71360
+26699,3517,KEUG,medium_airport,Mahlon Sweet Field,44.12459945678711,-123.21199798583984,374.0,US,OR,Eugene,97402
+26704,3518,KEVV,medium_airport,Evansville Regional Airport,38.0369987488,-87.53240203860001,418.0,US,IN,Evansville,47725
+26705,19782,KEVW,medium_airport,Evanston-Uinta County Airport-Burns Field,41.27479935,-111.0350037,7143.0,US,WY,Evanston,82930
+26707,3519,KEWB,medium_airport,New Bedford Regional Airport,41.67610168457031,-70.95690155029297,80.0,US,MA,New Bedford,02745
+26709,3520,KEWN,medium_airport,Coastal Carolina Regional Airport,35.0730018616,-77.04290008539998,18.0,US,NC,New Bern,28562
+26710,3521,KEWR,large_airport,Newark Liberty International Airport,40.69250106811523,-74.168701171875,18.0,US,NJ,Newark,
+26716,3522,KEYW,medium_airport,Key West International Airport,24.556100845336914,-81.75959777832031,3.0,US,FL,Key West,33040
+26771,19843,KFAF,medium_airport,Felker Army Air Field,37.1324996948,-76.60880279540002,12.0,US,VA,Fort Eustis,23604
+26773,3523,KFAR,medium_airport,Hector International Airport,46.92070007324219,-96.81580352783205,902.0,US,ND,Fargo,58102
+26774,3524,KFAT,medium_airport,Fresno Yosemite International Airport,36.77619934082031,-119.71800231933594,336.0,US,CA,Fresno,93727
+26775,3525,KFAY,medium_airport,Fayetteville Regional Grannis Field,34.991199493408196,-78.88030242919922,189.0,US,NC,Fayetteville,28306
+26776,3526,KFBG,medium_airport,Simmons Army Air Field,35.13180161,-78.93669891,244.0,US,NC,Fort Bragg,28310
+26783,19851,KFCS,medium_airport,Butts AAF (Fort Carson) Air Field,38.67839813,-104.75700379999999,5838.0,US,CO,Fort Carson,80913
+26789,19857,KFDY,medium_airport,Findlay Airport,41.013500213600004,-83.66870117190001,813.0,US,OH,Findlay,45840
+26797,3528,KFFO,large_airport,Wright-Patterson Air Force Base,39.8260993958,-84.04830169680001,823.0,US,OH,Dayton,45433
+26803,3529,KFHU,medium_airport,Sierra Vista Municipal Libby Army Air Field,31.58849906921387,-110.34400177001952,4719.0,US,AZ,Fort Huachuca Sierra Vista,85613
+26807,19872,KFKL,medium_airport,Venango Regional Airport,41.3778991699,-79.8603973389,1540.0,US,PA,Franklin,16323
+26812,3530,KFLG,medium_airport,Flagstaff Pulliam Airport,35.13850021,-111.6709976,7014.0,US,AZ,Flagstaff,86001
+26813,3531,KFLL,large_airport,Fort Lauderdale Hollywood International Airport,26.072599411010746,-80.15270233154297,9.0,US,FL,Fort Lauderdale,33315
+26814,3532,KFLO,medium_airport,Florence Regional Airport,34.18539810180664,-79.7238998413086,146.0,US,SC,Florence,29506
+26820,3534,KFME,medium_airport,Tipton Airport,39.08539962769999,-76.7593994141,150.0,US,MD,Fort Meade(Odenton),20724
+26823,19881,KFMN,medium_airport,Four Corners Regional Airport,36.7411994934,-108.230003357,5506.0,US,NM,Farmington,87401
+26824,19882,KFMY,medium_airport,Page Field,26.58659935,-81.86329650879998,17.0,US,FL,Fort Myers,33907
+26828,3535,KFNT,medium_airport,Bishop International Airport,42.96540069580078,-83.74359893798828,782.0,US,MI,Flint,48507
+26830,3536,KFOD,medium_airport,Fort Dodge Regional Airport,42.55149841,-94.19259644,1156.0,US,IA,Fort Dodge,50501
+26831,3537,KFOE,medium_airport,Topeka Regional Airport - Forbes Field,38.9509010315,-95.6635971069,1078.0,US,KS,Topeka,66609
+26837,3538,KFPR,medium_airport,St Lucie County International Airport,27.49510002,-80.36830139,24.0,US,FL,Fort Pierce,34946
+26839,3539,KFRG,medium_airport,Republic Airport,40.7288017273,-73.41339874270001,82.0,US,NY,Farmingdale,11735
+26841,3540,KFRI,medium_airport,Marshall Army Air Field,39.05530167,-96.76450348,1065.0,US,KS,Fort Riley(Junction City),66442
+26844,3541,KFSD,medium_airport,Joe Foss Field Airport,43.5820007324,-96.741897583,1429.0,US,SD,Sioux Falls,57104
+26846,3542,KFSI,medium_airport,Henry Post Army Air Field (Fort Sill),34.64979935,-98.40219879,1189.0,US,OK,Fort Sill,73503
+26848,3543,KFSM,large_airport,Fort Smith Regional Airport,35.33660125732422,-94.36740112304688,469.0,US,AR,Fort Smith,72903
+26850,19900,KFST,medium_airport,Fort Stockton Pecos County Airport,30.9157009125,-102.916000366,3011.0,US,TX,Fort Stockton,79735
+26854,3544,KFTK,medium_airport,Godman Army Air Field,37.9071006775,-85.9720993042,756.0,US,KY,Fort Knox,40121
+26856,3545,KFTW,large_airport,Fort Worth Meacham International Airport,32.819801,-97.36239599999999,710.0,US,TX,Fort Worth,76106
+26857,3546,KFTY,medium_airport,Fulton County Airport Brown Field,33.7790985107,-84.5214004517,841.0,US,GA,Atlanta,30336
+26861,3547,KFWA,large_airport,Fort Wayne International Airport,40.97850037,-85.19509888,814.0,US,IN,Fort Wayne,46809
+26866,19912,KFXE,medium_airport,Fort Lauderdale Executive Airport,26.1972999573,-80.1707000732,13.0,US,FL,Fort Lauderdale,33309
+26871,3548,KFYV,medium_airport,Drake Field,36.00510025024414,-94.17009735107422,1251.0,US,AR,Fayetteville,72701
+26928,19929,KGCC,medium_airport,Gillette Campbell County Airport,44.3488998413,-105.539001465,4365.0,US,WY,Gillette,82716
+26930,3550,KGCK,medium_airport,Garden City Regional Airport,37.9275016785,-100.72399902299999,2891.0,US,KS,Garden City,67846
+26932,3551,KGCN,medium_airport,Grand Canyon National Park Airport,35.95240020751953,-112.14700317382812,6609.0,US,AZ,Grand Canyon,86023
+26938,19936,KGDV,medium_airport,Dawson Community Airport,47.13869858,-104.8069992,2458.0,US,MT,Glendive,59330
+26941,3552,KGEG,large_airport,Spokane International Airport,47.61989974975586,-117.53399658203124,2376.0,US,WA,Spokane,99224
+26948,3553,KGFK,medium_airport,Grand Forks International Airport,47.949298999999996,-97.176102,845.0,US,ND,Grand Forks,58203
+26949,3554,KGFL,medium_airport,Floyd Bennett Memorial Airport,43.3412017822,-73.6102981567,328.0,US,NY,Glens Falls,12804
+26953,3555,KGGG,medium_airport,East Texas Regional Airport,32.38399887084961,-94.71150207519531,365.0,US,TX,Longview,75603
+26956,3556,KGGW,medium_airport,Wokal Field Glasgow International Airport,48.212502,-106.614998,2296.0,US,MT,Glasgow,59230
+26961,3557,KGJT,medium_airport,Grand Junction Regional Airport,39.1223983765,-108.527000427,4858.0,US,CO,Grand Junction,81506
+26965,19956,KGLD,medium_airport,Renner Field-Goodland Municipal Airport,39.37060165,-101.6989975,3656.0,US,KS,Goodland,67735
+26967,19958,KGLH,medium_airport,Mid Delta Regional Airport,33.482898712158196,-90.98560333251952,131.0,US,MS,Greenville,38703
+26969,3558,KGLS,medium_airport,Scholes International At Galveston Airport,29.265300750732425,-94.8603973388672,6.0,US,TX,Galveston,77554
+26973,19963,KGMU,medium_airport,Greenville Downtown Airport,34.847900390599996,-82.34999847410002,1048.0,US,SC,Greenville,29607
+26979,3559,KGNV,medium_airport,Gainesville Regional Airport,29.6900997162,-82.27179718020001,152.0,US,FL,Gainesville,32609
+26981,3560,KGON,medium_airport,Groton New London Airport,41.3301010131836,-72.04509735107422,9.0,US,CT,Groton (New London),06340
+26986,3527,KGPI,medium_airport,Glacier Park International Airport,48.31050109863281,-114.25599670410156,2977.0,US,MT,Kalispell,59901
+26988,3561,KGPT,large_airport,Gulfport Biloxi International Airport,30.40730094909668,-89.07009887695312,28.0,US,MS,Gulfport,39503
+26991,3562,KGRB,large_airport,Austin Straubel International Airport,44.48509979248047,-88.12960052490234,695.0,US,WI,Green Bay,54155
+26994,3563,KGRF,medium_airport,Gray Army Air Field,47.07920074,-122.5810013,300.0,US,WA,Fort Lewis/Tacoma,98433
+26995,3564,KGRI,medium_airport,Central Nebraska Regional Airport,40.96749877929688,-98.30960083007812,1847.0,US,NE,Grand Island,68801
+26996,3565,KGRK,medium_airport,Robert Gray  Army Air Field Airport,31.067199706999997,-97.8289031982,1015.0,US,TX,Fort Hood/Killeen,76549
+26999,3566,KGRR,medium_airport,Gerald R. Ford International Airport,42.88079834,-85.52279663,794.0,US,MI,Grand Rapids,49512
+27000,3567,KGSB,large_airport,Seymour Johnson Air Force Base,35.33940125,-77.96060181,109.0,US,NC,Goldsboro,27531
+27002,3568,KGSO,large_airport,Piedmont Triad International Airport,36.097801208496094,-79.93730163574219,925.0,US,NC,Greensboro,27409
+27003,3569,KGSP,large_airport,Greenville Spartanburg International Airport,34.895698547399995,-82.2189025879,964.0,US,SC,Greenville,29651
+27005,3570,KGTB,medium_airport,Wheeler Sack Army Air Field,44.05559921,-75.71949768,688.0,US,NY,Fort Drum,13603
+27007,3571,KGTF,medium_airport,Great Falls International Airport,47.48199844,-111.3710022,3680.0,US,MT,Great Falls,59404
+27009,19982,KGTR,medium_airport,Golden Triangle Regional Airport,33.450298309299995,-88.59140014649999,264.0,US,MS,Columbus/W Point/Starkville,39701
+27012,3572,KGUP,medium_airport,Gallup Municipal Airport,35.511100769,-108.789001465,6472.0,US,NM,Gallup,87301
+27013,3573,KGUS,large_airport,Grissom Air Reserve Base,40.648101806599996,-86.15209960940001,812.0,US,IN,Peru,46971
+27014,19985,KGUY,medium_airport,Guymon Municipal Airport,36.6851005554,-101.508003235,3123.0,US,OK,Guymon,73942
+27022,3574,KGWO,medium_airport,Greenwood–Leflore Airport,33.4943008423,-90.08470153809999,162.0,US,MS,Greenwood,38930
+27033,3575,KGYY,medium_airport,Gary Chicago International Airport,41.61629867553711,-87.41280364990234,591.0,US,IN,Gary,46406
+27062,20027,KHBG,medium_airport,Hattiesburg Bobby L Chain Municipal Airport,31.26479912,-89.25279999,151.0,US,MS,Hattiesburg,39401
+27064,20029,KHBR,medium_airport,Hobart Regional Airport,34.991316999999995,-99.05131300000001,1563.0,US,OK,Hobart,73651
+27081,3576,KHFD,medium_airport,Hartford Brainard Airport,41.736698150635,-72.64939880371101,18.0,US,CT,Hartford,06114
+27085,3577,KHGR,medium_airport,Hagerstown Regional Richard A Henson Field,39.707901,-77.72949982,703.0,US,MD,Hagerstown,21742
+27088,3578,KHHR,medium_airport,Jack Northrop Field Hawthorne Municipal Airport,33.922798,-118.334999,66.0,US,CA,Hawthorne,90250
+27090,3579,KHIB,large_airport,Range Regional Airport,47.38660049,-92.83899689,1354.0,US,MN,Hibbing,55746
+27092,3580,KHIF,medium_airport,Hill Air Force Base,41.12403,-111.97308600000001,4789.0,US,UT,Ogden,84056
+27095,20054,KHIO,medium_airport,Portland Hillsboro Airport,45.540401,-122.949997,208.0,US,OR,Portland,97124
+27100,3581,KHKY,medium_airport,Hickory Regional Airport,35.74110031,-81.38950348,1190.0,US,NC,Hickory,28601
+27104,20061,KHLG,medium_airport,Wheeling Ohio County Airport,40.1749992371,-80.6463012695,1195.0,US,WV,Wheeling,26003
+27106,3582,KHLN,medium_airport,Helena Regional Airport,46.6068000793457,-111.98300170898438,3877.0,US,MT,Helena,59602
+27107,3583,KHLR,medium_airport,Hood Army Air Field,31.1387004852,-97.7145004272,924.0,US,TX,Fort Hood(Killeen),76544
+27110,3584,KHMN,large_airport,Holloman Air Force Base,32.8525009155,-106.107002258,4093.0,US,NM,Alamogordo,88330
+27118,20071,KHOB,medium_airport,Lea County Regional Airport,32.6875,-103.21700290000001,3661.0,US,NM,Hobbs,88240
+27121,3585,KHON,medium_airport,Huron Regional Airport,44.38520050048828,-98.22850036621094,1289.0,US,SD,Huron,57350
+27122,3586,KHOP,medium_airport,Campbell AAF (Fort Campbell) Air Field,36.668598175,-87.49620056150002,573.0,US,KY,Fort Campbell/Hopkinsville,42262
+27123,3587,KHOT,medium_airport,Memorial Field,34.47800064086914,-93.09619903564452,540.0,US,AR,Hot Springs,71913
+27124,3588,KHOU,large_airport,William P Hobby Airport,29.64539909,-95.27890015,46.0,US,TX,Houston,77061
+27125,3589,KHPN,medium_airport,Westchester County Airport,41.06700134277344,-73.70760345458984,439.0,US,NY,White Plains,10604
+27129,3590,KHQM,medium_airport,Bowerman Airport,46.9711990356,-123.93699646,18.0,US,WA,Hoquiam,98550
+27134,3591,KHRL,medium_airport,Valley International Airport,26.228500366210934,-97.65440368652344,36.0,US,TX,Harlingen,78550
+27135,3592,KHRO,medium_airport,Boone County Airport,36.26150131225586,-93.15470123291016,1365.0,US,AR,Harrison,72601
+27136,20081,KHRT,medium_airport,Hurlburt Field,30.42779922485352,-86.68930053710938,38.0,US,FL,Mary Esther,32544
+27147,3593,KHST,medium_airport,Homestead ARB Airport,25.48859978,-80.38359833,5.0,US,FL,Homestead,33033
+27148,3594,KHSV,large_airport,Huntsville International Carl T Jones Field,34.637199401855,-86.775100708008,629.0,US,AL,Huntsville,35824
+27152,3595,KHTS,large_airport,Tri-State/Milton J. Ferguson Field,38.36669922,-82.55799866,828.0,US,WV,Huntington,25530
+27154,3596,KHUA,medium_airport,Redstone Army Air Field,34.67869949,-86.68479919,684.0,US,AL,Redstone Arsnl Huntsville,35808
+27155,3597,KHUF,medium_airport,Terre Haute International Hulman Field,39.45149993896485,-87.30760192871094,589.0,US,IN,Terre Haute,47803
+27156,20095,KHUL,medium_airport,Houlton International Airport,46.123100280799996,-67.79209899899999,489.0,US,ME,Houlton,04730
+27158,3598,KHUT,medium_airport,Hutchinson Municipal Airport,38.0654983521,-97.86060333250002,1543.0,US,KS,Hutchinson,67501
+27161,3599,KHVN,medium_airport,Tweed New Haven Airport,41.26369858,-72.88680267,12.0,US,CT,New Haven,06512
+27162,20099,KHVR,medium_airport,Havre City County Airport,48.54299927,-109.762001,2591.0,US,MT,Havre,59501
+27172,3600,KHYA,medium_airport,Barnstable Municipal Boardman Polando Field,41.66930008,-70.28040314,54.0,US,MA,Hyannis,02601
+27173,20107,KHYI,medium_airport,San Marcos Regional Airport,29.8927,-97.862999,597.0,US,TX,San Marcos,78666
+27174,20108,KHYR,medium_airport,Sawyer County Airport,46.02519989010001,-91.44429779050002,1216.0,US,WI,Hayward,54843
+27175,20109,KHYS,medium_airport,Hays Regional Airport,38.84220123,-99.27320099,1999.0,US,KS,Hays,67601
+27217,3601,KIAB,medium_airport,Mc Connell Air Force Base,37.62189865,-97.26820374,1371.0,US,KS,Wichita,67210
+27218,3602,KIAD,large_airport,Washington Dulles International Airport,38.94449997,-77.45580292,312.0,US,DC,Washington,20151
+27219,3603,KIAG,medium_airport,Niagara Falls International Airport,43.1072998046875,-78.94619750976562,589.0,US,NY,Niagara Falls,14304
+27220,3604,KIAH,large_airport,George Bush Intercontinental Houston Airport,29.98439979553223,-95.34140014648438,97.0,US,TX,Houston,77032
+27221,20150,KIB,seaplane_base,Ivanof Bay Seaplane Base,55.8974990845,-159.488998413,0.0,US,AK,Ivanof Bay,99695
+27225,3605,KICT,large_airport,Wichita Mid Continent Airport,37.649898529052734,-97.43309783935548,1333.0,US,KS,Wichita,67209
+27226,3606,KIDA,medium_airport,Idaho Falls Regional Airport,43.514599,-112.070999,4744.0,US,ID,Idaho Falls,83402
+27243,3607,KIKK,medium_airport,Greater Kankakee Airport,41.07139968869999,-87.84629821780001,630.0,US,IL,Kankakee,60901
+27247,3608,KILG,medium_airport,New Castle Airport,39.67869949,-75.60649872,80.0,US,DE,Wilmington,19720
+27249,3609,KILM,medium_airport,Wilmington International Airport,34.27059936523437,-77.90260314941406,32.0,US,NC,Wilmington,28405
+27250,20173,KILN,medium_airport,Wilmington Airpark,39.427898407,-83.79209899899999,1077.0,US,OH,Wilmington,45177
+27255,3610,KIND,large_airport,Indianapolis International Airport,39.7173,-86.294403,797.0,US,IN,Indianapolis,46241
+27257,3611,KINK,medium_airport,Winkler County Airport,31.779600143400003,-103.20099639899999,2822.0,US,TX,Wink,79789
+27258,3612,KINL,medium_airport,Falls International Airport,48.566200256347656,-93.4030990600586,1185.0,US,MN,International Falls,56649
+27260,3613,KINT,medium_airport,Smith Reynolds Airport,36.13370132446289,-80.22200012207031,969.0,US,NC,Winston Salem,27105
+27261,20180,KINW,medium_airport,Winslow Lindbergh Regional Airport,35.021900177,-110.722999573,4941.0,US,AZ,Winslow,86047
+27265,20184,KIPL,medium_airport,Imperial County Airport,32.834201812699995,-115.57900238,-54.0,US,CA,Imperial,92251
+27266,3614,KIPT,medium_airport,Williamsport Regional Airport,41.241798400878906,-76.92109680175781,529.0,US,PA,Williamsport,17754
+27268,3615,KIRK,medium_airport,Kirksville Regional Airport,40.09349822998047,-92.5448989868164,966.0,US,MO,Kirksville,63501
+27271,20187,KISM,medium_airport,Kissimmee Gateway Airport,28.289800643899998,-81.43710327149999,82.0,US,FL,Orlando,34741
+27272,20188,KISN,medium_airport,Sloulin Field International Airport,48.177898407,-103.64199829100001,1982.0,US,ND,Williston,58801
+27273,20189,KISO,medium_airport,Kinston Regional Jetport At Stallings Field,35.331401825,-77.60880279540002,93.0,US,NC,Kinston,28504
+27274,3616,KISP,medium_airport,Long Island Mac Arthur Airport,40.79520035,-73.10019684,99.0,US,NY,Islip,11779
+27278,20193,KITH,medium_airport,Ithaca Tompkins Regional Airport,42.49100112915039,-76.4583969116211,1099.0,US,NY,Ithaca,14850
+27280,3617,KIWA,medium_airport,Phoenix-Mesa-Gateway Airport,33.30780029,-111.65499879999999,1382.0,US,AZ,Phoenix,85212
+27291,3618,KJAC,medium_airport,Jackson Hole Airport,43.6072998046875,-110.73799896240234,6451.0,US,WY,Jackson,83001
+27292,3619,KJAN,large_airport,Jackson-Medgar Wiley Evers International Airport,32.3111991882,-90.0758972168,346.0,US,MS,Jackson,39208
+27295,3620,KJAX,large_airport,Jacksonville International Airport,30.49410057067871,-81.68789672851562,30.0,US,FL,Jacksonville,32218
+27296,3621,KJBR,medium_airport,Jonesboro Municipal Airport,35.83169937133789,-90.64640045166016,262.0,US,AR,Jonesboro,72401
+27297,20205,KJCT,medium_airport,Kimble County Airport,30.5112991333,-99.76349639889999,1749.0,US,TX,Junction,76849
+27303,3622,KJFK,large_airport,John F Kennedy International Airport,40.63980103,-73.77890015,13.0,US,NY,New York,11430
+27307,20213,KJHW,medium_airport,Chautauqua County-Jamestown Airport,42.15340042,-79.25800323,1723.0,US,NY,Jamestown,14701
+27310,20216,KJKL,medium_airport,Julian Carroll Airport,37.59389877319336,-83.31729888916016,1381.0,US,KY,Jackson,41339
+27311,3623,KJLN,large_airport,Joplin Regional Airport,37.151798248291016,-94.49829864501952,981.0,US,MO,Joplin,64870
+27313,3624,KJMS,medium_airport,Jamestown Regional Airport,46.92969894,-98.67819977,1500.0,US,ND,Jamestown,58401
+27319,3625,KJST,medium_airport,John Murtha Johnstown Cambria County Airport,40.31610107421875,-78.83390045166016,2284.0,US,PA,Johnstown,15904
+27328,3626,KJXN,medium_airport,Jackson County Reynolds Field,42.2597999573,-84.45939636230001,1001.0,US,MI,Jackson,49202
+27370,20273,KKB,seaplane_base,Kitoi Bay Seaplane Base,58.190898895299995,-152.369995117,0.0,US,AK,Kitoi Bay,99615
+27371,20274,KKI,seaplane_base,Akiachak Seaplane Base,60.9079017639,-161.434997559,0.0,US,AK,Akiachak,99551
+27373,20276,KKL,seaplane_base,Karluk Lake Seaplane Base,57.36700057979999,-154.027999878,368.0,US,AK,Karluk Lake,99615
+27374,20277,KKLS,medium_airport,Southwest Washington Regional Airport,46.11800003049999,-122.898002625,20.0,US,WA,Kelso,98626
+27412,3627,KLAF,medium_airport,Purdue University Airport,40.41230010986328,-86.93689727783203,606.0,US,IN,Lafayette,47907
+27413,3628,KLAL,medium_airport,Lakeland Linder Regional Airport,27.988899230999998,-82.0186004639,142.0,US,FL,Lakeland,33811
+27415,3629,KLAN,medium_airport,Capital City Airport,42.77870178222656,-84.58740234375,861.0,US,MI,Lansing,48906
+27416,3630,KLAR,medium_airport,Laramie Regional Airport,41.31209945678711,-105.6750030517578,7284.0,US,WY,Laramie,82070
+27417,3631,KLAS,large_airport,McCarran International Airport,36.08010101,-115.15200039999999,2181.0,US,NV,Las Vegas,89119
+27418,20319,KLAW,medium_airport,Lawton Fort Sill Regional Airport,34.5676994324,-98.4166030884,1110.0,US,OK,Lawton,73501
+27419,3632,KLAX,large_airport,Los Angeles International Airport,33.94250107,-118.40799709999999,125.0,US,CA,Los Angeles,90045
+27420,3633,KLBB,large_airport,Lubbock Preston Smith International Airport,33.663601,-101.822998,3282.0,US,TX,Lubbock,79403
+27421,3634,KLBE,medium_airport,Arnold Palmer Regional Airport,40.27590179,-79.40480042,1199.0,US,PA,Latrobe,15650
+27422,3635,KLBF,medium_airport,North Platte Regional Airport Lee Bird Field,41.12620163,-100.6839981,2777.0,US,NE,North Platte,69101
+27423,3636,KLBL,medium_airport,Liberal Mid-America Regional Airport,37.04420089999999,-100.95999909999999,2885.0,US,KS,Liberal,67901
+27426,20322,KLBT,medium_airport,Lumberton Regional Airport,34.609901428200004,-79.05940246579998,126.0,US,NC,Lumberton,28358
+27427,20323,KLBX,medium_airport,Texas Gulf Coast Regional Airport,29.108600616500002,-95.46209716799999,25.0,US,TX,Angleton/Lake Jackson,77515
+27429,3637,KLCH,medium_airport,Lake Charles Regional Airport,30.12610054016113,-93.22329711914062,15.0,US,LA,Lake Charles,70607
+27431,3638,KLCK,large_airport,Rickenbacker International Airport,39.813801,-82.927803,744.0,US,OH,Columbus,43217
+27435,3639,KLEB,medium_airport,Lebanon Municipal Airport,43.626098632799994,-72.30419921880002,603.0,US,NH,Lebanon,03784
+27436,20329,KLEE,medium_airport,Leesburg International Airport,28.82309914,-81.80870056,76.0,US,FL,Leesburg,34788
+27439,3640,KLEX,large_airport,Blue Grass Airport,38.0364990234375,-84.60590362548828,979.0,US,KY,Lexington,40510
+27440,3641,KLFI,large_airport,Langley Air Force Base,37.082901000999996,-76.360496521,11.0,US,VA,Hampton,23665
+27441,20332,KLFK,medium_airport,Angelina County Airport,31.2339992523,-94.75,296.0,US,TX,Lufkin,75941
+27442,3642,KLFT,large_airport,Lafayette Regional Airport,30.20529938,-91.98760223,42.0,US,LA,Lafayette,70508
+27443,3643,KLGA,large_airport,La Guardia Airport,40.77719879,-73.87259674,21.0,US,NY,New York,11371
+27444,3644,KLGB,medium_airport,Long Beach /Daugherty Field/ Airport,33.81769943,-118.15200039999999,60.0,US,CA,Long Beach,90807
+27448,20337,KLGU,medium_airport,Logan-Cache Airport,41.7911987305,-111.851997375,4457.0,US,UT,Logan,84341
+27458,3645,KLIT,large_airport,Bill & Hillary Clinton National Airport/Adams Field,34.729400634799994,-92.22429656979999,262.0,US,AR,Little Rock,72202
+27467,20354,KLLQ,medium_airport,Monticello Municipal Ellis Field,33.638599400000004,-91.75099945,270.0,US,AR,Monticello,71655
+27472,3646,KLMT,medium_airport,Crater Lake-Klamath Regional Airport,42.156101,-121.733002,4095.0,US,OR,Klamath Falls,97603
+27475,20359,KLND,medium_airport,Hunt Field,42.8152008057,-108.730003357,5586.0,US,WY,Lander,82520
+27476,3647,KLNK,medium_airport,Lincoln Airport,40.85100173950195,-96.75920104980469,1219.0,US,NE,Lincoln,68524
+27481,3648,KLNS,medium_airport,Lancaster Airport,40.12170028686523,-76.29609680175781,403.0,US,PA,Lancaster,17543
+27482,20364,KLOL,medium_airport,Derby Field,40.0663986206,-118.565002441,3904.0,US,NV,Lovelock,89419
+27485,3649,KLOU,medium_airport,Bowman Field,38.2280006409,-85.6636962891,546.0,US,KY,Louisville,40205
+27486,3650,KLOZ,medium_airport,London-Corbin Airport/Magee Field,37.0821990967,-84.08489990230001,1212.0,US,KY,London,40744
+27491,3651,KLRD,medium_airport,Laredo International Airport,27.543800354003906,-99.46160125732422,508.0,US,TX,Laredo,78041
+27492,3652,KLRF,medium_airport,Little Rock Air Force Base,34.916900634799994,-92.14969635010002,311.0,US,AR,Jacksonville,72076
+27496,3653,KLRU,medium_airport,Las Cruces International Airport,32.28939819335937,-106.9219970703125,4456.0,US,NM,Las Cruces,88007
+27499,3654,KLSE,medium_airport,La Crosse Municipal Airport,43.879002,-91.256699,655.0,US,WI,La Crosse,54603
+27500,3655,KLSF,medium_airport,Lawson Army Air Field (Fort Benning),32.337299346900004,-84.9913024902,232.0,US,GA,Fort Benning(Columbus),31905
+27503,3656,KLSV,medium_airport,Nellis Air Force Base,36.2361984253,-115.03399658200001,1870.0,US,NV,Las Vegas,89191
+27504,3657,KLTS,large_airport,Altus Air Force Base,34.667098999000004,-99.26670074459999,1382.0,US,OK,Altus,73521
+27507,3658,KLUF,large_airport,Luke Air Force Base,33.534999847399995,-112.383003235,1085.0,US,AZ,Glendale,85309
+27509,3659,KLUK,medium_airport,Cincinnati Municipal Airport Lunken Field,39.10329819,-84.41860199,483.0,US,OH,Cincinnati,45226
+27516,20386,KLVM,medium_airport,Mission Field,45.6994018555,-110.44799804700001,4660.0,US,MT,Livingston,59047
+27518,20388,KLVS,medium_airport,Las Vegas Municipal Airport,35.6542015076,-105.14199829100001,6877.0,US,NM,Las Vegas,87701
+27520,20390,KLWB,medium_airport,Greenbrier Valley Airport,37.8582992554,-80.3994979858,2302.0,US,WV,Lewisburg,24938
+27523,3660,KLWM,medium_airport,Lawrence Municipal Airport,42.7172012329,-71.1233978271,148.0,US,MA,Lawrence,01845
+27524,20393,KLWS,medium_airport,Lewiston Nez Perce County Airport,46.3745002746582,-117.01499938964844,1442.0,US,ID,Lewiston,83501
+27525,3661,KLWT,medium_airport,Lewistown Municipal Airport,47.04930114746094,-109.46700286865234,4170.0,US,MT,Lewistown,59457
+27532,3662,KLYH,medium_airport,Lynchburg Regional Preston Glenn Field,37.326698303222656,-79.20040130615234,938.0,US,VA,Lynchburg,24502
+27604,3663,KMAF,medium_airport,Midland International Airport,31.9424991607666,-102.2020034790039,2871.0,US,TX,Midland,79706
+27611,20474,KMBG,medium_airport,Mobridge Municipal Airport,45.54650116,-100.40799709999999,1716.0,US,SD,Mobridge,57601
+27614,3664,KMBS,large_airport,MBS International Airport,43.532901763916016,-84.07959747314453,668.0,US,MI,Saginaw,48623
+27617,3665,KMCB,medium_airport,Mc Comb/Pike County Airport/John E Lewis Field,31.17849922,-90.47190094,413.0,US,MS,Mc Comb,39648
+27618,3666,KMCC,medium_airport,Mc Clellan Airfield,38.66759872,-121.40100100000001,77.0,US,CA,Sacramento,95652
+27620,20480,KMCE,medium_airport,Merced Regional Macready Field,37.28469849,-120.5139999,155.0,US,CA,Merced,95341
+27621,3667,KMCF,large_airport,Mac Dill Air Force Base,27.84930038,-82.52120209,14.0,US,FL,Tampa,33621
+27622,3668,KMCI,large_airport,Kansas City International Airport,39.2976,-94.713898,1026.0,US,MO,Kansas City,64153
+27623,20481,KMCK,medium_airport,Mc Cook Ben Nelson Regional Airport,40.20629883,-100.59200290000001,2583.0,US,NE,Mc Cook,69001
+27624,3669,KMCN,medium_airport,Middle Georgia Regional Airport,32.692798614501946,-83.64920043945312,354.0,US,GA,Macon,31216
+27625,3670,KMCO,large_airport,Orlando International Airport,28.429399490356445,-81.30899810791016,96.0,US,FL,Orlando,32827
+27626,20482,KMCW,medium_airport,Mason City Municipal Airport,43.15779876710001,-93.33129882809999,1213.0,US,IA,Mason City,50428
+27632,3671,KMDH,medium_airport,Southern Illinois Airport,37.778099060058594,-89.25199890136719,411.0,US,IL,Carbondale/Murphysboro,62966
+27635,3672,KMDT,medium_airport,Harrisburg International Airport,40.1935005188,-76.7633972168,310.0,US,PA,Harrisburg,17057
+27636,3673,KMDW,large_airport,Chicago Midway International Airport,41.7859992980957,-87.75240325927734,620.0,US,IL,Chicago,60638
+27639,3674,KMEI,medium_airport,Key Field,32.33259963989258,-88.75189971923828,297.0,US,MS,Meridian,39307
+27641,3675,KMEM,large_airport,Memphis International Airport,35.04240036010742,-89.97669982910156,341.0,US,TN,Memphis,38116
+27642,3676,KMER,medium_airport,Castle Airport,37.38050079,-120.5680008,191.0,US,CA,Merced,95301
+27647,3677,KMFD,medium_airport,Mansfield Lahm Regional Airport,40.82139968869999,-82.5166015625,1297.0,US,OH,Mansfield,44903
+27648,3678,KMFE,medium_airport,Mc Allen Miller International Airport,26.17580032,-98.23860168,107.0,US,TX,Mc Allen,78503
+27650,3679,KMFR,medium_airport,Rogue Valley International Medford Airport,42.37419891357422,-122.8730010986328,1335.0,US,OR,Medford,97501
+27653,3680,KMGE,large_airport,Dobbins Air Reserve Base,33.91540146,-84.51629639,1068.0,US,GA,Marietta,30069
+27656,3681,KMGM,large_airport,Montgomery Regional (Dannelly Field) Airport,32.30059814,-86.39399719,221.0,US,AL,Montgomery,36108
+27659,3682,KMGW,medium_airport,Morgantown Municipal Walter L. Bill Hart Field,39.64289856,-79.91629791,1248.0,US,WV,Morgantown,26505
+27662,3683,KMHK,medium_airport,Manhattan Regional Airport,39.14099884033203,-96.6707992553711,1057.0,US,KS,Manhattan,66503
+27665,20506,KMHR,medium_airport,Sacramento Mather Airport,38.55390167,-121.29799650000001,98.0,US,CA,Sacramento,95655
+27666,3684,KMHT,large_airport,Manchester Airport,42.93259811401367,-71.43569946289062,266.0,US,NH,Manchester,03103
+27668,3685,KMIA,large_airport,Miami International Airport,25.79319953918457,-80.29060363769531,8.0,US,FL,Miami,33126
+27669,3686,KMIB,medium_airport,Minot Air Force Base,48.41559982,-101.3580017,1667.0,US,ND,Minot,58704
+27671,3687,KMIE,medium_airport,Delaware County Johnson Field,40.2422981262207,-85.3958969116211,937.0,US,IN,Muncie,47303
+27674,3688,KMIV,medium_airport,Millville Municipal Airport,39.36780166625977,-75.07219696044922,85.0,US,NJ,Millville,08332
+27680,3689,KMKC,medium_airport,Charles B. Wheeler Downtown Airport,39.12319946289063,-94.5927963256836,759.0,US,MO,Kansas City,64116
+27681,3690,KMKE,large_airport,General Mitchell International Airport,42.94720077514648,-87.89659881591797,723.0,US,WI,Milwaukee,53207
+27684,3692,KMKL,medium_airport,Mc Kellar Sipes Regional Airport,35.59989929,-88.91560364,434.0,US,TN,Jackson,38301
+27691,3693,KMLB,medium_airport,Melbourne International Airport,28.10280036926269,-80.64530181884766,33.0,US,FL,Melbourne,32901
+27692,3694,KMLC,medium_airport,Mc Alester Regional Airport,34.88240051,-95.78350067,770.0,US,OK,Mc Alester,74501
+27696,3695,KMLI,large_airport,Quad City International Airport,41.44850158691406,-90.50749969482422,590.0,US,IL,Moline,61265
+27699,3696,KMLS,medium_airport,Frank Wiley Field,46.428001403808594,-105.88600158691406,2630.0,US,MT,Miles City,59301
+27701,3697,KMLU,large_airport,Monroe Regional Airport,32.51089859008789,-92.0376968383789,79.0,US,LA,Monroe,71203
+27708,20532,KMMT,medium_airport,Mc Entire Joint National Guard Base,33.92079926,-80.80130005,254.0,US,SC,Eastover,29061
+27709,3698,KMMU,medium_airport,Morristown Municipal Airport,40.799400329589844,-74.41490173339844,187.0,US,NJ,Morristown,07960
+27710,3699,KMMV,medium_airport,Mc Minnville Municipal Airport,45.19440079,-123.13600159999999,163.0,US,OR,Mc Minnville,97128
+27722,3700,KMOB,large_airport,Mobile Regional Airport,30.691200256348,-88.242797851562,219.0,US,AL,Mobile,36608
+27723,3701,KMOD,medium_airport,Modesto City Co-Harry Sham Field,37.62580109,-120.9540024,97.0,US,CA,Modesto,95354
+27726,3702,KMOT,medium_airport,Minot International Airport,48.2593994140625,-101.27999877929688,1716.0,US,ND,Minot,58703
+27734,20551,KMPV,medium_airport,Edward F Knapp State Airport,44.20349884,-72.56230164,1166.0,US,VT,Barre/Montpelier,05641
+27742,3703,KMQY,medium_airport,Smyrna Airport,36.0089988708,-86.52010345459999,543.0,US,TN,Smyrna,37167
+27743,3704,KMRB,medium_airport,Eastern WV Regional Airport/Shepherd Field,39.40190125,-77.98459625,565.0,US,WV,Martinsburg,25405
+27750,3705,KMRY,medium_airport,Monterey Peninsula Airport,36.58700180053711,-121.84300231933594,257.0,US,CA,Monterey,93940
+27752,3706,KMSL,medium_airport,Northwest Alabama Regional Airport,34.74530029,-87.61019897,551.0,US,AL,Muscle Shoals,35661
+27753,3707,KMSN,large_airport,Dane County Regional Truax Field,43.13990020751953,-89.3375015258789,887.0,US,WI,Madison,53704
+27754,3708,KMSO,medium_airport,Missoula International Airport,46.91630173,-114.0910034,3206.0,US,MT,Missoula,59808
+27755,3709,KMSP,large_airport,Minneapolis-St Paul International/Wold-Chamberlain Airport,44.8819999695,-93.22180175780001,841.0,US,MN,Minneapolis,55111
+27756,3710,KMSS,medium_airport,Massena International Richards Field,44.93579864501953,-74.84559631347656,215.0,US,NY,Massena,13662
+27758,3711,KMSY,large_airport,Louis Armstrong New Orleans International Airport,29.99340057373047,-90.25800323486328,4.0,US,LA,New Orleans,70062
+27760,3712,KMTC,medium_airport,Selfridge Air National Guard Base Airport,42.613463,-82.836919,580.0,US,MI,Mount Clemens,48045
+27761,20564,KMTH,medium_airport,The Florida Keys Marathon Airport,24.72610092,-81.05139923,5.0,US,FL,Marathon,33050
+27762,20565,KMTJ,medium_airport,Montrose Regional Airport,38.5097999573,-107.89399719200001,5759.0,US,CO,Montrose,81401
+27763,3713,KMTN,medium_airport,Martin State Airport,39.32569885,-76.4138031,21.0,US,MD,Baltimore,21220
+27769,3714,KMUI,medium_airport,Muir Army Air Field (Fort Indiantown Gap) Airport,40.43479919,-76.56939697,488.0,US,PA,Fort Indiantown Gap(Annville),17003
+27771,3715,KMUO,large_airport,Mountain Home Air Force Base,43.043597999999996,-115.872002,2996.0,US,ID,Mountain Home,83648
+27783,20581,KMWH,medium_airport,Grant County International Airport,47.20769882,-119.3199997,1189.0,US,WA,Moses Lake,98837
+27789,3716,KMXF,medium_airport,Maxwell Air Force Base,32.38290023803711,-86.36579895019531,171.0,US,AL,Montgomery,36112
+27791,20588,KMY,seaplane_base,Moser Bay Seaplane Base,57.02560043334961,-154.14599609375,,US,AK,Moser Bay,99615
+27794,20591,KMYL,medium_airport,McCall Municipal Airport,44.88970184,-116.10099790000001,5024.0,US,ID,McCall,83638
+27795,3717,KMYR,medium_airport,Myrtle Beach International Airport,33.6796989441,-78.9282989502,25.0,US,SC,Myrtle Beach,29577
+27796,3718,KMYV,medium_airport,Yuba County Airport,39.09780121,-121.5699997,64.0,US,CA,Marysville,95961
+27834,3719,KNBC,medium_airport,Beaufort MCAS - Merritt Field,32.4774017334,-80.723197937,37.0,US,SC,Beaufort,29906
+27835,3720,KNBG,medium_airport,New Orleans NAS JRB/Alvin Callender Field,29.82530022,-90.03500366,2.0,US,LA,New Orleans,70037
+27837,3721,KNCA,medium_airport,New River MCAS /H/ /Mccutcheon Fld/ Airport,34.70840073,-77.43969727,26.0,US,NC,Jacksonville,28540
+27839,20634,KNDZ,medium_airport,Whiting Field Naval Air Station South Airport,30.70439910888672,-87.02300262451172,177.0,US,FL,Milton,32570
+27840,3722,KNEL,medium_airport,Lakehurst Maxfield Field Airport,40.03329849,-74.353302,101.0,US,NJ,Lakehurst,08527
+27842,3723,KNEW,medium_airport,Lakefront Airport,30.042400360107003,-90.02829742431601,8.0,US,LA,New Orleans,70126
+27845,3724,KNFG,medium_airport,Camp Pendleton MCAS (Munn Field) Airport,33.30130005,-117.3550034,78.0,US,CA,Oceanside,92058
+27847,3725,KNFL,medium_airport,Fallon Naval Air Station,39.41659927,-118.70099640000001,3934.0,US,NV,Fallon,89496
+27848,20639,KNFW,medium_airport,NAS Fort Worth JRB/Carswell Field,32.76919937,-97.4414978,650.0,US,TX,Fort Worth,76108
+27849,3726,KNGP,medium_airport,Corpus Christi Naval Air Station/Truax Field,27.69260025,-97.29109955,18.0,US,TX,Corpus Christi,78418
+27851,3727,KNGU,medium_airport,Norfolk Ns (Chambers Fld) Airport,36.93759918,-76.28929901,17.0,US,VA,Norfolk,23511
+27854,3728,KNHK,medium_airport,Patuxent River Naval Air Station/Trapnell Field Aiport,38.28599929999999,-76.41179657,39.0,US,MD,Patuxent River,20670
+27857,3729,KNHZ,medium_airport,Brunswick Executive Airport,43.89220047,-69.93859863,72.0,US,ME,Brunswick,04011
+27858,20643,KNID,medium_airport,China Lake Naws (Armitage Field) Airport,35.6853981,-117.6920013,2283.0,US,CA,China Lake,93555
+27859,3730,KNIP,medium_airport,Jacksonville Naval Air Station,30.23579979,-81.68060303,21.0,US,FL,Jacksonville,32244
+27860,3731,KNJK,medium_airport,El Centro Naf Airport,32.829200744628906,-115.6719970703125,-42.0,US,CA,El Centro,92243
+27865,3732,KNKT,medium_airport,Cherry Point MCAS /Cunningham Field/,34.90090179,-76.88069916,29.0,US,NC,Cherry Point,28532
+27866,3733,KNKX,medium_airport,Miramar Marine Corps Air Station - Mitscher Field,32.86840057,-117.1429977,477.0,US,CA,San Diego,92145
+27868,20647,KNLC,medium_airport,Lemoore Naval Air Station (Reeves Field) Airport,36.33300018,-119.95200349999999,232.0,US,CA,Lemoore,93245
+27870,3734,KNMM,medium_airport,Meridian Naval Air Station,32.55210114,-88.55560303,316.0,US,MS,Meridian,39335
+27874,3735,KNPA,medium_airport,Pensacola Naval Air Station/Forrest Sherman Field,30.35269928,-87.31860352,28.0,US,FL,Pensacola,32508
+27876,3736,KNQA,medium_airport,Millington Regional Jetport Airport,35.356700897217,-89.87030029296899,320.0,US,TN,Millington,38053
+27878,3737,KNQI,medium_airport,Kingsville Naval Air Station,27.5072002411,-97.8097000122,50.0,US,TX,Kingsville,78363
+27879,3738,KNQX,medium_airport,Naval Air Station Key West/Boca Chica Field,24.57579994,-81.68890381,6.0,US,FL,Key West,33040
+27881,20652,KNRB,medium_airport,Naval Station Mayport (Admiral David L. Mcdonald Field),30.39109993,-81.42469788,15.0,US,FL,Mayport,32233
+27885,20656,KNSE,medium_airport,Whiting Field Naval Air Station - North,30.724199300000002,-87.02189636,199.0,US,FL,Milton,32570
+27887,3739,KNTD,medium_airport,Point Mugu Naval Air Station (Naval Base Ventura Co),34.120300293,-119.12100219700001,13.0,US,CA,Point Mugu,93033
+27889,3740,KNTU,medium_airport,Oceana NAS,36.8207016,-76.03350067,23.0,US,VA,Virginia Beach,23460
+27893,3741,KNUQ,medium_airport,Moffett Federal Airfield,37.416099548339844,-122.04900360107422,32.0,US,CA,Mountain View,94043
+27894,20661,KNUW,medium_airport,Whidbey Island Naval Air Station /Ault Field/ Airport,48.35179901,-122.65599820000001,47.0,US,WA,Oak Harbor,98277
+27898,20666,KNXP,medium_airport,Twentynine Palms (Self) Airport,34.2961998,-116.16200259999998,2051.0,US,CA,Twentynine Palms,92277
+27902,20669,KNYG,medium_airport,Quantico MCAF /Turner field,38.50170135,-77.30529785,10.0,US,VA,Quantico,22134
+27903,3961,KNYL,medium_airport,Yuma MCAS/Yuma International Airport,32.65660095,-114.6060028,213.0,US,AZ,Yuma,85365
+27907,3743,KNZY,medium_airport,North Island Naval Air Station-Halsey Field,32.69919968,-117.2149963,26.0,US,CA,San Diego,92118
+27945,20709,KOAJ,medium_airport,Albert J Ellis Airport,34.8292007446,-77.61209869380002,94.0,US,NC,Jacksonville,28574
+27946,3744,KOAK,large_airport,Metropolitan Oakland International Airport,37.721298,-122.221001,9.0,US,CA,Oakland,94621
+27960,3745,KOFF,medium_airport,Offutt Air Force Base,41.118301391602,-95.912498474121,1052.0,US,NE,Omaha,68113
+27961,20722,KOFK,medium_airport,Karl Stefan Memorial Airport,41.985500335693004,-97.435096740723,1573.0,US,NE,Norfolk,68702
+27964,20725,KOGB,medium_airport,Orangeburg Municipal Airport,33.456798553467,-80.859497070312,195.0,US,SC,Orangeburg,29115
+27965,3746,KOGD,medium_airport,Ogden Hinckley Airport,41.195899963379,-112.0120010376,4473.0,US,UT,Ogden,84405
+27974,3747,KOKC,large_airport,Will Rogers World Airport,35.39310073852539,-97.60070037841795,1295.0,US,OK,Oklahoma City,
+27984,20739,KOLF,medium_airport,L M Clayton Airport,48.0945014954,-105.57499694799999,1986.0,US,MT,Wolf Point,59201
+27986,3749,KOLM,medium_airport,Olympia Regional Airport,46.9693985,-122.90299990000001,209.0,US,WA,Olympia,98501
+27987,20741,KOLS,medium_airport,Nogales International Airport,31.41769981384277,-110.8479995727539,3955.0,US,AZ,Nogales,85621
+27988,3750,KOLU,medium_airport,Columbus Municipal Airport,41.44800186,-97.34259796,1447.0,US,NE,Columbus,68601
+27993,3751,KOMA,medium_airport,Eppley Airfield,41.303199768066406,-95.89409637451172,984.0,US,NE,Omaha,68110
+28001,20752,KONP,medium_airport,Newport Municipal Airport,44.58039855957031,-124.05799865722656,160.0,US,OR,Newport,97366
+28002,3752,KONT,large_airport,Ontario International Airport,34.05599975585937,-117.60099792480469,944.0,US,CA,Ontario,91761
+28007,20757,KOPF,medium_airport,Opa-locka Executive Airport,25.90699959,-80.27839661,8.0,US,FL,Miami,33054
+28011,3753,KOQU,medium_airport,Quonset State Airport,41.597099304199,-71.412101745605,18.0,US,RI,North Kingstown,02852
+28016,3754,KORD,large_airport,Chicago O'Hare International Airport,41.97859955,-87.90480042,672.0,US,IL,Chicago,60666
+28018,3755,KORF,large_airport,Norfolk International Airport,36.89459991455078,-76.20120239257812,26.0,US,VA,Norfolk,23518
+28020,3756,KORH,medium_airport,Worcester Regional Airport,42.26729965209961,-71.87570190429688,1009.0,US,MA,Worcester,01602
+28026,3757,KOSH,medium_airport,Wittman Regional Airport,43.98440170288086,-88.55699920654297,808.0,US,WI,Oshkosh,54902
+28027,3758,KOSU,medium_airport,Ohio State University Airport,40.0797996521,-83.072998046875,905.0,US,OH,Columbus,43017
+28030,3759,KOTH,medium_airport,Southwest Oregon Regional Airport,43.41709899902344,-124.24600219726562,17.0,US,OR,North Bend,97459
+28031,3760,KOTM,medium_airport,Ottumwa Regional Airport,41.10660172,-92.44789886,845.0,US,IA,Ottumwa,52501
+28039,3761,KOWB,medium_airport,Owensboro Daviess County Airport,37.74010086,-87.16680145,407.0,US,KY,Owensboro,42301
+28040,20777,KOWD,medium_airport,Norwood Memorial Airport,42.1904983521,-71.1728973389,49.0,US,MA,Norwood,02062
+28049,20785,KOXR,medium_airport,Oxnard Airport,34.200801849365,-119.20700073241998,45.0,US,CA,Oxnard,93030
+28051,20787,KOY,seaplane_base,Olga Bay Seaplane Base,57.16149902340001,-154.229995728,0.0,US,AK,Olga Bay,99615
+28054,3762,KOZR,medium_airport,Cairns AAF (Fort Rucker) Air Field,31.27569962,-85.71340179,301.0,US,AL,Fort Rucker/Ozark,36322
+28156,3763,KPAE,medium_airport,Snohomish County (Paine Field) Airport,47.90629959,-122.28199769999999,606.0,US,WA,Everett,98208
+28157,3764,KPAH,medium_airport,Barkley Regional Airport,37.06079864501953,-88.7738037109375,410.0,US,KY,Paducah,42086
+28158,3765,KPAM,large_airport,Tyndall Air Force Base,30.0695991516,-85.57540130619998,17.0,US,FL,Panama City,32403
+28161,20806,KPB,seaplane_base,Point Baker Seaplane Base,56.351898193400004,-133.623001099,0.0,US,AK,Point Baker,99927
+28162,20807,KPBF,medium_airport,Grider Field,34.173099517800004,-91.9356002808,206.0,US,AR,Pine Bluff,71601
+28163,20808,KPBG,medium_airport,Plattsburgh International Airport,44.6509017944336,-73.46810150146484,234.0,US,NY,Plattsburgh,12901
+28165,3766,KPBI,large_airport,Palm Beach International Airport,26.68320083618164,-80.09559631347656,19.0,US,FL,West Palm Beach,33406
+28173,3767,KPDK,medium_airport,DeKalb Peachtree Airport,33.8755989075,-84.3020019531,1003.0,US,GA,Atlanta,30341
+28174,20815,KPDT,medium_airport,Eastern Oregon Regional At Pendleton Airport,45.695098877,-118.84100341799999,1497.0,US,OR,Pendleton,97801
+28175,3768,KPDX,large_airport,Portland International Airport,45.58869934,-122.59799960000001,31.0,US,OR,Portland,97218
+28183,20821,KPGA,medium_airport,Page Municipal Airport,36.92610168,-111.447998,4316.0,US,AZ,Page,86040
+28186,20824,KPGV,medium_airport,Pitt Greenville Airport,35.6352005,-77.38529968,26.0,US,NC,Greenville,27834
+28187,20825,KPH,seaplane_base,Pauloff Harbor Seaplane Base,54.4590988159,-162.694000244,,US,AK,Pauloff Harbor /Sanak Is/,
+28189,3770,KPHF,large_airport,Newport News Williamsburg International Airport,37.13190079,-76.49299622,42.0,US,VA,Newport News,23602
+28193,3771,KPHL,large_airport,Philadelphia International Airport,39.87189865112305,-75.24109649658203,36.0,US,PA,Philadelphia,19153
+28197,3772,KPHX,large_airport,Phoenix Sky Harbor International Airport,33.43429946899414,-112.01200103759766,1135.0,US,AZ,Phoenix,85034
+28198,3773,KPIA,large_airport,General Wayne A. Downing Peoria International Airport,40.664199829100006,-89.6932983398,660.0,US,IL,Peoria,61607
+28199,3774,KPIB,medium_airport,Hattiesburg Laurel Regional Airport,31.467100143432614,-89.33709716796875,298.0,US,MS,Hattiesburg/Laurel,39459
+28200,3775,KPIE,medium_airport,St Petersburg Clearwater International Airport,27.91020012,-82.68740082,11.0,US,FL,St Petersburg-Clearwater,33762
+28201,3776,KPIH,medium_airport,Pocatello Regional Airport,42.9098014831543,-112.59600067138672,4452.0,US,ID,Pocatello,83204
+28204,3777,KPIR,medium_airport,Pierre Regional Airport,44.38270187,-100.2860031,1744.0,US,SD,Pierre,57501
+28205,3778,KPIT,large_airport,Pittsburgh International Airport,40.49150085,-80.23290253,1203.0,US,PA,Pittsburgh,15108
+28208,3779,KPKB,medium_airport,Mid Ohio Valley Regional Airport,39.34510040283203,-81.43920135498047,858.0,US,WV,Parkersburg,26187
+28216,3781,KPLN,medium_airport,Pellston Regional Airport of Emmet County Airport,45.57089996,-84.79669952,721.0,US,MI,Pellston,49769
+28220,3782,KPMD,medium_airport,Palmdale Regional/USAF Plant 42 Airport,34.62939835,-118.08499909999999,2543.0,US,CA,Palmdale,93550
+28226,20848,KPNA,medium_airport,Ralph Wenz Field,42.79550171,-109.8069992,7102.0,US,WY,Pinedale,82941
+28227,20849,KPNC,medium_airport,Ponca City Regional Airport,36.73199844,-97.09980011,1008.0,US,OK,Ponca City,74601
+28228,20850,KPNE,medium_airport,Northeast Philadelphia Airport,40.081902,-75.010597,120.0,US,PA,Philadelphia,19114
+28231,3783,KPNS,medium_airport,Pensacola Regional Airport,30.473400115967003,-87.18659973144501,121.0,US,FL,Pensacola,32504
+28233,3784,KPOB,medium_airport,Pope Field,35.1708984375,-79.014503479004,217.0,US,NC,Fayetteville,28308
+28235,3785,KPOE,medium_airport,Polk Army Air Field,31.044799800000003,-93.1917038,330.0,US,LA,Fort Polk,70656
+28238,3786,KPOU,medium_airport,Dutchess County Airport,41.6265983581543,-73.88420104980469,165.0,US,NY,Poughkeepsie,12590
+28245,3787,KPQI,medium_airport,Northern Maine Regional Airport at Presque Isle,46.68899918,-68.0447998,534.0,US,ME,Presque Isle,04769
+28248,20864,KPR,seaplane_base,Port Williams Seaplane Base,58.4901008606,-152.582000732,0.0,US,AK,Port Williams,99615
+28249,3788,KPRB,medium_airport,Paso Robles Municipal Airport,35.67290115,-120.6269989,840.0,US,CA,Paso Robles,93446
+28250,3789,KPRC,medium_airport,Ernest A. Love Field,34.65449905,-112.41999820000001,5045.0,US,AZ,Prescott,86301
+28255,3790,KPRX,medium_airport,Cox Field,33.636600494385,-95.45079803466801,547.0,US,TX,Paris,75462
+28258,20870,KPSC,medium_airport,Tri Cities Airport,46.26470184326172,-119.11900329589844,410.0,US,WA,Pasco,99301
+28261,3791,KPSM,medium_airport,Portsmouth International at Pease Airport,43.0778999329,-70.8233032227,100.0,US,NH,Portsmouth,03801
+28264,3792,KPSP,medium_airport,Palm Springs International Airport,33.829700469970696,-116.50700378417969,477.0,US,CA,Palm Springs,92234
+28269,3793,KPTK,medium_airport,Oakland County International Airport,42.665500640869006,-83.420097351074,980.0,US,MI,Pontiac,48327
+28278,20883,KPUW,medium_airport,Pullman Moscow Regional Airport,46.7439,-117.110001,2556.0,US,WA,Pullman/Moscow,99163
+28281,3795,KPVD,medium_airport,Theodore Francis Green State Airport,41.73260116577149,-71.42040252685547,55.0,US,RI,Providence,02888
+28286,20890,KPVU,medium_airport,Provo Municipal Airport,40.219200134277,-111.72299957275,4497.0,US,UT,Provo,84601
+28293,20896,KPWK,medium_airport,Chicago Executive Airport,42.114222,-87.901494,647.0,US,IL,Chicago/Prospect Heights/Wheeling,60090
+28294,3796,KPWM,large_airport,Portland International Jetport Airport,43.64619827,-70.30930328,76.0,US,ME,Portland,04102
+28295,3797,KPWT,medium_airport,Bremerton National Airport,47.490200042725,-122.76499938965,444.0,US,WA,Bremerton,98312
+28297,20898,KPY,seaplane_base,Port Bailey Seaplane Base,57.930099487300005,-153.041000366,0.0,US,AK,Port Bailey,99550
+28304,20904,KQA,seaplane_base,Akutan Seaplane Base,54.1337704415,-165.77889561700002,,US,AK,Akutan,99553
+28524,3837,KRAL,medium_airport,Riverside Municipal Airport,33.95190048,-117.4449997,819.0,US,CA,Riverside,92504
+28525,3838,KRAP,medium_airport,Rapid City Regional Airport,44.0452995300293,-103.05699920654295,3204.0,US,SD,Rapid City,57703
+28531,3839,KRBL,medium_airport,Red Bluff Municipal Airport,40.1506996155,-122.25199890100001,352.0,US,CA,Red Bluff,96080
+28535,3840,KRCA,medium_airport,Ellsworth Air Force Base,44.14500046,-103.1039963,3276.0,US,SD,Rapid City,57769
+28543,3841,KRDD,medium_airport,Redding Municipal Airport,40.50899887,-122.2929993,505.0,US,CA,Redding,96002
+28544,3842,KRDG,medium_airport,Reading Regional Carl A Spaatz Field,40.378501892089844,-75.96520233154297,344.0,US,PA,Reading,19605
+28546,3843,KRDM,medium_airport,Roberts Field,44.254100799999996,-121.15000149999999,3080.0,US,OR,Redmond,97756
+28547,20922,KRDR,medium_airport,Grand Forks Air Force Base,47.961101532,-97.4011993408,913.0,US,ND,Grand Forks,58214
+28548,3844,KRDU,large_airport,Raleigh Durham International Airport,35.877601623535156,-78.7874984741211,435.0,US,NC,Raleigh/Durham,27560
+28552,3845,KRFD,large_airport,Chicago Rockford International Airport,42.19540023803711,-89.09719848632812,742.0,US,IL,Chicago/Rockford,61109
+28556,3846,KRHI,medium_airport,Rhinelander Oneida County Airport,45.63119888305664,-89.46749877929688,1624.0,US,WI,Rhinelander,54501
+28559,3847,KRIC,large_airport,Richmond International Airport,37.50519943237305,-77.3197021484375,167.0,US,VA,Richmond,23250
+28563,20931,KRIL,medium_airport,Garfield County Regional Airport,39.52629852,-107.72699740000002,5548.0,US,CO,Rifle,81650
+28566,3849,KRIV,medium_airport,March ARB Airport,33.88069916,-117.2590027,1536.0,US,CA,Riverside,92571
+28567,20933,KRIW,medium_airport,Riverton Regional Airport,43.064201355,-108.459999084,5525.0,US,WY,Riverton,82501
+28574,3850,KRKS,medium_airport,Rock Springs Sweetwater County Airport,41.59420013,-109.0650024,6764.0,US,WY,Rock Springs,82901
+28577,20940,KRME,medium_airport,Griffiss International Airport,43.23379898,-75.40699768,504.0,US,NY,Rome,13440
+28578,3851,KRMG,medium_airport,Richard B Russell Airport,34.3506011963,-85.15799713130002,644.0,US,GA,Rome,30165
+28582,3852,KRND,large_airport,Randolph Air Force Base,29.52969933,-98.27890015,761.0,US,TX,Universal City,78148
+28583,20944,KRNH,medium_airport,New Richmond Regional Airport,45.14830017,-92.5381012,998.0,US,WI,New Richmond,54017
+28585,3853,KRNO,large_airport,Reno Tahoe International Airport,39.49909973144531,-119.76799774169922,4415.0,US,NV,Reno,89502
+28589,3854,KROA,large_airport,Roanoke–Blacksburg Regional Airport,37.3255,-79.975403,1175.0,US,VA,Roanoke,24012
+28590,3855,KROC,large_airport,Greater Rochester International Airport,43.118900299072266,-77.67240142822266,559.0,US,NY,Rochester,14624
+28593,3856,KROW,medium_airport,Roswell International Air Center Airport,33.30160140991211,-104.53099822998048,3671.0,US,NM,Roswell,88203
+28606,20962,KRSL,medium_airport,Russell Municipal Airport,38.872100830078004,-98.811798095703,1862.0,US,KS,Russell,67665
+28608,3857,KRST,large_airport,Rochester International Airport,43.90829849243164,-92.5,1317.0,US,MN,Rochester,55902
+28610,3858,KRSW,large_airport,Southwest Florida International Airport,26.53619956970215,-81.75520324707031,30.0,US,FL,Fort Myers,33913
+28616,3859,KRUT,medium_airport,Rutland - Southern Vermont Regional Airport,43.52939987,-72.94960022,787.0,US,VT,Rutland,05759
+28620,20972,KRVS,medium_airport,Richard Lloyd Jones Jr Airport,36.039600372314,-95.98459625244101,638.0,US,OK,Tulsa,74132
+28621,20973,KRWF,medium_airport,Redwood Falls Municipal Airport,44.54719925,-95.08229828,1024.0,US,MN,Redwood Falls,56283
+28622,3860,KRWI,medium_airport,Rocky Mount Wilson Regional Airport,35.856300354003906,-77.89189910888672,159.0,US,NC,Rocky Mount,27803
+28623,20974,KRWL,medium_airport,Rawlins Municipal Airport/Harvey Field,41.80559921,-107.1999969,6813.0,US,WY,Rawlins,82301
+28631,20981,KRYY,medium_airport,Cobb County-Mc Collum Field,34.01319885,-84.59860229,1040.0,US,GA,Atlanta,30144
+28681,3861,KSAC,medium_airport,Sacramento Executive Airport,38.5125007629,-121.49299621600001,24.0,US,CA,Sacramento,95822
+28683,21033,KSAF,medium_airport,Santa Fe Municipal Airport,35.617099761999995,-106.08899688700001,6348.0,US,NM,Santa Fe,87507
+28684,3862,KSAN,large_airport,San Diego International Airport,32.7336006165,-117.190002441,17.0,US,CA,San Diego,92101
+28686,3863,KSAT,large_airport,San Antonio International Airport,29.533700942993164,-98.46980285644531,809.0,US,TX,San Antonio,78216
+28687,3864,KSAV,large_airport,Savannah Hilton Head International Airport,32.12760162,-81.20210266,50.0,US,GA,Savannah,31408
+28688,3865,KSAW,medium_airport,Sawyer International Airport,46.3535995483,-87.39540100100001,1221.0,US,MI,Marquette,49841
+28690,3866,KSBA,medium_airport,Santa Barbara Municipal Airport,34.42620087,-119.8399963,13.0,US,CA,Santa Barbara,93117
+28691,3867,KSBD,medium_airport,San Bernardino International Airport,34.0954017639,-117.23500061,1159.0,US,CA,San Bernardino,92415
+28693,3868,KSBN,large_airport,South Bend Regional Airport,41.70869827270508,-86.31729888916016,799.0,US,IN,South Bend,46628
+28695,3869,KSBP,medium_airport,San Luis County Regional Airport,35.2368011475,-120.64199829100001,212.0,US,CA,San Luis Obispo,93401
+28699,3870,KSBY,medium_airport,Salisbury Ocean City Wicomico Regional Airport,38.34049987792969,-75.51029968261719,52.0,US,MD,Salisbury,21804
+28702,3871,KSCH,medium_airport,Schenectady County Airport,42.852500915527,-73.92890167236301,378.0,US,NY,Schenectady,12302
+28703,3872,KSCK,medium_airport,Stockton Metropolitan Airport,37.894199371338,-121.2379989624,33.0,US,CA,Stockton,95206
+28707,3873,KSDF,large_airport,Louisville International Standiford Field,38.1744,-85.736,501.0,US,KY,Louisville,40209
+28709,3874,KSDM,medium_airport,Brown Field Municipal Airport,32.572299957275,-116.98000335693001,526.0,US,CA,San Diego,92154
+28710,21046,KSDY,medium_airport,Sidney - Richland Regional Airport,47.706902,-104.193001,1985.0,US,MT,Sidney,59270
+28711,3875,KSEA,large_airport,Seattle Tacoma International Airport,47.44900131225586,-122.30899810791016,433.0,US,WA,Seattle,98158
+28721,3876,KSFB,large_airport,Orlando Sanford International Airport,28.7775993347168,-81.23750305175781,55.0,US,FL,Orlando,32773
+28722,3877,KSFF,medium_airport,Felts Field,47.682800292969,-117.32299804688,1953.0,US,WA,Spokane,99212
+28724,3878,KSFO,large_airport,San Francisco International Airport,37.61899948120117,-122.375,13.0,US,CA,San Francisco,94128
+28729,3879,KSGF,large_airport,Springfield Branson National Airport,37.24570084,-93.38860321,1268.0,US,MO,Springfield,65803
+28730,3880,KSGH,medium_airport,Springfield-Beckley Municipal Airport,39.840301513671996,-83.840202331543,1051.0,US,OH,Springfield,45502
+28731,21061,KSGJ,medium_airport,Northeast Florida Regional Airport,29.9592,-81.339798,10.0,US,FL,St Augustine,32095
+28732,21062,KSGR,medium_airport,Sugar Land Regional Airport,29.622299194335998,-95.65650177001999,82.0,US,TX,Houston,77498
+28735,21065,KSGU,medium_airport,St George Municipal Airport,37.036389,-113.510306,2941.0,US,UT,St George,84790
+28739,3881,KSHR,medium_airport,Sheridan County Airport,44.76919937133789,-106.9800033569336,4021.0,US,WY,Sheridan,82801
+28740,3882,KSHV,large_airport,Shreveport Regional Airport,32.44660186767578,-93.82559967041016,258.0,US,LA,Shreveport,71109
+28745,3883,KSJC,large_airport,Norman Y. Mineta San Jose International Airport,37.362598,-121.929001,62.0,US,CA,San Jose,95050
+28747,3884,KSJT,medium_airport,San Angelo Regional Mathis Field,31.35770034790039,-100.49600219726562,1919.0,US,TX,San Angelo,76904
+28749,3885,KSKA,large_airport,Fairchild Air Force Base,47.6151008606,-117.65599823,2461.0,US,WA,Spokane,99011
+28750,3886,KSKF,medium_airport,Lackland Air Force Base,29.38419914,-98.58110046,691.0,US,TX,San Antonio,78243
+28755,3887,KSLC,large_airport,Salt Lake City International Airport,40.78839874267578,-111.97799682617188,4227.0,US,UT,Salt Lake City,84122
+28756,3888,KSLE,medium_airport,Salem Municipal Airport/McNary Field,44.90950012,-123.00299840000002,214.0,US,OR,Salem,97302
+28759,3889,KSLI,medium_airport,Los Alamitos Army Air Field,33.79000092,-118.052002,32.0,US,CA,Los Alamitos,90720
+28761,3890,KSLK,medium_airport,Adirondack Regional Airport,44.38529968261719,-74.2061996459961,1663.0,US,NY,Saranac Lake,12983
+28762,3891,KSLN,medium_airport,Salina Municipal Airport,38.79100036621094,-97.6521987915039,1288.0,US,KS,Salina,67401
+28766,21085,KSME,medium_airport,Lake Cumberland Regional Airport,37.0533981323,-84.61589813229999,927.0,US,KY,Somerset,42501
+28767,3892,KSMF,large_airport,Sacramento International Airport,38.69540023803711,-121.59100341796876,27.0,US,CA,Sacramento,95837
+28768,21086,KSMN,medium_airport,Lemhi County Airport,45.1237983704,-113.880996704,4043.0,US,ID,Salmon,83467
+28772,3893,KSMX,medium_airport,Santa Maria Pub/Capt G Allan Hancock Field,34.89889908,-120.4570007,261.0,US,CA,Santa Maria,93455
+28773,3894,KSNA,large_airport,John Wayne Airport-Orange County Airport,33.67570114,-117.86799620000001,56.0,US,CA,Santa Ana,92626
+28778,3895,KSNS,medium_airport,Salinas Municipal Airport,36.662799835205,-121.60600280761999,85.0,US,CA,Salinas,93905
+28779,21094,KSNY,medium_airport,Sidney Municipal-Lloyd W Carr Field,41.10129929,-102.98500059999999,4313.0,US,NE,Sidney,69162
+28780,21095,KSOA,medium_airport,Sonora Municipal Airport,30.585699081420998,-100.6490020752,2140.0,US,TX,Sonora,76950
+28790,3897,KSPI,large_airport,Abraham Lincoln Capital Airport,39.84410095,-89.67790222,598.0,US,IL,Springfield,62707
+28791,3898,KSPS,large_airport,Sheppard Air Force Base-Wichita Falls Municipal Airport,33.9888,-98.49189799999999,1019.0,US,TX,Wichita Falls,76311
+28800,3899,KSRQ,large_airport,Sarasota Bradenton International Airport,27.39539909362793,-82.55439758300781,30.0,US,FL,Sarasota/Bradenton,34243
+28801,3900,KSRR,medium_airport,Sierra Blanca Regional Airport,33.462799072266,-105.53500366211,6814.0,US,NM,Ruidoso,88312
+28802,3901,KSSC,large_airport,Shaw Air Force Base,33.97269821,-80.47059631,241.0,US,SC,Sumter,29154
+28803,21109,KSSF,medium_airport,Stinson Municipal Airport,29.336999893188,-98.47109985351601,577.0,US,TX,San Antonio,78214
+28804,3902,KSSI,medium_airport,Malcolm McKinnon Airport,31.15180016,-81.39129639,19.0,US,GA,Brunswick,31522
+28807,3903,KSTC,medium_airport,St Cloud Regional Airport,45.54660034179688,-94.05989837646484,1031.0,US,MN,St Cloud,56304
+28810,3904,KSTJ,medium_airport,Rosecrans Memorial Airport,39.771900177002,-94.909698486328,826.0,US,MO,St Joseph,64503
+28812,3905,KSTL,large_airport,St Louis Lambert International Airport,38.748697,-90.370003,618.0,US,MO,St Louis,63145
+28813,3906,KSTP,medium_airport,St Paul Downtown Holman Field,44.93450164794922,-93.05999755859376,705.0,US,MN,St Paul,55107
+28814,21114,KSTS,medium_airport,Charles M. Schulz Sonoma County Airport,38.50899887,-122.8130035,128.0,US,CA,Santa Rosa,95492
+28818,21118,KSUN,medium_airport,Friedman Memorial Airport,43.50439835,-114.2959976,5318.0,US,ID,Hailey,83333
+28820,3907,KSUS,large_airport,Spirit of St Louis Airport,38.662101745605,-90.652000427246,463.0,US,MO,St Louis,63005
+28822,3908,KSUU,large_airport,Travis Air Force Base,38.262699127196996,-121.92700195312,62.0,US,CA,Fairfield,94535
+28824,3909,KSUX,large_airport,Sioux Gateway Col. Bud Day Field,42.40259933,-96.38439941,1098.0,US,IA,Sioux City,51111
+28825,29695,KSUZ,medium_airport,Saline County Regional Airport,34.59059906,-92.47940063,390.0,US,AR,Benton,72022
+28829,3910,KSVN,medium_airport,Hunter Army Air Field,32.00999832,-81.14569855,41.0,US,GA,Savannah,31406
+28830,3911,KSWF,medium_airport,Stewart International Airport,41.50410079956055,-74.10479736328125,491.0,US,NY,Newburgh,12553
+28832,3912,KSWO,medium_airport,Stillwater Regional Airport,36.161201477051,-97.08570098876999,1000.0,US,OK,Stillwater,74075
+28838,3913,KSYR,large_airport,Syracuse Hancock International Airport,43.11119842529297,-76.1063003540039,421.0,US,NY,Syracuse,13212
+28840,3914,KSZL,large_airport,Whiteman Air Force Base,38.73030090332,-93.547897338867,870.0,US,MO,Knob Noster,65336
+28884,21179,KTB,seaplane_base,Thorne Bay Seaplane Base,55.687999725299996,-132.537002563,0.0,US,AK,Thorne Bay,99919
+28885,3915,KTBN,medium_airport,Waynesville-St. Robert Regional Forney field,37.74160004,-92.14070129,1159.0,US,MO,Fort Leonard Wood,65473
+28888,3916,KTCC,medium_airport,Tucumcari Municipal Airport,35.182800293,-103.60299682600001,4065.0,US,NM,Tucumcari,88401
+28889,3917,KTCL,medium_airport,Tuscaloosa Regional Airport,33.220600128174,-87.611396789551,170.0,US,AL,Tuscaloosa,35401
+28890,3918,KTCM,large_airport,McChord Air Force Base,47.1376991272,-122.475997925,322.0,US,WA,Tacoma,98438
+28891,3919,KTCS,medium_airport,Truth Or Consequences Municipal Airport,33.2369003296,-107.27200317399999,4853.0,US,NM,Truth Or Consequences,87935
+28897,3920,KTEB,medium_airport,Teterboro Airport,40.85010147089999,-74.060798645,9.0,US,NJ,Teterboro,07608
+28909,3921,KTIK,large_airport,Tinker Air Force Base,35.414699554443004,-97.386596679688,1291.0,US,OK,Oklahoma City,73145
+28911,3922,KTIW,medium_airport,Tacoma Narrows Airport,47.26789856,-122.57800290000002,294.0,US,WA,Tacoma,98335
+28912,3923,KTIX,medium_airport,Space Coast Regional Airport,28.514799118042003,-80.799201965332,34.0,US,FL,Titusville,32780
+28919,3924,KTLH,large_airport,Tallahassee Regional Airport,30.396499633789066,-84.35030364990234,81.0,US,FL,Tallahassee,32310
+28922,21204,KTMB,medium_airport,Kendall-Tamiami Executive Airport,25.6478996277,-80.432800293,8.0,US,FL,Miami,33196
+28932,21212,KTOI,medium_airport,Troy Municipal Airport at N Kenneth Campbell Field,31.860398999999997,-86.012101,398.0,US,AL,Troy,36079
+28933,3925,KTOL,large_airport,Toledo Express Airport,41.58679962,-83.80780029,683.0,US,OH,Toledo,43558
+28934,21213,KTOP,medium_airport,Philip Billard Municipal Airport,39.068698883056996,-95.62249755859399,881.0,US,KS,Topeka,66616
+28936,3926,KTPA,large_airport,Tampa International Airport,27.975500106811523,-82.533203125,26.0,US,FL,Tampa,33614
+28938,21216,KTPH,medium_airport,Tonopah Airport,38.06019974,-117.086998,5430.0,US,NV,Tonopah,89049
+28939,3927,KTPL,medium_airport,Draughon Miller Central Texas Regional Airport,31.15250015258789,-97.40779876708984,682.0,US,TX,Temple,76504
+28943,3928,KTRI,large_airport,Tri-Cities Regional TN/VA Airport,36.475201,-82.40740100000001,1519.0,US,TN,Bristol/Johnson/Kingsport,37617
+28944,21220,KTRK,medium_airport,Truckee Tahoe Airport,39.3199996948,-120.13999939,5900.0,US,CA,Truckee,96161
+28946,21222,KTRM,medium_airport,Jacqueline Cochran Regional Airport,33.62670135498,-116.16000366211,-115.0,US,CA,Palm Springs,92274
+28951,21228,KTTD,medium_airport,Portland Troutdale Airport,45.54940032959001,-122.40100097656,39.0,US,OR,Portland,97060
+28953,3929,KTTN,medium_airport,Trenton Mercer Airport,40.27669906616211,-74.8134994506836,213.0,US,NJ,Trenton,08628
+28954,21230,KTTS,medium_airport,Nasa Shuttle Landing Facility Airport,28.614999771118164,-80.69450378417969,10.0,US,FL,Titusville,32815
+28955,3930,KTUL,large_airport,Tulsa International Airport,36.19839859008789,-95.88809967041016,677.0,US,OK,Tulsa,74115
+28956,3931,KTUP,medium_airport,Tupelo Regional Airport,34.26810073852539,-88.7698974609375,346.0,US,MS,Tupelo,38801
+28957,3932,KTUS,large_airport,Tucson International Airport,32.116100311279304,-110.94100189208984,2643.0,US,AZ,Tucson,85756
+28959,3933,KTVC,medium_airport,Cherry Capital Airport,44.74140167236328,-85.58219909667969,624.0,US,MI,Traverse City,49686
+28963,3934,KTVL,medium_airport,Lake Tahoe Airport,38.89390182495117,-119.99500274658205,6264.0,US,CA,South Lake Tahoe,96150
+28966,3935,KTWF,medium_airport,Joslin Field Magic Valley Regional Airport,42.48180008,-114.487999,4154.0,US,ID,Twin Falls,83301
+28969,3936,KTXK,medium_airport,Texarkana Regional Webb Field,33.45370101928711,-93.99099731445312,390.0,US,AR,Texarkana,71854
+28972,3937,KTYR,medium_airport,Tyler Pounds Regional Airport,32.35409927368164,-95.40239715576172,544.0,US,TX,Tyler,75704
+28973,3938,KTYS,large_airport,McGhee Tyson Airport,35.81100082,-83.99400329999999,981.0,US,TN,Knoxville,37701
+29013,21280,KUAO,medium_airport,Aurora State Airport,45.24710083007813,-122.7699966430664,200.0,US,OR,Aurora,97002
+29025,3940,KUIN,medium_airport,Quincy Regional Baldwin Field,39.94269943,-91.19460297,768.0,US,IL,Quincy,62305
+29028,3941,KUKI,medium_airport,Ukiah Municipal Airport,39.125999450684,-123.20099639893,614.0,US,CA,Ukiah,95482
+29037,21300,KUNV,medium_airport,University Park Airport,40.8493003845,-77.84870147710002,1239.0,US,PA,State College,16803
+29039,3942,KUOX,medium_airport,University Oxford Airport,34.384300231934,-89.536796569824,452.0,US,MS,Oxford,38655
+29043,21304,KUTS,medium_airport,Huntsville Regional Airport,30.7469005585,-95.5871963501,363.0,US,TX,Huntsville,77320
+29052,3943,KVAD,medium_airport,Moody Air Force Base,30.967800140399998,-83.1930007935,233.0,US,GA,Valdosta,31699
+29054,3944,KVBG,large_airport,Vandenberg Air Force Base,34.7373008728,-120.583999634,369.0,US,CA,Lompoc,93437
+29057,3945,KVCT,medium_airport,Victoria Regional Airport,28.85260009765625,-96.9185028076172,115.0,US,TX,Victoria,77904
+29062,21318,KVEL,medium_airport,Vernal Regional Airport,40.4408989,-109.5100021,5278.0,US,UT,Vernal,84078
+29066,21321,KVGT,medium_airport,North Las Vegas Airport,36.21070098877,-115.19400024414,2205.0,US,NV,Las Vegas,89032
+29074,3946,KVLD,medium_airport,Valdosta Regional Airport,30.78249931335449,-83.27670288085938,203.0,US,GA,Valdosta,31601
+29079,21333,KVNY,medium_airport,Van Nuys Airport,34.209800720215,-118.48999786376999,802.0,US,CA,Van Nuys,91406
+29080,3947,KVOK,medium_airport,Volk Field,43.938999176025,-90.253402709961,912.0,US,WI,Camp Douglas,54618
+29082,3948,KVPS,large_airport,Destin-Ft Walton Beach Airport,30.4832,-86.525398,87.0,US,FL,Valparaiso,32580
+29083,3949,KVPZ,medium_airport,Porter County Municipal Airport,41.45399857,-87.00710297,770.0,US,IN,Valparaiso,46383
+29085,3950,KVRB,medium_airport,Vero Beach Regional Airport,27.6556,-80.417901,24.0,US,FL,Vero Beach,32960
+29089,21339,KVTN,medium_airport,Miller Field,42.85779953,-100.5479965,2596.0,US,NE,Valentine,69201
+29110,21358,KW63,medium_airport,Lake Country Regional Airport,36.5957984924,-78.56009674070002,421.0,US,VA,Clarksville,23927
+29124,21373,KWF,seaplane_base,Waterfall Seaplane Base,55.296298980699994,-133.242996216,,US,AK,Waterfall,99922
+29126,21375,KWJF,medium_airport,General WM J Fox Airfield,34.74110031,-118.21900179999999,2351.0,US,CA,Lancaster,93536
+29127,21376,KWK,seaplane_base,Kwigillingok Seaplane Base,59.8367004395,-163.13999939,,US,AK,Kwigillingok,
+29130,21379,KWMC,medium_airport,Winnemucca Municipal Airport,40.8965988159,-117.805999756,4308.0,US,NV,Winnemucca,89445
+29131,21380,KWP,seaplane_base,West Point Village Seaplane Base,57.770099639899996,-153.548995972,,US,AK,West Point,99615
+29132,3951,KWRB,large_airport,Robins Air Force Base,32.640098571799996,-83.59190368649999,294.0,US,GA,Warner Robins,31098
+29133,3952,KWRI,medium_airport,Mc Guire Air Force Base,40.01559829999999,-74.59169769,131.0,US,NJ,Wrightstown,08641
+29134,3953,KWRL,medium_airport,Worland Municipal Airport,43.9656982421875,-107.95099639892578,4227.0,US,WY,Worland,82401
+29140,3954,KWWD,medium_airport,Cape May County Airport,39.008499145500004,-74.9083023071,23.0,US,NJ,Wildwood,08242
+29141,21386,KWWR,medium_airport,West Woodward Airport,36.438,-99.5226667,2189.0,US,OK,Woodward,73801
+29144,3955,KWYS,medium_airport,Yellowstone Airport,44.68840027,-111.11799620000001,6649.0,US,MT,West Yellowstone,59758
+29165,21408,KXA,seaplane_base,Kasaan Seaplane Base,55.537399291999996,-132.397994995,,US,AK,Kasaan,99919
+29169,3956,KXMR,medium_airport,Cape Canaveral AFS Skid Strip,28.4675998688,-80.56659698490002,10.0,US,FL,Cocoa Beach,32920
+29170,21410,KXNA,medium_airport,Northwest Arkansas Regional Airport,36.281898,-94.30680100000001,1287.0,US,AR,Fayetteville/Springdale/Rogers,72712
+29174,28148,KXTA,medium_airport,Homey (Area 51) Airport,37.23500061035156,-115.81099700927734,4462.0,US,NV,Groom Lake,
+29198,3957,KYIP,medium_airport,Willow Run Airport,42.23789978,-83.53040314,716.0,US,MI,Detroit,48111
+29199,3958,KYKM,medium_airport,Yakima Air Terminal McAllister Field,46.56819916,-120.5439987,1099.0,US,WA,Yakima,98903
+29200,3959,KYKN,medium_airport,Chan Gurney Municipal Airport,42.916698455811,-97.385902404785,1306.0,US,SD,Yankton,57078
+29202,3960,KYNG,medium_airport,Youngstown Warren Regional Airport,41.26070023,-80.67910004,1192.0,US,OH,Youngstown/Warren,44473
+29308,308357,KZB,seaplane_base,Zachar Bay Seaplane Base,57.553001,-153.746052,,US,AK,Zachar Bay,99624
+29315,3967,KZZV,medium_airport,Zanesville Municipal Airport,39.9444007874,-81.89209747310001,900.0,US,OH,Zanesville,43701
+29316,21444,L11,seaplane_base,Pebbly Beach Seaplane Base,33.338402,-118.311996,,US,CA,Avalon,90704
+29331,21460,L85,seaplane_base,Mackeys Lakes Seaplane Base,60.53359985350001,-150.996002197,175.0,US,AK,Soldotna,99669
+29336,21465,L93,seaplane_base,Robe Lake Seaplane Base,61.08710098270001,-146.143997192,39.0,US,AK,Valdez,99686
+29337,21466,L95,seaplane_base,Jones Landing Seaplane Base,61.5547981262207,-149.93899536132812,180.0,US,AK,Big Lake,99623
+29380,21505,LA38,seaplane_base,Pelican Seaplane Base,30.26689910888672,-89.8052978515625,,US,LA,Slidell,70458
+29406,21531,LA64,seaplane_base,Bayou Boeuf Seaplane Base,29.68350028991699,-91.10009765625,2.0,US,LA,Amelia,70380
+29440,21565,LA98,seaplane_base,West Bay Seaplane Base,29.13190078735352,-89.38809967041016,,US,LA,Venice,70091
+31372,21735,M00,seaplane_base,Augusta Seaplane Base,44.2676010131836,-69.78170013427734,23.0,US,ME,Augusta,04347
+31373,21736,M06,seaplane_base,Havre De Grace Seaplane Base,39.541500091552734,-76.0697021484375,,US,MD,Havre De Grace,21078
+31375,21738,M14,seaplane_base,Mal's Serpent Lake Seaplane Base,46.474098205566406,-93.9186019897461,1246.0,US,MN,Deerwood,56444
+31378,21741,M35,seaplane_base,Lindey's Landing West Seaplane Base,47.174400329589844,-113.4800033569336,3993.0,US,MT,Seeley Lake,59868
+31381,21744,M49,seaplane_base,Jolly Fisherman Seaplane Base,47.14300155639648,-95.52890014648438,1499.0,US,MN,Waubun,56589
+31382,21745,M57,seaplane_base,Rangeley Lake Seaplane Base,44.95330047607422,-70.66310119628906,1518.0,US,ME,Rangeley,04970
+31385,21748,M69,seaplane_base,Birch Lake Seaplane Base,46.36970138549805,-93.81390380859376,1278.0,US,MN,Deerwood,56444
+31395,21754,MA12,seaplane_base,Marston Mills Seaplane Base,41.66899871826172,-70.4175033569336,44.0,US,MA,Marstons Mills,02648
+31403,21762,MA2,seaplane_base,Merrimack Valley Seaplane Base,42.70009994506836,-71.21620178222656,50.0,US,MA,Methuen,01810
+31409,21768,MA25,seaplane_base,Long Pond Seaplane Base,41.73210144042969,-70.06109619140625,31.0,US,MA,Brewster,02631
+31410,21769,MA26,balloonport,Balloon Port At Dingley Dell Balloonport,42.120399475097656,-72.2562026977539,465.0,US,MA,Brimfield,01010
+31424,21783,MA40,seaplane_base,Diesel Dogs Seaplane Base,42.543399810791016,-71.96839904785156,325.0,US,MA,Gardner,01440
+31444,21803,MA6,seaplane_base,Monponsett Pond Seaplane Base,42.00979995727539,-70.84310150146484,52.0,US,MA,Halifax,02338
+31449,21808,MA65,seaplane_base,Island Air Service Seaplane Base,41.77180099487305,-70.87310028076172,53.0,US,MA,Rochester,02770
+31458,21817,MA74,seaplane_base,Larson's Seaplane Base,42.69150161743164,-71.41809844970703,90.0,US,MA,Tyngsboro,01879
+31462,21821,MA78,seaplane_base,Russell Mill Pond Seaplane Base,41.91790008544922,-70.62779998779297,55.0,US,MA,Plymouth,02360
+31466,21825,MA82,seaplane_base,Westport Seaplane Base,41.64929962158203,-71.12590026855469,131.0,US,MA,Westport,02721
+31577,21924,MD81,seaplane_base,South River Seaplane Base,38.91469955444336,-76.50469970703125,,US,MD,Edgewater,21037
+31630,21937,ME01,seaplane_base,Crescent Lake Seaplane Base,43.95700073242188,-70.46260070800781,278.0,US,ME,East Raymond,04071
+31633,21940,ME04,seaplane_base,Ilco Landing Area Seaplane Base,46.60950088500977,-69.53060150146484,1031.0,US,ME,Clayton Lake,
+31636,45444,ME07,seaplane_base,Acadian Seaplane Base,44.39805,-68.219583,0.0,US,ME,Bar Harbor,04609
+31638,21944,ME09,seaplane_base,Panther Pond Seaplane Base,43.93009948730469,-70.4531021118164,277.0,US,ME,Raymond,04039
+31639,21945,ME11,seaplane_base,Cooper Seaplane Base,44.34230041503906,-70.28780364990234,373.0,US,ME,Hartford,04220
+31640,21946,ME12,seaplane_base,Brettuns Pond Seaplane Base,44.38779830932617,-70.25450134277344,400.0,US,ME,Livermore,04253
+31653,21958,ME27,seaplane_base,Double A Seaplane Base,44.9009017944336,-68.80229949951172,115.0,US,ME,Glenburn,
+31654,21959,ME28,seaplane_base,Forest Lake Seaplane Base,43.82369995117188,-70.33010101318361,274.0,US,ME,Cumberland,04062
+31655,21960,ME3,seaplane_base,Bradford Camps Seaplane Base,46.39580154418945,-69.00499725341797,815.0,US,ME,Ashland,04732
+31656,21961,ME30,seaplane_base,Greenville Forestry Seaplane Base,45.46680068969727,-69.59950256347656,1028.0,US,ME,Greenville,04441
+31671,21976,ME50,seaplane_base,Cross Lake Seaplane Base,47.1338996887207,-68.33450317382811,578.0,US,ME,Sinclair,04779
+31672,21977,ME51,seaplane_base,Douglass Seaplane Base,43.73699951171875,-70.61060333251953,270.0,US,ME,Standish,04084
+31675,21980,ME57,seaplane_base,Bauneg Beg Seaplane Base,43.35900116,-70.73529816,305.0,US,ME,North Berwick,03906
+31694,21999,ME80,seaplane_base,Dry Pond Seaplane Base,43.93389892578125,-70.35639953613281,309.0,US,ME,Gray,04039
+31696,324644,ME83,seaplane_base,Pickerel Pond Seaplane Base,43.70118,-70.777361,340.0,US,ME,Limerick,04048
+31697,22000,ME85,seaplane_base,Riverside Seaplane Base,45.18339920043945,-69.23560333251953,342.0,US,ME,Dover Foxcroft,04426
+31698,22001,ME86,seaplane_base,Libby Camps Seaplane Base,46.30830001831055,-68.84359741210939,754.0,US,ME,Ashland,04732
+31702,22005,ME90,seaplane_base,Little Ossipee Lake Seaplane Base,43.61309814453125,-70.69640350341797,311.0,US,ME,Waterboro Center,04061
+31710,22011,MFN,seaplane_base,Minuteman Lake Seaplane Base,61.72129821777344,-150.0469970703125,295.0,US,AK,Willow,99674
+31918,22016,MI03,seaplane_base,Read Seaplane Base,46.16889953613281,-85.7936019897461,692.0,US,MI,Curtis,49836
+32187,22110,MN02,seaplane_base,Lake Minnewashta Seaplane Base,44.880501,-93.6091,944.0,US,MN,Excelsior,55331
+32190,22113,MN05,seaplane_base,Jordan Seaplane Base,47.59719848632813,-94.8469009399414,1344.0,US,MN,Bemidji,56601
+32194,22117,MN09,seaplane_base,Crystal Lake Seaplane Base,44.72219848632813,-93.26689910888672,935.0,US,MN,Apple Valley,55306
+32206,22128,MN21,seaplane_base,Rileys Landing Seaplane Base,44.83330154418945,-93.53359985351562,860.0,US,MN,Chanhassen Village,55317
+32214,22136,MN30,seaplane_base,Busch's Fish Lake Seaplane Base,45.09410095214844,-93.46520233154295,870.0,US,MN,Maple Grove,55311
+32219,22141,MN35,seaplane_base,Wild Rice Lake Seaplane Base,46.89989852905274,-92.16210174560548,1380.0,US,MN,Duluth,55803
+32238,22159,MN54,seaplane_base,Gunflint Seaplane Base,48.09159851074219,-90.7083969116211,1543.0,US,MN,Grand Marais,55604
+32257,22177,MN73,seaplane_base,Snell's Seaplane Base,47.64720153808594,-93.74500274658205,1351.0,US,MN,Marcell,56628
+32259,22179,MN75,seaplane_base,Krezowski Seaplane Base,46.7582016,-93.28230286,1214.0,US,MN,Mcgregor,55760
+32260,22180,MN76,seaplane_base,Marty's Tranquility Base,44.699962616,-93.4718933105,911.0,US,MN,Prior Lake,55352
+32264,22184,MN80,seaplane_base,The Pass Seaplane Base,44.914398193359375,-93.6884994506836,930.0,US,MN,Mound,55364
+32796,22487,MT92,seaplane_base,Dave's Landing Seaplane Base,47.59030151367188,-115.33699798583984,2395.0,US,MT,Thompson Falls,59873
+33633,22595,MY21,seaplane_base,Kollar's Shoreview Marine Seaplane Base,45.03329849243164,-93.1251983642578,886.0,US,MN,Shoreview,55113
+33634,22596,MY22,seaplane_base,Hazelglade Resort Seaplane Base,46.1416015625,-93.52110290527344,1250.0,US,MN,Wahkon,56386
+33635,22597,MY23,seaplane_base,Andings Landing Seaplane Base,44.88050079345703,-93.6085968017578,942.0,US,MN,Chanhassen,55331
+33642,22604,MY32,seaplane_base,Rosacker's Nr 2 Seaplane Base,46.36439895629883,-93.86000061035156,1261.0,US,MN,Deerwood,56444
+33643,22605,MY33,seaplane_base,Rosacker's Nr 1 Seaplane Base,45.07690048217773,-93.20439910888672,865.0,US,MN,New Brighton,55112
+33644,22606,MY34,seaplane_base,Jorgensen's Landing Seaplane Base,44.73939895629883,-93.3957977294922,898.0,US,MN,Prior Lake,55372
+33648,22609,MY38,seaplane_base,Irons Point Seaplane Base,47.843299865722656,-92.35070037841795,1358.0,US,MN,Tower,55790
+33654,22615,MY48,seaplane_base,Lake Fremont Seaplane Base,45.45750045776367,-93.57830047607422,974.0,US,MN,Zimmerman,55398
+33672,22633,MY73,seaplane_base,Lake Pulaski Seaplane Base,45.19860076904297,-93.8447036743164,958.0,US,MN,Buffalo,55313
+33673,45484,MY76,seaplane_base,Johnson'S Sea Landing Seaplane Base,47.856094,-92.391675,1300.0,US,MN,Tower,55790
+33679,22639,MY83,seaplane_base,Safe Air Seaplane Base,46.98659896850586,-94.12439727783205,1306.0,US,MN,Longville,56672
+33682,22642,MY86,seaplane_base,Johnson Seaplane Base,45.15079879760742,-93.73999786376952,970.0,US,MN,Rockford,55313
+33689,45486,MY93,seaplane_base,North Air Seaplane Base,46.610833,-95.704444,1370.0,US,MN,Perham,56544
+33692,22651,MY96,seaplane_base,Bahnsen Seaplane Base,44.416698,-93.330804,1004.0,US,MN,Faribault,55021
+34378,321917,NH01,seaplane_base,Bellamy River Seaplane Base,43.1417917,-70.84626120000001,0.0,US,NH,Dover,03820
+34388,321939,NH12,seaplane_base,Evans Seaplane Base,43.038295,-71.468561,182.0,US,NH,Manchester,03106
+34438,23017,NH64,seaplane_base,Pow-Wow Seaplane Base,42.91120147705078,-71.03410339355469,116.0,US,NH,Kingston,03848
+34442,23021,NH68,seaplane_base,Merrymeeting Lake Seaplane Base,43.47999954223633,-71.17019653320312,647.0,US,NH,New Durham,03855
+34445,23024,NH71,seaplane_base,Loons Nest Seaplane Base,43.63869857788086,-71.3230972290039,504.0,US,NH,Tuftonboro,03254
+34471,23046,NJ00,seaplane_base,Ridgefield Park Seaplane Base,40.84590148925781,-74.02870178222656,,US,NJ,Ridgefield Park,07660
+34477,23052,NJ07,seaplane_base,Newport Meadows Seaplane Base,39.43339920043945,-75.40239715576172,,US,NJ,Canton Lower Alloway Creek,
+34570,23144,NK0,seaplane_base,Maus Marineland Seaplane Base,42.81029891967773,-76.31079864501953,863.0,US,NY,New Hope,13118
+34581,23155,NK13,seaplane_base,Snyder's Lake Seaplane Base,42.65840148925781,-73.63849639892578,488.0,US,NY,Wynantskill,12198
+34583,23157,NK15,seaplane_base,Seventh Lake Seaplane Base,43.74280166625977,-74.76190185546875,1785.0,US,NY,Inlet,13360
+34595,23166,NK30,seaplane_base,Private Sealanes-Jamaica Bay Seaplane Base,40.60530090332031,-73.90229797363281,,US,NY,Brooklyn,11234
+34620,23190,NK59,seaplane_base,Copake Lake Seaplane Base,42.14310073852539,-73.59120178222656,715.0,US,NY,Copake,12521
+34621,23191,NK60,seaplane_base,Bostrup's Landing Seaplane Base,43.48479843139648,-74.35179901123047,1725.0,US,NY,Lake Pleasant,12164
+35139,23442,NY61,seaplane_base,Eagle Nest Seaplane Base,43.82979965209961,-74.49539947509766,1790.0,US,NY,Blue Mountain Lake,12842
+35158,45548,NY80,balloonport,Aurora Balloonport,42.696389,-78.56916700000001,900.0,US,NY,South Wales,14139
+35161,23461,NY83,seaplane_base,Essex Boatworks Seaplane Base,44.30009841918945,-73.34960174560547,95.0,US,NY,Essex,12936
+35168,23468,NY9,seaplane_base,Long Lake /Helms Seaplane Base,43.97510147094727,-74.42040252685547,1629.0,US,NY,Long Lake,12847
+35394,23479,O06,seaplane_base,Lake Oroville Landing Area Seaplane Base,39.56660079956055,-121.46800231933594,900.0,US,CA,Oroville,95965
+35396,23481,O12,seaplane_base,Grand Lake St Marys Seaplane Base,40.54100036621094,-84.4906997680664,871.0,US,OH,St Marys,45822
+35775,23720,OI76,seaplane_base,Bieber's Seaplane Base,40.98440170288086,-80.69110107421875,1020.0,US,OH,North Lima,44406
+36084,23849,OOH,seaplane_base,Hoonah Seaplane Base,58.11220169067383,-135.45199584960938,,US,AK,Hoonah,99829
+36443,23986,PA15,seaplane_base,Couillard Seaplane Base,40.775001525878906,-75.14140319824219,210.0,US,PA,Martins Creek,18013
+36518,24058,PA90,seaplane_base,Flat Rock Seaplane Base,40.05619812011719,-75.2666015625,40.0,US,PA,Gladwyne,19035
+36532,16094,PAAP,seaplane_base,Port Alexander Seaplane Base,56.246799468999995,-134.647994995,,US,AK,Port Alexander,99836
+36533,5336,PAAQ,medium_airport,Palmer Buddy Woods Municipal Airport,61.594898,-149.08901,242.0,US,AK,Palmer,99645
+36535,5337,PABA,medium_airport,Barter Island LRRS Airport,70.13400268550001,-143.582000732,2.0,US,AK,Barter Island Lrrs,99747
+36536,5338,PABE,medium_airport,Bethel Airport,60.77980042,-161.8379974,126.0,US,AK,Bethel,99559
+36538,5339,PABI,medium_airport,Allen Army Airfield,63.994499206499995,-145.722000122,1291.0,US,AK,Delta Junction Ft Greely,99731
+36539,5340,PABL,medium_airport,Buckland Airport,65.9815979004,-161.149002075,31.0,US,AK,Buckland,
+36542,5342,PABR,medium_airport,Wiley Post Will Rogers Memorial Airport,71.285402,-156.766008,44.0,US,AK,Utqiaġvik,99723
+36543,5343,PABT,medium_airport,Bettles Airport,66.91390228,-151.529007,647.0,US,AK,Bettles,99726
+36545,5344,PABV,medium_airport,Birchwood Airport,61.41650009,-149.5070038,83.0,US,AK,Birchwood,99567
+36546,5345,PACD,medium_airport,Cold Bay Airport,55.20610046386719,-162.72500610351562,96.0,US,AK,Cold Bay,99571
+36550,5346,PACL,medium_airport,Clear Airport,64.301201,-149.119995,552.0,US,AK,Clear,99744
+36551,5347,PACM,medium_airport,Scammon Bay Airport,61.84529876710001,-165.570999146,14.0,US,AK,Scammon Bay,99662
+36554,5348,PACV,medium_airport,Merle K (Mudhole) Smith Airport,60.49179839999999,-145.4779968,54.0,US,AK,Cordova,99574
+36557,5349,PACZ,medium_airport,Cape Romanzof LRRS Airport,61.78030014,-166.03900149999998,464.0,US,AK,Cape Romanzof,99662
+36558,5350,PADE,medium_airport,Deering Airport,66.0696029663,-162.76600647,21.0,US,AK,Deering,
+36560,16092,PADK,medium_airport,Adak Airport,51.87799835205078,-176.64599609375,18.0,US,AK,Adak Island,99546
+36561,5351,PADL,medium_airport,Dillingham Airport,59.04470062,-158.50500490000002,81.0,US,AK,Dillingham,99576
+36562,5352,PADM,medium_airport,Marshall Don Hunter Sr Airport,61.8642997742,-162.026000977,103.0,US,AK,Marshall,99585
+36563,5353,PADQ,medium_airport,Kodiak Airport,57.75,-152.4940033,78.0,US,AK,Kodiak,99615
+36564,5354,PADU,medium_airport,Unalaska Airport,53.900100708000004,-166.54400634799998,22.0,US,AK,Unalaska,99692
+36566,5355,PAED,medium_airport,Elmendorf Air Force Base,61.2509994506836,-149.8070068359375,212.0,US,AK,Anchorage,99506
+36569,5356,PAEH,medium_airport,Cape Newenham LRRS Airport,58.6464004517,-162.06300354,541.0,US,AK,Cape Newenham,99559
+36570,5357,PAEI,medium_airport,Eielson Air Force Base,64.66570282,-147.102005,547.0,US,AK,Fairbanks,99702
+36571,17178,PAEL,seaplane_base,Elfin Cove Seaplane Base,58.1952018738,-136.347000122,0.0,US,AK,Elfin Cove,99825
+36572,5358,PAEM,medium_airport,Emmonak Airport,62.78609848,-164.49099730000003,13.0,US,AK,Emmonak,99581
+36573,5359,PAEN,medium_airport,Kenai Municipal Airport,60.57310104370117,-151.2449951171875,99.0,US,AK,Kenai,99611
+36576,5360,PAFA,large_airport,Fairbanks International Airport,64.81510162,-147.85600280000003,439.0,US,AK,Fairbanks,99709
+36577,5361,PAFB,medium_airport,Ladd AAF Airfield,64.83750153,-147.6139984,454.0,US,AK,Fairbanks/Ft Wainwright,99703
+36578,5362,PAFE,medium_airport,Kake Airport,56.9613990784,-133.910003662,172.0,US,AK,Kake,99830
+36579,17370,PAFK,seaplane_base,Farewell Lake Seaplane Base,62.54249954223633,-153.6230010986328,1052.0,US,AK,Farewell Lake,99691
+36581,5363,PAFM,medium_airport,Ambler Airport,67.1063,-157.856989,334.0,US,AK,Ambler,99786
+36586,5365,PAGA,medium_airport,Edward G. Pitka Sr Airport,64.73619843,-156.93699650000002,153.0,US,AK,Galena,99741
+36590,5367,PAGK,medium_airport,Gulkana Airport,62.15489960000001,-145.4570007,1586.0,US,AK,Gulkana,99588
+36592,5368,PAGM,medium_airport,Gambell Airport,63.76679992675781,-171.73300170898438,27.0,US,AK,Gambell,99742
+36593,16093,PAGN,seaplane_base,Angoon Seaplane Base,57.503601,-134.58500700000002,,US,AK,Angoon,99820
+36595,5369,PAGS,medium_airport,Gustavus Airport,58.42530060000001,-135.7070007,35.0,US,AK,Gustavus,99826
+36598,17619,PAHC,medium_airport,Holy Cross Airport,62.18830108642578,-159.77499389648438,70.0,US,AK,Holy Cross,99602
+36599,5370,PAHL,medium_airport,Huslia Airport,65.69789886,-156.3509979,220.0,US,AK,Huslia,99746
+36600,5372,PAHN,medium_airport,Haines Airport,59.24380111694336,-135.52400207519528,15.0,US,AK,Haines,99827
+36601,5373,PAHO,medium_airport,Homer Airport,59.64559936523438,-151.4770050048828,84.0,US,AK,Homer,99603
+36602,5374,PAHP,medium_airport,Hooper Bay Airport,61.52389908,-166.1470032,13.0,US,AK,Hooper Bay,99604
+36606,17658,PAHY,seaplane_base,Hydaburg Seaplane Base,55.206298828125,-132.8280029296875,,US,AK,Hydaburg,99922
+36609,5375,PAII,medium_airport,Egegik Airport,58.1855010986,-157.375,92.0,US,AK,Egegik,99579
+36610,5376,PAIK,medium_airport,Bob Baker Memorial Airport,66.9759979248,-160.43699646,166.0,US,AK,Kiana,99749
+36611,5377,PAIL,medium_airport,Iliamna Airport,59.75439835,-154.9109955,192.0,US,AK,Iliamna,99606
+36612,5378,PAIM,medium_airport,Indian Mountain LRRS Airport,65.99279785,-153.7039948,1273.0,US,AK,Utopia Creek,
+36616,5379,PAJN,medium_airport,Juneau International Airport,58.35499954223633,-134.57600402832028,21.0,US,AK,Juneau,99801
+36625,5380,PAKN,medium_airport,King Salmon Airport,58.67679977,-156.6490021,73.0,US,AK,King Salmon,99613
+36627,5381,PAKP,medium_airport,Anaktuvuk Pass Airport,68.13359833,-151.7429962,2102.0,US,AK,Anaktuvuk Pass,99721
+36628,5382,PAKT,medium_airport,Ketchikan International Airport,55.35559845,-131.7140045,89.0,US,AK,Ketchikan,99901
+36631,5383,PAKW,medium_airport,Klawock Airport,55.5792007446,-133.076004028,80.0,US,AK,Klawock,99925
+36635,21567,PALH,seaplane_base,Lake Hood Seaplane Base,61.18000030517578,-149.9720001220703,71.0,US,AK,Anchorage,99502
+36638,5385,PALU,medium_airport,Cape Lisburne LRRS Airport,68.87509918,-166.1100006,16.0,US,AK,Cape Lisburne,99766
+36640,21844,PAMC,medium_airport,McGrath Airport,62.95289993,-155.60600280000003,341.0,US,AK,McGrath,99627
+36645,22496,PAMM,seaplane_base,Metlakatla Seaplane Base,55.13100051879883,-131.5780029296875,,US,AK,Metlakatla,99926
+36647,5386,PAMR,medium_airport,Merrill Field,61.2135009765625,-149.843994140625,137.0,US,AK,Anchorage,99501
+36649,5387,PAMY,medium_airport,Mekoryuk Airport,60.37139892578125,-166.27099609375,48.0,US,AK,Mekoryuk,
+36651,5388,PANC,large_airport,Ted Stevens Anchorage International Airport,61.174400329589844,-149.99600219726562,152.0,US,AK,Anchorage,99502
+36652,16291,PANI,medium_airport,Aniak Airport,61.58160018920898,-159.54299926757812,88.0,US,AK,Aniak,99557
+36653,5390,PANN,medium_airport,Nenana Municipal Airport,64.54730224609375,-149.07400512695312,362.0,US,AK,Nenana,99760
+36655,17468,PANR,seaplane_base,Funter Bay Seaplane Base,58.2543983459,-134.897994995,0.0,US,AK,Funter Bay,
+36656,5391,PANT,medium_airport,Annette Island Airport,55.04240036010742,-131.57200622558594,119.0,US,AK,Annette,99926
+36658,5392,PANV,medium_airport,Anvik Airport,62.646702000000005,-160.190994,291.0,US,AK,Anvik,99558
+36663,5393,PAOM,medium_airport,Nome Airport,64.51219940185547,-165.44500732421875,37.0,US,AK,Nome,99762
+36665,5394,PAOR,medium_airport,Northway Airport,62.96129989999999,-141.9290009,1715.0,US,AK,Northway,99764
+36666,5395,PAOT,medium_airport,Ralph Wien Memorial Airport,66.88469696,-162.598999,14.0,US,AK,Kotzebue,99752
+36668,5396,PAPB,medium_airport,St George Airport,56.5783004761,-169.662002563,125.0,US,AK,St George,99591
+36669,5397,PAPC,medium_airport,Port Clarence Coast Guard Station,65.25370025630001,-166.85899353,10.0,US,AK,Port Clarence,99778
+36671,5398,PAPG,medium_airport,Petersburg James A Johnson Airport,56.80170059,-132.9450073,111.0,US,AK,Petersburg,99833
+36672,5399,PAPH,medium_airport,Port Heiden Airport,56.95909881591797,-158.63299560546875,95.0,US,AK,Port Heiden,99549
+36674,5400,PAPM,medium_airport,Platinum Airport,59.01139831542969,-161.82000732421875,15.0,US,AK,Platinum,99651
+36678,16292,PAQC,seaplane_base,Klawock Seaplane Base,55.5546989440918,-133.10200500488278,,US,AK,Klawock,99925
+36680,5401,PAQT,medium_airport,Nuiqsut Airport,70.2099990845,-151.00599670399998,38.0,US,AK,Nuiqsut,99789
+36681,5402,PARC,medium_airport,Arctic Village Airport,68.1147,-145.578995,2092.0,US,AK,Arctic Village,99722
+36683,5403,PARY,medium_airport,Ruby Airport,64.72720337,-155.47000119999998,658.0,US,AK,Ruby,99768
+36684,5404,PASA,medium_airport,Savoonga Airport,63.6864013671875,-170.4929962158203,53.0,US,AK,Savoonga,99769
+36685,5405,PASC,medium_airport,Deadhorse Airport,70.19470215,-148.46499630000002,65.0,US,AK,Deadhorse,99734
+36686,5406,PASD,medium_airport,Sand Point Airport,55.31499862670898,-160.5229949951172,21.0,US,AK,Sand Point,99661
+36687,5407,PASH,medium_airport,Shishmaref Airport,66.249604,-166.089112,12.0,US,AK,Shishmaref,99772
+36688,5408,PASI,medium_airport,Sitka Rocky Gutierrez Airport,57.04710006713867,-135.36199951171878,21.0,US,AK,Sitka,99835
+36689,5384,PASK,medium_airport,Selawik Airport,66.60009766,-159.98599240000001,17.0,US,AK,Selawik,99770
+36691,5409,PASM,medium_airport,St Mary's Airport,62.0605011,-163.30200200000002,312.0,US,AK,St Mary's,99658
+36692,5410,PASN,medium_airport,St Paul Island Airport,57.16730117797852,-170.22000122070312,63.0,US,AK,St Paul Island,99660
+36696,5411,PASV,medium_airport,Sparrevohn LRRS Airport,61.09740067,-155.5740051,1585.0,US,AK,Sparrevohn,99557
+36698,5412,PASX,medium_airport,Soldotna Airport,60.47570037841797,-151.03399658203125,113.0,US,AK,Soldotna,99669
+36699,5413,PASY,medium_airport,Eareckson Air Station,52.71229935,174.1139984,95.0,US,AK,Shemya,
+36703,5414,PATG,medium_airport,Togiak Airport,59.05279922485352,-160.39700317382812,21.0,US,AK,Togiak Village,99678
+36705,24910,PATK,medium_airport,Talkeetna Airport,62.320499420165994,-150.09399414062,358.0,US,AK,Talkeetna,99676
+36706,5415,PATL,medium_airport,Tatalina LRRS Airport,62.894401550299996,-155.977005005,964.0,US,AK,Takotna,99627
+36707,5416,PATQ,medium_airport,Atqasuk Edward Burnell Sr Memorial Airport,70.46730041503906,-157.43600463867188,96.0,US,AK,Atqasuk,99791
+36716,5418,PAVD,medium_airport,Valdez Pioneer Field,61.13389969,-146.24800109999998,121.0,US,AK,Valdez,99686
+36718,5419,PAVL,medium_airport,Kivalina Airport,67.73619842529297,-164.56300354003906,13.0,US,AK,Kivalina,99750
+36720,5420,PAWD,medium_airport,Seward Airport,60.12689971923828,-149.41900634765625,22.0,US,AK,Seward,99664
+36721,5421,PAWG,medium_airport,Wrangell Airport,56.48429871,-132.36999509999998,49.0,US,AK,Wrangell,99929
+36722,5422,PAWI,medium_airport,Wainwright Airport,70.6380004883,-159.994995117,41.0,US,AK,Wainwright,99782
+36724,5423,PAWN,medium_airport,Noatak Airport,67.56610107421875,-162.97500610351562,88.0,US,AK,Noatak,99761
+36726,5424,PAWS,medium_airport,Wasilla Airport,61.5717010498,-149.539993286,354.0,US,AK,Wasilla,99654
+36729,26343,PAYA,medium_airport,Yakutat Airport,59.503299713100006,-139.660003662,33.0,US,AK,Yakutat,99689
+36741,24080,PEC,seaplane_base,Pelican Seaplane Base,57.955200195312,-136.23599243164,0.0,US,AK,Pelican,99832
+36761,5429,PFYU,medium_airport,Fort Yukon Airport,66.57150268554689,-145.25,433.0,US,AK,Fort Yukon,99740
+37054,5441,PHBK,medium_airport,Barking Sands Airport,22.022800445599998,-159.785003662,23.0,US,HI,Kekaha,
+37055,5442,PHDH,medium_airport,Dillingham Airfield,21.5795001984,-158.197006226,14.0,US,HI,Mokuleia,96791
+37057,5443,PHHI,medium_airport,Wheeler Army Airfield,21.48349953,-158.03999330000002,837.0,US,HI,Wahiawa,96786
+37058,5444,PHHN,medium_airport,Hana Airport,20.79560089111328,-156.01400756835938,78.0,US,HI,Hana,96713
+37059,5446,PHJH,medium_airport,Kapalua Airport,20.962900161743164,-156.67300415039062,256.0,US,HI,Lahaina,96761
+37060,5447,PHJR,medium_airport,Kalaeloa Airport,21.3074,-158.070009,30.0,US,HI,Kapolei,96707
+37061,5448,PHKO,medium_airport,Ellison Onizuka Kona International At Keahole Airport,19.738782999999998,-156.045603,47.0,US,HI,Kailua/Kona,96740
+37064,5449,PHLI,medium_airport,Lihue Airport,21.97599983215332,-159.33900451660156,153.0,US,HI,Lihue,96766
+37066,5450,PHMK,medium_airport,Molokai Airport,21.15290069580078,-157.0959930419922,454.0,US,HI,Kaunakakai,96729
+37067,5451,PHMU,medium_airport,Waimea Kohala Airport,20.001300811767575,-155.66799926757812,2671.0,US,HI,Kamuela,96743
+37068,5452,PHNG,medium_airport,Kaneohe Bay MCAS (Marion E. Carl Field) Airport,21.450500488299998,-157.76800537100002,24.0,US,HI,Kaneohe,96734
+37069,5453,PHNL,large_airport,Daniel K Inouye International Airport,21.32062,-157.924228,13.0,US,HI,Honolulu,96818
+37071,5454,PHNY,medium_airport,Lanai Airport,20.785600662231445,-156.9510040283203,1308.0,US,HI,Lanai City,96763
+37072,5455,PHOG,medium_airport,Kahului Airport,20.8986,-156.429993,54.0,US,HI,Kahului,96779
+37074,5456,PHSF,medium_airport,Bradshaw Army Airfield,19.760099411,-155.554000854,6190.0,US,HI,Camp Pohakuloa,96743
+37075,5457,PHTO,medium_airport,Hilo International Airport,19.721399307250977,-155.04800415039062,38.0,US,HI,Hilo,96720
+37076,5458,PHUP,medium_airport,Upolu Airport,20.265300750732425,-155.86000061035156,96.0,US,HI,Hawi,96719
+37294,24129,PN19,seaplane_base,Hunts Cove Seaplane Base,41.14590072631836,-79.68730163574219,840.0,US,PA,Foxburg,16049
+37299,24133,PN24,seaplane_base,Snider Seaplane Base,40.68339920043945,-79.66639709472656,755.0,US,PA,Freeport,15656
+37339,24172,PN65,seaplane_base,Deer Lakes Seaplane Base,40.639198303222656,-79.693603515625,745.0,US,PA,Natrona Hgts,15065
+37369,5495,PPIZ,medium_airport,Point Lay LRRS Airport,69.73290253,-163.00500490000002,22.0,US,AK,Point Lay,99759
+37562,24333,PWR,seaplane_base,Port Walter Seaplane Base,56.3810005188,-134.651000977,0.0,US,AK,Port Walter,99836
+37609,24336,PYL,seaplane_base,Perry Island Seaplane Base,60.6852989197,-147.91900634799998,0.0,US,AK,Perry Island,99693
+37664,24343,RI06,seaplane_base,Tiverton Seaplane Base,41.64820098876953,-71.15390014648438,205.0,US,RI,Tiverton,02878
+37673,24352,RI16,balloonport,Keskinen Balloonport,41.71480178833008,-71.63729858398438,255.0,US,RI,Coventry Center,02816
+37681,24360,RI28,seaplane_base,Plouffe Landing Seaplane Base,41.87530136,-71.59030151,328.0,US,RI,Glocester,02857
+38915,24380,S60,seaplane_base,Kenmore Air Harbor Inc Seaplane Base,47.7547988892,-122.259002686,14.0,US,WA,Kenmore,98028
+38919,24384,S74,seaplane_base,Lost Isle Seaplane Base,38.00410079956055,-121.45700073242188,,US,CA,Stockton,95206
+38920,24385,S76,seaplane_base,Brooks Seaplane Base,47.67210006713867,-116.78600311279295,2125.0,US,ID,Coeur D'Alene,83814
+38931,24396,S96,seaplane_base,Lake Pend Oreille Seaplane Base,48.21659851074219,-116.36100006103516,2062.0,US,ID,Glengary,83860
+43948,45926,SS1,seaplane_base,North Country Seaplane Base,46.369833,-91.79799999999999,1000.0,US,WI,Solon Springs,54873
+45633,24693,T44,seaplane_base,Trident Basin Seaplane Base,57.780799865722656,-152.39100646972656,,US,AK,Kodiak,99615
+45637,24697,T66,seaplane_base,Visnaw Lake Seaplane Base,61.6189994812,-149.679000854,300.0,US,AK,Wasilla,99623
+45922,24911,TKE,seaplane_base,Tenakee Seaplane Base,57.77970123290999,-135.21800231933997,0.0,US,AK,Tenakee Springs,99841
+45923,24913,TKL,seaplane_base,Taku Lodge Seaplane Base,58.4897003174,-133.942993164,0.0,US,AK,Taku Lodge,
+46258,300312,TWH,seaplane_base,Two Harbors Amphibious Terminal,33.432222222200004,-118.50861111100001,,US,CA,Two Harbors,90704
+47201,45999,US-0086,medium_airport,Jim's Private Airport,33.59790039,-84.14440155,890.0,US,GA,Conyers,30281
+47296,300659,US-0181,seaplane_base,Tavares Seaplane Base,28.800472222199996,-81.72755555559999,62.0,US,FL,Tavares,32778
+47306,301447,US-0191,seaplane_base,Paradise Landing Seaplane Base,28.653888888900003,-81.3769444444,59.0,US,FL,Altamonte Springs,32701
+47369,313358,US-0254,medium_airport,Yuma Auxiliary AAF #2,32.548984000000004,-114.51138300000001,,US,AZ,,85365
+47419,317314,US-0303,large_airport,atl,33.137551,-84.375,,US,U-A,,30292
+47440,320958,US-0324,seaplane_base,Toledo Seaplane Base,41.622202,-83.5534,571.0,US,OH,Toledo,43605
+47441,320959,US-0325,seaplane_base,Steam Boat Bay Seaplane Base,46.397432,-94.37050500000001,1197.0,US,MN,East Gull Lake,56401
+47442,320960,US-0326,seaplane_base,Lake Keystone Seaplane Base,28.135944399999996,-82.593975,42.0,US,FL,Odessa,33556
+47448,321366,US-0332,seaplane_base,Sage Lake Seaplane Base,44.351181,-83.942759,906.0,US,MI,Hale,48739
+47474,321914,US-0358,seaplane_base,Rat Landing Seaplane Base,36.389984000000005,-76.911121,14.0,US,NC,Ahoskie,27986
+47475,321916,US-0359,seaplane_base,Northwoods Romeo Seaplane Base,45.538057,-92.024214,1243.0,US,WI,Cumberland,54829
+47476,321918,US-0360,seaplane_base,Lakeside Seaplane Base,28.792797200000003,-81.65531390000001,65.0,US,FL,Mount Dora,32778
+47477,321921,US-0361,seaplane_base,Mathieu Landing Seaplane Base,47.3940723,-92.4881528,1342.0,US,NV,Eveleth,55734
+47478,321925,US-0362,seaplane_base,Ambersand Beach Seaplane Base,27.8260058,-80.4312989,0.0,US,FL,Sebastian,32963
+47479,321926,US-0363,seaplane_base,Point Seaplane Base,44.953888899999995,-93.5644444,936.0,US,MN,Orono,55391
+47480,321927,US-0364,seaplane_base,Rising Sun Seaplane Base,38.947463899999995,-84.8509667,463.0,US,IN,Rising Sun,47040
+47481,321928,US-0365,seaplane_base,Hut Haven Seaplane Base,43.337701,-76.726725,279.0,US,NY,Fair Haven,13156
+47482,321929,US-0366,seaplane_base,Nils Seaplane Base,41.1700722,-77.4944778,550.0,US,PA,Lock Haven,17745
+47486,321938,US-0370,seaplane_base,Cape Air Seaplanes on Boston Harbor Seaplane Base,42.3525002,-71.02583320000001,0.0,US,MA,Boston,02210
+47600,324423,US-0484,seaplane_base,Haggards Landing Seaplane Base,61.528024,-150.014681,150.0,US,AK,Big Lake,99623
+47638,322803,US-0522,seaplane_base,Wayzata Bay Landing Seaplane Base,44.953888899999995,-93.503889,930.0,US,MN,Wayzata,55391
+47684,324429,US-0568,seaplane_base,Tailwind Boston Seaplane Base,42.351583000000005,-71.024971,0.0,US,MA,Boston,02210
+47687,324440,US-0571,medium_airport,Williston Basin International Airport (U.C.),48.258387,-103.748797,2344.0,US,ND,Williston,58801
+47719,324653,US-0603,seaplane_base,Halifax River Seaplane Base,29.241827,-81.03233,5.0,US,FL,Holly Hill,32117
+47739,324718,US-0623,seaplane_base,Lake Meredith Seaplane Base,38.196313,-103.693761,4254.0,US,CO,Ordway,81063
+47750,324832,US-0634,seaplane_base,Emma's Bay Seaplane Base,46.631941999999995,-94.20092,1206.0,US,MN,Pequot Lakes,56472
+47779,324988,US-0663,seaplane_base,Hurley Memorial Seaport,43.566666,-95.44027700000001,1523.0,US,MN,Round Lake,56167
+47784,325030,US-0668,seaplane_base,Wildhurst Pines Seaplane Base,44.917519,-93.608201,928.0,US,MN,Excelsior,55391
+47854,325532,US-0738,seaplane_base,Moving Cloud Island Seaplane Base,46.029444,-89.686388,1615.0,US,WI,Woodruff,54568
+47858,325543,US-0742,medium_airport,34S Airport,19.145167999999998,-16.875,,US,U-A,,
+47876,325690,US-0760,seaplane_base,Moon Landing Seaplane Base,28.376721999999997,-81.178136,61.0,US,FL,Orlando,32832
+47909,325918,US-0793,seaplane_base,Lake Cochrane Seaplane Base,44.709763,-96.474541,1690.0,US,SD,Gary,57237
+47914,326076,US-0798,seaplane_base,Flying Floats Base Seaplane Base,45.864622,-89.143985,1628.0,US,WI,Three Lakes,54521
+47925,326255,US-0809,seaplane_base,Summer Lakes Seaplane Base,28.5275,-81.48083100000001,70.0,US,FL,Orlando,32835
+47927,326261,US-0811,seaplane_base,Jones Brothers East Seaplane Base,28.794108,-81.652941,65.0,US,FL,Mount Dora,32757
+48470,25380,VA48,seaplane_base,Lockerman Seaplane Base,37.03820037841797,-79.59609985351562,795.0,US,VA,Gretna,24137
+48480,25392,VA60,balloonport,Flying Horse Farm Balloonport,39.05149841308594,-77.77749633789062,450.0,US,VA,Unison,20141
+48875,25456,VG21,seaplane_base,Irvington Marina Seaplane Base,37.65760040283203,-76.43720245361328,,US,VA,Irvington,22576
+49196,25552,VT57,seaplane_base,Malletts Head Seaplane Base,44.56060028076172,-73.24040222167969,95.0,US,VT,Colchester,05446
+49197,25553,VT58,seaplane_base,Stave Island Seaplane Base,44.59590148925781,-73.34760284423828,95.0,US,VT,South Hero,05486
+49389,25576,W26,seaplane_base,Foxair Seaplane Base,44.4989013671875,-88.02230072021484,580.0,US,WI,Green Bay,54301
+49392,25579,W33,seaplane_base,Friday Harbor Seaplane Base,48.537300109899995,-123.010002136,,US,WA,Friday Harbor,98250
+49394,25581,W36,seaplane_base,Will Rogers Wiley Post Memorial Seaplane Base,47.499801635699995,-122.21900177,14.0,US,WA,Renton,98057
+49395,25582,W37,seaplane_base,American Lake Seaplane Base,47.14149856567383,-122.56099700927734,235.0,US,WA,Tacoma,98498
+49396,25583,W39,seaplane_base,Roche Harbor Seaplane Base,48.60820007324219,-123.16000366210938,,US,WA,Roche Harbor,98250
+49399,25586,W49,seaplane_base,Rosario Seaplane Base,48.645698547399995,-122.86799621600001,,US,WA,Rosario,98245
+49402,25589,W55,seaplane_base,Kenmore Air Harbor Seaplane Base,47.6290016174,-122.33899688700001,14.0,US,WA,Seattle,98109
+49424,25610,WA13,seaplane_base,Seaplane Landing Area Seaplane Base,48.20830154418945,-120.59200286865234,1100.0,US,WA,Chelan,98816
+49490,25673,WA81,seaplane_base,Fishermans Bay Seaplane Base,48.516498999999996,-122.917999,0.0,US,WA,Lopez,98261
+49492,25675,WA83,seaplane_base,Westsound/Wsx Seaplane Base,48.617900848400005,-122.95300293,,US,WA,Westsound,98245
+49706,25700,WI04,seaplane_base,Lake Menomin Seaplane Base,44.8916015625,-91.91690063476562,800.0,US,WI,Menomonie,54751
+49741,25729,WI35,seaplane_base,Ceder Lake Seaplane Base,45.21580123901367,-92.57270050048828,917.0,US,WI,New Richmond,54017
+49938,25814,WN19,seaplane_base,Gig Harbor Seaplane Base,47.33980178833008,-122.58999633789062,,US,WA,Gig Harbor,98332
+49939,45928,WN2,seaplane_base,Silver Lake Seaplane Base,45.584444,-91.925833,1248.0,US,WI,Cumberland,54829
+49986,25861,WN66,seaplane_base,Cranberry International Seaplane Base,45.85129928588867,-89.45120239257812,1605.0,US,WI,Eagle River,54521
+50052,25895,WS01,seaplane_base,Archie's Seaplane Base,42.73749923706055,-89.0708999633789,768.0,US,WI,Janesville,53545
+50075,25918,WS24,seaplane_base,Round Lake Seaplane Base,46.00690078735352,-91.3104019165039,1346.0,US,WI,Hayward,54843
+50115,25958,WS64,seaplane_base,Schiffmann Seaplane Base,45.888099670410156,-89.53289794921875,1589.0,US,WI,St Germain,54558
+50132,25975,WS82,seaplane_base,Johnson Island Seaplane Base,45.12670135498047,-88.44329833984375,870.0,US,WI,Mountain,54174
+50143,25979,WSB,seaplane_base,Steamboat Bay Seaplane Base,55.5295982361,-133.641998291,,US,AK,Steamboat Bay,99921
+50144,25980,WSJ,seaplane_base,San Juan /Uganik/ Seaplane Base,57.7304,-153.320999,0.0,US,AK,San Juan,99615
+50157,45902,WT33,seaplane_base,Skid Row Seaplane Base,46.423986,-117.077925,750.0,US,WA,Clarkston,99403
+50199,26018,WV35,seaplane_base,Pomeroy-Mason Seaplane Base,39.02230072021485,-82.02349853515625,538.0,US,WV,Mason,25260
+50201,26020,WV37,seaplane_base,New Martinsville Seaplane Base,39.63589859008789,-80.87039947509766,602.0,US,WV,New Martinsville,26155
+50202,26021,WV38,seaplane_base,West Parkersburg Seaplane Base,39.26539993286133,-81.58599853515625,582.0,US,WV,Parkersburg,26101
+50203,26022,WV39,seaplane_base,Ravenswood Seaplane Base,38.95199966430664,-81.77320098876953,560.0,US,WV,Ravenswood,45770
+50204,26023,WV40,seaplane_base,St Mary's Seaplane Base,39.41370010375977,-81.19979858398438,587.0,US,WV,St Mary's,26170
+50205,26024,WV41,seaplane_base,East Liverpool Seaplane Base,40.62919998168945,-80.5248031616211,665.0,US,WV,East Liverpool - Chester,26034
+50206,26025,WV42,seaplane_base,Weirton - Steubenville Seaplane Base,40.3978004456,-80.6220016479,644.0,US,WV,Weirton,26062
+50207,26026,WV43,seaplane_base,Warwood - Martins Ferry Seaplane Base,40.0931015015,-80.7179031372,623.0,US,WV,Wheeling,26003
+50208,26027,WV44,seaplane_base,Moundsville Seaplane Base,39.92919921875,-80.76509857177734,623.0,US,WV,Moundsville,43947
+50210,26029,WV46,seaplane_base,Wellsburg Seaplane Base,40.267799377441406,-80.61730194091797,644.0,US,WV,Wellsburg,26070
+50242,26061,WWT,seaplane_base,Newtok Seaplane Base,60.935,-164.6267,0.0,US,AK,Newtok,
+50317,26128,X44,seaplane_base,Miami Seaplane Base,25.778299331665,-80.170303344727,0.0,US,FL,Miami,33139
+52362,26348,Z20,seaplane_base,Tuntutuliak Seaplane Base,60.341499328599994,-162.666000366,15.0,US,AK,Tuntutuliak,99680
+52365,26349,Z33,seaplane_base,Aleknagik Seaplane Base,59.27399826049805,-158.62399291992188,7.0,US,AK,Aleknagik,99555
+52368,26352,Z43,seaplane_base,Tamgas Harbor Seaplane Base,55.06800079345703,-131.5570068359375,,US,AK,Annette,99926
+52373,26357,Z58,seaplane_base,Hangar Lake Seaplane Base,60.803323999999996,-161.727024,17.0,US,AK,Bethel,99559
+52374,26358,Z59,seaplane_base,Bethel Seaplane Base,60.7820014954,-161.742996216,15.0,US,AK,Bethel,99559
+52375,26359,Z71,seaplane_base,Cape Pole Seaplane Base,55.9663009644,-133.79699707,0.0,US,AK,Cape Pole,99921
+52376,26360,Z78,seaplane_base,Chignik Bay Seaplane Base,56.295600891099994,-158.401000977,,US,AK,Chignik,99564
+52379,26363,Z87,seaplane_base,Blinn Lake Seaplane Base,55.2515983581543,-162.7530059814453,50.0,US,AK,Cold Bay,99571
