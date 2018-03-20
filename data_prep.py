@@ -318,6 +318,9 @@ def read_sighting_data(data_path, locator):
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
 
+    data = data.filter(["date", "time", "city", "state", "country", "zip_code", "shape", "duration_seconds",
+                        "latitude_deg", "longitude_deg"])
+
     return data
 
 
@@ -351,14 +354,22 @@ def read_meteorite_data(data_path, locator):
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
+    # Get the zip code of each sighting.
+    data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
+                                  axis=1)
+
+    # Get the country of each sighting.
     data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
                                  axis=1)
 
+    # Keep only the entries where the country is the United States.
     data = data.loc[data['country'] == "United States"]
 
-    # Get the address of each sighting.
-    data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
-                                  axis=1)
+    # Get the two digit year for each date.
+    data["year"] = data.apply(lambda x: int(x["date"].split('/', 2)[2]), axis=1)
+
+    # Filter out all the years that are not between 2010 and 2018.
+    data = data[data["year"].between(2010, 2018, inclusive=True)]
 
     data = data.filter(["name", "id", "mass_grams", "date", "time", "country", "zip_code"])
 
