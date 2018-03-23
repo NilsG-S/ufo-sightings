@@ -1,7 +1,8 @@
+import atexit
+import json
 import os
 import pandas
 import pickle
-import atexit
 
 from dotenv import load_dotenv
 from geopy.geocoders import GoogleV3
@@ -376,6 +377,37 @@ def read_meteorite_data(data_path, locator):
     return data
 
 
+def read_military_base_data(data_path, locator):
+    '''
+    read_military_base_data reads in the military base data located at data_path, converts the geojson
+    file into a pandas.DataFrame and cleans the data.
+    :param data_path: <str> the data_path where the military base data is located
+    :param locator: <LocationService> the LocationService to use to get the addresses for the data
+    :return: <pandas.DataFrame> the cleaned meteorite data
+    '''
+
+    # Create a blank DataFrame.
+    data = pandas.DataFrame(columns=["name", "type", "state", "longitude_deg", "latitude_deg"])
+
+    # Load the json file into a python dictionary.
+    json_data = json.load(open(data_path, "r"))
+
+    # Convert the json_data into a DataFrame.
+    for feature in json_data["features"]:
+        name = feature["properties"]["SITE_NAME"]
+        type = feature["properties"]["COMPONENT"]
+        state = feature["properties"]["STATE_TERR"]
+        lon = feature["geometry"]["coordinates"][0]
+        lat = feature["geometry"]["coordinates"][1]
+        data.loc[data.size] = [name, type, state, lon, lat]
+
+    # Get the zip code of each sighting.
+    data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
+                                  axis=1)
+
+    return data
+
+
 # Load the environment file for environment variable.
 load_dotenv("./.env")
 
@@ -396,3 +428,7 @@ sighting_data.to_csv("./CleanData/UFOSightingData.csv", index=False)
 # Clean and save the meteorite data.
 meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
 meteorite_data.to_csv("./CleanData/MeteoriteData.csv", index=False)
+
+# Clean and save the military base data as well as convert it to a csv from a geojson file.
+military_base_data = read_military_base_data("./RawData/MilitaryBases.geojson", locator)
+military_base_data.to_csv("./CleanData/MilitaryBaseData.csv")
