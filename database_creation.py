@@ -5,7 +5,7 @@ import mysql.connector.errorcode
 
 class DBManager:
 
-    def __init__(self, user_name, password, host="localhost"):
+    def __init__(self, user_name, password, database=None, host="localhost"):
 
         try:
             self.db_connection = mysql.connector.connect(host=host, user=user_name, password=password)
@@ -24,6 +24,9 @@ class DBManager:
                 raise error
 
         self.cursor = self.db_connection.cursor()
+
+        if database is not None:
+            self.set_database(database)
 
         atexit.register(self.close_database)
 
@@ -48,11 +51,13 @@ class DBManager:
         else:
             self.reset_cursor()
 
-    def create_table(self):
-        pass
+    def create_table(self, table_sql):
+        self.cursor.execute(table_sql)
 
-    def insert_csv_into_table(self):
-        pass
+    def insert_csv_into_table(self, table_name, csv_file_path):
+        sql = "LOAD DATA INFILE %s INTO TABLE %s;" % (csv_file_path, table_name)
+        self.cursor.execute(sql)
+        self.db_connection.commit()
 
     def close_database(self):
         self.cursor.close()
