@@ -7,9 +7,23 @@ from dotenv import load_dotenv
 
 
 class DBManager:
+    '''
+    DBManager connects to a mariadb database in order to manage it.
+    '''
 
     def __init__(self, user_name, password, database=None, host="localhost"):
+        '''
+        :param user_name: <str> a valid user name to login to the database with
+        :param password: <str> a valid password for the user name passed in to login to the
+            database with
+        :param database: <str|None> the name of the database that is wished to be managed or None if there
+            is not a set database to set.
+            Default: None
+        :param host: <str> the address of the database to connect with
+            Default: "localhost"
+        '''
 
+        # Try to connect to the database.
         try:
             self.db_connection = mysql.connector.connect(host=host, user=user_name, password=password)
 
@@ -26,41 +40,77 @@ class DBManager:
                 print(error)
                 raise error
 
+        # Connect a cursor to the database.
         self.cursor = self.db_connection.cursor()
 
+        # If there is a database passed to connect to, connect to it.
         if database is not None:
             self.set_database(database)
 
+        # Register the self.close_database method to be ran when this object is deleted.
         atexit.register(self.close_database)
 
     def reset_cursor(self):
+        '''
+        reset_cursor resets self.cursor to a new cursor object.
+        :return:None
+        '''
+
         self.cursor.close()
         self.cursor = self.db_connection.cursor()
 
     def create_db(self, database_name):
+        '''
+        create_db creates a new database of name database_name.
+        :param database_name: <str> the name to call the new database
+        :return: None
+        '''
+
         sql = "CREATE DATABASE %s;" % database_name
         self.cursor.execute(sql)
         self.reset_cursor()
 
     def delete_database(self, database_name):
+        '''
+        delete_database deletes the database with the name stored in database_name.
+        :param database_name: <str> the name of the database to delete.
+        :return: None
+        '''
+
         sql = "DROP DATABASE %s;" % database_name
         self.cursor.execute(sql)
         self.reset_cursor()
 
     def set_database(self, database_name):
+        '''
+        set_database sets the working database to the database named database_name.
+        :param database_name: <str> the name of the database to set the working database to.
+        :return: None
+        '''
+
+        # Try to set the databse to database_name.
         try:
             self.db_connection.database = database_name
+
         except mysql.connector.Error as error:
             if error.errno == mysql.connector.errorcode.ER_BAD_DB_ERROR:
                 print("Database named %s does not exist." % database_name)
                 raise error
+
             else:
                 print(error)
                 raise error
+
         else:
             self.reset_cursor()
 
     def database_exists(self, database_name):
+        '''
+        database_exists checks to see if the database database_name exists.
+        :param database_name: <str> the database name to check if it exists
+        :return: <boolean> True if the database exists and False otherwise
+        '''
+
         sql = "SHOW DATABASES LIKE '%s';" % database_name
         self.cursor.execute(sql)
         answer = len(self.cursor.fetchall()) == 1
@@ -70,10 +120,25 @@ class DBManager:
         return answer
 
     def create_table(self, table_name, table_schema):
+        '''
+        create_table creates the table table_name with the table schema table_schema.
+        :param table_name: <str> the table name to create
+        :param table_schema: <str> the table schema to use to create the table
+        :return: None
+        '''
+
         sql = "CREATE TABLE %s %s;" % (table_name, table_schema)
         self.cursor.execute(sql)
 
     def insert_csv_into_table(self, table_name, csv_file_path):
+        '''
+        insert_csv_into_table inserts the csv file located at csv_file_path in to the table
+        named table_name.
+        :param table_name: <str> the table name to insert the csv data into
+        :param csv_file_path: <str> the file path to where the csv file is located
+        :return: None
+        '''
+
         sql = "LOAD DATA LOCAL INFILE '%s' INTO TABLE %s " \
               "FIELDS TERMINATED BY ','" \
               "IGNORE 1 LINES;" % (csv_file_path, table_name)
@@ -81,6 +146,11 @@ class DBManager:
         self.db_connection.commit()
 
     def close_database(self):
+        '''
+        close_database closes the connection to the database.
+        :return: None
+        '''
+
         self.cursor.close()
         self.db_connection.close()
 
