@@ -297,11 +297,14 @@ def read_sighting_data(data_path, locator):
     # Create a date column taken from the date_time column.
     data["date"] = data.apply(lambda x: x["date_time"].split(' ', 1)[0], axis=1)
 
+    # Change the date into Year/Month/Day format from Month/Day/Year.
+    data["date"] = data.apply(lambda x: "{d[2]}/{d[0]}/{d[1]}".format(d=x["date"].split("/")), axis=1)
+
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
     # Get the two digit year for each date.
-    data["year"] = data.apply(lambda x: int(x["date"].split('/', 2)[2]), axis=1)
+    data["year"] = data.apply(lambda x: int(x["date"].split('/')[0]), axis=1)
 
     # Filter out all the years that are not between 2010 and 2018.
     data = data[data["year"].between(10, 18, inclusive=True)]
@@ -352,6 +355,9 @@ def read_meteorite_data(data_path, locator):
     # Create a date column taken from the date_time column.
     data["date"] = data.apply(lambda x: x["date_time"].split(' ', 1)[0], axis=1)
 
+    # Change the date into Year/Month/Day format from Month/Day/Year.
+    data["date"] = data.apply(lambda x: "{d[2]}/{d[0]}/{d[1]}".format(d=x["date"].split("/")), axis=1)
+
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
@@ -367,7 +373,7 @@ def read_meteorite_data(data_path, locator):
     data = data.loc[data['country'] == "United States"]
 
     # Get the two digit year for each date.
-    data["year"] = data.apply(lambda x: int(x["date"].split('/', 2)[2]), axis=1)
+    data["year"] = data.apply(lambda x: int(x["date"].split('/')[0]), axis=1)
 
     # Filter out all the years that are not between 2010 and 2018.
     data = data[data["year"].between(2010, 2018, inclusive=True)]
