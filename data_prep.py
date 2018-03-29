@@ -297,11 +297,14 @@ def read_sighting_data(data_path, locator):
     # Create a date column taken from the date_time column.
     data["date"] = data.apply(lambda x: x["date_time"].split(' ', 1)[0], axis=1)
 
+    # Change the date into Year/Month/Day format from Month/Day/Year.
+    data["date"] = data.apply(lambda x: "{d[2]}/{d[0]}/{d[1]}".format(d=x["date"].split("/")), axis=1)
+
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
     # Get the two digit year for each date.
-    data["year"] = data.apply(lambda x: int(x["date"].split('/', 2)[2]), axis=1)
+    data["year"] = data.apply(lambda x: int(x["date"].split('/')[0]), axis=1)
 
     # Filter out all the years that are not between 2010 and 2018.
     data = data[data["year"].between(10, 18, inclusive=True)]
@@ -352,6 +355,9 @@ def read_meteorite_data(data_path, locator):
     # Create a date column taken from the date_time column.
     data["date"] = data.apply(lambda x: x["date_time"].split(' ', 1)[0], axis=1)
 
+    # Change the date into Year/Month/Day format from Month/Day/Year.
+    data["date"] = data.apply(lambda x: "{d[2]}/{d[0]}/{d[1]}".format(d=x["date"].split("/")), axis=1)
+
     # Create a time column taken from the date_time column.
     data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
 
@@ -367,7 +373,7 @@ def read_meteorite_data(data_path, locator):
     data = data.loc[data['country'] == "United States"]
 
     # Get the two digit year for each date.
-    data["year"] = data.apply(lambda x: int(x["date"].split('/', 2)[2]), axis=1)
+    data["year"] = data.apply(lambda x: int(x["date"].split('/')[0]), axis=1)
 
     # Filter out all the years that are not between 2010 and 2018.
     data = data[data["year"].between(2010, 2018, inclusive=True)]
@@ -408,27 +414,28 @@ def read_military_base_data(data_path, locator):
     return data
 
 
-# Load the environment file for environment variable.
-load_dotenv("./.env")
+if __name__ == "__main__":
+    # Load the environment file for environment variable.
+    load_dotenv("./.env")
 
-# Load the Google API Key from the environment file.
-google_api_key = os.getenv("GOOGLE_API_KEY")
+    # Load the Google API Key from the environment file.
+    google_api_key = os.getenv("GOOGLE_API_KEY")
 
-# Create a LocationService object with the Google API Key.
-locator = LocationService(google_api_key)
+    # Create a LocationService object with the Google API Key.
+    locator = LocationService(google_api_key)
 
-# Clean and save the airport data.
-airport_data = read_airport_data("./RawData/airports.csv", locator)
-airport_data.to_csv("./CleanData/AirportData.csv", index=False)
+    # Clean and save the airport data.
+    airport_data = read_airport_data("./RawData/airports.csv", locator)
+    airport_data.to_csv("./CleanData/AirportData.csv", index=False)
 
-# Clean and save the ufo sighting data.
-sighting_data = read_sighting_data("./RawData/complete.csv", locator)
-sighting_data.to_csv("./CleanData/UFOSightingData.csv", index=False)
+    # Clean and save the ufo sighting data.
+    sighting_data = read_sighting_data("./RawData/complete.csv", locator)
+    sighting_data.to_csv("./CleanData/UFOSightingData.csv", index=False)
 
-# Clean and save the meteorite data.
-meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
-meteorite_data.to_csv("./CleanData/MeteoriteData.csv", index=False)
+    # Clean and save the meteorite data.
+    meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
+    meteorite_data.to_csv("./CleanData/MeteoriteData.csv", index=False)
 
-# Clean and save the military base data as well as convert it to a csv from a geojson file.
-military_base_data = read_military_base_data("./RawData/MilitaryBases.geojson", locator)
-military_base_data.to_csv("./CleanData/MilitaryBaseData.csv")
+    # Clean and save the military base data as well as convert it to a csv from a geojson file.
+    military_base_data = read_military_base_data("./RawData/MilitaryBases.geojson", locator)
+    military_base_data.to_csv("./CleanData/MilitaryBaseData.csv")
