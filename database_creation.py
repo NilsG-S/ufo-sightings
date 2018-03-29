@@ -155,84 +155,85 @@ class DBManager:
         self.db_connection.close()
 
 
-# Load the environment file for environment variable.
-load_dotenv("./.env")
+if __name__ == "__main__":
+    # Load the environment file for environment variable.
+    load_dotenv("./.env")
 
-# Get the database username and password from the .env file.
-db_user_name = os.getenv("DB_USER_NAME")
-db_password = os.getenv("DB_PASSWORD")
+    # Get the database username and password from the .env file.
+    db_user_name = os.getenv("DB_USER_NAME")
+    db_password = os.getenv("DB_PASSWORD")
 
-db_name = "ufo"
+    db_name = "ufo"
 
-# Create a database manager to start editing the database.
-db_manager = DBManager(user_name=db_user_name, password=db_password)
+    # Create a database manager to start editing the database.
+    db_manager = DBManager(user_name=db_user_name, password=db_password)
 
-# If a database named that vale stored in db_name already exists, delete it.
-if db_manager.database_exists(db_name):
-    db_manager.delete_database(db_name)
+    # If a database named that vale stored in db_name already exists, delete it.
+    if db_manager.database_exists(db_name):
+        db_manager.delete_database(db_name)
 
-# Create a database named the value stored in db_name and set the working database to this database.
-db_manager.create_db(db_name)
-db_manager.set_database(db_name)
+    # Create a database named the value stored in db_name and set the working database to this database.
+    db_manager.create_db(db_name)
+    db_manager.set_database(db_name)
 
-# Create AirportData table and put the airportData.csv data into the table.
-airport_data_schema = "(" \
-                      "id int(8) NOT NULL," \
-                      "airport_code varchar(40)," \
-                      "type varchar(40)," \
-                      "name varchar(40)," \
-                      "latitude_deg double(9, 6)," \
-                      "longitude_deg double(9, 6)," \
-                      "elevation int(6)," \
-                      "country varchar(40)," \
-                      "state varchar(40)," \
-                      "city varchar(40)," \
-                      "zip_code int(5)," \
-                      "PRIMARY KEY (id)" \
-                      ")"
-db_manager.create_table("AirportData", airport_data_schema)
-db_manager.insert_csv_into_table("AirportData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/AirportData.csv")
+    # Create AirportData table and put the airportData.csv data into the table.
+    airport_data_schema = "(" \
+                          "id int(8) NOT NULL," \
+                          "airport_code varchar(40)," \
+                          "type varchar(40)," \
+                          "name varchar(40)," \
+                          "latitude_deg double(9, 6)," \
+                          "longitude_deg double(9, 6)," \
+                          "elevation int(6)," \
+                          "country varchar(40)," \
+                          "state varchar(40)," \
+                          "city varchar(40)," \
+                          "zip_code int(5)," \
+                          "PRIMARY KEY (id)" \
+                          ")"
+    db_manager.create_table("AirportData", airport_data_schema)
+    db_manager.insert_csv_into_table("AirportData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/AirportData.csv")
 
-# Create MeteoriteData table and put the airportData.csv data into the table.
-meteorite_data_schema = "(" \
-                        "name varchar(40) NOT NULL," \
-                        "id int(5) NOT NULL," \
-                        "mass_grams double(9, 1)," \
-                        "date date," \
-                        "time time," \
-                        "country varchar(40)," \
-                        "zip_code int(6)," \
-                        "PRIMARY KEY (id)" \
-                        ")"
-db_manager.create_table("MeteoriteData", meteorite_data_schema)
-db_manager.insert_csv_into_table("MeteoriteData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/MeteoriteData.csv")
-
-# Create MilitaryBaseData table and put the airportData.csv data into the table.
-military_base_data_schema = "(" \
-                            "id int(8) NOT NULL," \
-                            "name varchar(40)," \
-                            "type varchar(40)," \
-                            "state varchar(40)," \
-                            "longitude_deg double(9, 6)," \
-                            "latitude_deg double(9, 6)," \
-                            "zip_code int(5)," \
+    # Create MeteoriteData table and put the airportData.csv data into the table.
+    meteorite_data_schema = "(" \
+                            "name varchar(40) NOT NULL," \
+                            "id int(5) NOT NULL," \
+                            "mass_grams double(9, 1)," \
+                            "date date," \
+                            "time time," \
+                            "country varchar(40)," \
+                            "zip_code int(6)," \
                             "PRIMARY KEY (id)" \
                             ")"
-db_manager.create_table("MilitaryBaseData", military_base_data_schema)
-db_manager.insert_csv_into_table("MilitaryBaseData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/MilitaryBaseData.csv")
+    db_manager.create_table("MeteoriteData", meteorite_data_schema)
+    db_manager.insert_csv_into_table("MeteoriteData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/MeteoriteData.csv")
 
-# Create UFOSightingData table and put the airportData.csv data into the table.
-ufo_sighting_data_schema = "(" \
-                           "date date," \
-                           "time time," \
-                           "city varchar(40)," \
-                           "state varchar(40)," \
-                           "country varchar(40)," \
-                           "zip_code int(5)," \
-                           "shape varchar(40)," \
-                           "duration_seconds int(9)," \
-                           "latitude_deg double(9, 6)," \
-                           "longitude_deg double(9, 6)" \
-                           ")"
-db_manager.create_table("UFOSightingData", ufo_sighting_data_schema)
-db_manager.insert_csv_into_table("UFOSightingData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/UFOSightingData.csv")
+    # Create MilitaryBaseData table and put the airportData.csv data into the table.
+    military_base_data_schema = "(" \
+                                "id int(8) NOT NULL," \
+                                "name varchar(40)," \
+                                "type varchar(40)," \
+                                "state varchar(40)," \
+                                "longitude_deg double(9, 6)," \
+                                "latitude_deg double(9, 6)," \
+                                "zip_code int(5)," \
+                                "PRIMARY KEY (id)" \
+                                ")"
+    db_manager.create_table("MilitaryBaseData", military_base_data_schema)
+    db_manager.insert_csv_into_table("MilitaryBaseData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/MilitaryBaseData.csv")
+
+    # Create UFOSightingData table and put the airportData.csv data into the table.
+    ufo_sighting_data_schema = "(" \
+                               "date date," \
+                               "time time," \
+                               "city varchar(40)," \
+                               "state varchar(40)," \
+                               "country varchar(40)," \
+                               "zip_code int(5)," \
+                               "shape varchar(40)," \
+                               "duration_seconds int(9)," \
+                               "latitude_deg double(9, 6)," \
+                               "longitude_deg double(9, 6)" \
+                               ")"
+    db_manager.create_table("UFOSightingData", ufo_sighting_data_schema)
+    db_manager.insert_csv_into_table("UFOSightingData", "/Users/okoepke/Desktop/ufo-sightings/CleanData/UFOSightingData.csv")
