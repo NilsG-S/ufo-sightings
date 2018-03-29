@@ -408,27 +408,28 @@ def read_military_base_data(data_path, locator):
     return data
 
 
-# Load the environment file for environment variable.
-load_dotenv("./.env")
+if __name__ == "__main__":
+    # Load the environment file for environment variable.
+    load_dotenv("./.env")
 
-# Load the Google API Key from the environment file.
-google_api_key = os.getenv("GOOGLE_API_KEY")
+    # Load the Google API Key from the environment file.
+    google_api_key = os.getenv("GOOGLE_API_KEY")
 
-# Create a LocationService object with the Google API Key.
-locator = LocationService(google_api_key)
+    # Create a LocationService object with the Google API Key.
+    locator = LocationService(google_api_key)
 
-# Clean and save the airport data.
-airport_data = read_airport_data("./RawData/airports.csv", locator)
-airport_data.to_csv("./CleanData/AirportData.csv", index=False)
+    # Clean and save the airport data.
+    airport_data = read_airport_data("./RawData/airports.csv", locator)
+    airport_data.to_csv("./CleanData/AirportData.csv", index=False)
 
-# Clean and save the ufo sighting data.
-sighting_data = read_sighting_data("./RawData/complete.csv", locator)
-sighting_data.to_csv("./CleanData/UFOSightingData.csv", index=False)
+    # Clean and save the ufo sighting data.
+    sighting_data = read_sighting_data("./RawData/complete.csv", locator)
+    sighting_data.to_csv("./CleanData/UFOSightingData.csv", index=False)
 
-# Clean and save the meteorite data.
-meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
-meteorite_data.to_csv("./CleanData/MeteoriteData.csv", index=False)
+    # Clean and save the meteorite data.
+    meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
+    meteorite_data.to_csv("./CleanData/MeteoriteData.csv", index=False)
 
-# Clean and save the military base data as well as convert it to a csv from a geojson file.
-military_base_data = read_military_base_data("./RawData/MilitaryBases.geojson", locator)
-military_base_data.to_csv("./CleanData/MilitaryBaseData.csv")
+    # Clean and save the military base data as well as convert it to a csv from a geojson file.
+    military_base_data = read_military_base_data("./RawData/MilitaryBases.geojson", locator)
+    military_base_data.to_csv("./CleanData/MilitaryBaseData.csv")
