@@ -21,16 +21,11 @@ const base = {
 
   entry: {
     app: [
-      './src/index.jsx',
+      './src/ui/index.jsx',
     ],
   },
 
   module: {
-    /*
-      Loaders for specific file endings. Each one can be composed
-      of multiple other loaders. For example, the loader for css
-      files uses style-loader and css-loader.
-    */
     rules: [
       {
         test: /\.(js|jsx)$/,

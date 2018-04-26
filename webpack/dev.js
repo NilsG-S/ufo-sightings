@@ -7,6 +7,7 @@ const base = require('./base.js');
 const buildPath = path.resolve(__dirname, '../public');
 
 const dev = webpackMerge(base, {
+  mode: 'development',
   // Enables source maps that can be accessed in browser dev tools
   devtool: 'cheap-module-eval-source-map',
 
