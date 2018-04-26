@@ -5,6 +5,9 @@
   "repository": "git@github.com:NilsG-S/ufo-sightings.git",
   "author": "NilsG-S <nils.griswold.steiner@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --env=dev"
+  },
   "babel": {
     "presets": [
       [
