@@ -1,0 +1,57 @@
+{
+  "name": "ufo-sightings",
+  "version": "0.1.0",
+  "main": "src/ui/index.jsx",
+  "repository": "git@github.com:NilsG-S/ufo-sightings.git",
+  "author": "NilsG-S <nils.griswold.steiner@gmail.com>",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "8.9"
+          }
+        }
+      ],
+      "react"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "no-unused-imports": 0,
+      "import/no-extraneous-dependencies": 0,
+      "import/extensions": 0,
+      "import/no-unresolved": 0,
+      "jsx-quotes": [
+        2,
+        "prefer-single"
+      ]
+    }
+  },
+  "dependencies": {
+    "loglevel": "^1.6.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^4.6.0",
+    "webpack-dev-server": "^3.1.3",
+    "webpack-merge": "^4.1.2"
+  }
+}
