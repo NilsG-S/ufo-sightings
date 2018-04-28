@@ -256,6 +256,17 @@ def read_airport_data(data_path, locator):
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                  axis=1)
 
+    # Get the county of each airport.
+    data["county"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_county(),
+                                  axis=1)
+
+    # Get the state of each airport.
+    data["state"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_state(),
+                                axis=1)
+
+    data = data.filter(["id", "airport_code", "name", "type", "latitude_deg", "longitude_deg", "city",
+                        "zip_code", "county", "state", "country"])
+
     return data
 
 
@@ -328,61 +339,6 @@ def read_sighting_data(data_path, locator):
     return data
 
 
-def read_meteorite_data(data_path, locator):
-    '''
-    read_meteorite_data reads in the meteorite data located at data_path and cleans the data.
-    :param data_path: <str> the data_path where the meteorite data is located
-    :param locator: <LocationService> the LocationService to use to get the addresses for the data
-    :return: <pandas.DataFrame> the cleaned meteorite data
-    '''
-
-    data = pandas.read_csv(data_path)
-
-    # Remove unnecessary columns.
-    data = data.filter(["name", "id", "mass (g)", "fall", "year", "reclat", "reclong"])
-
-    # Rename some of the columns to better names.
-    data = data.rename(columns={"mass (g)": "mass_grams", "year": "date_time",
-                                "reclat": "latitude_deg", "reclong": "longitude_deg"})
-
-    data = data.loc[(~data["date_time"].isnull()) & (~data["mass_grams"].isnull()) &
-                    (~data["latitude_deg"].isnull()) & (~data["longitude_deg"].isnull()) &
-                    (data["fall"] == "Fell")]
-
-    # Keep only the entries where date_time follows the format "mm/dd/yy hh:mm:ss AM or PM".
-    data = data.loc[(data["date_time"].str.match("\\d+/\\d+/\\d+ \\d+:\\d+:\\d+ (AM|PM)"))]
-
-    # Create a date column taken from the date_time column.
-    data["date"] = data.apply(lambda x: x["date_time"].split(' ', 1)[0], axis=1)
-
-    # Change the date into Year/Month/Day format from Month/Day/Year.
-    data["date"] = data.apply(lambda x: "{d[2]}/{d[0]}/{d[1]}".format(d=x["date"].split("/")), axis=1)
-
-    # Create a time column taken from the date_time column.
-    data["time"] = data.apply(lambda x: x["date_time"].split(' ', 1)[1], axis=1)
-
-    # Get the zip code of each sighting.
-    data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
-                                  axis=1)
-
-    # Get the country of each sighting.
-    data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
-                                 axis=1)
-
-    # Keep only the entries where the country is the United States.
-    data = data.loc[data['country'] == "United States"]
-
-    # Get the two digit year for each date.
-    data["year"] = data.apply(lambda x: int(x["date"].split('/')[0]), axis=1)
-
-    # Filter out all the years that are not between 2010 and 2018.
-    data = data[data["year"].between(2010, 2018, inclusive=True)]
-
-    data = data.filter(["name", "id", "mass_grams", "date", "time", "country", "zip_code"])
-
-    return data
-
-
 def read_military_base_data(data_path, locator):
     '''
     read_military_base_data reads in the military base data located at data_path, converts the geojson
@@ -431,10 +387,6 @@ if __name__ == "__main__":
     # Clean and save the ufo sighting data.
     sighting_data = read_sighting_data("./RawData/complete.csv", locator)
     sighting_data.to_csv("./CleanData/UFOSightingData.csv", index=False)
-
-    # Clean and save the meteorite data.
-    meteorite_data = read_meteorite_data("./RawData/Meteorite_Landings.csv", locator)
-    meteorite_data.to_csv("./CleanData/MeteoriteData.csv", index=False)
 
     # Clean and save the military base data as well as convert it to a csv from a geojson file.
     military_base_data = read_military_base_data("./RawData/MilitaryBases.geojson", locator)
