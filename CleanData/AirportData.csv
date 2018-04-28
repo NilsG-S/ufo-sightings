@@ -40,9 +40,7 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 7757,12FL,Timberlachen Seaplane Base,seaplane_base,28.59280014038086,-81.40390014648438,Orlando,32804,Orange County,Florida,US
 7759,12GE,Harvest Lake Seaplane Base,seaplane_base,31.73080062866211,-81.35970306396484,Riceboro,31323,Liberty County,Georgia,US
 7760,12I,Brookville Reservoir Seaplane Base,seaplane_base,39.51029968261719,-85.0,Brookville,47012,Franklin County,Indiana,US
-7767,12JY,Clinton Elks Lodge Balloonport,balloonport,40.60419845581055,-74.9207992553711,Pittstown,08867,Hunterdon County,New Jersey,US
 7777,12MN,Eastman Seaplane Base,seaplane_base,46.48049926757813,-94.28109741210938,Lake Hubert,56468,Crow Wing County,Minnesota,US
-7829,13M,Aeronut Park Balloonport,balloonport,42.60419845581055,-83.85859680175781,Howell,48843,Livingston County,Michigan,US
 7852,13S,Lake Louise Seaplane Base,seaplane_base,62.28290176391602,-146.5189971923828,Lake Louise,99588,Matanuska-Susitna,Alaska,US
 7866,13Z,Loring Seaplane Base,seaplane_base,55.601299285900005,-131.636993408,Loring,99901,Ketchikan Gateway,Alaska,US
 7994,16K,Port Alice Seaplane Base,seaplane_base,55.803000000000004,-133.597,Port Alice,99921,Prince of Wales-Hyder Census Area,Alaska,US
@@ -76,7 +74,6 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 9064,25MN,Shirt Lake Seaplane Base,seaplane_base,46.43059921264648,-93.83309936523438,Deerwood,56444,Crow Wing County,Minnesota,US
 9158,27MA,Wamsetto Seaplane Base,seaplane_base,41.82059860229492,-71.11470031738281,Berkley,02779,Bristol County,Massachusetts,US
 9210,28MN,Vasa Park Seaplane Base,seaplane_base,44.963600158691406,-93.62249755859376,Spring Park,55356,Hennepin County,Minnesota,US
-9213,28NC,Balloonport of Greensboro Balloonport,balloonport,35.9557991027832,-79.81890106201172,Greensboro,27406,Guilford County,North Carolina,US
 9233,29A,Island Lake Seaplane Base,seaplane_base,61.628898620600005,-149.617996216,Wasilla,99623,Matanuska-Susitna,Alaska,US
 9243,29FA,Caloosa Downtown Seaplane Base,seaplane_base,26.63500022888184,-81.875,Fort Myers,33901,Lee County,Florida,US
 9255,29LS,L Auberge du Lac Hotel Seaplane Base,seaplane_base,30.207801,-93.265298,Lake Charles,70601,Calcasieu Parish,Louisiana,US
@@ -85,7 +82,6 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 9283,2A4,Vor Lake Waterlane Seaplane Base,seaplane_base,66.89929962158203,-151.4720001220703,Bettles,99726,Yukon-Koyukuk,Alaska,US
 9366,2D3,Gooding Lake Seaplane Base,seaplane_base,61.62770080566406,-149.23899841308594,Palmer,99654,Matanuska-Susitna,Alaska,US
 9401,2G6,Mc Laughlin Seaplane Base,seaplane_base,37.3205986023,-77.3458023071,Chester,23836,Chesterfield County,Virginia,US
-45530,2JY7,Alba Vineyard Balloonport,balloonport,40.615689,-75.164167,Milford,08865,Warren County,New Jersey,US
 9511,2LA3,Exxon Intracoastal City Terminal Seaplane Base,seaplane_base,29.824899673461914,-92.13289642333984,Intracoastal City,70510,Vermilion Parish,Louisiana,US
 9529,2M5,Stockton Lake Seaplane Base,seaplane_base,37.650001525878906,-93.7584991455078,Stockton,65785,Cedar County,Missouri,US
 9535,2MA6,Flynns Noquochoke Seaplane Base,seaplane_base,41.59360122680664,-71.06529998779297,Westport,02790,Bristol County,Massachusetts,US
@@ -108,7 +104,6 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 9944,30W,Sweetwater Bay Seaplane Base,seaplane_base,44.95190048217773,-87.80840301513672,Oconto,54153,Oconto County,Wisconsin,US
 10085,34FA,Gezik Seaplane Base,seaplane_base,28.25189971923828,-80.66889953613281,Rockledge,32952,Brevard County,Florida,US
 10101,34MN,Peil/Juliar Seaplane Base,seaplane_base,44.959999084472656,-93.64939880371094,Mound,55364,Hennepin County,Minnesota,US
-10140,35JY,Cyber Density Balloon Spot Balloonport,balloonport,40.43439865112305,-74.63469696044922,Belle Mead,08502,Somerset County,New Jersey,US
 45522,35NH,Cobbetts Pond Seaplane Base,seaplane_base,42.806914,-71.275853,Windham,03087,Rockingham County,New Hampshire,US
 10183,36H,Squaw Harbor Seaplane Base,seaplane_base,55.2332992554,-160.552001953,Squaw Harbor,99661,Aleutians East,Alaska,US
 45870,36VT,North Hero Passage Seaplane Base,seaplane_base,44.854721999999995,-73.285556,North Hero,05474,Grand Isle County,Vermont,US
@@ -146,9 +141,7 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 11609,4NJ2,Passaic River Seaplane Base,seaplane_base,40.82929992675781,-74.12039947509766,Rutherford,07070,Bergen County,New Jersey,US
 11628,4NY2,Edo Seaplane Base,seaplane_base,40.78340148925781,-73.86620330810547,College Point,11356,Queens County,New York,US
 11635,4O6,Cherokee Seaplane Base,seaplane_base,36.58340072631836,-94.91690063476562,Afton,74331,Delaware County,Oklahoma,US
-11644,4OH6,Wingfoot Lake Airship Operations Balloonport,balloonport,41.009498596191406,-81.35790252685547,Akron Suffield,44260,Portage County,Ohio,US
 11677,4P5,Franks Seaplane Base,seaplane_base,45.88330078125,-90.00019836425781,Lac Du Flambeau,54538,Oneida County,Wisconsin,US
-45760,4PS3,Paraport Airstrip,medium_airport,41.788416999999995,-79.518586,Warren,16436,Warren County,Pennsylvania,US
 11820,4Z7,Hyder Seaplane Base,seaplane_base,55.903324,-130.009975,Hyder,99923,,Alaska,US
 11840,50MI,Burgess Lake Seaplane Base,seaplane_base,43.15729904174805,-85.29419708251953,Greenville,48838,Montcalm County,Michigan,US
 11878,51MI,Cass Lake-Cove Island Seaplane Base,seaplane_base,42.6161003112793,-83.35600280761719,Pontiac,48328,Oakland County,Michigan,US
@@ -157,14 +150,11 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 11963,53LA,Shell Central Facilities Seaplane Base,seaplane_base,29.05719947814941,-89.30280303955078,Venice,70091,Plaquemines Parish,Louisiana,US
 11989,54AK,Kalmbach Lake Seaplane Base,seaplane_base,61.60710144042969,-149.57400512695312,Wasilla,99654,Matanuska-Susitna,Alaska,US
 12014,54NJ,Highlands Seaplane Base,seaplane_base,40.41680145263672,-73.99960327148438,Highlands,07732,Monmouth County,New Jersey,US
-12057,55NJ,Garden State Balloonport,balloonport,40.633399963378906,-74.76629638671875,Whitehouse,08889,Hunterdon County,New Jersey,US
 12114,57A,Tokeen Seaplane Base,seaplane_base,55.937099456800006,-133.32699585,Tokeen,99921,Prince of Wales-Hyder Census Area,Alaska,US
 12115,57AK,Lost Lake SPB Seaplane Base,seaplane_base,61.3349990845,-149.996994019,Wasilla,99654,Matanuska-Susitna,Alaska,US
 12137,57MN,Namakan Seaplane Base,seaplane_base,48.40679931640625,-92.66680145263672,Ray,55771,St. Louis County,Minnesota,US
 12158,58A,Tolsona Lake Seaplane Base,seaplane_base,62.11339950559999,-146.041000366,Tolsona Lake,99588,Valdez-Cordova,Alaska,US
 12183,58NJ,Harrah's Landing Seaplane Base,seaplane_base,39.38619995117188,-74.4260025024414,Atlantic City,08401,Atlantic County,New Jersey,US
-46296,59ID,Palisades Field,balloonport,43.184833000000005,-111.049361,Palisades,83428,Bonneville County,Idaho,US
-12243,5A8,Aleknagik / New Airport,medium_airport,59.2826004028,-158.617996216,Aleknagik,99555,Dillingham,Alaska,US
 12244,5AK,Tazlina /Smokey Lake/ Seaplane Base,seaplane_base,62.0634002686,-146.44900512700002,Tazlina,99588,Valdez-Cordova,Alaska,US
 12254,5AL,Fish River Seaplane Base,seaplane_base,30.45000076293945,-87.80780029296875,Fairhope,36532,Baldwin County,Alabama,US
 12287,5BL,Homer-Beluga Lake Seaplane Base,seaplane_base,59.64469909667969,-151.5019989013672,Homer,99603,Kenai Peninsula Borough,Alaska,US
@@ -175,7 +165,6 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 12412,5IN8,Crooked Lake Seaplane Base,seaplane_base,41.672401,-85.041395,Angola,46703,Steuben County,Indiana,US
 12422,5J2,Siltcoos Lake Seaplane Base,seaplane_base,43.86650085449219,-124.08499908447266,Florence,97493,Lane County,Oregon,US
 12429,5KE,Ketchikan Harbor Seaplane Base,seaplane_base,55.349899,-131.67700200000002,Ketchikan,99901,Ketchikan Gateway,Alaska,US
-12432,5KS0,Anthony Balloonport,balloonport,37.09450149536133,-97.9614028930664,Anthony,67003,Harper County,Kansas,US
 12446,5L6,Wasilla Lake Seaplane Base,seaplane_base,61.5863990784,-149.408004761,Wasilla,99654,Matanuska-Susitna,Alaska,US
 12453,5LA6,E-8 Tank Battery Seaplane Base,seaplane_base,28.950199127197266,-89.38780212402344,Venice,70091,Plaquemines Parish,Louisiana,US
 12476,5MA8,South Pond Seaplane Base,seaplane_base,42.00870132446289,-72.76260375976562,Southwick,06093,Hartford County,Connecticut,US
@@ -302,7 +291,6 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 16712,CGA,Craig Seaplane Base,seaplane_base,55.47880172729492,-133.14799499511722,Craig,99921,Prince of Wales-Hyder Census Area,Alaska,US
 312506,CIV,Chomley Seaplane Base,seaplane_base,55.217,-132.21,Chomley,99921,Prince of Wales-Hyder Census Area,Alaska,US
 16830,CN20,Ferndale Resort Seaplane Base,seaplane_base,39.00299835205078,-122.7969970703125,Kelseyville,95451,Lake County,California,US
-16882,CO28,Suckla Farms Balloonport,balloonport,40.05830001831055,-104.89199829101562,Dacono,80621,Weld County,Colorado,US
 16973,CT16,Fetske Seaplane Base,seaplane_base,41.375099182128906,-72.37449645996094,Essex,06371,New London County,Connecticut,US
 16987,CT30,Nayaug Seaplane Landing Area Seaplane Base,seaplane_base,41.63899993896485,-72.62809753417969,South Glastonbury,06073,Hartford County,Connecticut,US
 17033,CT78,Lord Creek Seaplane Base,seaplane_base,41.35150146484375,-72.3551025390625,Lyme,06371,New London County,Connecticut,US
@@ -356,778 +344,199 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 18173,IS03,Fox Lake Seaplane Base,seaplane_base,42.41640090942383,-88.15540313720703,Fox Lake,60002,Lake County,Illinois,US
 18188,IS23,Turner Seaplane Base,seaplane_base,42.0099983215332,-88.29109954833984,South Elgin,60177,Kane County,Illinois,US
 18233,IS79,Jackson Seaplane Base,seaplane_base,42.23669815063477,-88.35230255126953,Crystal Lake,60014,McHenry County,IL,US
-18263,JY03,View Finder Balloonport,balloonport,40.737300872802734,-75.0459976196289,Broadway,07882,Warren County,New Jersey,US
-18292,JY33,Harmony Balloonport,balloonport,40.73949813842773,-75.13800048828125,Phillipsburg,08865,Warren County,New Jersey,US
 18294,JY35,Allen's Seaplane Base,seaplane_base,40.03350067138672,-74.05789947509766,Brick,08738,Ocean County,New Jersey,US
-18299,JY42,Mabel's Balloonport,balloonport,40.468299865722656,-75.0238037109375,Frenchtown,08825,Hunterdon County,New Jersey,US
 45557,K03,Long Lake Sagamore Seaplane Base & Marina,seaplane_base,43.968951000000004,-74.428772,Long Lake,12847,Hamilton County,New York,US
 18531,K21,Rouses Point Seaplane Base,seaplane_base,44.99169921875,-73.363502502441,Rouses Point,12979,Clinton County,New York,US
 18755,K40,Anvik Seaplane Base,seaplane_base,62.65620040893555,-160.2050018310547,Anvik,99558,Yukon-Koyukuk,Alaska,US
-19042,K79J,South Alabama Regional At Bill Benton Field Airport,medium_airport,31.3088,-86.393799,Andalusia/Opp,36421,Covington County,Alabama,US
-3356,KABE,Lehigh Valley International Airport,medium_airport,40.652099609375,-75.44080352783203,Allentown,18109,Lehigh County,Pennsylvania,US
-3357,KABI,Abilene Regional Airport,medium_airport,32.4113006592,-99.68190002440001,Abilene,79602,Taylor County,Texas,US
 16091,KABQ,Albuquerque International Sunport Airport,large_airport,35.040199,-106.609001,Albuquerque,87106,Bernalillo County,New Mexico,US
-3358,KABR,Aberdeen Regional Airport,medium_airport,45.44910049438477,-98.42179870605469,Aberdeen,57401,Brown County,South Dakota,US
-3359,KABY,Southwest Georgia Regional Airport,medium_airport,31.535499572753906,-84.19450378417969,Albany,31701,Dougherty County,Georgia,US
-3360,KACK,Nantucket Memorial Airport,medium_airport,41.25310135,-70.06020355,Nantucket,02554,Nantucket County,Massachusetts,US
-3361,KACT,Waco Regional Airport,medium_airport,31.61129951477051,-97.23049926757812,Waco,76708,McLennan County,Texas,US
-3362,KACV,California Redwood Coast-Humboldt County Airport,medium_airport,40.978101,-124.109,Arcata/Eureka,95519,Humboldt County,California,US
-3363,KACY,Atlantic City International Airport,medium_airport,39.45759963989258,-74.57720184326172,Atlantic City,08215,Atlantic County,New Jersey,US
 3364,KADW,Andrews Air Force Base,large_airport,38.810798999999996,-76.866997,Camp Springs,20762,Prince George's County,Maryland,US
 19240,KAE,Kake Seaplane Base,seaplane_base,56.9729995728,-133.945999146,Kake,99830,Petersburg Borough,Alaska,US
-3365,KAEX,Alexandria International Airport,medium_airport,31.32740020751953,-92.54979705810548,Alexandria,71303,Rapides Parish,Louisiana,US
 3366,KAFW,Fort Worth Alliance Airport,large_airport,32.9875984192,-97.3188018799,Fort Worth,76177,Tarrant County,Texas,US
-3367,KAGC,Allegheny County Airport,medium_airport,40.354400634765625,-79.9301986694336,Pittsburgh,15122,Allegheny County,Pennsylvania,US
 3368,KAGS,Augusta Regional At Bush Field,large_airport,33.36989974975586,-81.9645004272461,Augusta,30906,Richmond County,Georgia,US
-3369,KAHN,Athens Ben Epps Airport,medium_airport,33.94860076904297,-83.32630157470703,Athens,30605,Clarke County,Georgia,US
-3370,KAKR,Akron Fulton International Airport,medium_airport,41.0374984741,-81.46690368649999,Akron,44306,Summit County,Ohio,US
-3371,KALB,Albany International Airport,medium_airport,42.74829864501953,-73.80169677734375,Albany,12211,Albany County,New York,US
-3372,KALI,Alice International Airport,medium_airport,27.740900039699998,-98.02690124510002,Alice,78332,Jim Wells County,Texas,US
-3373,KALM,Alamogordo White Sands Regional Airport,medium_airport,32.839900970500004,-105.990997314,Alamogordo,88310,Otero County,New Mexico,US
-3374,KALN,St Louis Regional Airport,medium_airport,38.89030075069999,-90.04599761959999,Alton/St Louis,62010,Madison County,Illinois,US
-3375,KALO,Waterloo Regional Airport,medium_airport,42.55709838867188,-92.40029907226562,Waterloo,50703,Black Hawk County,Iowa,US
-19275,KALS,San Luis Valley Regional Bergman Field,medium_airport,37.434898,-105.866997,Alamosa,81101,Alamosa County,Colorado,US
-3376,KALW,Walla Walla Regional Airport,medium_airport,46.09489822,-118.288002,Walla Walla,99362,Walla Walla County,Washington,US
 3377,KAMA,Rick Husband Amarillo International Airport,large_airport,35.219398,-101.706001,Amarillo,79111,Potter County,Texas,US
-3378,KANB,Anniston Metropolitan Airport,medium_airport,33.58819962,-85.85810089,Anniston,36203,Calhoun County,Alabama,US
-3379,KAND,Anderson Regional Airport,medium_airport,34.4945983887,-82.70939636230001,Anderson,29626,Anderson County,South Carolina,US
-3380,KAOO,Altoona Blair County Airport,medium_airport,40.29639816,-78.31999969,Altoona,16662,Blair County,Pennsylvania,US
-19291,KAPA,Centennial Airport,medium_airport,39.57009888,-104.84899899999999,Denver,80112,Arapahoe County,Colorado,US
-19293,KAPF,Naples Municipal Airport,medium_airport,26.1525993347,-81.7752990723,Naples,34104,Collier County,Florida,US
-3381,KAPG,Phillips Army Air Field,medium_airport,39.466202,-76.1688,Aberdeen Proving Grounds(Aberdeen),21005,Harford County,Maryland,US
-3382,KAPN,Alpena County Regional Airport,medium_airport,45.07809829999999,-83.56030273,Alpena,49707,Alpena County,Michigan,US
-19301,KARA,Acadiana Regional Airport,medium_airport,30.0378,-91.883904,New Iberia,70560,Iberia Parish,Louisiana,US
-3383,KART,Watertown International Airport,medium_airport,43.99190139770508,-76.02169799804688,Watertown,13634,Jefferson County,New York,US
-19308,KASE,Aspen-Pitkin Co/Sardy Field,medium_airport,39.22320175,-106.8690033,Aspen,81611,Pitkin County,Colorado,US
-19314,KAST,Astoria Regional Airport,medium_airport,46.158000946,-123.87899780299999,Astoria,97146,Clatsop County,Oregon,US
 3384,KATL,Hartsfield Jackson Atlanta International Airport,large_airport,33.63669967651367,-84.4281005859375,Atlanta,30337,Clayton County,Georgia,US
-3385,KATY,Watertown Regional Airport,medium_airport,44.91400146,-97.15470123,Watertown,57201,Codington County,South Dakota,US
-19321,KAUG,Augusta State Airport,medium_airport,44.320598602299995,-69.7973022461,Augusta,04330,Kennebec County,Maine,US
 3386,KAUS,Austin Bergstrom International Airport,large_airport,30.194499969482425,-97.6698989868164,Austin,78719,Travis County,Texas,US
-19326,KAUW,Wausau Downtown Airport,medium_airport,44.9262008667,-89.62660217290001,Wausau,54403,Marathon County,Wisconsin,US
 3387,KAVL,Asheville Regional Airport,large_airport,35.43619918823242,-82.54180145263672,Asheville,28732,Buncombe County,North Carolina,US
-3388,KAVP,Wilkes Barre Scranton International Airport,medium_airport,41.338500976599995,-75.72339630130001,Wilkes-Barre/Scranton,18641,Luzerne County,Pennsylvania,US
-3389,KAXN,Chandler Field,medium_airport,45.866298675500005,-95.3946990967,Alexandria,56308,Douglas County,Minnesota,US
-3390,KAZO,Kalamazoo Battle Creek International Airport,medium_airport,42.234901428222656,-85.5521011352539,Kalamazoo,49002,Kalamazoo County,Michigan,US
 3391,KBAB,Beale Air Force Base,large_airport,39.136100769,-121.43699646,Marysville,95903,Yuba County,California,US
 3392,KBAD,Barksdale Air Force Base,large_airport,32.5018005371,-93.6626968384,Bossier City,71110,Bossier Parish,Louisiana,US
-3393,KBAF,Westfield-Barnes Regional Airport,medium_airport,42.157799,-72.715599,Westfield/Springfield,01085,Hampden County,Massachusetts,US
-3394,KBAK,Columbus Municipal Airport,medium_airport,39.2619018555,-85.8963012695,Columbus,47203,Bartholomew County,Indiana,US
-19353,KBBD,Curtis Field,medium_airport,31.179300308200002,-99.32389831540002,Brady,76825,McCulloch County,Texas,US
-19357,KBCE,Bryce Canyon Airport,medium_airport,37.706401825,-112.144996643,Bryce Canyon,,Garfield County,Utah,US
-3395,KBDE,Baudette International Airport,medium_airport,48.7284011841,-94.61219787600001,Baudette,56623,Lake of the Woods County,Minnesota,US
 3396,KBDL,Bradley International Airport,large_airport,41.9388999939,-72.68319702149999,Hartford,06096,Hartford County,Connecticut,US
-3397,KBDR,Igor I Sikorsky Memorial Airport,medium_airport,41.16350173950195,-73.1261978149414,Bridgeport,06615,Fairfield County,Connecticut,US
 19362,KBE,Bell Island Hot Springs Seaplane Base,seaplane_base,55.9291000366,-131.572006226,Bell Island,99901,,Alaska,US
-3398,KBED,Laurence G Hanscom Field,medium_airport,42.47000122,-71.28900146,Bedford,01731,Middlesex County,Massachusetts,US
-3399,KBFD,Bradford Regional Airport,medium_airport,41.8031005859375,-78.64009857177734,Bradford,16738,McKean County,Pennsylvania,US
-3400,KBFF,Western Neb. Rgnl/William B. Heilig Airport,medium_airport,41.87400055,-103.5960007,Scottsbluff,69361,Scotts Bluff County,Nebraska,US
 3401,KBFI,Boeing Field King County International Airport,large_airport,47.52999877929688,-122.302001953125,Seattle,98108,King County,Washington,US
-3402,KBFL,Meadows Field,medium_airport,35.43360138,-119.0569992,Bakersfield,93308,Kern County,California,US
-3403,KBFM,Mobile Downtown Airport,medium_airport,30.626800537100006,-88.06809997559998,Mobile,36615,Mobile County,Alabama,US
-3404,KBGM,Greater Binghamton/Edwin A Link field,medium_airport,42.20869827,-75.97979736,Binghamton,13790,Broome County,New York,US
 3405,KBGR,Bangor International Airport,large_airport,44.80739974975586,-68.82810211181639,Bangor,04401,Penobscot County,Maine,US
-19373,KBHB,Hancock County-Bar Harbor Airport,medium_airport,44.45000076,-68.36150359999999,Bar Harbor,04605,Hancock County,Maine,US
 3406,KBHM,Birmingham-Shuttlesworth International Airport,large_airport,33.56290054,-86.75350189,Birmingham,35212,Jefferson County,Alabama,US
-3407,KBIF,Biggs Army Air Field (Fort Bliss),medium_airport,31.84950066,-106.3799973,Fort Bliss/El Paso,79918,El Paso County,Texas,US
-19377,KBIH,Eastern Sierra Regional Airport,medium_airport,37.373100280799996,-118.36399841299999,Bishop,93514,Inyo County,California,US
 3408,KBIL,Billings Logan International Airport,large_airport,45.807701110839844,-108.54299926757812,Billings,59105,Yellowstone County,Montana,US
-3409,KBIS,Bismarck Municipal Airport,medium_airport,46.77270126342773,-100.74600219726562,Bismarck,58504,Burleigh County,North Dakota,US
-3410,KBIX,Keesler Air Force Base,medium_airport,30.4104003906,-88.92440032959999,Biloxi,39534,Harrison County,Mississippi,US
-3411,KBJC,Rocky Mountain Metropolitan Airport,medium_airport,39.90879822,-105.11699679999998,Denver,80021,Jefferson County,Colorado,US
-19380,KBJI,Bemidji Regional Airport,medium_airport,47.50939941,-94.93370056,Bemidji,56601,Beltrami County,Minnesota,US
-3412,KBKE,Baker City Municipal Airport,medium_airport,44.8372993469,-117.808998108,Baker City,97814,Baker County,Oregon,US
-3413,KBKF,Buckley Air Force Base,medium_airport,39.701698303200004,-104.75199890100001,Aurora,80018,Arapahoe County,Colorado,US
-3414,KBKL,Burke Lakefront Airport,medium_airport,41.51750183105469,-81.68329620361328,Cleveland,44114,Cuyahoga County,Ohio,US
-3415,KBKW,Raleigh County Memorial Airport,medium_airport,37.787300109899995,-81.1241989136,Beckley,25813,Raleigh County,West Virginia,US
-19387,KBLF,Mercer County Airport,medium_airport,37.295799255371094,-81.20770263671875,Bluefield,24701,Mercer County,West Virginia,US
-19388,KBLH,Blythe Airport,medium_airport,33.6192016602,-114.717002869,Blythe,92225,Riverside County,California,US
-3416,KBLI,Bellingham International Airport,medium_airport,48.79280090332031,-122.53800201416016,Bellingham,98226,Whatcom County,Washington,US
 3417,KBLV,Scott AFB/Midamerica Airport,large_airport,38.5452,-89.835197,Belleville,62225,St. Clair County,Illinois,US
-3418,KBMG,Monroe County Airport,medium_airport,39.14599990844727,-86.61669921875,Bloomington,47403,Monroe County,Indiana,US
 3419,KBMI,Central Illinois Regional Airport at Bloomington-Normal,large_airport,40.47710037,-88.91590118,Bloomington/Normal,61704,McLean County,Illinois,US
 3420,KBNA,Nashville International Airport,large_airport,36.1245002746582,-86.6781997680664,Nashville,37217,Davidson County,Tennessee,US
-19397,KBNO,Burns Municipal Airport,medium_airport,43.5918998718,-118.955001831,Burns,97720,Harney County,Oregon,US
 3421,KBOI,Boise Air Terminal/Gowen field,large_airport,43.56439972,-116.22299960000001,Boise,83705,Ada County,Idaho,US
 3422,KBOS,General Edward Lawrence Logan International Airport,large_airport,42.36429977,-71.00520325,Boston,02152,Suffolk County,Massachusetts,US
-19401,KBPI,Miley Memorial Field,medium_airport,42.58509827,-110.1110001,Big Piney,83113,Sublette County,Wyoming,US
-19402,KBPK,Ozark Regional Airport,medium_airport,36.3689002991,-92.4704971313,Mountain Home,72635,Baxter County,Arkansas,US
-3423,KBPT,Southeast Texas Regional Airport,medium_airport,29.9507999420166,-94.02069854736328,Beaumont/Port Arthur,77705,Jefferson County,Texas,US
-3424,KBQK,Brunswick Golden Isles Airport,medium_airport,31.2588005065918,-81.46649932861328,Brunswick,31525,Glynn County,Georgia,US
-19406,KBRD,Brainerd Lakes Regional Airport,medium_airport,46.39830017,-94.13809967,Brainerd,56401,Crow Wing County,Minnesota,US
-3425,KBRL,Southeast Iowa Regional Airport,medium_airport,40.783199310302734,-91.12550354003906,Burlington,52601,Des Moines County,Iowa,US
-3426,KBRO,Brownsville South Padre Island International Airport,medium_airport,25.90679931640625,-97.4259033203125,Brownsville,78521,Cameron County,Texas,US
-3427,KBTL,W K Kellogg Airport,medium_airport,42.3073005676,-85.25150299069999,Battle Creek,49037,Calhoun County,Michigan,US
-3428,KBTM,Bert Mooney Airport,medium_airport,45.95479965209961,-112.49700164794922,Butte,59701,Silver Bow County,Montana,US
 3429,KBTR,"Baton Rouge Metropolitan, Ryan Field",large_airport,30.53319931,-91.14959717,Baton Rouge,70811,East Baton Rouge Parish,Louisiana,US
-3430,KBTV,Burlington International Airport,medium_airport,44.471900939899996,-73.15329742429998,Burlington,05403,Chittenden County,Vermont,US
 3431,KBUF,Buffalo Niagara International Airport,large_airport,42.94049835,-78.73220062,Buffalo,14225,Erie County,New York,US
-3432,KBUR,Bob Hope Airport,medium_airport,34.200698852539055,-118.35900115966795,Burbank,91505,Los Angeles County,California,US
-19417,KBVI,Beaver County Airport,medium_airport,40.7724990845,-80.39140319820001,Beaver Falls,15010,Beaver County,Pennsylvania,US
-3433,KBVY,Beverly Municipal Airport,medium_airport,42.5842018127,-70.91649627689999,Beverly,01923,Essex County,Massachusetts,US
-3434,KBWG,Bowling Green Warren County Regional Airport,medium_airport,36.9645004272,-86.41970062259999,Bowling Green,42103,Warren County,Kentucky,US
 3435,KBWI,Baltimore/Washington International Thurgood Marshall Airport,large_airport,39.17539978,-76.66829681,Baltimore,21240,Anne Arundel County,Maryland,US
-3436,KBYH,Arkansas International Airport,medium_airport,35.9642982483,-89.94400024410002,Blytheville,72315,Mississippi County,Arkansas,US
-19429,KBYI,Burley Municipal Airport,medium_airport,42.5425987244,-113.77200317399999,Burley,83318,Cassia County,Idaho,US
-19430,KBYS,Bicycle Lake Army Air Field,medium_airport,35.2804985046,-116.629997253,Fort Irwin/Barstow,,San Bernardino County,California,US
-3437,KBZN,Gallatin Field,medium_airport,45.77750015,-111.15299990000001,Bozeman,59714,Gallatin County,Montana,US
 3438,KCAE,Columbia Metropolitan Airport,large_airport,33.93880081176758,-81.11949920654297,Columbia,29170,Lexington County,South Carolina,US
-3439,KCAK,Akron Canton Regional Airport,medium_airport,40.916099548339844,-81.44219970703125,Akron,44720,Summit County,Ohio,US
-3440,KCAR,Caribou Municipal Airport,medium_airport,46.8714981079,-68.0178985596,Caribou,04736,Aroostook County,Maine,US
 3441,KCBM,Columbus Air Force Base,large_airport,33.643798828099996,-88.44380187990002,Columbus,39705,Lowndes County,Mississippi,US
 19466,KCC,Coffman Cove Seaplane Base,seaplane_base,56.003200531000005,-132.841995239,Coffman Cove,99918,Prince of Wales-Hyder Census Area,Alaska,US
-19470,KCCY,Northeast Iowa Regional Airport,medium_airport,43.072601318400004,-92.61080169680001,Charles City,50616,Floyd County,Iowa,US
-3442,KCDC,Cedar City Regional Airport,medium_airport,37.70100021362305,-113.0989990234375,Cedar City,84721,Iron County,Utah,US
-19474,KCDR,Chadron Municipal Airport,medium_airport,42.837600708000004,-103.095001221,Chadron,69337,Dawes County,Nebraska,US
-19475,KCDS,Childress Municipal Airport,medium_airport,34.4337997437,-100.288002014,Childress,79201,Childress County,Texas,US
-3443,KCEC,Jack Mc Namara Field Airport,medium_airport,41.78020096,-124.23699950000001,Crescent City,95531,Del Norte County,California,US
-3444,KCEF,Westover ARB/Metropolitan Airport,medium_airport,42.19400024,-72.53479767,Springfield/Chicopee,01022,Hampden County,Massachusetts,US
-3445,KCEW,Bob Sikes Airport,medium_airport,30.778799056999997,-86.522102356,Crestview,32539,Okaloosa County,Florida,US
-3446,KCGF,Cuyahoga County Airport,medium_airport,41.5651016235,-81.4863967896,Cleveland,44143,Cuyahoga County,Ohio,US
-3447,KCGI,Cape Girardeau Regional Airport,medium_airport,37.22529983520508,-89.57080078125,Cape Girardeau,63701,Scott County,Missouri,US
 3448,KCHA,Lovell Field,large_airport,35.03530120849609,-85.20379638671875,Chattanooga,37421,Hamilton County,Tennessee,US
-3449,KCHO,Charlottesville Albemarle Airport,medium_airport,38.13859939575195,-78.4529037475586,Charlottesville,22911,Albemarle County,Virginia,US
 3450,KCHS,Charleston Air Force Base-International Airport,large_airport,32.89860153,-80.04049683,Charleston,29404,Charleston County,South Carolina,US
 3451,KCID,The Eastern Iowa Airport,large_airport,41.88470077514648,-91.71080017089844,Cedar Rapids,52404,Linn County,Iowa,US
-3452,KCIU,Chippewa County International Airport,medium_airport,46.25080108642578,-84.47239685058594,Sault Ste Marie,49788,Chippewa County,Michigan,US
-3453,KCKB,North Central West Virginia Airport,medium_airport,39.2966003418,-80.2281036377,Clarksburg,26330,Harrison County,West Virginia,US
 3454,KCLE,Cleveland Hopkins International Airport,large_airport,41.411701202399996,-81.8498001099,Cleveland,44135,Cuyahoga County,Ohio,US
-3455,KCLL,Easterwood Field,medium_airport,30.58860016,-96.36380005,College Station,77845,Brazos County,Texas,US
-3456,KCLM,William R Fairchild International Airport,medium_airport,48.120201110839844,-123.5,Port Angeles,98363,Clallam County,Washington,US
 3457,KCLT,Charlotte Douglas International Airport,large_airport,35.2140007019043,-80.94309997558594,Charlotte,28208,Mecklenburg County,North Carolina,US
 3458,KCMH,Port Columbus International Airport,large_airport,39.99800109863281,-82.89189910888672,Columbus,43219,Franklin County,Ohio,US
-3459,KCMI,University of Illinois Willard Airport,medium_airport,40.03919983,-88.27809906,Champaign/Urbana,61822,Champaign County,Illinois,US
-3460,KCMX,Houghton County Memorial Airport,medium_airport,47.16839981079102,-88.48909759521484,Hancock,49913,Houghton County,Michigan,US
 19520,KCN,Chernofski Harbor Seaplane Base,seaplane_base,53.4028993416,-167.52027154,Chernofski Harbor,,Aleutians West,Alaska,US
-3461,KCNM,Cavern City Air Terminal,medium_airport,32.337501525878906,-104.26300048828124,Carlsbad,88220,Eddy County,New Mexico,US
-19527,KCNU,Chanute Martin Johnson Airport,medium_airport,37.668800354,-95.4850997925,Chanute,66720,Neosho County,Kansas,US
-19530,KCOD,Yellowstone Regional Airport,medium_airport,44.520198822,-109.024002075,Cody,82414,Park County,Wyoming,US
-19531,KCOE,Coeur D'Alene - Pappy Boyington Field,medium_airport,47.77429962,-116.8199997,Coeur d'Alene,83835,Kootenai County,Idaho,US
-3462,KCOF,Patrick Air Force Base,medium_airport,28.2348995209,-80.6100997925,Cocoa Beach,32925,Brevard County,Florida,US
-19534,KCON,Concord Municipal Airport,medium_airport,43.20270157,-71.50229645,Concord,03301,Merrimack County,New Hampshire,US
 3463,KCOS,City of Colorado Springs Municipal Airport,large_airport,38.805801391602,-104.70099639893,Colorado Springs,80916,El Paso County,Colorado,US
-3464,KCOU,Columbia Regional Airport,medium_airport,38.81809997558594,-92.21959686279295,Columbia,65201,Boone County,Missouri,US
 3465,KCPR,Casper-Natrona County International Airport,large_airport,42.90800095,-106.4639969,Casper,82604,Natrona County,Wyoming,US
-19549,KCRE,Grand Strand Airport,medium_airport,33.811698913600004,-78.72389984130002,North Myrtle Beach,29582,Horry County,South Carolina,US
-19550,KCRG,Jacksonville Executive at Craig Airport,medium_airport,30.3362998962,-81.51439666750002,Jacksonville,32225,Duval County,Florida,US
 3466,KCRP,Corpus Christi International Airport,large_airport,27.77039909362793,-97.5011978149414,Corpus Christi,78406,Nueces County,Texas,US
-19552,KCRQ,Mc Clellan-Palomar Airport,medium_airport,33.12829971,-117.27999879999999,Carlsbad,92011,San Diego County,California,US
 3467,KCRW,Yeager Airport,large_airport,38.37310028076172,-81.59320068359375,Charleston,25311,Kanawha County,West Virginia,US
-3468,KCSG,Columbus Metropolitan Airport,medium_airport,32.516300201416016,-84.93890380859375,Columbus,31909,Muscogee County,Georgia,US
-3469,KCSV,Crossville Memorial Whitson Field,medium_airport,35.9513015747,-85.08499908450001,Crossville,38555,Cumberland County,Tennessee,US
-3470,KCTB,Cut Bank International Airport,medium_airport,48.6083984375,-112.375999451,Cut Bank,59427,Glacier County,Montana,US
-19564,KCUB,Jim Hamilton L.B. Owens Airport,medium_airport,33.970500946,-80.9952011108,Columbia,29205,Richland County,South Carolina,US
 3471,KCVG,Cincinnati Northern Kentucky International Airport,large_airport,39.0488014221,-84.6678009033,Cincinnati,41048,Boone County,Kentucky,US
-3472,KCVO,Corvallis Municipal Airport,medium_airport,44.49720001,-123.29000090000001,Corvallis,97333,Benton County,Oregon,US
 3473,KCVS,Cannon Air Force Base,large_airport,34.3828010559,-103.321998596,Clovis,88103,Curry County,New Mexico,US
-19571,KCWA,Central Wisconsin Airport,medium_airport,44.7775993347,-89.6668014526,Mosinee,54455,Marathon County,Wisconsin,US
-3475,KCXO,Conroe-North Houston Regional Airport,medium_airport,30.351801000000002,-95.414497,Houston,77301,Montgomery County,Texas,US
-3476,KCYS,Cheyenne Regional Jerry Olson Field,medium_airport,41.15570068,-104.81199649999999,Cheyenne,82009,Laramie County,Wyoming,US
-3477,KDAA,Davison Army Air Field,medium_airport,38.715000152600005,-77.1809997559,Fort Belvoir,22060,Fairfax County,Virginia,US
 3478,KDAB,Daytona Beach International Airport,large_airport,29.179899,-81.058098,Daytona Beach,32114,Volusia County,Florida,US
-19615,KDAG,Barstow Daggett Airport,medium_airport,34.85369873,-116.78700259999998,Daggett,92365,San Bernardino County,California,US
 3479,KDAL,Dallas Love Field,large_airport,32.847099,-96.851799,Dallas,75235,Dallas County,Texas,US
-3480,KDAN,Danville Regional Airport,medium_airport,36.572898864746094,-79.33609771728516,Danville,24586,Pittsylvania County,Virginia,US
 3481,KDAY,James M Cox Dayton International Airport,large_airport,39.90240097045898,-84.21939849853516,Dayton,45377,Montgomery County,Ohio,US
 3482,KDBQ,Dubuque Regional Airport,large_airport,42.40200043,-90.70950317,Dubuque,52003,Dubuque County,Iowa,US
 3483,KDCA,Ronald Reagan Washington National Airport,large_airport,38.8521,-77.037697,Washington,22202,Arlington County,Virginia,US
-3484,KDDC,Dodge City Regional Airport,medium_airport,37.76340103149414,-99.9655990600586,Dodge City,67801,Ford County,Kansas,US
-3485,KDEC,Decatur Airport,medium_airport,39.83459854125977,-88.8656997680664,Decatur,62521,Macon County,Illinois,US
 3486,KDEN,Denver International Airport,large_airport,39.861698150635,-104.672996521,Denver,80249,Denver County,Colorado,US
-3487,KDET,Coleman A. Young Municipal Airport,medium_airport,42.40919876,-83.00990295,Detroit,48234,Wayne County,Michigan,US
 3488,KDFW,Dallas Fort Worth International Airport,large_airport,32.896800994873054,-97.03800201416016,Dallas-Fort Worth,75261,Tarrant County,Texas,US
-3489,KDHN,Dothan Regional Airport,medium_airport,31.3213005065918,-85.44960021972656,Dothan,36350,Dale County,Alabama,US
-19628,KDHT,Dalhart Municipal Airport,medium_airport,36.0225982666,-102.54699707,Dalhart,79022,Hartley County,Texas,US
-19630,KDIK,Dickinson Theodore Roosevelt Regional Airport,medium_airport,46.7974014282,-102.80200195299999,Dickinson,58601,Stark County,North Dakota,US
 3490,KDLF,Laughlin Air Force Base,large_airport,29.359500885,-100.77799987799999,Del Rio,78843,Val Verde County,Texas,US
 3491,KDLH,Duluth International Airport,large_airport,46.8420982361,-92.19360351559999,Duluth,55811,St. Louis County,Minnesota,US
-19640,KDLS,Columbia Gorge Regional the Dalles Municipal Airport,medium_airport,45.618499755900004,-121.166999817,The Dalles,98617,Klickitat County,Washington,US
-3492,KDMA,Davis Monthan Air Force Base,medium_airport,32.1665000916,-110.883003235,Tucson,85707,Pima County,Arizona,US
-3493,KDMN,Deming Municipal Airport,medium_airport,32.262298584,-107.721000671,Deming,88030,Luna County,New Mexico,US
-19644,KDNL,Daniel Field,medium_airport,33.4664993286,-82.0393981934,Augusta,30904,Richmond County,Georgia,US
 3494,KDOV,Dover Air Force Base,large_airport,39.12950134,-75.46600342,Dover,19902,Kent County,Delaware,US
-19648,KDPA,Dupage Airport,medium_airport,41.90779877,-88.24859619,Chicago/West Chicago,60185,DuPage County,Illinois,US
-19652,KDRA,Desert Rock Airport,medium_airport,36.6194,-116.032997,Mercury,89060,Nye County,Nevada,US
-3495,KDRI,Beauregard Regional Airport,medium_airport,30.8316993713,-93.3398971558,De Ridder,70634,Beauregard Parish,Louisiana,US
-19655,KDRT,Del Rio International Airport,medium_airport,29.3742008209,-100.92700195299999,Del Rio,78840,Val Verde County,Texas,US
 3496,KDSM,Des Moines International Airport,large_airport,41.53400039672852,-93.66310119628906,Des Moines,50321,Polk County,Iowa,US
 3497,KDTW,Detroit Metropolitan Wayne County Airport,large_airport,42.212398529052734,-83.35340118408203,Detroit,48174,Wayne County,Michigan,US
-19664,KDUG,Bisbee Douglas International Airport,medium_airport,31.4689998627,-109.60399627700001,Douglas Bisbee,85607,Cochise County,Arizona,US
-3498,KDUJ,DuBois Regional Airport,medium_airport,41.17829895,-78.8986969,Dubois,15851,Jefferson County,Pennsylvania,US
 3499,KDYS,Dyess Air Force Base,large_airport,32.4207992554,-99.85459899899999,Abilene,79607,Taylor County,Texas,US
-19717,KEAT,Pangborn Memorial Airport,medium_airport,47.3988990784,-120.20700073200001,Wenatchee,98802,Douglas County,Washington,US
-3501,KEAU,Chippewa Valley Regional Airport,medium_airport,44.86579895019531,-91.48429870605469,Eau Claire,54703,Chippewa County,Wisconsin,US
-3502,KECG,Elizabeth City Regional Airport & Coast Guard Air Station,medium_airport,36.26060104,-76.17459869,Elizabeth City,27909,Pasquotank County,North Carolina,US
-46530,KECP,Northwest Florida Beaches International Airport,medium_airport,30.357105999999998,-85.79541400000001,Panama City Beach,32409,Bay County,Florida,US
 3503,KEDW,Edwards Air Force Base,large_airport,34.905398999999996,-117.884003,Edwards,93523,Kern County,California,US
-19727,KEED,Needles Airport,medium_airport,34.7663002014,-114.62300109899999,Needles,92363,San Bernardino County,California,US
-3504,KEEN,Dillant Hopkins Airport,medium_airport,42.898399353027344,-72.27079772949219,Keene,03431,Cheshire County,New Hampshire,US
-19729,KEET,Shelby County Airport,medium_airport,33.17699814,-86.78279877,Alabaster,35007,Shelby County,Alabama,US
-19731,KEFD,Ellington Airport,medium_airport,29.6072998047,-95.15879821780001,Houston,77034,Harris County,Texas,US
-3505,KEGE,Eagle County Regional Airport,medium_airport,39.64260101,-106.9179993,Eagle,81637,Eagle County,Colorado,US
-19735,KEGI,Duke Field,medium_airport,30.65040016,-86.52290344,Crestview,32542,Okaloosa County,Florida,US
-3506,KEKA,Murray Field,medium_airport,40.8033981323,-124.112998962,Eureka,95501,Humboldt County,California,US
-3507,KEKN,Elkins-Randolph Co-Jennings Randolph Field,medium_airport,38.88940048,-79.85710144,Elkins,26241,Randolph County,West Virginia,US
-3508,KEKO,Elko Regional Airport,medium_airport,40.82490158081055,-115.79199981689452,Elko,89801,Elko County,Nevada,US
-3509,KELD,South Arkansas Regional At Goodwin Field,medium_airport,33.22100067138672,-92.81330108642578,El Dorado,71730,Union County,Arkansas,US
-3510,KELM,Elmira Corning Regional Airport,medium_airport,42.1599006652832,-76.8916015625,Elmira/Corning,14845,Chemung County,New York,US
-3511,KELO,Ely Municipal Airport,medium_airport,47.82450104,-91.83070374,Ely,55731,St. Louis County,Minnesota,US
-3512,KELP,El Paso International Airport,medium_airport,31.80719948,-106.37799840000002,El Paso,79925,El Paso County,Texas,US
-19753,KELY,Ely Airport Yelland Field,medium_airport,39.29970169,-114.84200290000001,Ely,89301,White Pine County,Nevada,US
 3513,KEND,Vance Air Force Base,large_airport,36.339199066199996,-97.9164962769,Enid,73703,Garfield County,Oklahoma,US
-19760,KENV,Wendover Airport,medium_airport,40.7187004089,-114.03099823,Wendover,84083,Tooele County,Utah,US
-3514,KENW,Kenosha Regional Airport,medium_airport,42.59569931,-87.92780304,Kenosha,53144,Kenosha County,Wisconsin,US
 3515,KERI,Erie International Tom Ridge Field,large_airport,42.0831270134,-80.1738667488,Erie,16505,Erie County,Pennsylvania,US
-3516,KESF,Esler Regional Airport,medium_airport,31.3948993683,-92.29579925540001,Alexandria,71360,Rapides Parish,Louisiana,US
-3517,KEUG,Mahlon Sweet Field,medium_airport,44.12459945678711,-123.21199798583984,Eugene,97402,Lane County,Oregon,US
-3518,KEVV,Evansville Regional Airport,medium_airport,38.0369987488,-87.53240203860001,Evansville,47725,Vanderburgh County,Indiana,US
-19782,KEVW,Evanston-Uinta County Airport-Burns Field,medium_airport,41.27479935,-111.0350037,Evanston,82930,Uinta County,Wyoming,US
-3519,KEWB,New Bedford Regional Airport,medium_airport,41.67610168457031,-70.95690155029297,New Bedford,02745,Bristol County,Massachusetts,US
-3520,KEWN,Coastal Carolina Regional Airport,medium_airport,35.0730018616,-77.04290008539998,New Bern,28562,Craven County,North Carolina,US
 3521,KEWR,Newark Liberty International Airport,large_airport,40.69250106811523,-74.168701171875,Newark,,,New Jersey,US
-3522,KEYW,Key West International Airport,medium_airport,24.556100845336914,-81.75959777832031,Key West,33040,Monroe County,Florida,US
-19843,KFAF,Felker Army Air Field,medium_airport,37.1324996948,-76.60880279540002,Fort Eustis,23604,,Virginia,US
-3523,KFAR,Hector International Airport,medium_airport,46.92070007324219,-96.81580352783205,Fargo,58102,Cass County,North Dakota,US
-3524,KFAT,Fresno Yosemite International Airport,medium_airport,36.77619934082031,-119.71800231933594,Fresno,93727,Fresno County,California,US
-3525,KFAY,Fayetteville Regional Grannis Field,medium_airport,34.991199493408196,-78.88030242919922,Fayetteville,28306,Cumberland County,North Carolina,US
-3526,KFBG,Simmons Army Air Field,medium_airport,35.13180161,-78.93669891,Fort Bragg,28310,Cumberland County,North Carolina,US
-19851,KFCS,Butts AAF (Fort Carson) Air Field,medium_airport,38.67839813,-104.75700379999999,Fort Carson,80913,El Paso County,Colorado,US
-19857,KFDY,Findlay Airport,medium_airport,41.013500213600004,-83.66870117190001,Findlay,45840,Hancock County,Ohio,US
 3528,KFFO,Wright-Patterson Air Force Base,large_airport,39.8260993958,-84.04830169680001,Dayton,45433,Greene County,Ohio,US
-3529,KFHU,Sierra Vista Municipal Libby Army Air Field,medium_airport,31.58849906921387,-110.34400177001952,Fort Huachuca Sierra Vista,85613,Cochise County,Arizona,US
-19872,KFKL,Venango Regional Airport,medium_airport,41.3778991699,-79.8603973389,Franklin,16323,Venango County,Pennsylvania,US
-3530,KFLG,Flagstaff Pulliam Airport,medium_airport,35.13850021,-111.6709976,Flagstaff,86001,Coconino County,Arizona,US
 3531,KFLL,Fort Lauderdale Hollywood International Airport,large_airport,26.072599411010746,-80.15270233154297,Fort Lauderdale,33315,Broward County,Florida,US
-3532,KFLO,Florence Regional Airport,medium_airport,34.18539810180664,-79.7238998413086,Florence,29506,Florence County,South Carolina,US
-3534,KFME,Tipton Airport,medium_airport,39.08539962769999,-76.7593994141,Fort Meade(Odenton),20724,Anne Arundel County,Maryland,US
-19881,KFMN,Four Corners Regional Airport,medium_airport,36.7411994934,-108.230003357,Farmington,87401,San Juan County,New Mexico,US
-19882,KFMY,Page Field,medium_airport,26.58659935,-81.86329650879998,Fort Myers,33907,Lee County,Florida,US
-3535,KFNT,Bishop International Airport,medium_airport,42.96540069580078,-83.74359893798828,Flint,48507,Genesee County,Michigan,US
-3536,KFOD,Fort Dodge Regional Airport,medium_airport,42.55149841,-94.19259644,Fort Dodge,50501,Webster County,Iowa,US
-3537,KFOE,Topeka Regional Airport - Forbes Field,medium_airport,38.9509010315,-95.6635971069,Topeka,66609,Shawnee County,Kansas,US
-3538,KFPR,St Lucie County International Airport,medium_airport,27.49510002,-80.36830139,Fort Pierce,34946,St. Lucie County,Florida,US
-3539,KFRG,Republic Airport,medium_airport,40.7288017273,-73.41339874270001,Farmingdale,11735,Suffolk County,New York,US
-3540,KFRI,Marshall Army Air Field,medium_airport,39.05530167,-96.76450348,Fort Riley(Junction City),66442,Geary County,Kansas,US
-3541,KFSD,Joe Foss Field Airport,medium_airport,43.5820007324,-96.741897583,Sioux Falls,57104,Minnehaha County,South Dakota,US
-3542,KFSI,Henry Post Army Air Field (Fort Sill),medium_airport,34.64979935,-98.40219879,Fort Sill,73503,Comanche County,Oklahoma,US
 3543,KFSM,Fort Smith Regional Airport,large_airport,35.33660125732422,-94.36740112304688,Fort Smith,72903,Sebastian County,Arkansas,US
-19900,KFST,Fort Stockton Pecos County Airport,medium_airport,30.9157009125,-102.916000366,Fort Stockton,79735,Pecos County,Texas,US
-3544,KFTK,Godman Army Air Field,medium_airport,37.9071006775,-85.9720993042,Fort Knox,40121,Hardin County,Kentucky,US
 3545,KFTW,Fort Worth Meacham International Airport,large_airport,32.819801,-97.36239599999999,Fort Worth,76106,Tarrant County,Texas,US
-3546,KFTY,Fulton County Airport Brown Field,medium_airport,33.7790985107,-84.5214004517,Atlanta,30336,Fulton County,Georgia,US
 3547,KFWA,Fort Wayne International Airport,large_airport,40.97850037,-85.19509888,Fort Wayne,46809,Allen County,Indiana,US
-19912,KFXE,Fort Lauderdale Executive Airport,medium_airport,26.1972999573,-80.1707000732,Fort Lauderdale,33309,Broward County,Florida,US
-3548,KFYV,Drake Field,medium_airport,36.00510025024414,-94.17009735107422,Fayetteville,72701,Washington County,Arkansas,US
-19929,KGCC,Gillette Campbell County Airport,medium_airport,44.3488998413,-105.539001465,Gillette,82716,Campbell County,Wyoming,US
-3550,KGCK,Garden City Regional Airport,medium_airport,37.9275016785,-100.72399902299999,Garden City,67846,Finney County,Kansas,US
-3551,KGCN,Grand Canyon National Park Airport,medium_airport,35.95240020751953,-112.14700317382812,Grand Canyon,86023,Coconino County,Arizona,US
-19936,KGDV,Dawson Community Airport,medium_airport,47.13869858,-104.8069992,Glendive,59330,Dawson County,Montana,US
 3552,KGEG,Spokane International Airport,large_airport,47.61989974975586,-117.53399658203124,Spokane,99224,Spokane County,Washington,US
-3553,KGFK,Grand Forks International Airport,medium_airport,47.949298999999996,-97.176102,Grand Forks,58203,Grand Forks County,North Dakota,US
-3554,KGFL,Floyd Bennett Memorial Airport,medium_airport,43.3412017822,-73.6102981567,Glens Falls,12804,Warren County,New York,US
-3555,KGGG,East Texas Regional Airport,medium_airport,32.38399887084961,-94.71150207519531,Longview,75603,Gregg County,Texas,US
-3556,KGGW,Wokal Field Glasgow International Airport,medium_airport,48.212502,-106.614998,Glasgow,59230,Valley County,Montana,US
-3557,KGJT,Grand Junction Regional Airport,medium_airport,39.1223983765,-108.527000427,Grand Junction,81506,Mesa County,Colorado,US
-19956,KGLD,Renner Field-Goodland Municipal Airport,medium_airport,39.37060165,-101.6989975,Goodland,67735,Sherman County,Kansas,US
-19958,KGLH,Mid Delta Regional Airport,medium_airport,33.482898712158196,-90.98560333251952,Greenville,38703,Washington County,Mississippi,US
-3558,KGLS,Scholes International At Galveston Airport,medium_airport,29.265300750732425,-94.8603973388672,Galveston,77554,Galveston County,Texas,US
-19963,KGMU,Greenville Downtown Airport,medium_airport,34.847900390599996,-82.34999847410002,Greenville,29607,Greenville County,South Carolina,US
-3559,KGNV,Gainesville Regional Airport,medium_airport,29.6900997162,-82.27179718020001,Gainesville,32609,Alachua County,Florida,US
-3560,KGON,Groton New London Airport,medium_airport,41.3301010131836,-72.04509735107422,Groton (New London),06340,New London County,Connecticut,US
-3527,KGPI,Glacier Park International Airport,medium_airport,48.31050109863281,-114.25599670410156,Kalispell,59901,Flathead County,Montana,US
 3561,KGPT,Gulfport Biloxi International Airport,large_airport,30.40730094909668,-89.07009887695312,Gulfport,39503,Harrison County,Mississippi,US
 3562,KGRB,Austin Straubel International Airport,large_airport,44.48509979248047,-88.12960052490234,Green Bay,54155,Brown County,Wisconsin,US
-3563,KGRF,Gray Army Air Field,medium_airport,47.07920074,-122.5810013,Fort Lewis/Tacoma,98433,Pierce County,Washington,US
-3564,KGRI,Central Nebraska Regional Airport,medium_airport,40.96749877929688,-98.30960083007812,Grand Island,68801,Hall County,Nebraska,US
-3565,KGRK,Robert Gray  Army Air Field Airport,medium_airport,31.067199706999997,-97.8289031982,Fort Hood/Killeen,76549,Bell County,Texas,US
-3566,KGRR,Gerald R. Ford International Airport,medium_airport,42.88079834,-85.52279663,Grand Rapids,49512,,Michigan,US
 3567,KGSB,Seymour Johnson Air Force Base,large_airport,35.33940125,-77.96060181,Goldsboro,27531,Wayne County,North Carolina,US
 3568,KGSO,Piedmont Triad International Airport,large_airport,36.097801208496094,-79.93730163574219,Greensboro,27409,Guilford County,North Carolina,US
 3569,KGSP,Greenville Spartanburg International Airport,large_airport,34.895698547399995,-82.2189025879,Greenville,29651,Spartanburg County,South Carolina,US
-3570,KGTB,Wheeler Sack Army Air Field,medium_airport,44.05559921,-75.71949768,Fort Drum,13603,Jefferson County,New York,US
-3571,KGTF,Great Falls International Airport,medium_airport,47.48199844,-111.3710022,Great Falls,59404,Cascade County,Montana,US
-19982,KGTR,Golden Triangle Regional Airport,medium_airport,33.450298309299995,-88.59140014649999,Columbus/W Point/Starkville,39701,Lowndes County,Mississippi,US
-3572,KGUP,Gallup Municipal Airport,medium_airport,35.511100769,-108.789001465,Gallup,87301,McKinley County,New Mexico,US
 3573,KGUS,Grissom Air Reserve Base,large_airport,40.648101806599996,-86.15209960940001,Peru,46971,Miami County,Indiana,US
-19985,KGUY,Guymon Municipal Airport,medium_airport,36.6851005554,-101.508003235,Guymon,73942,Texas County,Oklahoma,US
-3574,KGWO,Greenwood–Leflore Airport,medium_airport,33.4943008423,-90.08470153809999,Greenwood,38930,Carroll County,Mississippi,US
-3575,KGYY,Gary Chicago International Airport,medium_airport,41.61629867553711,-87.41280364990234,Gary,46406,Lake County,Indiana,US
-20027,KHBG,Hattiesburg Bobby L Chain Municipal Airport,medium_airport,31.26479912,-89.25279999,Hattiesburg,39401,Forrest County,Mississippi,US
-20029,KHBR,Hobart Regional Airport,medium_airport,34.991316999999995,-99.05131300000001,Hobart,73651,Kiowa County,Oklahoma,US
-3576,KHFD,Hartford Brainard Airport,medium_airport,41.736698150635,-72.64939880371101,Hartford,06114,Hartford County,Connecticut,US
-3577,KHGR,Hagerstown Regional Richard A Henson Field,medium_airport,39.707901,-77.72949982,Hagerstown,21742,Washington County,Maryland,US
-3578,KHHR,Jack Northrop Field Hawthorne Municipal Airport,medium_airport,33.922798,-118.334999,Hawthorne,90250,Los Angeles County,California,US
 3579,KHIB,Range Regional Airport,large_airport,47.38660049,-92.83899689,Hibbing,55746,St. Louis County,Minnesota,US
-3580,KHIF,Hill Air Force Base,medium_airport,41.12403,-111.97308600000001,Ogden,84056,Davis County,Utah,US
-20054,KHIO,Portland Hillsboro Airport,medium_airport,45.540401,-122.949997,Portland,97124,Washington County,Oregon,US
-3581,KHKY,Hickory Regional Airport,medium_airport,35.74110031,-81.38950348,Hickory,28601,Burke County,North Carolina,US
-20061,KHLG,Wheeling Ohio County Airport,medium_airport,40.1749992371,-80.6463012695,Wheeling,26003,Ohio County,West Virginia,US
-3582,KHLN,Helena Regional Airport,medium_airport,46.6068000793457,-111.98300170898438,Helena,59602,Lewis and Clark County,Montana,US
-3583,KHLR,Hood Army Air Field,medium_airport,31.1387004852,-97.7145004272,Fort Hood(Killeen),76544,Bell County,Texas,US
 3584,KHMN,Holloman Air Force Base,large_airport,32.8525009155,-106.107002258,Alamogordo,88330,Otero County,New Mexico,US
-20071,KHOB,Lea County Regional Airport,medium_airport,32.6875,-103.21700290000001,Hobbs,88240,Lea County,New Mexico,US
-3585,KHON,Huron Regional Airport,medium_airport,44.38520050048828,-98.22850036621094,Huron,57350,Beadle County,South Dakota,US
-3586,KHOP,Campbell AAF (Fort Campbell) Air Field,medium_airport,36.668598175,-87.49620056150002,Fort Campbell/Hopkinsville,42262,Christian County,Kentucky,US
-3587,KHOT,Memorial Field,medium_airport,34.47800064086914,-93.09619903564452,Hot Springs,71913,Garland County,Arkansas,US
 3588,KHOU,William P Hobby Airport,large_airport,29.64539909,-95.27890015,Houston,77061,Harris County,Texas,US
-3589,KHPN,Westchester County Airport,medium_airport,41.06700134277344,-73.70760345458984,White Plains,10604,Westchester County,New York,US
-3590,KHQM,Bowerman Airport,medium_airport,46.9711990356,-123.93699646,Hoquiam,98550,Grays Harbor County,Washington,US
-3591,KHRL,Valley International Airport,medium_airport,26.228500366210934,-97.65440368652344,Harlingen,78550,Cameron County,Texas,US
-3592,KHRO,Boone County Airport,medium_airport,36.26150131225586,-93.15470123291016,Harrison,72601,Boone County,Arkansas,US
-20081,KHRT,Hurlburt Field,medium_airport,30.42779922485352,-86.68930053710938,Mary Esther,32544,Okaloosa County,Florida,US
-3593,KHST,Homestead ARB Airport,medium_airport,25.48859978,-80.38359833,Homestead,33033,Miami-Dade County,Florida,US
 3594,KHSV,Huntsville International Carl T Jones Field,large_airport,34.637199401855,-86.775100708008,Huntsville,35824,Madison County,Alabama,US
 3595,KHTS,Tri-State/Milton J. Ferguson Field,large_airport,38.36669922,-82.55799866,Huntington,25530,Wayne County,West Virginia,US
-3596,KHUA,Redstone Army Air Field,medium_airport,34.67869949,-86.68479919,Redstone Arsnl Huntsville,35808,Madison County,Alabama,US
-3597,KHUF,Terre Haute International Hulman Field,medium_airport,39.45149993896485,-87.30760192871094,Terre Haute,47803,Vigo County,Indiana,US
-20095,KHUL,Houlton International Airport,medium_airport,46.123100280799996,-67.79209899899999,Houlton,04730,Aroostook County,Maine,US
-3598,KHUT,Hutchinson Municipal Airport,medium_airport,38.0654983521,-97.86060333250002,Hutchinson,67501,Reno County,Kansas,US
-3599,KHVN,Tweed New Haven Airport,medium_airport,41.26369858,-72.88680267,New Haven,06512,New Haven County,Connecticut,US
-20099,KHVR,Havre City County Airport,medium_airport,48.54299927,-109.762001,Havre,59501,Hill County,Montana,US
-3600,KHYA,Barnstable Municipal Boardman Polando Field,medium_airport,41.66930008,-70.28040314,Hyannis,02601,Barnstable County,Massachusetts,US
-20107,KHYI,San Marcos Regional Airport,medium_airport,29.8927,-97.862999,San Marcos,78666,Caldwell County,Texas,US
-20108,KHYR,Sawyer County Airport,medium_airport,46.02519989010001,-91.44429779050002,Hayward,54843,Sawyer County,Wisconsin,US
-20109,KHYS,Hays Regional Airport,medium_airport,38.84220123,-99.27320099,Hays,67601,Ellis County,Kansas,US
-3601,KIAB,Mc Connell Air Force Base,medium_airport,37.62189865,-97.26820374,Wichita,67210,Sedgwick County,Kansas,US
 3602,KIAD,Washington Dulles International Airport,large_airport,38.94449997,-77.45580292,Washington,20151,Loudoun County,Virginia,US
-3603,KIAG,Niagara Falls International Airport,medium_airport,43.1072998046875,-78.94619750976562,Niagara Falls,14304,Niagara County,New York,US
 3604,KIAH,George Bush Intercontinental Houston Airport,large_airport,29.98439979553223,-95.34140014648438,Houston,77032,Harris County,Texas,US
 20150,KIB,Ivanof Bay Seaplane Base,seaplane_base,55.8974990845,-159.488998413,Ivanof Bay,99695,Lake and Peninsula,Alaska,US
 3605,KICT,Wichita Mid Continent Airport,large_airport,37.649898529052734,-97.43309783935548,Wichita,67209,Sedgwick County,Kansas,US
-3606,KIDA,Idaho Falls Regional Airport,medium_airport,43.514599,-112.070999,Idaho Falls,83402,Bonneville County,Idaho,US
-3607,KIKK,Greater Kankakee Airport,medium_airport,41.07139968869999,-87.84629821780001,Kankakee,60901,Kankakee County,Illinois,US
-3608,KILG,New Castle Airport,medium_airport,39.67869949,-75.60649872,Wilmington,19720,New Castle County,Delaware,US
-3609,KILM,Wilmington International Airport,medium_airport,34.27059936523437,-77.90260314941406,Wilmington,28405,New Hanover County,North Carolina,US
-20173,KILN,Wilmington Airpark,medium_airport,39.427898407,-83.79209899899999,Wilmington,45177,Clinton County,Ohio,US
 3610,KIND,Indianapolis International Airport,large_airport,39.7173,-86.294403,Indianapolis,46241,Marion County,Indiana,US
-3611,KINK,Winkler County Airport,medium_airport,31.779600143400003,-103.20099639899999,Wink,79789,Winkler County,Texas,US
-3612,KINL,Falls International Airport,medium_airport,48.566200256347656,-93.4030990600586,International Falls,56649,Koochiching County,Minnesota,US
-3613,KINT,Smith Reynolds Airport,medium_airport,36.13370132446289,-80.22200012207031,Winston Salem,27105,Forsyth County,North Carolina,US
-20180,KINW,Winslow Lindbergh Regional Airport,medium_airport,35.021900177,-110.722999573,Winslow,86047,Navajo County,Arizona,US
-20184,KIPL,Imperial County Airport,medium_airport,32.834201812699995,-115.57900238,Imperial,92251,Imperial County,California,US
-3614,KIPT,Williamsport Regional Airport,medium_airport,41.241798400878906,-76.92109680175781,Williamsport,17754,Lycoming County,Pennsylvania,US
-3615,KIRK,Kirksville Regional Airport,medium_airport,40.09349822998047,-92.5448989868164,Kirksville,63501,Adair County,Missouri,US
-20187,KISM,Kissimmee Gateway Airport,medium_airport,28.289800643899998,-81.43710327149999,Orlando,34741,Osceola County,Florida,US
-20188,KISN,Sloulin Field International Airport,medium_airport,48.177898407,-103.64199829100001,Williston,58801,Williams County,North Dakota,US
-20189,KISO,Kinston Regional Jetport At Stallings Field,medium_airport,35.331401825,-77.60880279540002,Kinston,28504,Lenoir County,North Carolina,US
-3616,KISP,Long Island Mac Arthur Airport,medium_airport,40.79520035,-73.10019684,Islip,11779,Suffolk County,New York,US
-20193,KITH,Ithaca Tompkins Regional Airport,medium_airport,42.49100112915039,-76.4583969116211,Ithaca,14850,Tompkins County,New York,US
-3617,KIWA,Phoenix-Mesa-Gateway Airport,medium_airport,33.30780029,-111.65499879999999,Phoenix,85212,Maricopa County,Arizona,US
-3618,KJAC,Jackson Hole Airport,medium_airport,43.6072998046875,-110.73799896240234,Jackson,83001,Teton County,Wyoming,US
 3619,KJAN,Jackson-Medgar Wiley Evers International Airport,large_airport,32.3111991882,-90.0758972168,Jackson,39208,Rankin County,Mississippi,US
 3620,KJAX,Jacksonville International Airport,large_airport,30.49410057067871,-81.68789672851562,Jacksonville,32218,Duval County,Florida,US
-3621,KJBR,Jonesboro Municipal Airport,medium_airport,35.83169937133789,-90.64640045166016,Jonesboro,72401,Craighead County,Arkansas,US
-20205,KJCT,Kimble County Airport,medium_airport,30.5112991333,-99.76349639889999,Junction,76849,Kimble County,Texas,US
 3622,KJFK,John F Kennedy International Airport,large_airport,40.63980103,-73.77890015,New York,11430,Queens County,New York,US
-20213,KJHW,Chautauqua County-Jamestown Airport,medium_airport,42.15340042,-79.25800323,Jamestown,14701,Chautauqua County,New York,US
-20216,KJKL,Julian Carroll Airport,medium_airport,37.59389877319336,-83.31729888916016,Jackson,41339,Breathitt County,Kentucky,US
 3623,KJLN,Joplin Regional Airport,large_airport,37.151798248291016,-94.49829864501952,Joplin,64870,Jasper County,Missouri,US
-3624,KJMS,Jamestown Regional Airport,medium_airport,46.92969894,-98.67819977,Jamestown,58401,Stutsman County,North Dakota,US
-3625,KJST,John Murtha Johnstown Cambria County Airport,medium_airport,40.31610107421875,-78.83390045166016,Johnstown,15904,Cambria County,Pennsylvania,US
-3626,KJXN,Jackson County Reynolds Field,medium_airport,42.2597999573,-84.45939636230001,Jackson,49202,Jackson County,Michigan,US
 20273,KKB,Kitoi Bay Seaplane Base,seaplane_base,58.190898895299995,-152.369995117,Kitoi Bay,99615,Kodiak Island,Alaska,US
 20274,KKI,Akiachak Seaplane Base,seaplane_base,60.9079017639,-161.434997559,Akiachak,99551,Bethel,Alaska,US
 20276,KKL,Karluk Lake Seaplane Base,seaplane_base,57.36700057979999,-154.027999878,Karluk Lake,99615,Kodiak Island,Alaska,US
-20277,KKLS,Southwest Washington Regional Airport,medium_airport,46.11800003049999,-122.898002625,Kelso,98626,Cowlitz County,Washington,US
-3627,KLAF,Purdue University Airport,medium_airport,40.41230010986328,-86.93689727783203,Lafayette,47907,Tippecanoe County,Indiana,US
-3628,KLAL,Lakeland Linder Regional Airport,medium_airport,27.988899230999998,-82.0186004639,Lakeland,33811,Polk County,Florida,US
-3629,KLAN,Capital City Airport,medium_airport,42.77870178222656,-84.58740234375,Lansing,48906,Clinton County,Michigan,US
-3630,KLAR,Laramie Regional Airport,medium_airport,41.31209945678711,-105.6750030517578,Laramie,82070,Albany County,Wyoming,US
 3631,KLAS,McCarran International Airport,large_airport,36.08010101,-115.15200039999999,Las Vegas,89119,Clark County,Nevada,US
-20319,KLAW,Lawton Fort Sill Regional Airport,medium_airport,34.5676994324,-98.4166030884,Lawton,73501,Comanche County,Oklahoma,US
 3632,KLAX,Los Angeles International Airport,large_airport,33.94250107,-118.40799709999999,Los Angeles,90045,Los Angeles County,California,US
 3633,KLBB,Lubbock Preston Smith International Airport,large_airport,33.663601,-101.822998,Lubbock,79403,Lubbock County,Texas,US
-3634,KLBE,Arnold Palmer Regional Airport,medium_airport,40.27590179,-79.40480042,Latrobe,15650,Westmoreland County,Pennsylvania,US
-3635,KLBF,North Platte Regional Airport Lee Bird Field,medium_airport,41.12620163,-100.6839981,North Platte,69101,Lincoln County,Nebraska,US
-3636,KLBL,Liberal Mid-America Regional Airport,medium_airport,37.04420089999999,-100.95999909999999,Liberal,67901,Seward County,Kansas,US
-20322,KLBT,Lumberton Regional Airport,medium_airport,34.609901428200004,-79.05940246579998,Lumberton,28358,Robeson County,North Carolina,US
-20323,KLBX,Texas Gulf Coast Regional Airport,medium_airport,29.108600616500002,-95.46209716799999,Angleton/Lake Jackson,77515,Brazoria County,Texas,US
-3637,KLCH,Lake Charles Regional Airport,medium_airport,30.12610054016113,-93.22329711914062,Lake Charles,70607,Calcasieu Parish,Louisiana,US
 3638,KLCK,Rickenbacker International Airport,large_airport,39.813801,-82.927803,Columbus,43217,Franklin County,Ohio,US
-3639,KLEB,Lebanon Municipal Airport,medium_airport,43.626098632799994,-72.30419921880002,Lebanon,03784,Grafton County,New Hampshire,US
-20329,KLEE,Leesburg International Airport,medium_airport,28.82309914,-81.80870056,Leesburg,34788,Lake County,Florida,US
 3640,KLEX,Blue Grass Airport,large_airport,38.0364990234375,-84.60590362548828,Lexington,40510,Fayette County,Kentucky,US
 3641,KLFI,Langley Air Force Base,large_airport,37.082901000999996,-76.360496521,Hampton,23665,,Virginia,US
-20332,KLFK,Angelina County Airport,medium_airport,31.2339992523,-94.75,Lufkin,75941,Angelina County,Texas,US
 3642,KLFT,Lafayette Regional Airport,large_airport,30.20529938,-91.98760223,Lafayette,70508,Lafayette Parish,Louisiana,US
 3643,KLGA,La Guardia Airport,large_airport,40.77719879,-73.87259674,New York,11371,Queens County,New York,US
-3644,KLGB,Long Beach /Daugherty Field/ Airport,medium_airport,33.81769943,-118.15200039999999,Long Beach,90807,Los Angeles County,California,US
-20337,KLGU,Logan-Cache Airport,medium_airport,41.7911987305,-111.851997375,Logan,84341,Cache County,Utah,US
 3645,KLIT,Bill & Hillary Clinton National Airport/Adams Field,large_airport,34.729400634799994,-92.22429656979999,Little Rock,72202,Pulaski County,Arkansas,US
-20354,KLLQ,Monticello Municipal Ellis Field,medium_airport,33.638599400000004,-91.75099945,Monticello,71655,Drew County,Arkansas,US
-3646,KLMT,Crater Lake-Klamath Regional Airport,medium_airport,42.156101,-121.733002,Klamath Falls,97603,Klamath County,Oregon,US
-20359,KLND,Hunt Field,medium_airport,42.8152008057,-108.730003357,Lander,82520,Fremont County,Wyoming,US
-3647,KLNK,Lincoln Airport,medium_airport,40.85100173950195,-96.75920104980469,Lincoln,68524,Lancaster County,Nebraska,US
-3648,KLNS,Lancaster Airport,medium_airport,40.12170028686523,-76.29609680175781,Lancaster,17543,Lancaster County,Pennsylvania,US
-20364,KLOL,Derby Field,medium_airport,40.0663986206,-118.565002441,Lovelock,89419,Pershing County,Nevada,US
-3649,KLOU,Bowman Field,medium_airport,38.2280006409,-85.6636962891,Louisville,40205,Jefferson County,Kentucky,US
-3650,KLOZ,London-Corbin Airport/Magee Field,medium_airport,37.0821990967,-84.08489990230001,London,40744,Laurel County,Kentucky,US
-3651,KLRD,Laredo International Airport,medium_airport,27.543800354003906,-99.46160125732422,Laredo,78041,Webb County,Texas,US
-3652,KLRF,Little Rock Air Force Base,medium_airport,34.916900634799994,-92.14969635010002,Jacksonville,72076,Pulaski County,Arkansas,US
-3653,KLRU,Las Cruces International Airport,medium_airport,32.28939819335937,-106.9219970703125,Las Cruces,88007,Doña Ana County,New Mexico,US
-3654,KLSE,La Crosse Municipal Airport,medium_airport,43.879002,-91.256699,La Crosse,54603,La Crosse County,Wisconsin,US
-3655,KLSF,Lawson Army Air Field (Fort Benning),medium_airport,32.337299346900004,-84.9913024902,Fort Benning(Columbus),31905,Chattahoochee County,Georgia,US
-3656,KLSV,Nellis Air Force Base,medium_airport,36.2361984253,-115.03399658200001,Las Vegas,89191,Clark County,Nevada,US
 3657,KLTS,Altus Air Force Base,large_airport,34.667098999000004,-99.26670074459999,Altus,73521,Jackson County,Oklahoma,US
 3658,KLUF,Luke Air Force Base,large_airport,33.534999847399995,-112.383003235,Glendale,85309,Maricopa County,Arizona,US
-3659,KLUK,Cincinnati Municipal Airport Lunken Field,medium_airport,39.10329819,-84.41860199,Cincinnati,45226,Hamilton County,Ohio,US
-20386,KLVM,Mission Field,medium_airport,45.6994018555,-110.44799804700001,Livingston,59047,Park County,Montana,US
-20388,KLVS,Las Vegas Municipal Airport,medium_airport,35.6542015076,-105.14199829100001,Las Vegas,87701,San Miguel County,New Mexico,US
-20390,KLWB,Greenbrier Valley Airport,medium_airport,37.8582992554,-80.3994979858,Lewisburg,24938,Greenbrier County,West Virginia,US
-3660,KLWM,Lawrence Municipal Airport,medium_airport,42.7172012329,-71.1233978271,Lawrence,01845,Essex County,Massachusetts,US
-20393,KLWS,Lewiston Nez Perce County Airport,medium_airport,46.3745002746582,-117.01499938964844,Lewiston,83501,Nez Perce County,Idaho,US
-3661,KLWT,Lewistown Municipal Airport,medium_airport,47.04930114746094,-109.46700286865234,Lewistown,59457,Fergus County,Montana,US
-3662,KLYH,Lynchburg Regional Preston Glenn Field,medium_airport,37.326698303222656,-79.20040130615234,Lynchburg,24502,Campbell County,Virginia,US
-3663,KMAF,Midland International Airport,medium_airport,31.9424991607666,-102.2020034790039,Midland,79706,Midland County,Texas,US
-20474,KMBG,Mobridge Municipal Airport,medium_airport,45.54650116,-100.40799709999999,Mobridge,57601,Walworth County,South Dakota,US
 3664,KMBS,MBS International Airport,large_airport,43.532901763916016,-84.07959747314453,Saginaw,48623,Saginaw County,Michigan,US
-3665,KMCB,Mc Comb/Pike County Airport/John E Lewis Field,medium_airport,31.17849922,-90.47190094,Mc Comb,39648,Pike County,Mississippi,US
-3666,KMCC,Mc Clellan Airfield,medium_airport,38.66759872,-121.40100100000001,Sacramento,95652,Sacramento County,California,US
-20480,KMCE,Merced Regional Macready Field,medium_airport,37.28469849,-120.5139999,Merced,95341,Merced County,California,US
 3667,KMCF,Mac Dill Air Force Base,large_airport,27.84930038,-82.52120209,Tampa,33621,Hillsborough County,Florida,US
 3668,KMCI,Kansas City International Airport,large_airport,39.2976,-94.713898,Kansas City,64153,Platte County,Missouri,US
-20481,KMCK,Mc Cook Ben Nelson Regional Airport,medium_airport,40.20629883,-100.59200290000001,Mc Cook,69001,Red Willow County,Nebraska,US
-3669,KMCN,Middle Georgia Regional Airport,medium_airport,32.692798614501946,-83.64920043945312,Macon,31216,Bibb County,Georgia,US
 3670,KMCO,Orlando International Airport,large_airport,28.429399490356445,-81.30899810791016,Orlando,32827,Orange County,Florida,US
-20482,KMCW,Mason City Municipal Airport,medium_airport,43.15779876710001,-93.33129882809999,Mason City,50428,Cerro Gordo County,Iowa,US
-3671,KMDH,Southern Illinois Airport,medium_airport,37.778099060058594,-89.25199890136719,Carbondale/Murphysboro,62966,Jackson County,Illinois,US
-3672,KMDT,Harrisburg International Airport,medium_airport,40.1935005188,-76.7633972168,Harrisburg,17057,Dauphin County,Pennsylvania,US
 3673,KMDW,Chicago Midway International Airport,large_airport,41.7859992980957,-87.75240325927734,Chicago,60638,Cook County,Illinois,US
-3674,KMEI,Key Field,medium_airport,32.33259963989258,-88.75189971923828,Meridian,39307,Lauderdale County,Mississippi,US
 3675,KMEM,Memphis International Airport,large_airport,35.04240036010742,-89.97669982910156,Memphis,38116,Shelby County,Tennessee,US
-3676,KMER,Castle Airport,medium_airport,37.38050079,-120.5680008,Merced,95301,Merced County,California,US
-3677,KMFD,Mansfield Lahm Regional Airport,medium_airport,40.82139968869999,-82.5166015625,Mansfield,44903,Richland County,Ohio,US
-3678,KMFE,Mc Allen Miller International Airport,medium_airport,26.17580032,-98.23860168,Mc Allen,78503,Hidalgo County,Texas,US
-3679,KMFR,Rogue Valley International Medford Airport,medium_airport,42.37419891357422,-122.8730010986328,Medford,97501,Jackson County,Oregon,US
 3680,KMGE,Dobbins Air Reserve Base,large_airport,33.91540146,-84.51629639,Marietta,30069,Cobb County,Georgia,US
 3681,KMGM,Montgomery Regional (Dannelly Field) Airport,large_airport,32.30059814,-86.39399719,Montgomery,36108,Montgomery County,Alabama,US
-3682,KMGW,Morgantown Municipal Walter L. Bill Hart Field,medium_airport,39.64289856,-79.91629791,Morgantown,26505,Monongalia County,West Virginia,US
-3683,KMHK,Manhattan Regional Airport,medium_airport,39.14099884033203,-96.6707992553711,Manhattan,66503,Riley County,Kansas,US
-20506,KMHR,Sacramento Mather Airport,medium_airport,38.55390167,-121.29799650000001,Sacramento,95655,Sacramento County,California,US
 3684,KMHT,Manchester Airport,large_airport,42.93259811401367,-71.43569946289062,Manchester,03103,Hillsborough County,New Hampshire,US
 3685,KMIA,Miami International Airport,large_airport,25.79319953918457,-80.29060363769531,Miami,33126,Miami-Dade County,Florida,US
-3686,KMIB,Minot Air Force Base,medium_airport,48.41559982,-101.3580017,Minot,58704,Ward County,North Dakota,US
-3687,KMIE,Delaware County Johnson Field,medium_airport,40.2422981262207,-85.3958969116211,Muncie,47303,Delaware County,Indiana,US
-3688,KMIV,Millville Municipal Airport,medium_airport,39.36780166625977,-75.07219696044922,Millville,08332,Cumberland County,New Jersey,US
-3689,KMKC,Charles B. Wheeler Downtown Airport,medium_airport,39.12319946289063,-94.5927963256836,Kansas City,64116,Clay County,Missouri,US
 3690,KMKE,General Mitchell International Airport,large_airport,42.94720077514648,-87.89659881591797,Milwaukee,53207,Milwaukee County,Wisconsin,US
-3692,KMKL,Mc Kellar Sipes Regional Airport,medium_airport,35.59989929,-88.91560364,Jackson,38301,Madison County,Tennessee,US
-3693,KMLB,Melbourne International Airport,medium_airport,28.10280036926269,-80.64530181884766,Melbourne,32901,Brevard County,Florida,US
-3694,KMLC,Mc Alester Regional Airport,medium_airport,34.88240051,-95.78350067,Mc Alester,74501,Pittsburg County,Oklahoma,US
 3695,KMLI,Quad City International Airport,large_airport,41.44850158691406,-90.50749969482422,Moline,61265,Rock Island County,Illinois,US
-3696,KMLS,Frank Wiley Field,medium_airport,46.428001403808594,-105.88600158691406,Miles City,59301,Custer County,Montana,US
 3697,KMLU,Monroe Regional Airport,large_airport,32.51089859008789,-92.0376968383789,Monroe,71203,Ouachita Parish,Louisiana,US
-20532,KMMT,Mc Entire Joint National Guard Base,medium_airport,33.92079926,-80.80130005,Eastover,29061,Richland County,South Carolina,US
-3698,KMMU,Morristown Municipal Airport,medium_airport,40.799400329589844,-74.41490173339844,Morristown,07960,Morris County,New Jersey,US
-3699,KMMV,Mc Minnville Municipal Airport,medium_airport,45.19440079,-123.13600159999999,Mc Minnville,97128,Yamhill County,Oregon,US
 3700,KMOB,Mobile Regional Airport,large_airport,30.691200256348,-88.242797851562,Mobile,36608,Mobile County,Alabama,US
-3701,KMOD,Modesto City Co-Harry Sham Field,medium_airport,37.62580109,-120.9540024,Modesto,95354,Stanislaus County,California,US
-3702,KMOT,Minot International Airport,medium_airport,48.2593994140625,-101.27999877929688,Minot,58703,Ward County,North Dakota,US
-20551,KMPV,Edward F Knapp State Airport,medium_airport,44.20349884,-72.56230164,Barre/Montpelier,05641,Washington County,Vermont,US
-3703,KMQY,Smyrna Airport,medium_airport,36.0089988708,-86.52010345459999,Smyrna,37167,Rutherford County,Tennessee,US
-3704,KMRB,Eastern WV Regional Airport/Shepherd Field,medium_airport,39.40190125,-77.98459625,Martinsburg,25405,Berkeley County,West Virginia,US
-3705,KMRY,Monterey Peninsula Airport,medium_airport,36.58700180053711,-121.84300231933594,Monterey,93940,Monterey County,California,US
-3706,KMSL,Northwest Alabama Regional Airport,medium_airport,34.74530029,-87.61019897,Muscle Shoals,35661,Colbert County,Alabama,US
 3707,KMSN,Dane County Regional Truax Field,large_airport,43.13990020751953,-89.3375015258789,Madison,53704,Dane County,Wisconsin,US
-3708,KMSO,Missoula International Airport,medium_airport,46.91630173,-114.0910034,Missoula,59808,Missoula County,Montana,US
 3709,KMSP,Minneapolis-St Paul International/Wold-Chamberlain Airport,large_airport,44.8819999695,-93.22180175780001,Minneapolis,55111,Hennepin County,Minnesota,US
-3710,KMSS,Massena International Richards Field,medium_airport,44.93579864501953,-74.84559631347656,Massena,13662,St. Lawrence County,New York,US
 3711,KMSY,Louis Armstrong New Orleans International Airport,large_airport,29.99340057373047,-90.25800323486328,New Orleans,70062,Jefferson Parish,Louisiana,US
-3712,KMTC,Selfridge Air National Guard Base Airport,medium_airport,42.613463,-82.836919,Mount Clemens,48045,Macomb County,Michigan,US
-20564,KMTH,The Florida Keys Marathon Airport,medium_airport,24.72610092,-81.05139923,Marathon,33050,Monroe County,Florida,US
-20565,KMTJ,Montrose Regional Airport,medium_airport,38.5097999573,-107.89399719200001,Montrose,81401,Montrose County,Colorado,US
-3713,KMTN,Martin State Airport,medium_airport,39.32569885,-76.4138031,Baltimore,21220,Baltimore County,Maryland,US
-3714,KMUI,Muir Army Air Field (Fort Indiantown Gap) Airport,medium_airport,40.43479919,-76.56939697,Fort Indiantown Gap(Annville),17003,Lebanon County,Pennsylvania,US
 3715,KMUO,Mountain Home Air Force Base,large_airport,43.043597999999996,-115.872002,Mountain Home,83648,Elmore County,Idaho,US
-20581,KMWH,Grant County International Airport,medium_airport,47.20769882,-119.3199997,Moses Lake,98837,Grant County,Washington,US
-3716,KMXF,Maxwell Air Force Base,medium_airport,32.38290023803711,-86.36579895019531,Montgomery,36112,Montgomery County,Alabama,US
 20588,KMY,Moser Bay Seaplane Base,seaplane_base,57.02560043334961,-154.14599609375,Moser Bay,99615,Kodiak Island,Alaska,US
-20591,KMYL,McCall Municipal Airport,medium_airport,44.88970184,-116.10099790000001,McCall,83638,Valley County,Idaho,US
-3717,KMYR,Myrtle Beach International Airport,medium_airport,33.6796989441,-78.9282989502,Myrtle Beach,29577,Horry County,South Carolina,US
-3718,KMYV,Yuba County Airport,medium_airport,39.09780121,-121.5699997,Marysville,95961,Yuba County,California,US
-3719,KNBC,Beaufort MCAS - Merritt Field,medium_airport,32.4774017334,-80.723197937,Beaufort,29906,Beaufort County,South Carolina,US
-3720,KNBG,New Orleans NAS JRB/Alvin Callender Field,medium_airport,29.82530022,-90.03500366,New Orleans,70037,Plaquemines Parish,Louisiana,US
-3721,KNCA,New River MCAS /H/ /Mccutcheon Fld/ Airport,medium_airport,34.70840073,-77.43969727,Jacksonville,28540,Onslow County,North Carolina,US
-20634,KNDZ,Whiting Field Naval Air Station South Airport,medium_airport,30.70439910888672,-87.02300262451172,Milton,32570,Santa Rosa County,Florida,US
-3722,KNEL,Lakehurst Maxfield Field Airport,medium_airport,40.03329849,-74.353302,Lakehurst,08527,Ocean County,New Jersey,US
-3723,KNEW,Lakefront Airport,medium_airport,30.042400360107003,-90.02829742431601,New Orleans,70126,Orleans Parish,Louisiana,US
-3724,KNFG,Camp Pendleton MCAS (Munn Field) Airport,medium_airport,33.30130005,-117.3550034,Oceanside,92058,San Diego County,California,US
-3725,KNFL,Fallon Naval Air Station,medium_airport,39.41659927,-118.70099640000001,Fallon,89496,Churchill County,Nevada,US
-20639,KNFW,NAS Fort Worth JRB/Carswell Field,medium_airport,32.76919937,-97.4414978,Fort Worth,76108,Tarrant County,Texas,US
-3726,KNGP,Corpus Christi Naval Air Station/Truax Field,medium_airport,27.69260025,-97.29109955,Corpus Christi,78418,Nueces County,Texas,US
-3727,KNGU,Norfolk Ns (Chambers Fld) Airport,medium_airport,36.93759918,-76.28929901,Norfolk,23511,,Virginia,US
-3728,KNHK,Patuxent River Naval Air Station/Trapnell Field Aiport,medium_airport,38.28599929999999,-76.41179657,Patuxent River,20670,St. Mary's County,Maryland,US
-3729,KNHZ,Brunswick Executive Airport,medium_airport,43.89220047,-69.93859863,Brunswick,04011,Cumberland County,Maine,US
-20643,KNID,China Lake Naws (Armitage Field) Airport,medium_airport,35.6853981,-117.6920013,China Lake,93555,Kern County,California,US
-3730,KNIP,Jacksonville Naval Air Station,medium_airport,30.23579979,-81.68060303,Jacksonville,32244,Duval County,Florida,US
-3731,KNJK,El Centro Naf Airport,medium_airport,32.829200744628906,-115.6719970703125,El Centro,92243,Imperial County,California,US
-3732,KNKT,Cherry Point MCAS /Cunningham Field/,medium_airport,34.90090179,-76.88069916,Cherry Point,28532,Craven County,North Carolina,US
-3733,KNKX,Miramar Marine Corps Air Station - Mitscher Field,medium_airport,32.86840057,-117.1429977,San Diego,92145,San Diego County,California,US
-20647,KNLC,Lemoore Naval Air Station (Reeves Field) Airport,medium_airport,36.33300018,-119.95200349999999,Lemoore,93245,Kings County,California,US
-3734,KNMM,Meridian Naval Air Station,medium_airport,32.55210114,-88.55560303,Meridian,39335,Lauderdale County,Mississippi,US
-3735,KNPA,Pensacola Naval Air Station/Forrest Sherman Field,medium_airport,30.35269928,-87.31860352,Pensacola,32508,Escambia County,Florida,US
-3736,KNQA,Millington Regional Jetport Airport,medium_airport,35.356700897217,-89.87030029296899,Millington,38053,Shelby County,Tennessee,US
-3737,KNQI,Kingsville Naval Air Station,medium_airport,27.5072002411,-97.8097000122,Kingsville,78363,Kleberg County,Texas,US
-3738,KNQX,Naval Air Station Key West/Boca Chica Field,medium_airport,24.57579994,-81.68890381,Key West,33040,Monroe County,Florida,US
-20652,KNRB,Naval Station Mayport (Admiral David L. Mcdonald Field),medium_airport,30.39109993,-81.42469788,Mayport,32233,Duval County,Florida,US
-20656,KNSE,Whiting Field Naval Air Station - North,medium_airport,30.724199300000002,-87.02189636,Milton,32570,Santa Rosa County,Florida,US
-3739,KNTD,Point Mugu Naval Air Station (Naval Base Ventura Co),medium_airport,34.120300293,-119.12100219700001,Point Mugu,93033,Ventura County,California,US
-3740,KNTU,Oceana NAS,medium_airport,36.8207016,-76.03350067,Virginia Beach,23460,,Virginia,US
-3741,KNUQ,Moffett Federal Airfield,medium_airport,37.416099548339844,-122.04900360107422,Mountain View,94043,Santa Clara County,California,US
-20661,KNUW,Whidbey Island Naval Air Station /Ault Field/ Airport,medium_airport,48.35179901,-122.65599820000001,Oak Harbor,98277,Island County,Washington,US
-20666,KNXP,Twentynine Palms (Self) Airport,medium_airport,34.2961998,-116.16200259999998,Twentynine Palms,92277,San Bernardino County,California,US
-20669,KNYG,Quantico MCAF /Turner field,medium_airport,38.50170135,-77.30529785,Quantico,22134,Stafford County,Virginia,US
-3961,KNYL,Yuma MCAS/Yuma International Airport,medium_airport,32.65660095,-114.6060028,Yuma,85365,Yuma County,Arizona,US
-3743,KNZY,North Island Naval Air Station-Halsey Field,medium_airport,32.69919968,-117.2149963,San Diego,92118,San Diego County,California,US
-20709,KOAJ,Albert J Ellis Airport,medium_airport,34.8292007446,-77.61209869380002,Jacksonville,28574,Onslow County,North Carolina,US
 3744,KOAK,Metropolitan Oakland International Airport,large_airport,37.721298,-122.221001,Oakland,94621,Alameda County,California,US
-3745,KOFF,Offutt Air Force Base,medium_airport,41.118301391602,-95.912498474121,Omaha,68113,Sarpy County,Nebraska,US
-20722,KOFK,Karl Stefan Memorial Airport,medium_airport,41.985500335693004,-97.435096740723,Norfolk,68702,Madison County,Nebraska,US
-20725,KOGB,Orangeburg Municipal Airport,medium_airport,33.456798553467,-80.859497070312,Orangeburg,29115,Orangeburg County,South Carolina,US
-3746,KOGD,Ogden Hinckley Airport,medium_airport,41.195899963379,-112.0120010376,Ogden,84405,Weber County,Utah,US
 3747,KOKC,Will Rogers World Airport,large_airport,35.39310073852539,-97.60070037841795,Oklahoma City,,Oklahoma County,Oklahoma,US
-20739,KOLF,L M Clayton Airport,medium_airport,48.0945014954,-105.57499694799999,Wolf Point,59201,Roosevelt County,Montana,US
-3749,KOLM,Olympia Regional Airport,medium_airport,46.9693985,-122.90299990000001,Olympia,98501,Thurston County,Washington,US
-20741,KOLS,Nogales International Airport,medium_airport,31.41769981384277,-110.8479995727539,Nogales,85621,Santa Cruz County,Arizona,US
-3750,KOLU,Columbus Municipal Airport,medium_airport,41.44800186,-97.34259796,Columbus,68601,Platte County,Nebraska,US
-3751,KOMA,Eppley Airfield,medium_airport,41.303199768066406,-95.89409637451172,Omaha,68110,Douglas County,Nebraska,US
-20752,KONP,Newport Municipal Airport,medium_airport,44.58039855957031,-124.05799865722656,Newport,97366,Lincoln County,Oregon,US
 3752,KONT,Ontario International Airport,large_airport,34.05599975585937,-117.60099792480469,Ontario,91761,San Bernardino County,California,US
-20757,KOPF,Opa-locka Executive Airport,medium_airport,25.90699959,-80.27839661,Miami,33054,Miami-Dade County,Florida,US
-3753,KOQU,Quonset State Airport,medium_airport,41.597099304199,-71.412101745605,North Kingstown,02852,Washington County,Rhode Island,US
 3754,KORD,Chicago O'Hare International Airport,large_airport,41.97859955,-87.90480042,Chicago,60666,Cook County,Illinois,US
 3755,KORF,Norfolk International Airport,large_airport,36.89459991455078,-76.20120239257812,Norfolk,23518,,Virginia,US
-3756,KORH,Worcester Regional Airport,medium_airport,42.26729965209961,-71.87570190429688,Worcester,01602,Worcester County,Massachusetts,US
-3757,KOSH,Wittman Regional Airport,medium_airport,43.98440170288086,-88.55699920654297,Oshkosh,54902,Winnebago County,Wisconsin,US
-3758,KOSU,Ohio State University Airport,medium_airport,40.0797996521,-83.072998046875,Columbus,43017,Franklin County,Ohio,US
-3759,KOTH,Southwest Oregon Regional Airport,medium_airport,43.41709899902344,-124.24600219726562,North Bend,97459,Coos County,Oregon,US
-3760,KOTM,Ottumwa Regional Airport,medium_airport,41.10660172,-92.44789886,Ottumwa,52501,Wapello County,Iowa,US
-3761,KOWB,Owensboro Daviess County Airport,medium_airport,37.74010086,-87.16680145,Owensboro,42301,Daviess County,Kentucky,US
-20777,KOWD,Norwood Memorial Airport,medium_airport,42.1904983521,-71.1728973389,Norwood,02062,Norfolk County,Massachusetts,US
-20785,KOXR,Oxnard Airport,medium_airport,34.200801849365,-119.20700073241998,Oxnard,93030,Ventura County,California,US
 20787,KOY,Olga Bay Seaplane Base,seaplane_base,57.16149902340001,-154.229995728,Olga Bay,99615,Kodiak Island,Alaska,US
-3762,KOZR,Cairns AAF (Fort Rucker) Air Field,medium_airport,31.27569962,-85.71340179,Fort Rucker/Ozark,36322,Dale County,Alabama,US
-3763,KPAE,Snohomish County (Paine Field) Airport,medium_airport,47.90629959,-122.28199769999999,Everett,98208,Snohomish County,Washington,US
-3764,KPAH,Barkley Regional Airport,medium_airport,37.06079864501953,-88.7738037109375,Paducah,42086,McCracken County,Kentucky,US
 3765,KPAM,Tyndall Air Force Base,large_airport,30.0695991516,-85.57540130619998,Panama City,32403,Bay County,Florida,US
 20806,KPB,Point Baker Seaplane Base,seaplane_base,56.351898193400004,-133.623001099,Point Baker,99927,Prince of Wales-Hyder Census Area,Alaska,US
-20807,KPBF,Grider Field,medium_airport,34.173099517800004,-91.9356002808,Pine Bluff,71601,Jefferson County,Arkansas,US
-20808,KPBG,Plattsburgh International Airport,medium_airport,44.6509017944336,-73.46810150146484,Plattsburgh,12901,Clinton County,New York,US
 3766,KPBI,Palm Beach International Airport,large_airport,26.68320083618164,-80.09559631347656,West Palm Beach,33406,Palm Beach County,Florida,US
-3767,KPDK,DeKalb Peachtree Airport,medium_airport,33.8755989075,-84.3020019531,Atlanta,30341,DeKalb County,Georgia,US
-20815,KPDT,Eastern Oregon Regional At Pendleton Airport,medium_airport,45.695098877,-118.84100341799999,Pendleton,97801,Umatilla County,Oregon,US
 3768,KPDX,Portland International Airport,large_airport,45.58869934,-122.59799960000001,Portland,97218,Multnomah County,Oregon,US
-20821,KPGA,Page Municipal Airport,medium_airport,36.92610168,-111.447998,Page,86040,Coconino County,Arizona,US
-20824,KPGV,Pitt Greenville Airport,medium_airport,35.6352005,-77.38529968,Greenville,27834,Pitt County,North Carolina,US
 20825,KPH,Pauloff Harbor Seaplane Base,seaplane_base,54.4590988159,-162.694000244,Pauloff Harbor /Sanak Is/,,Aleutians East,Alaska,US
 3770,KPHF,Newport News Williamsburg International Airport,large_airport,37.13190079,-76.49299622,Newport News,23602,,Virginia,US
 3771,KPHL,Philadelphia International Airport,large_airport,39.87189865112305,-75.24109649658203,Philadelphia,19153,Philadelphia County,Pennsylvania,US
 3772,KPHX,Phoenix Sky Harbor International Airport,large_airport,33.43429946899414,-112.01200103759766,Phoenix,85034,Maricopa County,Arizona,US
 3773,KPIA,General Wayne A. Downing Peoria International Airport,large_airport,40.664199829100006,-89.6932983398,Peoria,61607,Peoria County,Illinois,US
-3774,KPIB,Hattiesburg Laurel Regional Airport,medium_airport,31.467100143432614,-89.33709716796875,Hattiesburg/Laurel,39459,Jones County,Mississippi,US
-3775,KPIE,St Petersburg Clearwater International Airport,medium_airport,27.91020012,-82.68740082,St Petersburg-Clearwater,33762,Pinellas County,Florida,US
-3776,KPIH,Pocatello Regional Airport,medium_airport,42.9098014831543,-112.59600067138672,Pocatello,83204,Power County,Idaho,US
-3777,KPIR,Pierre Regional Airport,medium_airport,44.38270187,-100.2860031,Pierre,57501,Hughes County,South Dakota,US
 3778,KPIT,Pittsburgh International Airport,large_airport,40.49150085,-80.23290253,Pittsburgh,15108,Allegheny County,Pennsylvania,US
-3779,KPKB,Mid Ohio Valley Regional Airport,medium_airport,39.34510040283203,-81.43920135498047,Parkersburg,26187,Wood County,West Virginia,US
-3781,KPLN,Pellston Regional Airport of Emmet County Airport,medium_airport,45.57089996,-84.79669952,Pellston,49769,Emmet County,Michigan,US
-3782,KPMD,Palmdale Regional/USAF Plant 42 Airport,medium_airport,34.62939835,-118.08499909999999,Palmdale,93550,Los Angeles County,California,US
-20848,KPNA,Ralph Wenz Field,medium_airport,42.79550171,-109.8069992,Pinedale,82941,Sublette County,Wyoming,US
-20849,KPNC,Ponca City Regional Airport,medium_airport,36.73199844,-97.09980011,Ponca City,74601,Kay County,Oklahoma,US
-20850,KPNE,Northeast Philadelphia Airport,medium_airport,40.081902,-75.010597,Philadelphia,19114,Philadelphia County,Pennsylvania,US
-3783,KPNS,Pensacola Regional Airport,medium_airport,30.473400115967003,-87.18659973144501,Pensacola,32504,Escambia County,Florida,US
-3784,KPOB,Pope Field,medium_airport,35.1708984375,-79.014503479004,Fayetteville,28308,Cumberland County,North Carolina,US
-3785,KPOE,Polk Army Air Field,medium_airport,31.044799800000003,-93.1917038,Fort Polk,70656,Vernon Parish,Louisiana,US
-3786,KPOU,Dutchess County Airport,medium_airport,41.6265983581543,-73.88420104980469,Poughkeepsie,12590,Dutchess County,New York,US
-3787,KPQI,Northern Maine Regional Airport at Presque Isle,medium_airport,46.68899918,-68.0447998,Presque Isle,04769,Aroostook County,Maine,US
 20864,KPR,Port Williams Seaplane Base,seaplane_base,58.4901008606,-152.582000732,Port Williams,99615,Kodiak Island,Alaska,US
-3788,KPRB,Paso Robles Municipal Airport,medium_airport,35.67290115,-120.6269989,Paso Robles,93446,San Luis Obispo County,California,US
-3789,KPRC,Ernest A. Love Field,medium_airport,34.65449905,-112.41999820000001,Prescott,86301,Yavapai County,Arizona,US
-3790,KPRX,Cox Field,medium_airport,33.636600494385,-95.45079803466801,Paris,75462,Lamar County,Texas,US
-20870,KPSC,Tri Cities Airport,medium_airport,46.26470184326172,-119.11900329589844,Pasco,99301,Franklin County,Washington,US
-3791,KPSM,Portsmouth International at Pease Airport,medium_airport,43.0778999329,-70.8233032227,Portsmouth,03801,Rockingham County,New Hampshire,US
-3792,KPSP,Palm Springs International Airport,medium_airport,33.829700469970696,-116.50700378417969,Palm Springs,92234,Riverside County,California,US
-3793,KPTK,Oakland County International Airport,medium_airport,42.665500640869006,-83.420097351074,Pontiac,48327,Oakland County,Michigan,US
-20883,KPUW,Pullman Moscow Regional Airport,medium_airport,46.7439,-117.110001,Pullman/Moscow,99163,Whitman County,Washington,US
-3795,KPVD,Theodore Francis Green State Airport,medium_airport,41.73260116577149,-71.42040252685547,Providence,02888,Kent County,Rhode Island,US
-20890,KPVU,Provo Municipal Airport,medium_airport,40.219200134277,-111.72299957275,Provo,84601,Utah County,Utah,US
-20896,KPWK,Chicago Executive Airport,medium_airport,42.114222,-87.901494,Chicago/Prospect Heights/Wheeling,60090,Cook County,Illinois,US
 3796,KPWM,Portland International Jetport Airport,large_airport,43.64619827,-70.30930328,Portland,04102,Cumberland County,Maine,US
-3797,KPWT,Bremerton National Airport,medium_airport,47.490200042725,-122.76499938965,Bremerton,98312,Kitsap County,Washington,US
 20898,KPY,Port Bailey Seaplane Base,seaplane_base,57.930099487300005,-153.041000366,Port Bailey,99550,Kodiak Island,Alaska,US
 20904,KQA,Akutan Seaplane Base,seaplane_base,54.1337704415,-165.77889561700002,Akutan,99553,Aleutians East,Alaska,US
-3837,KRAL,Riverside Municipal Airport,medium_airport,33.95190048,-117.4449997,Riverside,92504,Riverside County,California,US
-3838,KRAP,Rapid City Regional Airport,medium_airport,44.0452995300293,-103.05699920654295,Rapid City,57703,Pennington County,South Dakota,US
-3839,KRBL,Red Bluff Municipal Airport,medium_airport,40.1506996155,-122.25199890100001,Red Bluff,96080,Tehama County,California,US
-3840,KRCA,Ellsworth Air Force Base,medium_airport,44.14500046,-103.1039963,Rapid City,57769,Meade County,South Dakota,US
-3841,KRDD,Redding Municipal Airport,medium_airport,40.50899887,-122.2929993,Redding,96002,Shasta County,California,US
-3842,KRDG,Reading Regional Carl A Spaatz Field,medium_airport,40.378501892089844,-75.96520233154297,Reading,19605,Berks County,Pennsylvania,US
-3843,KRDM,Roberts Field,medium_airport,44.254100799999996,-121.15000149999999,Redmond,97756,Deschutes County,Oregon,US
-20922,KRDR,Grand Forks Air Force Base,medium_airport,47.961101532,-97.4011993408,Grand Forks,58214,Grand Forks County,North Dakota,US
 3844,KRDU,Raleigh Durham International Airport,large_airport,35.877601623535156,-78.7874984741211,Raleigh/Durham,27560,Wake County,North Carolina,US
 3845,KRFD,Chicago Rockford International Airport,large_airport,42.19540023803711,-89.09719848632812,Chicago/Rockford,61109,Winnebago County,Illinois,US
-3846,KRHI,Rhinelander Oneida County Airport,medium_airport,45.63119888305664,-89.46749877929688,Rhinelander,54501,Oneida County,Wisconsin,US
 3847,KRIC,Richmond International Airport,large_airport,37.50519943237305,-77.3197021484375,Richmond,23250,Henrico County,Virginia,US
-20931,KRIL,Garfield County Regional Airport,medium_airport,39.52629852,-107.72699740000002,Rifle,81650,Garfield County,Colorado,US
-3849,KRIV,March ARB Airport,medium_airport,33.88069916,-117.2590027,Riverside,92571,Riverside County,California,US
-20933,KRIW,Riverton Regional Airport,medium_airport,43.064201355,-108.459999084,Riverton,82501,Fremont County,Wyoming,US
-3850,KRKS,Rock Springs Sweetwater County Airport,medium_airport,41.59420013,-109.0650024,Rock Springs,82901,Sweetwater County,Wyoming,US
-20940,KRME,Griffiss International Airport,medium_airport,43.23379898,-75.40699768,Rome,13440,Oneida County,New York,US
-3851,KRMG,Richard B Russell Airport,medium_airport,34.3506011963,-85.15799713130002,Rome,30165,Floyd County,Georgia,US
 3852,KRND,Randolph Air Force Base,large_airport,29.52969933,-98.27890015,Universal City,78148,Bexar County,Texas,US
-20944,KRNH,New Richmond Regional Airport,medium_airport,45.14830017,-92.5381012,New Richmond,54017,St. Croix County,Wisconsin,US
 3853,KRNO,Reno Tahoe International Airport,large_airport,39.49909973144531,-119.76799774169922,Reno,89502,Washoe County,Nevada,US
 3854,KROA,Roanoke–Blacksburg Regional Airport,large_airport,37.3255,-79.975403,Roanoke,24012,,Virginia,US
 3855,KROC,Greater Rochester International Airport,large_airport,43.118900299072266,-77.67240142822266,Rochester,14624,Monroe County,New York,US
-3856,KROW,Roswell International Air Center Airport,medium_airport,33.30160140991211,-104.53099822998048,Roswell,88203,Chaves County,New Mexico,US
-20962,KRSL,Russell Municipal Airport,medium_airport,38.872100830078004,-98.811798095703,Russell,67665,Russell County,Kansas,US
 3857,KRST,Rochester International Airport,large_airport,43.90829849243164,-92.5,Rochester,55902,Olmsted County,Minnesota,US
 3858,KRSW,Southwest Florida International Airport,large_airport,26.53619956970215,-81.75520324707031,Fort Myers,33913,Lee County,Florida,US
-3859,KRUT,Rutland - Southern Vermont Regional Airport,medium_airport,43.52939987,-72.94960022,Rutland,05759,Rutland County,Vermont,US
-20972,KRVS,Richard Lloyd Jones Jr Airport,medium_airport,36.039600372314,-95.98459625244101,Tulsa,74132,Tulsa County,Oklahoma,US
-20973,KRWF,Redwood Falls Municipal Airport,medium_airport,44.54719925,-95.08229828,Redwood Falls,56283,Redwood County,Minnesota,US
-3860,KRWI,Rocky Mount Wilson Regional Airport,medium_airport,35.856300354003906,-77.89189910888672,Rocky Mount,27803,Nash County,North Carolina,US
-20974,KRWL,Rawlins Municipal Airport/Harvey Field,medium_airport,41.80559921,-107.1999969,Rawlins,82301,Carbon County,Wyoming,US
-20981,KRYY,Cobb County-Mc Collum Field,medium_airport,34.01319885,-84.59860229,Atlanta,30144,Cobb County,Georgia,US
-3861,KSAC,Sacramento Executive Airport,medium_airport,38.5125007629,-121.49299621600001,Sacramento,95822,Sacramento County,California,US
-21033,KSAF,Santa Fe Municipal Airport,medium_airport,35.617099761999995,-106.08899688700001,Santa Fe,87507,Santa Fe County,New Mexico,US
 3862,KSAN,San Diego International Airport,large_airport,32.7336006165,-117.190002441,San Diego,92101,San Diego County,California,US
 3863,KSAT,San Antonio International Airport,large_airport,29.533700942993164,-98.46980285644531,San Antonio,78216,Bexar County,Texas,US
 3864,KSAV,Savannah Hilton Head International Airport,large_airport,32.12760162,-81.20210266,Savannah,31408,Chatham County,Georgia,US
-3865,KSAW,Sawyer International Airport,medium_airport,46.3535995483,-87.39540100100001,Marquette,49841,Marquette County,Michigan,US
-3866,KSBA,Santa Barbara Municipal Airport,medium_airport,34.42620087,-119.8399963,Santa Barbara,93117,Santa Barbara County,California,US
-3867,KSBD,San Bernardino International Airport,medium_airport,34.0954017639,-117.23500061,San Bernardino,92415,San Bernardino County,California,US
 3868,KSBN,South Bend Regional Airport,large_airport,41.70869827270508,-86.31729888916016,South Bend,46628,St. Joseph County,Indiana,US
-3869,KSBP,San Luis County Regional Airport,medium_airport,35.2368011475,-120.64199829100001,San Luis Obispo,93401,San Luis Obispo County,California,US
-3870,KSBY,Salisbury Ocean City Wicomico Regional Airport,medium_airport,38.34049987792969,-75.51029968261719,Salisbury,21804,Wicomico County,Maryland,US
-3871,KSCH,Schenectady County Airport,medium_airport,42.852500915527,-73.92890167236301,Schenectady,12302,Schenectady County,New York,US
-3872,KSCK,Stockton Metropolitan Airport,medium_airport,37.894199371338,-121.2379989624,Stockton,95206,San Joaquin County,California,US
 3873,KSDF,Louisville International Standiford Field,large_airport,38.1744,-85.736,Louisville,40209,Jefferson County,Kentucky,US
-3874,KSDM,Brown Field Municipal Airport,medium_airport,32.572299957275,-116.98000335693001,San Diego,92154,San Diego County,California,US
-21046,KSDY,Sidney - Richland Regional Airport,medium_airport,47.706902,-104.193001,Sidney,59270,Richland County,Montana,US
 3875,KSEA,Seattle Tacoma International Airport,large_airport,47.44900131225586,-122.30899810791016,Seattle,98158,King County,Washington,US
 3876,KSFB,Orlando Sanford International Airport,large_airport,28.7775993347168,-81.23750305175781,Orlando,32773,Seminole County,Florida,US
-3877,KSFF,Felts Field,medium_airport,47.682800292969,-117.32299804688,Spokane,99212,Spokane County,Washington,US
 3878,KSFO,San Francisco International Airport,large_airport,37.61899948120117,-122.375,San Francisco,94128,San Mateo County,California,US
 3879,KSGF,Springfield Branson National Airport,large_airport,37.24570084,-93.38860321,Springfield,65803,Greene County,Missouri,US
-3880,KSGH,Springfield-Beckley Municipal Airport,medium_airport,39.840301513671996,-83.840202331543,Springfield,45502,Clark County,Ohio,US
-21061,KSGJ,Northeast Florida Regional Airport,medium_airport,29.9592,-81.339798,St Augustine,32095,St. Johns County,Florida,US
-21062,KSGR,Sugar Land Regional Airport,medium_airport,29.622299194335998,-95.65650177001999,Houston,77498,Fort Bend County,Texas,US
-21065,KSGU,St George Municipal Airport,medium_airport,37.036389,-113.510306,St George,84790,Washington County,Utah,US
-3881,KSHR,Sheridan County Airport,medium_airport,44.76919937133789,-106.9800033569336,Sheridan,82801,Sheridan County,Wyoming,US
 3882,KSHV,Shreveport Regional Airport,large_airport,32.44660186767578,-93.82559967041016,Shreveport,71109,Caddo Parish,Louisiana,US
 3883,KSJC,Norman Y. Mineta San Jose International Airport,large_airport,37.362598,-121.929001,San Jose,95050,Santa Clara County,California,US
-3884,KSJT,San Angelo Regional Mathis Field,medium_airport,31.35770034790039,-100.49600219726562,San Angelo,76904,Tom Green County,Texas,US
 3885,KSKA,Fairchild Air Force Base,large_airport,47.6151008606,-117.65599823,Spokane,99011,Spokane County,Washington,US
-3886,KSKF,Lackland Air Force Base,medium_airport,29.38419914,-98.58110046,San Antonio,78243,Bexar County,Texas,US
 3887,KSLC,Salt Lake City International Airport,large_airport,40.78839874267578,-111.97799682617188,Salt Lake City,84122,Salt Lake County,Utah,US
-3888,KSLE,Salem Municipal Airport/McNary Field,medium_airport,44.90950012,-123.00299840000002,Salem,97302,Marion County,Oregon,US
-3889,KSLI,Los Alamitos Army Air Field,medium_airport,33.79000092,-118.052002,Los Alamitos,90720,Orange County,California,US
-3890,KSLK,Adirondack Regional Airport,medium_airport,44.38529968261719,-74.2061996459961,Saranac Lake,12983,Franklin County,New York,US
-3891,KSLN,Salina Municipal Airport,medium_airport,38.79100036621094,-97.6521987915039,Salina,67401,Saline County,Kansas,US
-21085,KSME,Lake Cumberland Regional Airport,medium_airport,37.0533981323,-84.61589813229999,Somerset,42501,Pulaski County,Kentucky,US
 3892,KSMF,Sacramento International Airport,large_airport,38.69540023803711,-121.59100341796876,Sacramento,95837,Sacramento County,California,US
-21086,KSMN,Lemhi County Airport,medium_airport,45.1237983704,-113.880996704,Salmon,83467,Lemhi County,Idaho,US
-3893,KSMX,Santa Maria Pub/Capt G Allan Hancock Field,medium_airport,34.89889908,-120.4570007,Santa Maria,93455,Santa Barbara County,California,US
 3894,KSNA,John Wayne Airport-Orange County Airport,large_airport,33.67570114,-117.86799620000001,Santa Ana,92626,Orange County,California,US
-3895,KSNS,Salinas Municipal Airport,medium_airport,36.662799835205,-121.60600280761999,Salinas,93905,Monterey County,California,US
-21094,KSNY,Sidney Municipal-Lloyd W Carr Field,medium_airport,41.10129929,-102.98500059999999,Sidney,69162,Cheyenne County,Nebraska,US
-21095,KSOA,Sonora Municipal Airport,medium_airport,30.585699081420998,-100.6490020752,Sonora,76950,Sutton County,Texas,US
 3897,KSPI,Abraham Lincoln Capital Airport,large_airport,39.84410095,-89.67790222,Springfield,62707,Sangamon County,Illinois,US
 3898,KSPS,Sheppard Air Force Base-Wichita Falls Municipal Airport,large_airport,33.9888,-98.49189799999999,Wichita Falls,76311,Wichita County,Texas,US
 3899,KSRQ,Sarasota Bradenton International Airport,large_airport,27.39539909362793,-82.55439758300781,Sarasota/Bradenton,34243,Manatee County,Florida,US
-3900,KSRR,Sierra Blanca Regional Airport,medium_airport,33.462799072266,-105.53500366211,Ruidoso,88312,Lincoln County,New Mexico,US
 3901,KSSC,Shaw Air Force Base,large_airport,33.97269821,-80.47059631,Sumter,29154,Sumter County,South Carolina,US
-21109,KSSF,Stinson Municipal Airport,medium_airport,29.336999893188,-98.47109985351601,San Antonio,78214,Bexar County,Texas,US
-3902,KSSI,Malcolm McKinnon Airport,medium_airport,31.15180016,-81.39129639,Brunswick,31522,Glynn County,Georgia,US
-3903,KSTC,St Cloud Regional Airport,medium_airport,45.54660034179688,-94.05989837646484,St Cloud,56304,Sherburne County,Minnesota,US
-3904,KSTJ,Rosecrans Memorial Airport,medium_airport,39.771900177002,-94.909698486328,St Joseph,64503,Buchanan County,Missouri,US
 3905,KSTL,St Louis Lambert International Airport,large_airport,38.748697,-90.370003,St Louis,63145,St. Louis County,Missouri,US
-3906,KSTP,St Paul Downtown Holman Field,medium_airport,44.93450164794922,-93.05999755859376,St Paul,55107,Ramsey County,Minnesota,US
-21114,KSTS,Charles M. Schulz Sonoma County Airport,medium_airport,38.50899887,-122.8130035,Santa Rosa,95492,Sonoma County,California,US
-21118,KSUN,Friedman Memorial Airport,medium_airport,43.50439835,-114.2959976,Hailey,83333,Blaine County,Idaho,US
 3907,KSUS,Spirit of St Louis Airport,large_airport,38.662101745605,-90.652000427246,St Louis,63005,St. Louis County,Missouri,US
 3908,KSUU,Travis Air Force Base,large_airport,38.262699127196996,-121.92700195312,Fairfield,94535,Solano County,California,US
 3909,KSUX,Sioux Gateway Col. Bud Day Field,large_airport,42.40259933,-96.38439941,Sioux City,51111,Woodbury County,Iowa,US
-29695,KSUZ,Saline County Regional Airport,medium_airport,34.59059906,-92.47940063,Benton,72022,Saline County,Arkansas,US
-3910,KSVN,Hunter Army Air Field,medium_airport,32.00999832,-81.14569855,Savannah,31406,Chatham County,Georgia,US
-3911,KSWF,Stewart International Airport,medium_airport,41.50410079956055,-74.10479736328125,Newburgh,12553,Orange County,New York,US
-3912,KSWO,Stillwater Regional Airport,medium_airport,36.161201477051,-97.08570098876999,Stillwater,74075,Payne County,Oklahoma,US
 3913,KSYR,Syracuse Hancock International Airport,large_airport,43.11119842529297,-76.1063003540039,Syracuse,13212,Onondaga County,New York,US
 3914,KSZL,Whiteman Air Force Base,large_airport,38.73030090332,-93.547897338867,Knob Noster,65336,Johnson County,Missouri,US
 21179,KTB,Thorne Bay Seaplane Base,seaplane_base,55.687999725299996,-132.537002563,Thorne Bay,99919,Prince of Wales-Hyder Census Area,Alaska,US
-3915,KTBN,Waynesville-St. Robert Regional Forney field,medium_airport,37.74160004,-92.14070129,Fort Leonard Wood,65473,Pulaski County,Missouri,US
-3916,KTCC,Tucumcari Municipal Airport,medium_airport,35.182800293,-103.60299682600001,Tucumcari,88401,Quay County,New Mexico,US
-3917,KTCL,Tuscaloosa Regional Airport,medium_airport,33.220600128174,-87.611396789551,Tuscaloosa,35401,Tuscaloosa County,Alabama,US
 3918,KTCM,McChord Air Force Base,large_airport,47.1376991272,-122.475997925,Tacoma,98438,Pierce County,Washington,US
-3919,KTCS,Truth Or Consequences Municipal Airport,medium_airport,33.2369003296,-107.27200317399999,Truth Or Consequences,87935,Sierra County,New Mexico,US
-3920,KTEB,Teterboro Airport,medium_airport,40.85010147089999,-74.060798645,Teterboro,07608,Bergen County,New Jersey,US
 3921,KTIK,Tinker Air Force Base,large_airport,35.414699554443004,-97.386596679688,Oklahoma City,73145,Oklahoma County,Oklahoma,US
-3922,KTIW,Tacoma Narrows Airport,medium_airport,47.26789856,-122.57800290000002,Tacoma,98335,Pierce County,Washington,US
-3923,KTIX,Space Coast Regional Airport,medium_airport,28.514799118042003,-80.799201965332,Titusville,32780,Brevard County,Florida,US
 3924,KTLH,Tallahassee Regional Airport,large_airport,30.396499633789066,-84.35030364990234,Tallahassee,32310,Leon County,Florida,US
-21204,KTMB,Kendall-Tamiami Executive Airport,medium_airport,25.6478996277,-80.432800293,Miami,33196,Miami-Dade County,Florida,US
-21212,KTOI,Troy Municipal Airport at N Kenneth Campbell Field,medium_airport,31.860398999999997,-86.012101,Troy,36079,Pike County,Alabama,US
 3925,KTOL,Toledo Express Airport,large_airport,41.58679962,-83.80780029,Toledo,43558,Lucas County,Ohio,US
-21213,KTOP,Philip Billard Municipal Airport,medium_airport,39.068698883056996,-95.62249755859399,Topeka,66616,Shawnee County,Kansas,US
 3926,KTPA,Tampa International Airport,large_airport,27.975500106811523,-82.533203125,Tampa,33614,Hillsborough County,Florida,US
-21216,KTPH,Tonopah Airport,medium_airport,38.06019974,-117.086998,Tonopah,89049,Nye County,Nevada,US
-3927,KTPL,Draughon Miller Central Texas Regional Airport,medium_airport,31.15250015258789,-97.40779876708984,Temple,76504,Bell County,Texas,US
 3928,KTRI,Tri-Cities Regional TN/VA Airport,large_airport,36.475201,-82.40740100000001,Bristol/Johnson/Kingsport,37617,Sullivan County,Tennessee,US
-21220,KTRK,Truckee Tahoe Airport,medium_airport,39.3199996948,-120.13999939,Truckee,96161,Nevada County,California,US
-21222,KTRM,Jacqueline Cochran Regional Airport,medium_airport,33.62670135498,-116.16000366211,Palm Springs,92274,Riverside County,California,US
-21228,KTTD,Portland Troutdale Airport,medium_airport,45.54940032959001,-122.40100097656,Portland,97060,Multnomah County,Oregon,US
-3929,KTTN,Trenton Mercer Airport,medium_airport,40.27669906616211,-74.8134994506836,Trenton,08628,Mercer County,New Jersey,US
-21230,KTTS,Nasa Shuttle Landing Facility Airport,medium_airport,28.614999771118164,-80.69450378417969,Titusville,32815,Brevard County,Florida,US
 3930,KTUL,Tulsa International Airport,large_airport,36.19839859008789,-95.88809967041016,Tulsa,74115,Tulsa County,Oklahoma,US
-3931,KTUP,Tupelo Regional Airport,medium_airport,34.26810073852539,-88.7698974609375,Tupelo,38801,Lee County,Mississippi,US
 3932,KTUS,Tucson International Airport,large_airport,32.116100311279304,-110.94100189208984,Tucson,85756,Pima County,Arizona,US
-3933,KTVC,Cherry Capital Airport,medium_airport,44.74140167236328,-85.58219909667969,Traverse City,49686,Grand Traverse County,Michigan,US
-3934,KTVL,Lake Tahoe Airport,medium_airport,38.89390182495117,-119.99500274658205,South Lake Tahoe,96150,El Dorado County,California,US
-3935,KTWF,Joslin Field Magic Valley Regional Airport,medium_airport,42.48180008,-114.487999,Twin Falls,83301,Twin Falls County,Idaho,US
-3936,KTXK,Texarkana Regional Webb Field,medium_airport,33.45370101928711,-93.99099731445312,Texarkana,71854,Miller County,Arkansas,US
-3937,KTYR,Tyler Pounds Regional Airport,medium_airport,32.35409927368164,-95.40239715576172,Tyler,75704,Smith County,Texas,US
 3938,KTYS,McGhee Tyson Airport,large_airport,35.81100082,-83.99400329999999,Knoxville,37701,Blount County,Tennessee,US
-21280,KUAO,Aurora State Airport,medium_airport,45.24710083007813,-122.7699966430664,Aurora,97002,Marion County,Oregon,US
-3940,KUIN,Quincy Regional Baldwin Field,medium_airport,39.94269943,-91.19460297,Quincy,62305,Adams County,Illinois,US
-3941,KUKI,Ukiah Municipal Airport,medium_airport,39.125999450684,-123.20099639893,Ukiah,95482,Mendocino County,California,US
-21300,KUNV,University Park Airport,medium_airport,40.8493003845,-77.84870147710002,State College,16803,Centre County,Pennsylvania,US
-3942,KUOX,University Oxford Airport,medium_airport,34.384300231934,-89.536796569824,Oxford,38655,Lafayette County,Mississippi,US
-21304,KUTS,Huntsville Regional Airport,medium_airport,30.7469005585,-95.5871963501,Huntsville,77320,Walker County,Texas,US
-3943,KVAD,Moody Air Force Base,medium_airport,30.967800140399998,-83.1930007935,Valdosta,31699,Lowndes County,Georgia,US
 3944,KVBG,Vandenberg Air Force Base,large_airport,34.7373008728,-120.583999634,Lompoc,93437,Santa Barbara County,California,US
-3945,KVCT,Victoria Regional Airport,medium_airport,28.85260009765625,-96.9185028076172,Victoria,77904,Victoria County,Texas,US
-21318,KVEL,Vernal Regional Airport,medium_airport,40.4408989,-109.5100021,Vernal,84078,Uintah County,Utah,US
-21321,KVGT,North Las Vegas Airport,medium_airport,36.21070098877,-115.19400024414,Las Vegas,89032,Clark County,Nevada,US
-3946,KVLD,Valdosta Regional Airport,medium_airport,30.78249931335449,-83.27670288085938,Valdosta,31601,Lowndes County,Georgia,US
-21333,KVNY,Van Nuys Airport,medium_airport,34.209800720215,-118.48999786376999,Van Nuys,91406,Los Angeles County,California,US
-3947,KVOK,Volk Field,medium_airport,43.938999176025,-90.253402709961,Camp Douglas,54618,Juneau County,Wisconsin,US
 3948,KVPS,Destin-Ft Walton Beach Airport,large_airport,30.4832,-86.525398,Valparaiso,32580,Okaloosa County,Florida,US
-3949,KVPZ,Porter County Municipal Airport,medium_airport,41.45399857,-87.00710297,Valparaiso,46383,Porter County,Indiana,US
-3950,KVRB,Vero Beach Regional Airport,medium_airport,27.6556,-80.417901,Vero Beach,32960,Indian River County,Florida,US
-21339,KVTN,Miller Field,medium_airport,42.85779953,-100.5479965,Valentine,69201,Cherry County,Nebraska,US
-21358,KW63,Lake Country Regional Airport,medium_airport,36.5957984924,-78.56009674070002,Clarksville,23927,Mecklenburg County,Virginia,US
 21373,KWF,Waterfall Seaplane Base,seaplane_base,55.296298980699994,-133.242996216,Waterfall,99922,Prince of Wales-Hyder Census Area,Alaska,US
-21375,KWJF,General WM J Fox Airfield,medium_airport,34.74110031,-118.21900179999999,Lancaster,93536,Los Angeles County,California,US
 21376,KWK,Kwigillingok Seaplane Base,seaplane_base,59.8367004395,-163.13999939,Kwigillingok,,Bethel,Alaska,US
-21379,KWMC,Winnemucca Municipal Airport,medium_airport,40.8965988159,-117.805999756,Winnemucca,89445,Humboldt County,Nevada,US
 21380,KWP,West Point Village Seaplane Base,seaplane_base,57.770099639899996,-153.548995972,West Point,99615,Kodiak Island,Alaska,US
 3951,KWRB,Robins Air Force Base,large_airport,32.640098571799996,-83.59190368649999,Warner Robins,31098,Houston County,Georgia,US
-3952,KWRI,Mc Guire Air Force Base,medium_airport,40.01559829999999,-74.59169769,Wrightstown,08641,Burlington County,New Jersey,US
-3953,KWRL,Worland Municipal Airport,medium_airport,43.9656982421875,-107.95099639892578,Worland,82401,Washakie County,Wyoming,US
-3954,KWWD,Cape May County Airport,medium_airport,39.008499145500004,-74.9083023071,Wildwood,08242,Cape May County,New Jersey,US
-21386,KWWR,West Woodward Airport,medium_airport,36.438,-99.5226667,Woodward,73801,Woodward County,Oklahoma,US
-3955,KWYS,Yellowstone Airport,medium_airport,44.68840027,-111.11799620000001,West Yellowstone,59758,Gallatin County,Montana,US
 21408,KXA,Kasaan Seaplane Base,seaplane_base,55.537399291999996,-132.397994995,Kasaan,99919,Prince of Wales-Hyder Census Area,Alaska,US
-3956,KXMR,Cape Canaveral AFS Skid Strip,medium_airport,28.4675998688,-80.56659698490002,Cocoa Beach,32920,Brevard County,Florida,US
-21410,KXNA,Northwest Arkansas Regional Airport,medium_airport,36.281898,-94.30680100000001,Fayetteville/Springdale/Rogers,72712,Benton County,Arkansas,US
-28148,KXTA,Homey (Area 51) Airport,medium_airport,37.23500061035156,-115.81099700927734,Groom Lake,,Lincoln County,Nevada,US
-3957,KYIP,Willow Run Airport,medium_airport,42.23789978,-83.53040314,Detroit,48111,Wayne County,Michigan,US
-3958,KYKM,Yakima Air Terminal McAllister Field,medium_airport,46.56819916,-120.5439987,Yakima,98903,Yakima County,Washington,US
-3959,KYKN,Chan Gurney Municipal Airport,medium_airport,42.916698455811,-97.385902404785,Yankton,57078,Yankton County,South Dakota,US
-3960,KYNG,Youngstown Warren Regional Airport,medium_airport,41.26070023,-80.67910004,Youngstown/Warren,44473,Trumbull County,Ohio,US
 308357,KZB,Zachar Bay Seaplane Base,seaplane_base,57.553001,-153.746052,Zachar Bay,99624,Kodiak Island,Alaska,US
-3967,KZZV,Zanesville Municipal Airport,medium_airport,39.9444007874,-81.89209747310001,Zanesville,43701,Muskingum County,Ohio,US
 21444,L11,Pebbly Beach Seaplane Base,seaplane_base,33.338402,-118.311996,Avalon,90704,Los Angeles County,California,US
 21460,L85,Mackeys Lakes Seaplane Base,seaplane_base,60.53359985350001,-150.996002197,Soldotna,99669,Kenai Peninsula Borough,Alaska,US
 21465,L93,Robe Lake Seaplane Base,seaplane_base,61.08710098270001,-146.143997192,Valdez,99686,Valdez-Cordova,Alaska,US
@@ -1145,7 +554,6 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 21754,MA12,Marston Mills Seaplane Base,seaplane_base,41.66899871826172,-70.4175033569336,Marstons Mills,02648,Barnstable County,Massachusetts,US
 21762,MA2,Merrimack Valley Seaplane Base,seaplane_base,42.70009994506836,-71.21620178222656,Methuen,01810,Essex County,Massachusetts,US
 21768,MA25,Long Pond Seaplane Base,seaplane_base,41.73210144042969,-70.06109619140625,Brewster,02631,Barnstable County,Massachusetts,US
-21769,MA26,Balloon Port At Dingley Dell Balloonport,balloonport,42.120399475097656,-72.2562026977539,Brimfield,01010,Hampden County,Massachusetts,US
 21783,MA40,Diesel Dogs Seaplane Base,seaplane_base,42.543399810791016,-71.96839904785156,Gardner,01440,Worcester County,Massachusetts,US
 21803,MA6,Monponsett Pond Seaplane Base,seaplane_base,42.00979995727539,-70.84310150146484,Halifax,02338,Plymouth County,Massachusetts,US
 21808,MA65,Island Air Service Seaplane Base,seaplane_base,41.77180099487305,-70.87310028076172,Rochester,02770,Plymouth County,Massachusetts,US
@@ -1213,7 +621,6 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 23190,NK59,Copake Lake Seaplane Base,seaplane_base,42.14310073852539,-73.59120178222656,Copake,12521,Columbia County,New York,US
 23191,NK60,Bostrup's Landing Seaplane Base,seaplane_base,43.48479843139648,-74.35179901123047,Lake Pleasant,12164,Hamilton County,New York,US
 23442,NY61,Eagle Nest Seaplane Base,seaplane_base,43.82979965209961,-74.49539947509766,Blue Mountain Lake,12842,Hamilton County,New York,US
-45548,NY80,Aurora Balloonport,balloonport,42.696389,-78.56916700000001,South Wales,14139,Erie County,New York,US
 23461,NY83,Essex Boatworks Seaplane Base,seaplane_base,44.30009841918945,-73.34960174560547,Essex,12936,Essex County,New York,US
 23468,NY9,Long Lake /Helms Seaplane Base,seaplane_base,43.97510147094727,-74.42040252685547,Long Lake,12847,Hamilton County,New York,US
 23479,O06,Lake Oroville Landing Area Seaplane Base,seaplane_base,39.56660079956055,-121.46800231933594,Oroville,95965,Butte County,California,US
@@ -1223,130 +630,24 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 23986,PA15,Couillard Seaplane Base,seaplane_base,40.775001525878906,-75.14140319824219,Martins Creek,18013,Northampton County,Pennsylvania,US
 24058,PA90,Flat Rock Seaplane Base,seaplane_base,40.05619812011719,-75.2666015625,Gladwyne,19035,Montgomery County,Pennsylvania,US
 16094,PAAP,Port Alexander Seaplane Base,seaplane_base,56.246799468999995,-134.647994995,Port Alexander,99836,Petersburg Borough,Alaska,US
-5336,PAAQ,Palmer Buddy Woods Municipal Airport,medium_airport,61.594898,-149.08901,Palmer,99645,Matanuska-Susitna,Alaska,US
-5337,PABA,Barter Island LRRS Airport,medium_airport,70.13400268550001,-143.582000732,Barter Island Lrrs,99747,North Slope,Alaska,US
-5338,PABE,Bethel Airport,medium_airport,60.77980042,-161.8379974,Bethel,99559,Bethel,Alaska,US
-5339,PABI,Allen Army Airfield,medium_airport,63.994499206499995,-145.722000122,Delta Junction Ft Greely,99731,Southeast Fairbanks,Alaska,US
-5340,PABL,Buckland Airport,medium_airport,65.9815979004,-161.149002075,Buckland,,Northwest Arctic,Alaska,US
-5342,PABR,Wiley Post Will Rogers Memorial Airport,medium_airport,71.285402,-156.766008,Utqiaġvik,99723,North Slope,Alaska,US
-5343,PABT,Bettles Airport,medium_airport,66.91390228,-151.529007,Bettles,99726,Yukon-Koyukuk,Alaska,US
-5344,PABV,Birchwood Airport,medium_airport,61.41650009,-149.5070038,Birchwood,99567,Anchorage,Alaska,US
-5345,PACD,Cold Bay Airport,medium_airport,55.20610046386719,-162.72500610351562,Cold Bay,99571,Aleutians East,Alaska,US
-5346,PACL,Clear Airport,medium_airport,64.301201,-149.119995,Clear,99744,Denali,Alaska,US
-5347,PACM,Scammon Bay Airport,medium_airport,61.84529876710001,-165.570999146,Scammon Bay,99662,Kusilvak Census Area,Alaska,US
-5348,PACV,Merle K (Mudhole) Smith Airport,medium_airport,60.49179839999999,-145.4779968,Cordova,99574,Valdez-Cordova,Alaska,US
-5349,PACZ,Cape Romanzof LRRS Airport,medium_airport,61.78030014,-166.03900149999998,Cape Romanzof,99662,Kusilvak Census Area,Alaska,US
-5350,PADE,Deering Airport,medium_airport,66.0696029663,-162.76600647,Deering,,Northwest Arctic,Alaska,US
-16092,PADK,Adak Airport,medium_airport,51.87799835205078,-176.64599609375,Adak Island,99546,Aleutians West,Alaska,US
-5351,PADL,Dillingham Airport,medium_airport,59.04470062,-158.50500490000002,Dillingham,99576,Dillingham,Alaska,US
-5352,PADM,Marshall Don Hunter Sr Airport,medium_airport,61.8642997742,-162.026000977,Marshall,99585,Kusilvak Census Area,Alaska,US
-5353,PADQ,Kodiak Airport,medium_airport,57.75,-152.4940033,Kodiak,99615,Kodiak Island,Alaska,US
-5354,PADU,Unalaska Airport,medium_airport,53.900100708000004,-166.54400634799998,Unalaska,99692,Aleutians West,Alaska,US
-5355,PAED,Elmendorf Air Force Base,medium_airport,61.2509994506836,-149.8070068359375,Anchorage,99506,Anchorage,Alaska,US
-5356,PAEH,Cape Newenham LRRS Airport,medium_airport,58.6464004517,-162.06300354,Cape Newenham,99559,Bethel,Alaska,US
-5357,PAEI,Eielson Air Force Base,medium_airport,64.66570282,-147.102005,Fairbanks,99702,Fairbanks North Star,Alaska,US
 17178,PAEL,Elfin Cove Seaplane Base,seaplane_base,58.1952018738,-136.347000122,Elfin Cove,99825,Hoonah-Angoon,Alaska,US
-5358,PAEM,Emmonak Airport,medium_airport,62.78609848,-164.49099730000003,Emmonak,99581,Kusilvak Census Area,Alaska,US
-5359,PAEN,Kenai Municipal Airport,medium_airport,60.57310104370117,-151.2449951171875,Kenai,99611,Kenai Peninsula Borough,Alaska,US
 5360,PAFA,Fairbanks International Airport,large_airport,64.81510162,-147.85600280000003,Fairbanks,99709,Fairbanks North Star,Alaska,US
-5361,PAFB,Ladd AAF Airfield,medium_airport,64.83750153,-147.6139984,Fairbanks/Ft Wainwright,99703,Fairbanks North Star,Alaska,US
-5362,PAFE,Kake Airport,medium_airport,56.9613990784,-133.910003662,Kake,99830,Petersburg Borough,Alaska,US
 17370,PAFK,Farewell Lake Seaplane Base,seaplane_base,62.54249954223633,-153.6230010986328,Farewell Lake,99691,Yukon-Koyukuk,Alaska,US
-5363,PAFM,Ambler Airport,medium_airport,67.1063,-157.856989,Ambler,99786,Northwest Arctic,Alaska,US
-5365,PAGA,Edward G. Pitka Sr Airport,medium_airport,64.73619843,-156.93699650000002,Galena,99741,Yukon-Koyukuk,Alaska,US
-5367,PAGK,Gulkana Airport,medium_airport,62.15489960000001,-145.4570007,Gulkana,99588,Valdez-Cordova,Alaska,US
-5368,PAGM,Gambell Airport,medium_airport,63.76679992675781,-171.73300170898438,Gambell,99742,Nome,Alaska,US
 16093,PAGN,Angoon Seaplane Base,seaplane_base,57.503601,-134.58500700000002,Angoon,99820,Hoonah-Angoon,Alaska,US
-5369,PAGS,Gustavus Airport,medium_airport,58.42530060000001,-135.7070007,Gustavus,99826,Hoonah-Angoon,Alaska,US
-17619,PAHC,Holy Cross Airport,medium_airport,62.18830108642578,-159.77499389648438,Holy Cross,99602,Yukon-Koyukuk,Alaska,US
-5370,PAHL,Huslia Airport,medium_airport,65.69789886,-156.3509979,Huslia,99746,Yukon-Koyukuk,Alaska,US
-5372,PAHN,Haines Airport,medium_airport,59.24380111694336,-135.52400207519528,Haines,99827,Haines,Alaska,US
-5373,PAHO,Homer Airport,medium_airport,59.64559936523438,-151.4770050048828,Homer,99603,Kenai Peninsula Borough,Alaska,US
-5374,PAHP,Hooper Bay Airport,medium_airport,61.52389908,-166.1470032,Hooper Bay,99604,Kusilvak Census Area,Alaska,US
 17658,PAHY,Hydaburg Seaplane Base,seaplane_base,55.206298828125,-132.8280029296875,Hydaburg,99922,Prince of Wales-Hyder Census Area,Alaska,US
-5375,PAII,Egegik Airport,medium_airport,58.1855010986,-157.375,Egegik,99579,Lake and Peninsula,Alaska,US
-5376,PAIK,Bob Baker Memorial Airport,medium_airport,66.9759979248,-160.43699646,Kiana,99749,Northwest Arctic,Alaska,US
-5377,PAIL,Iliamna Airport,medium_airport,59.75439835,-154.9109955,Iliamna,99606,Lake and Peninsula,Alaska,US
-5378,PAIM,Indian Mountain LRRS Airport,medium_airport,65.99279785,-153.7039948,Utopia Creek,,Yukon-Koyukuk,Alaska,US
-5379,PAJN,Juneau International Airport,medium_airport,58.35499954223633,-134.57600402832028,Juneau,99801,Juneau,Alaska,US
-5380,PAKN,King Salmon Airport,medium_airport,58.67679977,-156.6490021,King Salmon,99613,Bristol Bay,Alaska,US
-5381,PAKP,Anaktuvuk Pass Airport,medium_airport,68.13359833,-151.7429962,Anaktuvuk Pass,99721,North Slope,Alaska,US
-5382,PAKT,Ketchikan International Airport,medium_airport,55.35559845,-131.7140045,Ketchikan,99901,Ketchikan Gateway,Alaska,US
-5383,PAKW,Klawock Airport,medium_airport,55.5792007446,-133.076004028,Klawock,99925,Prince of Wales-Hyder Census Area,Alaska,US
 21567,PALH,Lake Hood Seaplane Base,seaplane_base,61.18000030517578,-149.9720001220703,Anchorage,99502,Anchorage,Alaska,US
-5385,PALU,Cape Lisburne LRRS Airport,medium_airport,68.87509918,-166.1100006,Cape Lisburne,99766,,Alaska,US
-21844,PAMC,McGrath Airport,medium_airport,62.95289993,-155.60600280000003,McGrath,99627,Yukon-Koyukuk,Alaska,US
 22496,PAMM,Metlakatla Seaplane Base,seaplane_base,55.13100051879883,-131.5780029296875,Metlakatla,99926,Prince of Wales-Hyder Census Area,Alaska,US
-5386,PAMR,Merrill Field,medium_airport,61.2135009765625,-149.843994140625,Anchorage,99501,Anchorage,Alaska,US
-5387,PAMY,Mekoryuk Airport,medium_airport,60.37139892578125,-166.27099609375,Mekoryuk,,Bethel,Alaska,US
 5388,PANC,Ted Stevens Anchorage International Airport,large_airport,61.174400329589844,-149.99600219726562,Anchorage,99502,Anchorage,Alaska,US
-16291,PANI,Aniak Airport,medium_airport,61.58160018920898,-159.54299926757812,Aniak,99557,Bethel,Alaska,US
-5390,PANN,Nenana Municipal Airport,medium_airport,64.54730224609375,-149.07400512695312,Nenana,99760,Yukon-Koyukuk,Alaska,US
 17468,PANR,Funter Bay Seaplane Base,seaplane_base,58.2543983459,-134.897994995,Funter Bay,,Hoonah-Angoon,Alaska,US
-5391,PANT,Annette Island Airport,medium_airport,55.04240036010742,-131.57200622558594,Annette,99926,Prince of Wales-Hyder Census Area,Alaska,US
-5392,PANV,Anvik Airport,medium_airport,62.646702000000005,-160.190994,Anvik,99558,Yukon-Koyukuk,Alaska,US
-5393,PAOM,Nome Airport,medium_airport,64.51219940185547,-165.44500732421875,Nome,99762,Nome,Alaska,US
-5394,PAOR,Northway Airport,medium_airport,62.96129989999999,-141.9290009,Northway,99764,Southeast Fairbanks,Alaska,US
-5395,PAOT,Ralph Wien Memorial Airport,medium_airport,66.88469696,-162.598999,Kotzebue,99752,Northwest Arctic,Alaska,US
-5396,PAPB,St George Airport,medium_airport,56.5783004761,-169.662002563,St George,99591,Aleutians West,Alaska,US
-5397,PAPC,Port Clarence Coast Guard Station,medium_airport,65.25370025630001,-166.85899353,Port Clarence,99778,Nome,Alaska,US
-5398,PAPG,Petersburg James A Johnson Airport,medium_airport,56.80170059,-132.9450073,Petersburg,99833,Petersburg Borough,Alaska,US
-5399,PAPH,Port Heiden Airport,medium_airport,56.95909881591797,-158.63299560546875,Port Heiden,99549,Lake and Peninsula,Alaska,US
-5400,PAPM,Platinum Airport,medium_airport,59.01139831542969,-161.82000732421875,Platinum,99651,Bethel,Alaska,US
 16292,PAQC,Klawock Seaplane Base,seaplane_base,55.5546989440918,-133.10200500488278,Klawock,99925,Prince of Wales-Hyder Census Area,Alaska,US
-5401,PAQT,Nuiqsut Airport,medium_airport,70.2099990845,-151.00599670399998,Nuiqsut,99789,North Slope,Alaska,US
-5402,PARC,Arctic Village Airport,medium_airport,68.1147,-145.578995,Arctic Village,99722,Yukon-Koyukuk,Alaska,US
-5403,PARY,Ruby Airport,medium_airport,64.72720337,-155.47000119999998,Ruby,99768,Yukon-Koyukuk,Alaska,US
-5404,PASA,Savoonga Airport,medium_airport,63.6864013671875,-170.4929962158203,Savoonga,99769,Nome,Alaska,US
-5405,PASC,Deadhorse Airport,medium_airport,70.19470215,-148.46499630000002,Deadhorse,99734,North Slope,Alaska,US
-5406,PASD,Sand Point Airport,medium_airport,55.31499862670898,-160.5229949951172,Sand Point,99661,Aleutians East,Alaska,US
-5407,PASH,Shishmaref Airport,medium_airport,66.249604,-166.089112,Shishmaref,99772,Nome,Alaska,US
-5408,PASI,Sitka Rocky Gutierrez Airport,medium_airport,57.04710006713867,-135.36199951171878,Sitka,99835,Sitka,Alaska,US
-5384,PASK,Selawik Airport,medium_airport,66.60009766,-159.98599240000001,Selawik,99770,Northwest Arctic,Alaska,US
-5409,PASM,St Mary's Airport,medium_airport,62.0605011,-163.30200200000002,St Mary's,99658,Kusilvak Census Area,Alaska,US
-5410,PASN,St Paul Island Airport,medium_airport,57.16730117797852,-170.22000122070312,St Paul Island,99660,Aleutians West,Alaska,US
-5411,PASV,Sparrevohn LRRS Airport,medium_airport,61.09740067,-155.5740051,Sparrevohn,99557,Bethel,Alaska,US
-5412,PASX,Soldotna Airport,medium_airport,60.47570037841797,-151.03399658203125,Soldotna,99669,Kenai Peninsula Borough,Alaska,US
-5413,PASY,Eareckson Air Station,medium_airport,52.71229935,174.1139984,Shemya,,Aleutians West,Alaska,US
-5414,PATG,Togiak Airport,medium_airport,59.05279922485352,-160.39700317382812,Togiak Village,99678,Dillingham,Alaska,US
-24910,PATK,Talkeetna Airport,medium_airport,62.320499420165994,-150.09399414062,Talkeetna,99676,Matanuska-Susitna,Alaska,US
-5415,PATL,Tatalina LRRS Airport,medium_airport,62.894401550299996,-155.977005005,Takotna,99627,Yukon-Koyukuk,Alaska,US
-5416,PATQ,Atqasuk Edward Burnell Sr Memorial Airport,medium_airport,70.46730041503906,-157.43600463867188,Atqasuk,99791,North Slope,Alaska,US
-5418,PAVD,Valdez Pioneer Field,medium_airport,61.13389969,-146.24800109999998,Valdez,99686,Valdez-Cordova,Alaska,US
-5419,PAVL,Kivalina Airport,medium_airport,67.73619842529297,-164.56300354003906,Kivalina,99750,Northwest Arctic,Alaska,US
-5420,PAWD,Seward Airport,medium_airport,60.12689971923828,-149.41900634765625,Seward,99664,Kenai Peninsula Borough,Alaska,US
-5421,PAWG,Wrangell Airport,medium_airport,56.48429871,-132.36999509999998,Wrangell,99929,City and Borough of Wrangell,Alaska,US
-5422,PAWI,Wainwright Airport,medium_airport,70.6380004883,-159.994995117,Wainwright,99782,North Slope,Alaska,US
-5423,PAWN,Noatak Airport,medium_airport,67.56610107421875,-162.97500610351562,Noatak,99761,Northwest Arctic,Alaska,US
-5424,PAWS,Wasilla Airport,medium_airport,61.5717010498,-149.539993286,Wasilla,99654,Matanuska-Susitna,Alaska,US
-26343,PAYA,Yakutat Airport,medium_airport,59.503299713100006,-139.660003662,Yakutat,99689,Yakutat,Alaska,US
 24080,PEC,Pelican Seaplane Base,seaplane_base,57.955200195312,-136.23599243164,Pelican,99832,Hoonah-Angoon,Alaska,US
-5429,PFYU,Fort Yukon Airport,medium_airport,66.57150268554689,-145.25,Fort Yukon,99740,Yukon-Koyukuk,Alaska,US
-5441,PHBK,Barking Sands Airport,medium_airport,22.022800445599998,-159.785003662,Kekaha,,Kauai County,Hawaii,US
-5442,PHDH,Dillingham Airfield,medium_airport,21.5795001984,-158.197006226,Mokuleia,96791,Honolulu County,Hawaii,US
-5443,PHHI,Wheeler Army Airfield,medium_airport,21.48349953,-158.03999330000002,Wahiawa,96786,Honolulu County,Hawaii,US
-5444,PHHN,Hana Airport,medium_airport,20.79560089111328,-156.01400756835938,Hana,96713,Maui County,Hawaii,US
-5446,PHJH,Kapalua Airport,medium_airport,20.962900161743164,-156.67300415039062,Lahaina,96761,Maui County,Hawaii,US
-5447,PHJR,Kalaeloa Airport,medium_airport,21.3074,-158.070009,Kapolei,96707,Honolulu County,Hawaii,US
-5448,PHKO,Ellison Onizuka Kona International At Keahole Airport,medium_airport,19.738782999999998,-156.045603,Kailua/Kona,96740,Hawaii County,Hawaii,US
-5449,PHLI,Lihue Airport,medium_airport,21.97599983215332,-159.33900451660156,Lihue,96766,Kauai County,Hawaii,US
-5450,PHMK,Molokai Airport,medium_airport,21.15290069580078,-157.0959930419922,Kaunakakai,96729,Maui County,Hawaii,US
-5451,PHMU,Waimea Kohala Airport,medium_airport,20.001300811767575,-155.66799926757812,Kamuela,96743,Hawaii County,Hawaii,US
-5452,PHNG,Kaneohe Bay MCAS (Marion E. Carl Field) Airport,medium_airport,21.450500488299998,-157.76800537100002,Kaneohe,96734,Honolulu County,Hawaii,US
 5453,PHNL,Daniel K Inouye International Airport,large_airport,21.32062,-157.924228,Honolulu,96818,Honolulu County,Hawaii,US
-5454,PHNY,Lanai Airport,medium_airport,20.785600662231445,-156.9510040283203,Lanai City,96763,Maui County,Hawaii,US
-5455,PHOG,Kahului Airport,medium_airport,20.8986,-156.429993,Kahului,96779,Maui County,Hawaii,US
-5456,PHSF,Bradshaw Army Airfield,medium_airport,19.760099411,-155.554000854,Camp Pohakuloa,96743,Hawaii County,Hawaii,US
-5457,PHTO,Hilo International Airport,medium_airport,19.721399307250977,-155.04800415039062,Hilo,96720,Hawaii County,Hawaii,US
-5458,PHUP,Upolu Airport,medium_airport,20.265300750732425,-155.86000061035156,Hawi,96719,Hawaii County,Hawaii,US
 24129,PN19,Hunts Cove Seaplane Base,seaplane_base,41.14590072631836,-79.68730163574219,Foxburg,16049,Armstrong County,Pennsylvania,US
 24133,PN24,Snider Seaplane Base,seaplane_base,40.68339920043945,-79.66639709472656,Freeport,15656,Armstrong County,Pennsylvania,US
 24172,PN65,Deer Lakes Seaplane Base,seaplane_base,40.639198303222656,-79.693603515625,Natrona Hgts,15065,Allegheny County,Pennsylvania,US
-5495,PPIZ,Point Lay LRRS Airport,medium_airport,69.73290253,-163.00500490000002,Point Lay,99759,North Slope,Alaska,US
 24333,PWR,Port Walter Seaplane Base,seaplane_base,56.3810005188,-134.651000977,Port Walter,99836,Petersburg Borough,Alaska,US
 24336,PYL,Perry Island Seaplane Base,seaplane_base,60.6852989197,-147.91900634799998,Perry Island,99693,Valdez-Cordova,Alaska,US
 24343,RI06,Tiverton Seaplane Base,seaplane_base,41.64820098876953,-71.15390014648438,Tiverton,02878,Newport County,Rhode Island,US
-24352,RI16,Keskinen Balloonport,balloonport,41.71480178833008,-71.63729858398438,Coventry Center,02816,Kent County,Rhode Island,US
 24360,RI28,Plouffe Landing Seaplane Base,seaplane_base,41.87530136,-71.59030151,Glocester,02857,Providence County,Rhode Island,US
 24380,S60,Kenmore Air Harbor Inc Seaplane Base,seaplane_base,47.7547988892,-122.259002686,Kenmore,98028,King County,Washington,US
 24384,S74,Lost Isle Seaplane Base,seaplane_base,38.00410079956055,-121.45700073242188,Stockton,95206,San Joaquin County,California,US
@@ -1358,10 +659,8 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 24911,TKE,Tenakee Seaplane Base,seaplane_base,57.77970123290999,-135.21800231933997,Tenakee Springs,99841,Hoonah-Angoon,Alaska,US
 24913,TKL,Taku Lodge Seaplane Base,seaplane_base,58.4897003174,-133.942993164,Taku Lodge,,Juneau,Alaska,US
 300312,TWH,Two Harbors Amphibious Terminal,seaplane_base,33.432222222200004,-118.50861111100001,Two Harbors,90704,Los Angeles County,California,US
-45999,US-0086,Jim's Private Airport,medium_airport,33.59790039,-84.14440155,Conyers,30281,Rockdale County,Georgia,US
 300659,US-0181,Tavares Seaplane Base,seaplane_base,28.800472222199996,-81.72755555559999,Tavares,32778,Lake County,Florida,US
 301447,US-0191,Paradise Landing Seaplane Base,seaplane_base,28.653888888900003,-81.3769444444,Altamonte Springs,32701,Seminole County,Florida,US
-313358,US-0254,Yuma Auxiliary AAF #2,medium_airport,32.548984000000004,-114.51138300000001,,85365,Yuma County,Arizona,US
 317314,US-0303,atl,large_airport,33.137551,-84.375,,30292,Pike County,Georgia,US
 320958,US-0324,Toledo Seaplane Base,seaplane_base,41.622202,-83.5534,Toledo,43605,Lucas County,Ohio,US
 320959,US-0325,Steam Boat Bay Seaplane Base,seaplane_base,46.397432,-94.37050500000001,East Gull Lake,56401,Cass County,Minnesota,US
@@ -1380,21 +679,18 @@ id,airport_code,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,
 324423,US-0484,Haggards Landing Seaplane Base,seaplane_base,61.528024,-150.014681,Big Lake,99623,Matanuska-Susitna,Alaska,US
 322803,US-0522,Wayzata Bay Landing Seaplane Base,seaplane_base,44.953888899999995,-93.503889,Wayzata,55391,Hennepin County,Minnesota,US
 324429,US-0568,Tailwind Boston Seaplane Base,seaplane_base,42.351583000000005,-71.024971,Boston,02210,Suffolk County,Massachusetts,US
-324440,US-0571,Williston Basin International Airport (U.C.),medium_airport,48.258387,-103.748797,Williston,58801,Williams County,North Dakota,US
 324653,US-0603,Halifax River Seaplane Base,seaplane_base,29.241827,-81.03233,Holly Hill,32117,Volusia County,Florida,US
 324718,US-0623,Lake Meredith Seaplane Base,seaplane_base,38.196313,-103.693761,Ordway,81063,Crowley County,Colorado,US
 324832,US-0634,Emma's Bay Seaplane Base,seaplane_base,46.631941999999995,-94.20092,Pequot Lakes,56472,Crow Wing County,Minnesota,US
 324988,US-0663,Hurley Memorial Seaport,seaplane_base,43.566666,-95.44027700000001,Round Lake,56167,Jackson County,Minnesota,US
 325030,US-0668,Wildhurst Pines Seaplane Base,seaplane_base,44.917519,-93.608201,Excelsior,55391,Hennepin County,Minnesota,US
 325532,US-0738,Moving Cloud Island Seaplane Base,seaplane_base,46.029444,-89.686388,Woodruff,54568,Vilas County,Wisconsin,US
-325543,US-0742,34S Airport,medium_airport,19.145167999999998,-16.875,,,,,US
 325690,US-0760,Moon Landing Seaplane Base,seaplane_base,28.376721999999997,-81.178136,Orlando,32832,Orange County,Florida,US
 325918,US-0793,Lake Cochrane Seaplane Base,seaplane_base,44.709763,-96.474541,Gary,57237,Deuel County,South Dakota,US
 326076,US-0798,Flying Floats Base Seaplane Base,seaplane_base,45.864622,-89.143985,Three Lakes,54521,Oneida County,Wisconsin,US
 326255,US-0809,Summer Lakes Seaplane Base,seaplane_base,28.5275,-81.48083100000001,Orlando,32835,Orange County,Florida,US
 326261,US-0811,Jones Brothers East Seaplane Base,seaplane_base,28.794108,-81.652941,Mount Dora,32757,Lake County,Florida,US
 25380,VA48,Lockerman Seaplane Base,seaplane_base,37.03820037841797,-79.59609985351562,Gretna,24137,Franklin County,Virginia,US
-25392,VA60,Flying Horse Farm Balloonport,balloonport,39.05149841308594,-77.77749633789062,Unison,20141,Loudoun County,Virginia,US
 25456,VG21,Irvington Marina Seaplane Base,seaplane_base,37.65760040283203,-76.43720245361328,Irvington,22576,Lancaster County,Virginia,US
 25552,VT57,Malletts Head Seaplane Base,seaplane_base,44.56060028076172,-73.24040222167969,Colchester,05446,Chittenden County,Vermont,US
 25553,VT58,Stave Island Seaplane Base,seaplane_base,44.59590148925781,-73.34760284423828,South Hero,05486,Grand Isle County,Vermont,US

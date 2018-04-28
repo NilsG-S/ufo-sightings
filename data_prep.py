@@ -245,8 +245,8 @@ def read_airport_data(data_path, locator):
     # Turn the values in the states column into just state codes.
     data["state"] = data.apply(lambda x: x["state"].split('-', 1)[1], axis=1)
 
-    # Excluding airports that are closed, heliports or small.
-    excluded_types = ["closed", "heliport", "small_airport"]
+    # Excluding airports that are closed, heliports, small, medium, or a balloon port.
+    excluded_types = ["closed", "heliport", "small_airport", "medium_airport", "balloonport"]
 
     # Keep only the entries that are in the continental US and are not of an excluded type.
     data = data.loc[(data["country"] == "US") & (~data["state"].isin(["US-AK", "US-HI"])) &
@@ -373,6 +373,9 @@ def read_military_base_data(data_path, locator):
         lon = feature["geometry"]["coordinates"][0]
         lat = feature["geometry"]["coordinates"][1]
         data.loc[len(data) + 1] = [name, type, state, lon, lat]
+
+    # Reduce the entries to only air force bases.
+    data = data.loc[data["type"].str.match("AF *")]
 
     # Add an index to the data to be a primary key.
     data["id"] = range(1, len(data) + 1)
