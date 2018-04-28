@@ -197,8 +197,8 @@ if __name__ == "__main__":
                           "elevation_ft int(6)," \
                           "PRIMARY KEY (id)" \
                           ")"
-    db_manager.create_table("AirportData", airport_data_schema)
-    db_manager.insert_csv_into_table("AirportData",
+    db_manager.create_table("Airports", airport_data_schema)
+    db_manager.insert_csv_into_table("Airports",
                                      "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/AirportTable.csv")
 
     # Create MilitaryBaseData table and put the MilitaryBaseTable.csv data into the table.
@@ -210,8 +210,8 @@ if __name__ == "__main__":
                                 "longitude_deg double(9, 6) REFERENCES AddressData(longitude_deg)," \
                                 "PRIMARY KEY (id)" \
                                 ")"
-    db_manager.create_table("MilitaryBaseData", military_base_data_schema)
-    db_manager.insert_csv_into_table("MilitaryBaseData",
+    db_manager.create_table("MilitaryBases", military_base_data_schema)
+    db_manager.insert_csv_into_table("MilitaryBases",
                                      "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/MilitaryBaseTable.csv")
 
     # Create UFOSightingData table and put the UFOSightingTable.csv data into the table.
@@ -225,8 +225,8 @@ if __name__ == "__main__":
                                "longitude_deg double(9, 6) REFERENCES AddressData(longitude_deg)," \
                                "PRIMARY KEY (id)" \
                                ")"
-    db_manager.create_table("UFOSightingData", ufo_sighting_data_schema)
-    db_manager.insert_csv_into_table("UFOSightingData",
+    db_manager.create_table("UFOSightings", ufo_sighting_data_schema)
+    db_manager.insert_csv_into_table("UFOSightings",
                                      "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/UFOSightingTable.csv")
 
     # Create MilitaryXSighting table and put the MilitaryXSightingsTable.csv data into the table.
@@ -236,8 +236,8 @@ if __name__ == "__main__":
                                "distance double(9, 6)," \
                                "PRIMARY KEY (military_id, sighting_id)" \
                                ")"
-    db_manager.create_table("MilitaryXSighting", military_X_sighting_data_schema)
-    db_manager.insert_csv_into_table("MilitaryXSighting",
+    db_manager.create_table("MilitaryBasesXSightings", military_X_sighting_data_schema)
+    db_manager.insert_csv_into_table("MilitaryBasesXSightings",
                                      "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/MilitaryXSightingsTable.csv")
 
     # Create AirportXSighting table and put the AirportXSightingsTable.csv data into the table.
@@ -247,8 +247,8 @@ if __name__ == "__main__":
                                       "distance double(9, 6)," \
                                       "PRIMARY KEY (airport_id, sighting_id)" \
                                       ")"
-    db_manager.create_table("AirportXSighting", airport_X_sighting_data_schema)
-    db_manager.insert_csv_into_table("AirportXSighting",
+    db_manager.create_table("AirportsXSightings", airport_X_sighting_data_schema)
+    db_manager.insert_csv_into_table("AirportsXSightings",
                                      "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/AirportXSightingsTable.csv")
 
     # Create Address table and put the AddressTable.csv data into the table.
@@ -262,9 +262,9 @@ if __name__ == "__main__":
                             "country varchar(40)," \
                             "PRIMARY KEY (latitude_deg, longitude_deg)" \
                             ")"
-    db_manager.create_table("AddressData", address_data_schema)
-    db_manager.insert_csv_into_table("AddressData",
+    db_manager.create_table("Addresses", address_data_schema)
+    db_manager.insert_csv_into_table("Addresses",
                                      "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/AddressTable.csv")
 
     # Create an index for AddressData.
-    db_manager.run_sql("CREATE INDEX AddressIndex ON AddressData(latitude_deg, longitude_deg);")
+    db_manager.run_sql("CREATE INDEX AddressesIndex ON Addresses(latitude_deg, longitude_deg);")
