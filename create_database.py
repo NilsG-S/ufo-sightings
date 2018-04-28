@@ -146,6 +146,12 @@ class DBManager:
         self.db_connection.commit()
 
     def run_sql(self, sql):
+        '''
+        run_sql runs the sql statement on the connected database.
+        :param sql: <str> a valid sql statement
+        :return: None
+        '''
+
         self.cursor.execute(sql)
         self.db_connection.commit()
 
