@@ -265,7 +265,7 @@ def read_airport_data(data_path, locator):
                                 axis=1)
 
     data = data.filter(["id", "airport_code", "name", "type", "latitude_deg", "longitude_deg", "city",
-                        "zip_code", "county", "state", "country"])
+                        "zip_code", "county", "state", "country", "elevation_ft"])
 
     return data
 
