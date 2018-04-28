@@ -264,6 +264,10 @@ def read_airport_data(data_path, locator):
     data["state"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_state(),
                                 axis=1)
 
+    # Get the country of each airport.
+    data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
+                               axis=1)
+
     data = data.filter(["id", "airport_code", "name", "type", "latitude_deg", "longitude_deg", "city",
                         "zip_code", "county", "state", "country", "elevation_ft"])
 
@@ -340,6 +344,10 @@ def read_sighting_data(data_path, locator):
     # Get the state of each sighting.
     data["state"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_state(),
                                 axis=1)
+
+    # Get the country of each sighting.
+    data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
+                               axis=1)
 
     # Add an index to the data to be a primary key.
     data["id"] = range(1, len(data) + 1)
