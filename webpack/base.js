@@ -32,6 +32,17 @@ const base = {
         exclude: nodePath,
         loader: 'babel-loader',
       },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.ttf$/,
+        loader: 'file-loader',
+        options: {
+          name: 'fonts/[name].[ext]',
+        },
+      },
     ],
   },
 };
