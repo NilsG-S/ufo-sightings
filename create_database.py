@@ -142,6 +142,7 @@ class DBManager:
 
         sql = "LOAD DATA LOCAL INFILE '%s' INTO TABLE %s " \
               "FIELDS TERMINATED BY ','" \
+              "ENCLOSED BY '\"' ESCAPED BY \"\\\\\" " \
               "IGNORE 1 LINES;" % (csv_file_path, table_name)
         self.cursor.execute(sql)
         self.db_connection.commit()
@@ -272,4 +273,31 @@ if __name__ == "__main__":
                                      "%s/DatabaseTables/AddressTable.csv" % cur_dir)
 
     # Create an index for AddressData.
-    # db_manager.run_sql("CREATE INDEX AddressesIndex ON Addresses(latitude_deg, longitude_deg);")
+    db_manager.run_sql("CREATE INDEX AddressesIndex ON Addresses(latitude_deg, longitude_deg);")
+
+    # Create UFO sightings mapped to military bases view.
+    db_manager.run_sql("CREATE VIEW ExplainedByMilitaryBases "
+                       "AS "
+                       "SELECT mxs.*, s.date, s.time, s.shape, s.duration_seconds, "
+                       "       s.latitude_deg AS sighting_lat, s.longitude_deg AS sighting_lon "
+                       "FROM UFOSightings AS s LEFT JOIN "
+                       "( SELECT mxs.*, m.name AS base_name, m.type AS base_type, "
+                       "         m.latitude_deg AS military_lat, m.longitude_deg AS military_lon "
+                       "  FROM MilitaryBasesXSightings AS mxs, MilitaryBases AS m "
+                       "  WHERE m.id = mxs.military_id "
+                       ") AS mxs "
+                       "ON s.id = mxs.sighting_id;")
+
+    # Create UFO sightings mapped to airports view.
+    db_manager.run_sql("CREATE VIEW ExplainedByAirports "
+                       "AS "
+                       "SELECT axs.*, s.date, s.time, s.shape, s.duration_seconds, "
+                       "       s.latitude_deg AS sighting_lat, s.longitude_deg AS sighting_lon "
+                       "FROM UFOSightings AS s LEFT JOIN "
+                       "( SELECT axs.*, a.airport_code, a.name AS airport_name, a.type AS airport_type, "
+                       "         a.latitude_deg AS airport_lat, a.longitude_deg AS airport_lon, "
+                       "         a.elevation_ft AS airport_elevation_ft "
+                       "  FROM AirportsXSightings AS axs, Airports AS a "
+                       "  WHERE a.id = axs.airport_id "
+                       ") AS axs "
+                       "ON s.id = axs.sighting_id;")

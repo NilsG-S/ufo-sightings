@@ -252,6 +252,10 @@ def read_airport_data(data_path, locator):
     data = data.loc[(data["country"] == "US") & (~data["state"].isin(["US-AK", "US-HI"])) &
                     (~data["type"].isin(excluded_types))]
 
+    # Get the city of each airport.
+    data["city"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_city(),
+                                  axis=1)
+
     # Get the zip code of each airport.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                  axis=1)
@@ -327,14 +331,9 @@ def read_sighting_data(data_path, locator):
     # Filter out all the years that are not between 2010 and 2018.
     data = data[data["year"].between(10, 18, inclusive=True)]
 
-    # Turn the values in the states column into uppercase.
-    data["state"] = data.apply(lambda x: x["state"].upper(), axis=1)
-
-    # Turn the values in the country column into uppercase.
-    data["country"] = data.apply(lambda x: x["country"].upper(), axis=1)
-
-    # Turn the values in the city column into title case.
-    data["city"] = data.apply(lambda x: x["city"].title(), axis=1)
+    # Get the city of each sighting.
+    data["city"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_city(),
+                              axis=1)
 
     # Get the zip code of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
@@ -342,15 +341,15 @@ def read_sighting_data(data_path, locator):
 
     # Get the county of each sighting.
     data["county"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_county(),
-                                  axis=1)
+                                axis=1)
 
     # Get the state of each sighting.
     data["state"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_state(),
-                                axis=1)
+                               axis=1)
 
     # Get the country of each sighting.
     data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
-                               axis=1)
+                                 axis=1)
 
     # Add an index to the data to be a primary key.
     data["id"] = range(1, len(data) + 1)
@@ -391,24 +390,28 @@ def read_military_base_data(data_path, locator):
     # Reduce the entries to only air force bases.
     data = data.loc[data["type"].str.match("AF *")]
 
-    # Add an index to the data to be a primary key.
-    data["id"] = range(1, len(data) + 1)
+    # Get the city of each military base.
+    data["city"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_city(),
+                              axis=1)
 
-    # Get the zip code of each sighting.
+    # Get the zip code of each military base.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
 
-    # Get the country of each sighting.
-    data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
-                                  axis=1)
-
-    # Get the county of each sighting.
+    # Get the county of each military base.
     data["county"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_county(),
+                                axis=1)
+
+    # Get the state of each military base.
+    data["state"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_state(),
+                               axis=1)
+
+    # Get the country of each military base.
+    data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
                                  axis=1)
 
-    # Get the city of each sighting.
-    data["city"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_city(),
-                                axis=1)
+    # Add an index to the data to be a primary key.
+    data["id"] = range(1, len(data) + 1)
 
     # Keep only entries from the United States.
     data = data.loc[data["country"] == "United States"]
