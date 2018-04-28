@@ -77,23 +77,23 @@ if __name__ == "__main__":
 
     military_data = pandas.read_csv("./CleanData/MilitaryBaseData.csv")
     military_table = create_military_table(military_data)
-    military_table.to_csv("./DatabaseTables/MilitaryBaseTable", index=False)
+    military_table.to_csv("./DatabaseTables/MilitaryBaseTable.csv", index=False)
 
     airport_data = pandas.read_csv("./CleanData/AirportData.csv")
     airport_table = create_airport_table(airport_data)
-    airport_table.to_csv("./DatabaseTables/AirportTable", index=False)
+    airport_table.to_csv("./DatabaseTables/AirportTable.csv", index=False)
 
     sighting_data = pandas.read_csv("./CleanData/UFOSightingData.csv")
     sighting_table = create_ufo_sightings_table(sighting_data)
-    sighting_table.to_csv("./DatabaseTables/UFOSightingTable", index=False)
+    sighting_table.to_csv("./DatabaseTables/UFOSightingTable.csv", index=False)
 
     military_X_sightings_table = create_military_ufo_sightings_mapping_table(military_table, sighting_table,
                                                                              max_distance=10)
-    military_X_sightings_table.to_csv("./DatabaseTables/MilitaryXSightingsTable", index=False)
+    military_X_sightings_table.to_csv("./DatabaseTables/MilitaryXSightingsTable.csv", index=False)
 
     airport_X_sightings_table = create_airport_ufo_sightings_mapping_table(airport_table, sighting_table,
                                                                            max_distance=10)
-    airport_X_sightings_table.to_csv("./DatabaseTables/AirportXSightingsTable", index=False)
+    airport_X_sightings_table.to_csv("./DatabaseTables/AirportXSightingsTable.csv", index=False)
 
     address_table = create_address_table(military_data, airport_data, sighting_data)
-    address_table.to_csv("./DatabaseTables/AddressTable", index=False)
+    address_table.to_csv("./DatabaseTables/AddressTable.csv", index=False)
