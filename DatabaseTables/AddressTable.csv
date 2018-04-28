@@ -1,0 +1,307 @@
+latitude_deg,longitude_deg,city,zip_code,county,state,country
+40.016159,-74.32859599999999,Lakehurst,8733.0,Ocean County,New Jersey,United States
+40.035835999999996,-74.351661,Jackson,8527.0,Ocean County,New Jersey,United States
+40.01076,-74.531385,New Hanover Township,8015.0,Burlington County,New Jersey,United States
+37.097658,-76.423707,Hampton,23665.0,York County,Virginia,United States
+27.650094,-81.34294799999999,Avon Park,33825.0,Polk County,Florida,United States
+33.981138,-77.913191,Kure Beach,28449.0,New Hanover County,North Carolina,United States
+38.892177000000004,-123.54618,Point Arena,95468.0,Mendocino County,California,United States
+32.770485,-105.93956999999999,Alamogordo,88310.0,Otero County,New Mexico,United States
+44.043155,-103.195901,Rapid City,57701.0,Pennington County,South Dakota,United States
+36.2394,-115.1367,North Las Vegas,89032.0,Clark County,Nevada,United States
+36.2417,-114.9828,Nellis Air Force Base,89191.0,Clark County,Nevada,United States
+31.325554999999998,-92.541703,Alexandria,71303.0,Rapides Parish,Louisiana,United States
+38.140829,-117.199995,Tonopah,89049.0,Nye County,Nevada,United States
+37.88285,-116.76737299999999,,,Nye County,Nevada,United States
+44.453289,-83.378493,Oscoda Township,48750.0,Iosco County,Michigan,United States
+41.346219,-96.244206,Omaha,68022.0,Douglas County,Nebraska,United States
+41.126971999999995,-95.954188,Bellevue,68123.0,Sarpy County,Nebraska,United States
+37.402848999999996,-116.240366,,,Nye County,Nevada,United States
+27.647032,-81.277891,Lake Wales,33898.0,Polk County,Florida,United States
+39.120929,-121.395128,Beale Air Force Base,95903.0,Yuba County,California,United States
+32.422810999999996,-99.83904,Abilene,79607.0,Taylor County,Texas,United States
+44.151978,-103.093531,Piedmont,57769.0,Meade County,South Dakota,United States
+32.87178,-106.106007,Holloman Air Force Base,88330.0,Otero County,New Mexico,United States
+41.116091,-95.90973100000001,Offutt Air Force Base,68113.0,Sarpy County,Nebraska,United States
+35.34793,-77.962485,Goldsboro,27531.0,Wayne County,North Carolina,United States
+33.974607,-80.470501,Sumter,29154.0,Sumter County,South Carolina,United States
+37.08656,-76.362449,Hampton,23665.0,,Virginia,United States
+30.969619,-83.198561,Moody Air Force Base,31699.0,Lowndes County,Georgia,United States
+32.176866,-110.88276499999999,Tucson,85707.0,Pima County,Arizona,United States
+43.048935,-115.865866,Mountain Home Air Force Base,83648.0,Elmore County,Idaho,United States
+36.587616,-115.67633700000002,Indian Springs,89018.0,Clark County,Nevada,United States
+33.678287,-78.92925,Myrtle Beach,29577.0,Horry County,South Carolina,United States
+38.869654,-121.39085700000001,Lincoln,95648.0,Placer County,California,United States
+18.46367,-67.065595,Isabela,662.0,Ceiba Baja,Puerto Rico,Puerto Rico
+18.005191,-66.278163,Salinas,751.0,Río Jueyes,Puerto Rico,Puerto Rico
+29.379788,-98.585492,San Antonio,78243.0,Bexar County,Texas,United States
+30.407940999999997,-88.957522,Biloxi,39531.0,Harrison County,Mississippi,United States
+30.2384,-85.6449,Lynn Haven,32444.0,Bay County,Florida,United States
+32.940331,-88.579459,Shuqualak,39361.0,Noxubee County,Mississippi,United States
+32.4045,-86.2459,Montgomery,36115.0,Montgomery County,Alabama,United States
+33.716667,-112.528333,Wittmann,85361.0,Maricopa County,Arizona,United States
+33.538462,-112.32183700000002,Glendale,85307.0,Maricopa County,Arizona,United States
+36.7385,-98.1275,Jet,73749.0,Alfalfa County,Oklahoma,United States
+31.432617999999998,-100.405254,San Angelo,76905.0,Tom Green County,Texas,United States
+33.539913,-112.360129,Glendale,85309.0,Maricopa County,Arizona,United States
+32.382503,-86.35685500000001,Montgomery,36112.0,Montgomery County,Alabama,United States
+33.978245,-98.50067,Sheppard Air Force Base,76311.0,Wichita County,Texas,United States
+30.045058,-85.54923199999999,Panama City,32403.0,Bay County,Florida,United States
+32.640623,-113.055857,,,Maricopa County,Arizona,United States
+29.529821000000002,-98.278474,Universal City,78148.0,Bexar County,Texas,United States
+29.353921999999997,-100.786642,Laughlin Air Force Base,78840.0,Val Verde County,Texas,United States
+36.341857,-97.91163,Enid,73705.0,Garfield County,Oklahoma,United States
+33.641302,-88.451121,Columbus,39705.0,Lowndes County,Mississippi,United States
+34.663911999999996,-99.274512,Altus,73521.0,Jackson County,Oklahoma,United States
+32.886002000000005,-112.719641,Gila Bend,85337.0,Maricopa County,Arizona,United States
+29.388137,-98.610535,San Antonio,78236.0,Bexar County,Texas,United States
+29.682624,-98.570577,San Antonio,78257.0,Bexar County,Texas,United States
+29.11835,-100.280446,Brackettville,78832.0,Kinney County,Texas,United States
+29.565766999999997,-97.903976,Seguin,78155.0,Guadalupe County,Texas,United States
+32.50015,-93.599897,,,Bossier Parish,Louisiana,United States
+47.506485999999995,-111.182025,Great Falls,59405.0,Cascade County,Montana,United States
+37.4303,-122.08933300000001,Mountain View,94043.0,Santa Clara County,California,United States
+38.347,-121.9283,Vacaville,95687.0,Solano County,California,United States
+47.657,-117.5447,Spokane,99224.0,Spokane County,Washington,United States
+48.4777,-117.39399999999999,Cusick,99119.0,Pend Oreille County,Washington,United States
+47.618545000000005,-117.64823,Fairchild Air Force Base,99011.0,Spokane County,Washington,United States
+34.903971999999996,-92.138514,Jacksonville,72099.0,Pulaski County,Arkansas,United States
+48.724531,-97.90307,Cavalier,58220.0,Pembina County,North Dakota,United States
+47.955476000000004,-97.391251,Grand Forks Air Force Base,58205.0,Grand Forks County,North Dakota,United States
+47.948652,-97.086139,Grand Forks,58203.0,Grand Forks County,North Dakota,United States
+35.188858,-79.062464,Cameron,28326.0,Cumberland County,North Carolina,United States
+35.172528,-79.011578,Pope Field,28308.0,Cumberland County,North Carolina,United States
+47.12065,-119.29328000000001,Moses Lake,98837.0,Grant County,Washington,United States
+47.90508,-122.29314,Mukilteo,98275.0,Snohomish County,Washington,United States
+47.134491,-122.485184,Joint Base Lewis-McChord,98438.0,Pierce County,Washington,United States
+27.843602,-82.501021,Tampa,33616.0,Hillsborough County,Florida,United States
+38.59138,-90.208614,St. Louis,63118.0,,Missouri,United States
+39.127777,-75.466853,Dover,19902.0,Kent County,Delaware,United States
+37.625184000000004,-97.260274,McConnell Air Force Base,67221.0,Sedgwick County,Kansas,United States
+38.758024,-104.30090799999999,Calhan,80808.0,El Paso County,Colorado,United States
+38.994834000000004,-104.865348,U.S. Air Force Academy,80840.0,El Paso County,Colorado,United States
+34.890454,-117.848968,,93523.0,Kern County,California,United States
+32.6175,-83.581376,Robins Air Force Base,31098.0,Houston County,Georgia,United States
+30.627909999999996,-86.7389,Eglin Air Force Base,32542.0,Okaloosa County,Florida,United States
+30.47683,-86.534355,Eglin Air Force Base,32542.0,Okaloosa County,Florida,United States
+30.426906,-86.691114,Hurlburt Field,32544.0,Okaloosa County,Florida,United States
+35.003732,-106.507282,Albuquerque,87123.0,Bernalillo County,New Mexico,United States
+39.820568,-84.035554,Wright-Patterson Air Force Base,45433.0,Greene County,Ohio,United States
+35.364917,-86.07944300000001,Manchester,37355.0,Coffee County,Tennessee,United States
+35.403696999999994,-97.360303,Oklahoma City,73150.0,Oklahoma County,Oklahoma,United States
+41.752596999999994,-70.53817,Bourne,2561.0,Barnstable County,Massachusetts,United States
+43.147439,-75.611722,Verona,13478.0,Oneida County,New York,United States
+43.126742,-75.591475,Verona,13478.0,Oneida County,New York,United States
+43.148198,-75.045162,Newport,13416.0,Herkimer County,New York,United States
+43.222583,-75.409981,Rome,13441.0,Oneida County,New York,United States
+42.460089,-71.27788199999999,Hanscom Air Force Base,1731.0,Middlesex County,Massachusetts,United States
+40.499607,-113.60878899999999,,,Tooele County,Utah,United States
+40.988127,-113.243495,,,Box Elder County,Utah,United States
+41.125209000000005,-111.992173,Hill Air Force Base,84056.0,Davis County,Utah,United States
+41.252179999999996,-112.246358,Ogden,84404.0,Weber County,Utah,United States
+61.26515799999999,-149.804971,Anchorage,99506.0,Anchorage,Alaska,United States
+35.42003,-80.1432,New London,28127.0,Stanly County,North Carolina,United States
+44.8118612,-73.3698057,Beekmantown,12901.0,Clinton County,New York,United States
+38.999199,-76.456001,Annapolis,21409.0,Anne Arundel County,Maryland,United States
+46.77890014648438,-68.50029754638672,Portage Lake,4768.0,Aroostook County,Maine,United States
+47.89960098266602,-92.55740356445312,Cook,55723.0,St. Louis County,Minnesota,United States
+44.65710067749024,-71.21910095214844,Dummer,3588.0,Coos County,New Hampshire,United States
+60.72722244262695,-151.13278198242188,Kenai,99611.0,Kenai Peninsula Borough,Alaska,United States
+44.320899963378906,-69.88950347900389,East Winthrop,4364.0,Kennebec County,Maine,United States
+41.701389,-85.113056,Angola,46703.0,Steuben County,Indiana,United States
+47.15890121459999,-67.9319992065,Van Buren,4785.0,Aroostook County,Maine,United States
+44.9070014954,-68.80500030520001,Bangor,4401.0,Penobscot County,Maine,United States
+38.43339920043945,-86.69110107421875,French Lick,47521.0,Dubois County,Indiana,United States
+39.05870056152344,-86.44609832763672,Bloomington,47401.0,Monroe County,Indiana,United States
+43.17559814453125,-72.06390380859375,Washington,3280.0,Sullivan County,New Hampshire,United States
+41.89599990844727,-73.09310150146484,Winsted,6098.0,Litchfield County,Connecticut,United States
+41.223056,-85.830556,Winona Lake,46580.0,Kosciusko County,Indiana,United States
+47.66939926147461,-93.0543975830078,Chisholm/Hibbing,55781.0,St. Louis County,Minnesota,United States
+48.60580062866211,-93.37079620361328,International Falls,56649.0,Koochiching County,Minnesota,United States
+44.81660079956055,-93.0155029296875,Inver Grove Hgts,55076.0,Dakota County,Minnesota,United States
+28.5727778,-81.62861109999999,Oakland,34760.0,Orange County,Florida,United States
+27.90749931335449,-80.48639678955078,Sebastian,32951.0,Brevard County,Florida,United States
+28.787799835205078,-81.16419982910156,Geneva,32732.0,Seminole County,Florida,United States
+28.458599090576172,-81.34970092773438,Belle Isle,32809.0,Orange County,Florida,United States
+30.19389915466309,-81.68190002441406,Jacksonville,32212.0,Duval County,Florida,United States
+47.8263,-90.3835,Grand Marais,55604.0,Cook County,Minnesota,United States
+44.79690170288086,-92.98410034179688,St Paul Park,55071.0,Washington County,Minnesota,United States
+46.13330078125,-93.00299835205078,Sandstone,55072.0,Pine County,Minnesota,United States
+46.67779922485352,-94.2925033569336,Jenkins,56474.0,Crow Wing County,Minnesota,United States
+46.47719955444336,-94.3031005859375,Nisswa,56468.0,Crow Wing County,Minnesota,United States
+37.05830001831055,-121.1259994506836,Los Banos,95322.0,Merced County,California,United States
+40.69940185546875,-79.618896484375,Freeport,16229.0,Armstrong County,Pennsylvania,United States
+35.2223014831543,-86.22000122070312,Tullahoma,37330.0,Franklin County,Tennessee,United States
+47.627601623535156,-122.33200073242188,Seattle,98109.0,King County,Washington,United States
+48.72819900512695,-122.33599853515624,Bellingham,98229.0,Whatcom County,Washington,United States
+59.058998107910156,-158.57699584960938,Dillingham,99576.0,Dillingham,Alaska,United States
+42.26259994506836,-72.30699920654297,Ware,1082.0,Hampshire County,Massachusetts,United States
+46.4375,-93.9561004638672,Ironton,56455.0,Crow Wing County,Minnesota,United States
+29.2588005065918,-89.35299682617188,Venice,70091.0,Plaquemines Parish,Louisiana,United States
+43.35419845581055,-89.57119750976562,Lodi,53555.0,Columbia County,Wisconsin,United States
+28.59280014038086,-81.40390014648438,Orlando,32804.0,Orange County,Florida,United States
+31.73080062866211,-81.35970306396484,Riceboro,31323.0,Liberty County,Georgia,United States
+39.51029968261719,-85.0,Brookville,47012.0,Franklin County,Indiana,United States
+46.48049926757813,-94.28109741210938,Lake Hubert,56468.0,Crow Wing County,Minnesota,United States
+62.28290176391602,-146.5189971923828,Lake Louise,99588.0,Matanuska-Susitna,Alaska,United States
+55.60129928590001,-131.636993408,Loring,99901.0,Ketchikan Gateway,Alaska,United States
+55.803,-133.597,Port Alice,99921.0,Prince of Wales-Hyder Census Area,Alaska,United States
+48.83190155029297,-94.70439910888672,Baudette,56623.0,Lake of the Woods County,Minnesota,United States
+43.60419845581055,-71.51249694824219,Meredith,3253.0,Belknap County,New Hampshire,United States
+39.93730163574219,-74.13569641113281,Island Heights,8732.0,Ocean County,New Jersey,United States
+46.12160110473633,-89.12100219726562,Phelps,54554.0,Vilas County,Wisconsin,United States
+62.958000183100005,-155.593002319,Mcgrath,99627.0,Yukon-Koyukuk,Alaska,United States
+46.7169,-93.210197,Mc Gregor,55760.0,Aitkin County,Minnesota,United States
+56.328800201415994,-133.61000061035,Port Protection,99927.0,Prince of Wales-Hyder Census Area,Alaska,United States
+38.133399963378906,-92.7334976196289,Osage Beach,65065.0,Camden County,Missouri,United States
+39.56919860839844,-75.8478012084961,Elkton,21921.0,Cecil County,Maryland,United States
+28.103599548339844,-81.80590057373047,Auburndale,33823.0,Polk County,Florida,United States
+30.302099227905273,-85.8644027709961,West Bay,32413.0,Bay County,Florida,United States
+41.4035987854,-85.706100463867,Syracuse,46567.0,Kosciusko County,Indiana,United States
+29.10580062866211,-90.19090270996094,Leeville,70357.0,Lafourche Parish,Louisiana,United States
+46.0609016418457,-69.40940093994139,Chesuncook,4441.0,Piscataquis County,Maine,United States
+46.06859970092773,-83.72419738769531,Drummond Island,49726.0,Chippewa County,Michigan,United States
+36.66669845581055,-93.154296875,Rockaway Beach,65616.0,Taney County,Missouri,United States
+43.90420150756836,-124.11499786376952,Florence,97439.0,Lane County,Oregon,United States
+43.51499938964844,-88.95259857177734,Randolph,53916.0,Dodge County,Wisconsin,United States
+60.893818,-146.704038,Ellamar,99677.0,Valdez-Cordova,Alaska,United States
+48.48320007324219,-122.68499755859376,Anacortes,98221.0,Skagit County,Washington,United States
+39.70000076293945,-74.15280151367188,Harvey Cedars,8008.0,Ocean County,New Jersey,United States
+45.4625015258789,-69.61949920654297,Greenville Junction,4442.0,Piscataquis County,Maine,United States
+44.929100036621094,-93.61750030517578,Orono/Lake Minnetonka,55391.0,Hennepin County,Minnesota,United States
+37.87990188598633,-122.51399993896484,Sausalito,94941.0,Marin County,California,United States
+44.99470138549805,-93.42610168457031,Plymouth,55441.0,Hennepin County,Minnesota,United States
+39.25559997558594,-76.20690155029297,Chestertown,21620.0,Kent County,Maryland,United States
+29.03440093994141,-81.95059967041016,Oklawaha,32179.0,Marion County,Florida,United States
+46.43059921264648,-93.83309936523438,Deerwood,56444.0,Crow Wing County,Minnesota,United States
+41.82059860229492,-71.11470031738281,Berkley,2779.0,Bristol County,Massachusetts,United States
+44.963600158691406,-93.62249755859376,Spring Park,55356.0,Hennepin County,Minnesota,United States
+61.628898620600005,-149.617996216,Wasilla,99623.0,Matanuska-Susitna,Alaska,United States
+26.63500022888184,-81.875,Fort Myers,33901.0,Lee County,Florida,United States
+30.207801,-93.265298,Lake Charles,70601.0,Calcasieu Parish,Louisiana,United States
+44.448,-69.530333,China,4962.0,Kennebec County,Maine,United States
+44.756389,-73.266667,Grand Isle,5458.0,Grand Isle County,Vermont,United States
+66.89929962158203,-151.4720001220703,Bettles,99726.0,Yukon-Koyukuk,Alaska,United States
+61.62770080566406,-149.23899841308594,Palmer,99654.0,Matanuska-Susitna,Alaska,United States
+37.3205986023,-77.3458023071,Chester,23836.0,Chesterfield County,Virginia,United States
+29.824899673461914,-92.13289642333984,Intracoastal City,70510.0,Vermilion Parish,Louisiana,United States
+37.650001525878906,-93.7584991455078,Stockton,65785.0,Cedar County,Missouri,United States
+41.59360122680664,-71.06529998779297,Westport,2790.0,Bristol County,Massachusetts,United States
+41.95840072631836,-71.32640075683594,North Attleborough,2760.0,Bristol County,Massachusetts,United States
+40.85010147094727,-74.03289794921875,Little Ferry,7643.0,Bergen County,New Jersey,United States
+43.59339904785156,-73.6250991821289,Bolten Landing,12814.0,Warren County,New York,United States
+45.43099975585938,-122.6500015258789,Lake Oswego,97034.0,Clackamas County,Oregon,United States
+60.70439910888672,-151.31100463867188,Kenai,99611.0,Kenai Peninsula Borough,Alaska,United States
+32.139198303222656,-80.86810302734375,Hilton Head,29915.0,Beaufort County,South Carolina,United States
+32.233898162841804,-80.75420379638672,Hilton Head,29926.0,Beaufort County,South Carolina,United States
+60.419038,-152.354894,Kenai,99682.0,Kenai Peninsula Borough,Alaska,United States
+44.87279891967773,-73.28170013427734,Alburg,5440.0,Grand Isle County,Vermont,United States
+47.37950134277344,-122.44499969482422,Dockton,98070.0,King County,Washington,United States
+61.74399948120117,-150.0590057373047,Willow,99688.0,Matanuska-Susitna,Alaska,United States
+59.5625,-139.74099731445312,Yakutat,99689.0,Yakutat,Alaska,United States
+57.412201,-133.43848,Entrance Island,99820.0,Hoonah-Angoon,Alaska,United States
+64.83290100097656,-147.84800720214844,Fairbanks,99709.0,Fairbanks North Star,Alaska,United States
+57.5321998596,-135.212997437,False Island,99835.0,Sitka,Alaska,United States
+29.271099090576172,-89.35579681396484,Venice,70091.0,Plaquemines Parish,Louisiana,United States
+42.7675,-78.74416670000001,Orchard Park,14127.0,Erie County,New York,United States
+40.273611100000004,-76.88472220000001,Harrisburg,17102.0,Dauphin County,Pennsylvania,United States
+41.59305560000001,-81.5269444,Euclid,44123.0,Cuyahoga County,Ohio,United States
+34.3769444,-82.6958333,Starr,29684.0,Anderson County,South Carolina,United States
+42.525,-71.7602778,Leominster,1453.0,Worcester County,Massachusetts,United States
+41.02638889999999,-73.6288889,Greenwich,6830.0,Fairfield County,Connecticut,United States
+32.8544444,-79.975,North Charleston,29405.0,Charleston County,South Carolina,United States
+38.7891667,-77.1875,Springfield,22150.0,Fairfax County,Virginia,United States
+41.1669444,-73.20527779999999,Bridgeport,6605.0,Fairfield County,Connecticut,United States
+45.4077778,-122.56916670000001,Clackamas,97015.0,Clackamas County,Oregon,United States
+31.463611100000005,-100.4366667,San Angelo,76903.0,Tom Green County,Texas,United States
+41.8525,-72.6441667,Windsor,6095.0,Hartford County,Connecticut,United States
+41.788611100000004,-89.6961111,Sterling,61081.0,Whiteside County,Illinois,United States
+47.9791667,-122.20083329999999,Everett,98201.0,Snohomish County,Washington,United States
+35.8752778,-110.61972220000001,Kykotsmovi,86039.0,Navajo County,Arizona,United States
+42.6525,-73.7566667,Albany,12210.0,Albany County,New York,United States
+33.773888899999996,-117.94055559999998,Garden Grove,92843.0,Orange County,California,United States
+25.7738889,-80.1938889,Miami,33130.0,Miami-Dade County,Florida,United States
+33.8352778,-117.9136111,Anaheim,92805.0,Orange County,California,United States
+42.728333299999996,-73.6922222,Troy,12180.0,Rensselaer County,New York,United States
+36.728055600000005,-108.21805559999999,Farmington,87401.0,San Juan County,New Mexico,United States
+34.61,-112.315,Prescott Valley,86314.0,Yavapai County,Arizona,United States
+42.096388899999994,-79.3758333,Ashville,14710.0,Chautauqua County,New York,United States
+41.55,-71.4666667,North Kingstown,2852.0,Washington County,Rhode Island,United States
+41.35,-72.07888890000001,Groton,6340.0,New London County,Connecticut,United States
+37.608611100000005,-77.37361109999999,Mechanicsville,23111.0,Hanover County,Virginia,United States
+41.5622222,-72.6511111,Middletown,6457.0,Middlesex County,Connecticut,United States
+41.481944399999996,-81.7983333,Lakewood,44107.0,Cuyahoga County,Ohio,United States
+39.9625,-76.7280556,York,17401.0,York County,Pennsylvania,United States
+41.1238889,-100.765,North Platte,69101.0,Lincoln County,Nebraska,United States
+39.5297222,-84.0866667,Waynesville,45068.0,Warren County,Ohio,United States
+41.1669444,-73.20527779999999,Bridgeport,6605.0,Fairfield County,Connecticut,United States
+32.7152778,-117.1563889,San Diego,92101.0,San Diego County,California,United States
+42.5802778,-83.0302778,Sterling Heights,48313.0,Macomb County,Michigan,United States
+43.048055600000005,-76.1477778,Syracuse,13202.0,Onondaga County,New York,United States
+43.048055600000005,-76.1477778,Syracuse,13202.0,Onondaga County,New York,United States
+38.8338889,-104.8208333,Colorado Springs,80903.0,El Paso County,Colorado,United States
+32.9975,-87.63,Moundville,35474.0,Hale County,Alabama,United States
+40.7141667,-74.0063889,New York City (Bronx),10007.0,New York County,New York,United States
+32.3122222,-106.7777778,Las Cruces,88001.0,Doña Ana County,New Mexico,United States
+37.7305556,-88.9330556,Marion,62959.0,Williamson County,Illinois,United States
+37.3394444,-121.8938889,San Jose,95110.0,Santa Clara County,California,United States
+33.4483333,-112.07333329999999,Phoenix,85004.0,Maricopa County,Arizona,United States
+46.6022222,-120.5047222,Yakima,98901.0,Yakima County,Washington,United States
+30.266944399999996,-97.7427778,Austin,78701.0,Travis County,Texas,United States
+36.343611100000004,-83.2841667,Bean Station,37708.0,Grainger County,Tennessee,United States
+46.82194439999999,-123.095,Rochester,98579.0,Thurston County,Washington,United States
+41.1147222,-74.15,Suffern,10901.0,Rockland County,New York,United States
+33.7397222,-116.41194440000001,Rancho Mirage,92270.0,Riverside County,California,United States
+28.0777778,-82.76388890000001,Palm Harbor,34683.0,Pinellas County,Florida,United States
+41.4488889,-82.7080556,Sandusky,44870.0,Erie County,Ohio,United States
+38.6272222,-90.1977778,St. Louis County,63101.0,,Missouri,United States
+40.978055600000005,-81.7822222,Rittman,44270.0,Wayne County,Ohio,United States
+44.49055560000001,-73.11138890000001,Essex Junction,5452.0,Chittenden County,Vermont,United States
+29.993888899999998,-90.2416667,Kenner,70062.0,Jefferson Parish,Louisiana,United States
+39.7463889,-84.2866667,Drexel,45417.0,Montgomery County,Ohio,United States
+42.7647222,-71.44027779999999,Hudson,3051.0,Hillsborough County,New Hampshire,United States
+42.9275,-83.63,Grand Blanc,48439.0,Genesee County,Michigan,United States
+44.779166700000005,-93.3361111,Savage,55378.0,Scott County,Minnesota,United States
+42.4775,-83.0277778,Warren,48015.0,Macomb County,Michigan,United States
+42.3086111,-83.48222220000001,Canton,48187.0,Wayne County,Michigan,United States
+39.16111110000001,-80.3522222,Lost Creek,26385.0,Harrison County,West Virginia,United States
+42.7647222,-71.44027779999999,Hudson,3051.0,Hillsborough County,New Hampshire,United States
+33.849166700000005,-118.3875,Redondo Beach,90277.0,Los Angeles County,California,United States
+42.6525,-73.7566667,Albany,12210.0,Albany County,New York,United States
+26.705277799999998,-80.0366667,West Palm Beach,33480.0,Palm Beach County,Florida,United States
+38.678611100000005,-121.2247222,Orangevale,95662.0,Sacramento County,California,United States
+44.8277778,-92.9436111,Cottage Grove,55016.0,Washington County,Minnesota,United States
+34.1361111,-117.86444440000001,Glendora,91741.0,Los Angeles County,California,United States
+33.0416667,-116.8672222,Ramona,92065.0,San Diego County,California,United States
+37.595833299999995,-122.01805559999998,Union City,94587.0,Alameda County,California,United States
+37.8902778,-88.3030556,Omaha,62871.0,Gallatin County,Illinois,United States
+36.0397222,-114.9811111,Henderson,89015.0,Clark County,Nevada,United States
+37.6775,-113.0611111,Cedar City,84720.0,Iron County,Utah,United States
+41.60055560000001,-93.60888890000001,Des Moines,50316.0,Polk County,Iowa,United States
+41.6361111,-70.93472220000001,New Bedford,2740.0,Bristol County,Massachusetts,United States
+41.3325,-73.20777779999999,Monroe,6468.0,Fairfield County,Connecticut,United States
+33.9133333,-78.3041667,Holden Beach,28462.0,Brunswick County,North Carolina,United States
+37.762222200000004,-84.8433333,Harrodsburg,40330.0,Mercer County,Kentucky,United States
+42.2625,-71.80277779999999,Worcester,1609.0,Worcester County,Massachusetts,United States
+40.6377778,-74.45138890000001,Watchung (Was My Perspective),7069.0,Somerset County,New Jersey,United States
+42.610555600000005,-71.23472220000001,Tewksbury,1876.0,Middlesex County,Massachusetts,United States
+41.6347222,-84.9994444,Angola,46703.0,Steuben County,Indiana,United States
+46.6022222,-120.5047222,Yakima,98901.0,Yakima County,Washington,United States
+39.2544444,-76.7002778,Arbutus,21227.0,Baltimore County,Maryland,United States
+41.2788889,-75.87861109999999,Forty Fort,18704.0,Luzerne County,Pennsylvania,United States
+43.0830556,-73.785,Saratoga Springs,12866.0,Saratoga County,New York,United States
+41.2052778,-76.00527779999999,Nanticoke,18634.0,Luzerne County,Pennsylvania,United States
+32.3122222,-106.7777778,Las Cruces,88001.0,Doña Ana County,New Mexico,United States
+47.3525,-121.9825,Ravensdale,98051.0,King County,Washington,United States
+40.155,-74.8291667,Levittown,19055.0,Bucks County,Pennsylvania,United States
+33.4483333,-112.07333329999999,Phoenix,85004.0,Maricopa County,Arizona,United States
+41.6572222,-87.68,Blue Island,60406.0,Cook County,Illinois,United States
+43.419444399999996,-83.9508333,Saginaw,48601.0,Saginaw County,Michigan,United States
+41.7297222,-93.6055556,Ankeny,50023.0,Polk County,Iowa,United States
+26.823055600000004,-80.13888890000001,Palm Beach Gardens,33418.0,Palm Beach County,Florida,United States
+42.2916667,-85.58722220000001,Kalamazoo,49007.0,Kalamazoo County,Michigan,United States
+38.9716667,-95.235,Lawrence,66044.0,Douglas County,Kansas,United States
+40.978055600000005,-81.7822222,Rittman,44270.0,Wayne County,Ohio,United States
+32.7394444,-114.6338889,Winterhaven,92283.0,Imperial County,California,United States
+44.49055560000001,-73.11138890000001,Essex Junction,5452.0,Chittenden County,Vermont,United States
+39.161944399999996,-84.4569444,Cincinnati,45212.0,Hamilton County,Ohio,United States
