@@ -268,6 +268,9 @@ def read_airport_data(data_path, locator):
     data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
                                axis=1)
 
+    # Keep only entries from the United States.
+    data = data.loc[data["country"] == "United States"]
+
     data = data.filter(["id", "airport_code", "name", "type", "latitude_deg", "longitude_deg", "city",
                         "zip_code", "county", "state", "country", "elevation_ft"])
 
@@ -352,6 +355,9 @@ def read_sighting_data(data_path, locator):
     # Add an index to the data to be a primary key.
     data["id"] = range(1, len(data) + 1)
 
+    # Keep only entries from the United States.
+    data = data.loc[data["country"] == "United States"]
+
     data = data.filter(["id", "date", "time", "shape", "duration_seconds", "latitude_deg", "longitude_deg",
                         "city", "zip_code", "county", "state", "country"])
 
@@ -403,6 +409,9 @@ def read_military_base_data(data_path, locator):
     # Get the city of each sighting.
     data["city"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_city(),
                                 axis=1)
+
+    # Keep only entries from the United States.
+    data = data.loc[data["country"] == "United States"]
 
     data = data.filter(["id", "name", "type", "latitude_deg", "longitude_deg", "city", "zip_code", "county",
                         "state", "country"])
