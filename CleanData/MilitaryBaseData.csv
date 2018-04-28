@@ -32,8 +32,6 @@ id,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,country
 31,Creech AFB,AF Active,36.587616,-115.676337,Indian Springs,89018,Clark County,Nevada,United States
 32,Myrtle Beach AFB,AF Active,33.678287,-78.92925,Myrtle Beach,29577,Horry County,South Carolina,United States
 33,Lincoln Communication Annex,AF Active,38.869654,-121.390857,Lincoln,95648,Placer County,California,United States
-34,Isabela N00207-AB,AF Active,18.46367,-67.065595,Isabela,00662,Ceiba Baja,Puerto Rico,Puerto Rico
-35,Salinas N00207-JA,AF Active,18.005191,-66.278163,Salinas,00751,Río Jueyes,Puerto Rico,Puerto Rico
 36,Kelly Field Annex,AF Active,29.379788,-98.585492,San Antonio,78243,Bexar County,Texas,United States
 37,Keesler Training Annex #1,AF Active,30.407941,-88.957522,Biloxi,39531,Harrison County,Mississippi,United States
 38,Lynn Haven Defense Fuel Sup,AF Active,30.2384,-85.6449,Lynn Haven,32444,Bay County,Florida,United States
@@ -165,7 +163,6 @@ id,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,country
 164,Francis S. Gabreski Airport,AF Guard,40.837116,-72.643439,Westhampton Beach,11978,Suffolk County,New York,United States
 165,Gen Mitchell IAP,AF Guard,42.940792,-87.887786,Milwaukee,53207,Milwaukee County,Wisconsin,United States
 166,Willow Grove JRB,AF Guard,40.194369,-75.148679,Willow Grove,19090,Montgomery County,Pennsylvania,United States
-167,Luis Munoz Marin IAP,AF Guard,18.432381,-65.992848,Carolina,00979,,Puerto Rico,Puerto Rico
 168,Pease ANGB,AF Guard,43.087289,-70.820261,Newington,03801,Rockingham County,New Hampshire,United States
 169,Joe Foss Field,AF Guard,43.584799,-96.746534,Sioux Falls,57104,Minnehaha County,South Dakota,United States
 170,Boise Air Terminal (ANG),AF Guard,43.558938,-116.221934,Boise,83705,Ada County,Idaho,United States
@@ -184,8 +181,6 @@ id,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,country
 183,Camp Shelby Range,AF Guard,31.195722,-89.204095,Hattiesburg,39407,Forrest County,Mississippi,United States
 184,Fort Dodge ANG,AF Guard,42.552601,-94.191283,Fort Dodge,50501,Webster County,Iowa,United States
 185,Fort Leonard Wood Range,AF Guard,37.741242,-92.140421,Fort Leonard Wood,65473,Pulaski County,Missouri,United States
-186,Punta Borinquen Radar Site,AF Guard,18.435899,-67.137024,Aguadilla Pueblo,00603,Caimital Bajo,Puerto Rico,Puerto Rico
-187,Punta Salinas Radar Site,AF Guard,18.45401,-66.14436,Toa Baja,00949,,Puerto Rico,Puerto Rico
 188,Vandenberg AFB,AF Active,34.708782,-120.543047,Lompoc,93437,Santa Barbara County,California,United States
 189,Clear AB,AF Active,64.291271,-149.18603,Anderson,99744,Denali,Alaska,United States
 190,Pillar Point AFS,AF Active,37.49726,-122.49825,Moss Beach,94038,San Mateo County,California,United States
@@ -208,8 +203,6 @@ id,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,country
 207,Kokee AFS,AF Active,22.147972,-159.645243,Kapaa,96746,Kauai County,Hawaii,United States
 208,Kaena Point Satellite Tracking Station,AF Active,21.564014,-158.244504,Waianae,96792,Honolulu County,Hawaii,United States
 209,Hickam Petroleum Products Storage Annex,AF Active,21.438188,-158.006568,Mililani,96789,Honolulu County,Hawaii,United States
-210,Andersen AFB VOR Annex,AF Active,13.523174,144.819311,Dededo,96929,,Guam,Guam
-211,Northwest Guam AFB,AF Active,13.62425,144.8604,Dededo,,,Guam,Guam
 212,Nikolski Radio Relay Site,AF Active,52.93806,-168.86778,Nikolski,99638,Aleutians West,Alaska,United States
 213,Cold Bay Long Range Radar Site,AF Active,55.245227,-162.76945,Cold Bay,99571,Aleutians East,Alaska,United States
 214,Big Mountain Radio Relay Site,AF Active,59.39083,-155.22583,Kokhanok,,Lake and Peninsula,Alaska,United States
@@ -272,7 +265,6 @@ id,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,country
 271,Buckley AFB,AF Active,39.706657,-104.757681,Aurora,80017,Arapahoe County,Colorado,United States
 272,Cape Canaveral AFS,AF Active,28.478318,-80.570211,,,Brevard County,Florida,United States
 273,Onizuka AFB,AF Active,37.404852,-122.027917,Sunnyvale,94089,Santa Clara County,California,United States
-274,Ramey AF Solar Observatory Research Site,AF Active,18.509358,-67.0991,Montaña,00662,,Puerto Rico,Puerto Rico
 275,George AFB,AF Active,34.586124,-117.376487,Victorville,92394,San Bernardino County,California,United States
 276,Melrose Air Force Range,AF Active,34.284644,-103.780358,Floyd,88118,Roosevelt County,New Mexico,United States
 277,Cannon Meadows Housing Area,AF Active,34.445983,-103.175702,Clovis,88101,Curry County,New Mexico,United States
@@ -288,15 +280,8 @@ id,name,type,latitude_deg,longitude_deg,city,zip_code,county,state,country
 287,Norwalk 2,AF Reserve,33.90307,-118.08265,Norwalk,90650,Los Angeles County,California,United States
 288,Cincinnati Defense Fuel Support Point,AF Active,39.1064,-84.5014,Cincinnati,45202,Hamilton County,Ohio,United States
 289,McClellan FH Annex,AF Active,38.712348,-121.387699,Antelope,95843,Sacramento County,California,United States
-290,Andersen Communications Annex #2,AF Active,13.4564,144.81255,Barrigada,,,Guam,Guam
-291,Andersen Supply Annex,AF Active,13.509757,144.809824,Tamuning,96913,,Guam,Guam
-292,Andersen Petrol Product Storage Annex #2,AF Active,13.51791,144.8111,Tamuning,96913,,Guam,Guam
-293,Andersen AFS,AF Active,13.535921,144.914794,Yigo,,,Guam,Guam
-294,Andersen Petrol Product Storage Annex #1,AF Active,13.5867,144.86234,Dededo,,,Guam,Guam
 295,Chanute AFB,AF Active,40.29356,-88.145839,Rantoul,61866,Champaign County,Illinois,United States
 296,Davis Communications Annex,AF Active,38.5452,-121.7397,Davis,95616,Yolo County,California,United States
 297,Air Force Plant #59,AF Active,42.1768,-76.0035,Johnson City,13790,Broome County,New York,United States
 298,NAS Moffett Field,AF Guard,37.41188,-122.045036,Mountain View,94043,Santa Clara County,California,United States
-299,Andersen AFB,AF Active,13.589379,144.908832,Yigo,,,Guam,Guam
-300,Andersen Administration Annex,AF Active,13.50852,144.866158,Dededo,,,Guam,Guam
 301,Toledo/Exp Airport,AF Guard,41.58649,-83.792285,Monclova,43542,Lucas County,Ohio,United States
