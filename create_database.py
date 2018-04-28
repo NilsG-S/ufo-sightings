@@ -260,4 +260,5 @@ if __name__ == "__main__":
     db_manager.insert_csv_into_table("AddressData",
                                      "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/AddressTable.csv")
 
+    # Create an index for AddressData.
     db_manager.run_sql("CREATE INDEX AddressIndex ON AddressData(latitude_deg, longitude_deg);")
