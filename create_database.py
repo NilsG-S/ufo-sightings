@@ -1,4 +1,5 @@
 import atexit
+import inspect
 import mysql.connector
 import mysql.connector.errorcode
 import os
@@ -173,6 +174,10 @@ if __name__ == "__main__":
     db_user_name = os.getenv("DB_USER_NAME")
     db_password = os.getenv("DB_PASSWORD")
 
+    # Get the directory of this script.
+    cur_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+
+    # The name of the database to be created.
     db_name = "ufo"
 
     # Create a database manager to start editing the database.
@@ -199,7 +204,7 @@ if __name__ == "__main__":
                           ")"
     db_manager.create_table("Airports", airport_data_schema)
     db_manager.insert_csv_into_table("Airports",
-                                     "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/AirportTable.csv")
+                                     "%s/DatabaseTables/AirportTable.csv" % cur_dir)
 
     # Create MilitaryBaseData table and put the MilitaryBaseTable.csv data into the table.
     military_base_data_schema = "(" \
@@ -212,7 +217,7 @@ if __name__ == "__main__":
                                 ")"
     db_manager.create_table("MilitaryBases", military_base_data_schema)
     db_manager.insert_csv_into_table("MilitaryBases",
-                                     "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/MilitaryBaseTable.csv")
+                                     "%s/DatabaseTables/MilitaryBaseTable.csv" % cur_dir)
 
     # Create UFOSightingData table and put the UFOSightingTable.csv data into the table.
     ufo_sighting_data_schema = "(" \
@@ -227,7 +232,7 @@ if __name__ == "__main__":
                                ")"
     db_manager.create_table("UFOSightings", ufo_sighting_data_schema)
     db_manager.insert_csv_into_table("UFOSightings",
-                                     "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/UFOSightingTable.csv")
+                                     "%s/DatabaseTables/UFOSightingTable.csv" % cur_dir)
 
     # Create MilitaryXSighting table and put the MilitaryXSightingsTable.csv data into the table.
     military_X_sighting_data_schema = "(" \
@@ -238,7 +243,7 @@ if __name__ == "__main__":
                                ")"
     db_manager.create_table("MilitaryBasesXSightings", military_X_sighting_data_schema)
     db_manager.insert_csv_into_table("MilitaryBasesXSightings",
-                                     "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/MilitaryXSightingsTable.csv")
+                                     "%s/DatabaseTables/MilitaryXSightingsTable.csv" % cur_dir)
 
     # Create AirportXSighting table and put the AirportXSightingsTable.csv data into the table.
     airport_X_sighting_data_schema = "(" \
@@ -249,7 +254,7 @@ if __name__ == "__main__":
                                       ")"
     db_manager.create_table("AirportsXSightings", airport_X_sighting_data_schema)
     db_manager.insert_csv_into_table("AirportsXSightings",
-                                     "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/AirportXSightingsTable.csv")
+                                     "%s/DatabaseTables/AirportXSightingsTable.csv" % cur_dir)
 
     # Create Address table and put the AddressTable.csv data into the table.
     address_data_schema = "(" \
@@ -264,7 +269,7 @@ if __name__ == "__main__":
                             ")"
     db_manager.create_table("Addresses", address_data_schema)
     db_manager.insert_csv_into_table("Addresses",
-                                     "/Users/okoepke/Desktop/ufo-sightings/DatabaseTables/AddressTable.csv")
+                                     "%s/DatabaseTables/AddressTable.csv" % cur_dir)
 
     # Create an index for AddressData.
-    db_manager.run_sql("CREATE INDEX AddressesIndex ON Addresses(latitude_deg, longitude_deg);")
+    # db_manager.run_sql("CREATE INDEX AddressesIndex ON Addresses(latitude_deg, longitude_deg);")

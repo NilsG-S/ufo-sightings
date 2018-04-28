@@ -28,14 +28,17 @@ airport locations and meteorite sightings.
     * `DB_USER_NAME=<Your Mariadb User Name>`
     * `DB_PASSWORD=<Your Mariadb Password>`
 1. Make sure the following .csv files are in the DatabaseTables folder:
-    * AddressTable.csv - the address of all the airports, military bases and ufo sightings
-    * AirportTable.csv - the airport location data
-    * AirportXSightingsTable.csv - the airports mapped to ufo sightings
-    * MilitaryBaseTable.csv - the military location data
-    * MilitaryXSightings.csv - the military bases mapped to the ufo sightings
-    * UFOSightingTable.csv - the ufo sightings location data
+    * AddressTable.csv - the address of all the airports, military bases and ufo sightings (Addresses when inserted)
+    * AirportTable.csv - the airport location data (Airports when inserted)
+    * AirportXSightingsTable.csv - the airports mapped to ufo sightings (AirportsXSightings when inserted)
+    * MilitaryBaseTable.csv - the military location data (MilitaryBases when inserted)
+    * MilitaryXSightings.csv - the military bases mapped to the ufo sightings (MilitaryBasesXSightings when inserted)
+    * UFOSightingTable.csv - the ufo sightings location data (UFOSightings when inserted)
 1. Run the database_creation.py file.
 1. A database called "ufo" should be created with the following tables:
-    * AirportData - the table will all the airport locations
-    * MilitaryBaseData - the table with all the military base locations
-    * UFOSightingData - the table with all the ufo sightings
+    * Addresses - the addresses of the airports, military bases and ufo sightings
+    * Airports - the table will all the airport locations
+    * AirportsXSightings - the airports mapped to ufo sightings
+    * MilitaryBases - the table with all the military base locations
+    * MilitaryBasesXSightings - the military bases mapped to the ufo sightings
+    * UFOSightings - the table with all the ufo sightings
