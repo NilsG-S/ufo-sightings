@@ -1,6 +1,6 @@
 const path = require('path');
 
-const appPath = path.resolve(__dirname, '../src');
+const appPath = path.resolve(__dirname, '../src/ui');
 const nodePath = path.resolve(__dirname, '../node_modules');
 const buildPath = path.resolve(__dirname, '../public');
 
