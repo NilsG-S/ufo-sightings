@@ -372,11 +372,29 @@ def read_military_base_data(data_path, locator):
         state = feature["properties"]["STATE_TERR"]
         lon = feature["geometry"]["coordinates"][0]
         lat = feature["geometry"]["coordinates"][1]
-        data.loc[data.size] = [name, type, state, lon, lat]
+        data.loc[len(data) + 1] = [name, type, state, lon, lat]
+
+    # Add an index to the data to be a primary key.
+    data["id"] = range(1, len(data) + 1)
 
     # Get the zip code of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
+
+    # Get the country of each sighting.
+    data["country"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_country(),
+                                  axis=1)
+
+    # Get the county of each sighting.
+    data["county"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_county(),
+                                 axis=1)
+
+    # Get the city of each sighting.
+    data["city"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_city(),
+                                axis=1)
+
+    data = data.filter(["id", "name", "type", "latitude_deg", "longitude_deg", "city", "zip_code", "county",
+                        "state", "country"])
 
     return data
 
@@ -401,4 +419,4 @@ if __name__ == "__main__":
 
     # Clean and save the military base data as well as convert it to a csv from a geojson file.
     military_base_data = read_military_base_data("./RawData/MilitaryBases.geojson", locator)
-    military_base_data.to_csv("./CleanData/MilitaryBaseData.csv")
+    military_base_data.to_csv("./CleanData/MilitaryBaseData.csv", index=False)
