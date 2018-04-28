@@ -329,12 +329,23 @@ def read_sighting_data(data_path, locator):
     # Turn the values in the city column into title case.
     data["city"] = data.apply(lambda x: x["city"].title(), axis=1)
 
-    # Get the address of each sighting.
+    # Get the zip code of each sighting.
     data["zip_code"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_zip_code(),
                                   axis=1)
 
-    data = data.filter(["date", "time", "city", "state", "country", "zip_code", "shape", "duration_seconds",
-                        "latitude_deg", "longitude_deg"])
+    # Get the county of each sighting.
+    data["county"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_county(),
+                                  axis=1)
+
+    # Get the state of each sighting.
+    data["state"] = data.apply(lambda x: locator.get_address(x['latitude_deg'], x['longitude_deg']).get_state(),
+                                axis=1)
+
+    # Add an index to the data to be a primary key.
+    data["id"] = range(1, len(data) + 1)
+
+    data = data.filter(["id", "date", "time", "shape", "duration_seconds", "latitude_deg", "longitude_deg",
+                        "city", "zip_code", "county", "state", "country"])
 
     return data
 
