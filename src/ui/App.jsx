@@ -17,15 +17,12 @@ const drawerWidth = 240;
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    height: 430,
-    zIndex: 1,
     overflow: 'hidden',
     position: 'relative',
     display: 'flex',
-    width: '100%',
   },
   appBar: {
-    position: 'absolute',
+    position: 'fixed',
     marginLeft: drawerWidth,
     [theme.breakpoints.up('md')]: {
       width: `calc(100% - ${drawerWidth}px)`,
@@ -40,13 +37,15 @@ const styles = theme => ({
   drawerPaper: {
     width: drawerWidth,
     [theme.breakpoints.up('md')]: {
-      position: 'relative',
+      position: 'fixed',
     },
   },
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
-    padding: theme.spacing.unit * 3,
+    [theme.breakpoints.up('md')]: {
+      paddingLeft: drawerWidth,
+    },
   },
 });
 
