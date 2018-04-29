@@ -13,33 +13,26 @@ import ToolBar from 'material-ui/ToolBar';
 import Typography from 'material-ui/Typography';
 
 const drawerWidth = 240;
-
 const styles = theme => ({
-  root: {
-    flexGrow: 1,
-    overflow: 'hidden',
-    position: 'relative',
-    display: 'flex',
-  },
-  appBar: {
+  appbar: {
     position: 'fixed',
-    marginLeft: drawerWidth,
     [theme.breakpoints.up('md')]: {
       width: `calc(100% - ${drawerWidth}px)`,
     },
   },
-  navIconHide: {
+  drawerButton: {
     [theme.breakpoints.up('md')]: {
       display: 'none',
     },
   },
-  toolbar: theme.mixins.toolbar,
-  drawerPaper: {
+  drawer: {
     width: drawerWidth,
     [theme.breakpoints.up('md')]: {
       position: 'fixed',
     },
   },
+  // This is for spacing below toolbar
+  toolbar: theme.mixins.toolbar,
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
@@ -100,11 +93,11 @@ class ResponsiveApp extends React.Component {
     );
 
     return (
-      <div className={classes.root}>
-        <AppBar className={classes.appBar}>
+      <div>
+        <AppBar className={classes.appbar}>
           <ToolBar>
             <IconButton
-              className={classes.navIconHide}
+              className={classes.drawerButton}
               color='inherit'
               aria-label='open drawer'
               onClick={this.handleDrawerToggle}
@@ -119,7 +112,7 @@ class ResponsiveApp extends React.Component {
         <Hidden mdUp>
           <Drawer
             classes={{
-              paper: classes.drawerPaper,
+              paper: classes.drawer,
             }}
             variant='temporary'
             anchor={theme.direction === 'rtl' ? 'right' : 'left'}
@@ -135,7 +128,7 @@ class ResponsiveApp extends React.Component {
         <Hidden smDown implementation='css'>
           <Drawer
             classes={{
-              paper: classes.drawerPaper,
+              paper: classes.drawer,
             }}
             variant='permanent'
             open
