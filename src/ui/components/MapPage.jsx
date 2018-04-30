@@ -12,6 +12,7 @@ import Typography from 'material-ui/Typography';
 
 import values from 'utils/values.js';
 import DrawerOptions from './DrawerOptions.jsx';
+import Map from './Map.jsx';
 
 const styles = theme => ({
   root: {
@@ -157,6 +158,7 @@ class MapPage extends React.Component {
         </Hidden>
         <main className={classes.content}>
           <div className={classes.toolbar} />
+          <Map />
         </main>
       </div>
     );
