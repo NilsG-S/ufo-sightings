@@ -42,7 +42,7 @@ const styles = theme => ({
   },
 });
 
-class Map extends React.Component {
+class MapPage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -156,9 +156,9 @@ class Map extends React.Component {
   }
 }
 
-Map.propTypes = {
+MapPage.propTypes = {
   classes: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles, { withTheme: true })(Map);
+export default withStyles(styles, { withTheme: true })(MapPage);
