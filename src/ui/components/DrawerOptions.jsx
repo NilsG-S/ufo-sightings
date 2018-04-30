@@ -19,10 +19,9 @@ function DrawerOptions(props) {
       <Options>
         {Object.values(props.geo).map(opt => (
           <Option
-            key={opt.id}
+            key={opt.name}
             checked={props.geoChecked}
             handler={props.geoHandler}
-            id={opt.id}
             name={opt.name}
             text={opt.text}
           />
@@ -31,10 +30,9 @@ function DrawerOptions(props) {
       <Options>
         {Object.values(props.data).map(opt => (
           <Option
-            key={opt.id}
+            key={opt.name}
             checked={props.dataChecked}
             handler={props.dataHandler}
-            id={opt.id}
             name={opt.name}
             text={opt.text}
           />
@@ -47,10 +45,10 @@ function DrawerOptions(props) {
 DrawerOptions.propTypes = {
   classes: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
-  dataChecked: PropTypes.number.isRequired,
+  dataChecked: PropTypes.string.isRequired,
   dataHandler: PropTypes.func.isRequired,
   geo: PropTypes.object.isRequired,
-  geoChecked: PropTypes.number.isRequired,
+  geoChecked: PropTypes.string.isRequired,
   geoHandler: PropTypes.func.isRequired,
 };
 

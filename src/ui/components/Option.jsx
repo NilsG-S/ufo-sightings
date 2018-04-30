@@ -14,7 +14,7 @@ function Option(props) {
       <ListItemText primary={props.text} />
       <ListItemSecondaryAction>
         <Checkbox
-          checked={props.checked === props.id}
+          checked={props.checked === props.name}
           name={props.name}
           onChange={props.handler}
         />
@@ -24,9 +24,8 @@ function Option(props) {
 }
 
 Option.propTypes = {
-  checked: PropTypes.number.isRequired,
+  checked: PropTypes.string.isRequired,
   handler: PropTypes.func.isRequired,
-  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };

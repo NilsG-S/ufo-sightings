@@ -58,19 +58,19 @@ class MapPage extends React.Component {
 
     this.state = {
       mobileOpen: false,
-      dataChecked: 1,
-      geoChecked: 1,
+      dataChecked: 'mil',
+      geoChecked: 'none',
     };
     this.data = {
-      mil: { id: 1, name: 'mil', text: 'Military Bases' },
-      air: { id: 2, name: 'air', text: 'Airports' },
-      all: { id: 3, name: 'all', text: 'All' },
-      neither: { id: 4, name: 'neither', text: 'Neither' },
+      mil: { name: 'mil', text: 'Military Bases' },
+      air: { name: 'air', text: 'Airports' },
+      all: { name: 'all', text: 'All' },
+      neither: { name: 'neither', text: 'Neither' },
     };
     this.geo = {
-      none: { id: 1, name: 'none', text: 'None' },
-      state: { id: 2, name: 'state', text: 'State' },
-      zip: { id: 3, name: 'zip', text: 'Zip' },
+      none: { name: 'none', text: 'None' },
+      state: { name: 'state', text: 'State' },
+      county: { name: 'county', text: 'County' },
     };
 
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);
@@ -88,7 +88,7 @@ class MapPage extends React.Component {
     const { name } = event.target;
 
     this.setState({
-      dataChecked: this.data[name].id,
+      dataChecked: name,
     });
   }
 
@@ -96,7 +96,7 @@ class MapPage extends React.Component {
     const { name } = event.target;
 
     this.setState({
-      geoChecked: this.geo[name].id,
+      geoChecked: name,
     });
   }
 

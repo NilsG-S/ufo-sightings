@@ -5,7 +5,24 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-map
 import { loadJSON } from 'utils/server.js';
 
 const data = {
-  all: [],
+  none: {
+    mil: [],
+    air: [],
+    all: [],
+    neither: [],
+  },
+  state: {
+    mil: [],
+    air: [],
+    all: [],
+    neither: [],
+  },
+  county: {
+    mil: [],
+    air: [],
+    all: [],
+    neither: [],
+  },
 };
 
 class Map extends React.Component {
@@ -20,7 +37,7 @@ class Map extends React.Component {
   componentDidMount() {
     const all = loadJSON('all.json')
       .then((res) => {
-        data.all = res;
+        data.none.all = res;
       })
       .catch((err) => {
         console.log(err);
@@ -58,7 +75,7 @@ class Map extends React.Component {
         defaultZoom={4}
         defaultCenter={{ lat: 33.584466, lng: -101.874670 }}
       >
-        {data.all.map(pos => (
+        {data[this.props.geoChecked][this.props.dataChecked].map(pos => (
           <Marker key={pos.id} position={{ lat: pos.lat, lng: pos.lng }} />
         ))}
       </GoogleMap>
@@ -67,8 +84,8 @@ class Map extends React.Component {
 }
 
 Map.propTypes = {
-  dataChecked: PropTypes.number.isRequired,
-  geoChecked: PropTypes.number.isRequired,
+  dataChecked: PropTypes.string.isRequired,
+  geoChecked: PropTypes.string.isRequired,
 };
 
 function inject(Wrapped) {
