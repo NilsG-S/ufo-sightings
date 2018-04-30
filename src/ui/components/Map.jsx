@@ -4,25 +4,52 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-map
 
 import { loadJSON } from 'utils/server.js';
 
+const data = {
+  all: [],
+};
+
 class Map extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      all: [],
+      ready: false,
     };
   }
 
   componentDidMount() {
-    loadJSON('all.json')
+    const all = loadJSON('all.json')
       .then((res) => {
-        this.setState({
-          all: res,
-        });
+        data.all = res;
       })
       .catch((err) => {
         console.log(err);
       });
+
+    Promise.all([
+      all,
+    ])
+      .then(() => {
+        this.setState({
+          ready: true,
+        });
+      });
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (nextState.ready === true && this.state.ready === false) {
+      return true;
+    }
+
+    if (this.props.dataChecked !== nextProps.dataChecked) {
+      return true;
+    }
+
+    if (this.props.geoChecked !== nextProps.geoChecked) {
+      return true;
+    }
+
+    return false;
   }
 
   render() {
@@ -31,13 +58,18 @@ class Map extends React.Component {
         defaultZoom={4}
         defaultCenter={{ lat: 33.584466, lng: -101.874670 }}
       >
-        {this.state.all.map(pos => (
+        {data.all.map(pos => (
           <Marker key={pos.id} position={{ lat: pos.lat, lng: pos.lng }} />
         ))}
       </GoogleMap>
     );
   }
 }
+
+Map.propTypes = {
+  dataChecked: PropTypes.number.isRequired,
+  geoChecked: PropTypes.number.isRequired,
+};
 
 function inject(Wrapped) {
   return props => (

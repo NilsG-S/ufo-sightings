@@ -58,8 +58,8 @@ class MapPage extends React.Component {
 
     this.state = {
       mobileOpen: false,
-      dataChecked: 0,
-      geoChecked: 0,
+      dataChecked: 1,
+      geoChecked: 1,
     };
     this.data = {
       mil: { id: 1, name: 'mil', text: 'Military Bases' },
@@ -68,8 +68,9 @@ class MapPage extends React.Component {
       neither: { id: 4, name: 'neither', text: 'Neither' },
     };
     this.geo = {
-      state: { id: 1, name: 'state', text: 'State' },
-      zip: { id: 2, name: 'zip', text: 'Zip' },
+      none: { id: 1, name: 'none', text: 'None' },
+      state: { id: 2, name: 'state', text: 'State' },
+      zip: { id: 3, name: 'zip', text: 'Zip' },
     };
 
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);
@@ -159,7 +160,10 @@ class MapPage extends React.Component {
         </Hidden>
         <div className={classes.toolbar} />
         <main className={classes.content}>
-          <Map />
+          <Map
+            dataChecked={this.state.dataChecked}
+            geoChecked={this.state.geoChecked}
+          />
         </main>
       </div>
     );
