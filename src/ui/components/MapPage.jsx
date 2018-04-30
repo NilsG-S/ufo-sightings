@@ -14,6 +14,12 @@ import values from 'utils/values.js';
 import DrawerOptions from './DrawerOptions.jsx';
 
 const styles = theme => ({
+  root: {
+    margin: 0,
+    padding: 0,
+    width: '100%',
+    height: '100%',
+  },
   appbar: {
     position: 'fixed',
     [theme.breakpoints.up('md')]: {
@@ -34,9 +40,11 @@ const styles = theme => ({
   // This is for spacing below toolbar
   toolbar: theme.mixins.toolbar,
   content: {
-    flexGrow: 1,
+    display: 'flex',
+    height: '100%',
     backgroundColor: theme.palette.background.default,
     [theme.breakpoints.up('md')]: {
+      width: `calc(100% - ${values.drawerWidth}px)`,
       paddingLeft: values.drawerWidth,
     },
   },
@@ -104,7 +112,7 @@ class MapPage extends React.Component {
     );
 
     return (
-      <div>
+      <div className={classes.root}>
         <AppBar className={classes.appbar}>
           <ToolBar>
             <IconButton
@@ -149,7 +157,6 @@ class MapPage extends React.Component {
         </Hidden>
         <main className={classes.content}>
           <div className={classes.toolbar} />
-          <Typography noWrap>Testing</Typography>
         </main>
       </div>
     );
