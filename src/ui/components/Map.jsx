@@ -32,7 +32,7 @@ class Map extends React.Component {
         defaultCenter={{ lat: 33.584466, lng: -101.874670 }}
       >
         {this.state.all.map(pos => (
-          <Marker key={`${pos.lat}${pos.lng}`} position={{ lat: pos.lat, lng: pos.lng }} />
+          <Marker key={pos.id} position={{ lat: pos.lat, lng: pos.lng }} />
         ))}
       </GoogleMap>
     );

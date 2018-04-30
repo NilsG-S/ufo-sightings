@@ -1,7 +1,7 @@
 const conn = require('db-conn.js');
 
 const allStateSQL = `
-SELECT latitude_deg AS lat, longitude_deg AS lng
+SELECT id, latitude_deg AS lat, longitude_deg AS lng
  FROM ufosightings;
 `;
 
