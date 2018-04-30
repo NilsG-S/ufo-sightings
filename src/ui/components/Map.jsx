@@ -5,6 +5,8 @@ import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-map
 import { loadJSON } from 'utils/server.js';
 
 const data = {
+  states: [],
+  counties: [],
   none: {
     mil: [],
     air: [],
@@ -24,6 +26,14 @@ const data = {
     neither: [],
   },
 };
+
+function polygonHandler(area) {
+  return null;
+}
+
+function markerHandler(pos) {
+  return <Marker key={pos.id} position={{ lat: pos.lat, lng: pos.lng }} />;
+}
 
 class Map extends React.Component {
   constructor(props) {
@@ -70,14 +80,17 @@ class Map extends React.Component {
   }
 
   render() {
+    let dataHandler = polygonHandler;
+    if (this.props.geoChecked === 'none') {
+      dataHandler = markerHandler;
+    }
+
     return (
       <GoogleMap
         defaultZoom={4}
         defaultCenter={{ lat: 33.584466, lng: -101.874670 }}
       >
-        {data[this.props.geoChecked][this.props.dataChecked].map(pos => (
-          <Marker key={pos.id} position={{ lat: pos.lat, lng: pos.lng }} />
-        ))}
+        {data[this.props.geoChecked][this.props.dataChecked].map(dataHandler)}
       </GoogleMap>
     );
   }
