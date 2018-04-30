@@ -9,16 +9,31 @@ const pool = mysql.createPool({
   connectionLimit: 10,
 });
 
-async function open() {
-  pool.getConnection((err, cnx) => {
-    if (err) {
-      throw err;
-    }
+function open() {
+  return new Promise((resolve, reject) => {
+    pool.getConnection((err, cnx) => {
+      if (err) {
+        reject(err);
+      }
 
-    return cnx;
+      resolve(cnx);
+    });
+  });
+}
+
+function exec(sql, values) {
+  return new Promise((resolve, reject) => {
+    pool.query(sql, values, (err, res) => {
+      if (err) {
+        reject(err);
+      }
+
+      resolve(res);
+    });
   });
 }
 
 module.exports = {
   open,
+  exec,
 };

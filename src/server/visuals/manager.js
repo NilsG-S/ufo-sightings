@@ -1,13 +1,15 @@
 const conn = require('db-conn.js');
 
 const allStateSQL = `
-
+SELECT latitude_deg AS lat, longitude_deg AS lng
+ FROM ufosightings;
 `;
 
 async function allState() {
-  const cnx = await conn.open();
-
-  cnx.query
-
-  cnx.release();
+  const res = await conn.exec(allStateSQL, []);
+  return res;
 }
+
+module.exports = {
+  allState,
+};
