@@ -17,23 +17,25 @@ function DrawerOptions(props) {
     <div>
       <div className={classes.toolbar} />
       <Options>
-        {props.geo.map(opt => (
+        {Object.values(props.geo).map(opt => (
           <Option
-            key={opt.key}
-            checked={opt.checked}
+            key={opt.id}
+            checked={props.geoChecked}
             handler={props.geoHandler}
-            name={opt.key}
+            id={opt.id}
+            name={opt.name}
             text={opt.text}
           />
         ))}
       </Options>
       <Options>
-        {props.data.map(opt => (
+        {Object.values(props.data).map(opt => (
           <Option
-            key={opt.key}
-            checked={opt.checked}
+            key={opt.id}
+            checked={props.dataChecked}
             handler={props.dataHandler}
-            name={opt.key}
+            id={opt.id}
+            name={opt.name}
             text={opt.text}
           />
         ))}
@@ -44,17 +46,11 @@ function DrawerOptions(props) {
 
 DrawerOptions.propTypes = {
   classes: PropTypes.object.isRequired,
-  data: PropTypes.arrayOf(PropTypes.shape({
-    key: PropTypes.number.isRequired,
-    checked: PropTypes.bool.isRequired,
-    text: PropTypes.string.isRequired,
-  })).isRequired,
+  data: PropTypes.object.isRequired,
+  dataChecked: PropTypes.number.isRequired,
   dataHandler: PropTypes.func.isRequired,
-  geo: PropTypes.arrayOf(PropTypes.shape({
-    key: PropTypes.number.isRequired,
-    checked: PropTypes.bool.isRequired,
-    text: PropTypes.string.isRequired,
-  })).isRequired,
+  geo: PropTypes.object.isRequired,
+  geoChecked: PropTypes.number.isRequired,
   geoHandler: PropTypes.func.isRequired,
 };
 

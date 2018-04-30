@@ -48,16 +48,18 @@ class MapPage extends React.Component {
 
     this.state = {
       mobileOpen: false,
-      geo: [
-        { key: 0, checked: false, text: 'State' },
-        { key: 1, checked: false, text: 'Zip' },
-      ],
-      data: [
-        { key: 0, checked: false, text: 'Military Bases' },
-        { key: 1, checked: false, text: 'Airports' },
-        { key: 2, checked: false, text: 'All' },
-        { key: 3, checked: false, text: 'Neither' },
-      ],
+      dataChecked: 0,
+      geoChecked: 0,
+    };
+    this.data = {
+      mil: { id: 1, name: 'mil', text: 'Military Bases' },
+      air: { id: 2, name: 'air', text: 'Airports' },
+      all: { id: 3, name: 'all', text: 'All' },
+      neither: { id: 4, name: 'neither', text: 'Neither' },
+    };
+    this.geo = {
+      state: { id: 1, name: 'state', text: 'State' },
+      zip: { id: 2, name: 'zip', text: 'Zip' },
     };
 
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);
@@ -73,21 +75,17 @@ class MapPage extends React.Component {
 
   dataHandler(event) {
     const { name } = event.target;
-    const arr = [...this.state.data];
-    arr[name].checked = !arr[name].checked;
 
     this.setState({
-      data: arr,
+      dataChecked: this.data[name].id,
     });
   }
 
   geoHandler(event) {
     const { name } = event.target;
-    const arr = [...this.state.geo];
-    arr[name].checked = !arr[name].checked;
 
     this.setState({
-      geo: arr,
+      geoChecked: this.geo[name].id,
     });
   }
 
@@ -96,9 +94,11 @@ class MapPage extends React.Component {
 
     const drawer = (
       <DrawerOptions
-        data={this.state.data}
+        data={this.data}
+        dataChecked={this.state.dataChecked}
         dataHandler={this.dataHandler}
-        geo={this.state.geo}
+        geo={this.geo}
+        geoChecked={this.state.geoChecked}
         geoHandler={this.geoHandler}
       />
     );
