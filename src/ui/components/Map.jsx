@@ -2,15 +2,41 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 
-function Map(props) {
-  return (
-    <GoogleMap
-      defaultZoom={8}
-      defaultCenter={{ lat: -34.397, lng: 150.644 }}
-    >
-      <Marker position={{ lat: -34.397, lng: 150.644 }} />
-    </GoogleMap>
-  );
+import { loadJSON } from 'utils/server.js';
+
+class Map extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      all: [],
+    };
+  }
+
+  componentDidMount() {
+    loadJSON('all.json')
+      .then((res) => {
+        this.setState({
+          all: res,
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
+  render() {
+    return (
+      <GoogleMap
+        defaultZoom={4}
+        defaultCenter={{ lat: 33.584466, lng: -101.874670 }}
+      >
+        {this.state.all.map(pos => (
+          <Marker key={`${pos.lat}${pos.lng}`} position={{ lat: pos.lat, lng: pos.lng }} />
+        ))}
+      </GoogleMap>
+    );
+  }
 }
 
 function inject(Wrapped) {
