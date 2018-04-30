@@ -156,8 +156,8 @@ class MapPage extends React.Component {
             {drawer}
           </Drawer>
         </Hidden>
+        <div className={classes.toolbar} />
         <main className={classes.content}>
-          <div className={classes.toolbar} />
           <Map />
         </main>
       </div>
