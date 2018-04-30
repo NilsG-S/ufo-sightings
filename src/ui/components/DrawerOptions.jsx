@@ -21,7 +21,8 @@ function DrawerOptions(props) {
           <Option
             key={opt.key}
             checked={opt.checked}
-            handler={props.handler}
+            handler={props.geoHandler}
+            name={opt.key}
             text={opt.text}
           />
         ))}
@@ -31,7 +32,8 @@ function DrawerOptions(props) {
           <Option
             key={opt.key}
             checked={opt.checked}
-            handler={props.handler}
+            handler={props.dataHandler}
+            name={opt.key}
             text={opt.text}
           />
         ))}
@@ -47,12 +49,13 @@ DrawerOptions.propTypes = {
     checked: PropTypes.bool.isRequired,
     text: PropTypes.string.isRequired,
   })).isRequired,
+  dataHandler: PropTypes.func.isRequired,
   geo: PropTypes.arrayOf(PropTypes.shape({
     key: PropTypes.number.isRequired,
     checked: PropTypes.bool.isRequired,
     text: PropTypes.string.isRequired,
   })).isRequired,
-  handler: PropTypes.func.isRequired,
+  geoHandler: PropTypes.func.isRequired,
 };
 
 export default withStyles(styles)(DrawerOptions);
