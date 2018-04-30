@@ -42,9 +42,10 @@ const styles = theme => ({
   toolbar: theme.mixins.toolbar,
   content: {
     display: 'flex',
-    height: '100%',
+    height: `calc(100% - ${theme.mixins.toolbar.minHeight}px)`,
     backgroundColor: theme.palette.background.default,
     [theme.breakpoints.up('md')]: {
+      height: 'calc(100% - 64px)',
       width: `calc(100% - ${values.drawerWidth}px)`,
       paddingLeft: values.drawerWidth,
     },
