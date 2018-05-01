@@ -198,8 +198,8 @@ if __name__ == "__main__":
                           "airport_code varchar(40)," \
                           "name varchar(40)," \
                           "type varchar(40)," \
-                          "latitude_deg double(9, 6) REFERENCES AddressData(latitude_deg)," \
-                          "longitude_deg double(9, 6) REFERENCES AddressData(longitude_deg)," \
+                          "latitude_deg double(9, 6) REFERENCES Addresses(latitude_deg)," \
+                          "longitude_deg double(9, 6) REFERENCES Addresses(longitude_deg)," \
                           "elevation_ft int(6)," \
                           "PRIMARY KEY (id)" \
                           ")"
@@ -212,8 +212,8 @@ if __name__ == "__main__":
                                 "id int(8) NOT NULL," \
                                 "name varchar(40)," \
                                 "type varchar(40)," \
-                                "latitude_deg double(9, 6) REFERENCES AddressData(latitude_deg)," \
-                                "longitude_deg double(9, 6) REFERENCES AddressData(longitude_deg)," \
+                                "latitude_deg double(9, 6) REFERENCES Addresses(latitude_deg)," \
+                                "longitude_deg double(9, 6) REFERENCES Addresses(longitude_deg)," \
                                 "PRIMARY KEY (id)" \
                                 ")"
     db_manager.create_table("MilitaryBases", military_base_data_schema)
@@ -227,8 +227,8 @@ if __name__ == "__main__":
                                "time time," \
                                "shape varchar(40)," \
                                "duration_seconds int(9)," \
-                               "latitude_deg double(9, 6) REFERENCES AddressData(latitude_deg)," \
-                               "longitude_deg double(9, 6) REFERENCES AddressData(longitude_deg)," \
+                               "latitude_deg double(9, 6) REFERENCES Addresses(latitude_deg)," \
+                               "longitude_deg double(9, 6) REFERENCES Addresses(longitude_deg)," \
                                "PRIMARY KEY (id)" \
                                ")"
     db_manager.create_table("UFOSightings", ufo_sighting_data_schema)
@@ -237,8 +237,8 @@ if __name__ == "__main__":
 
     # Create MilitaryXSighting table and put the MilitaryXSightingsTable.csv data into the table.
     military_X_sighting_data_schema = "(" \
-                               "military_id int(8) NOT NULL REFERENCES MilitaryData(id)," \
-                               "sighting_id int(8) NOT NULL REFERENCES UFOSightingData(id)," \
+                               "military_id int(8) NOT NULL REFERENCES MilitaryBases(id)," \
+                               "sighting_id int(8) NOT NULL REFERENCES UFOSightings(id)," \
                                "distance double(9, 6)," \
                                "PRIMARY KEY (military_id, sighting_id)" \
                                ")"
@@ -248,8 +248,8 @@ if __name__ == "__main__":
 
     # Create AirportXSighting table and put the AirportXSightingsTable.csv data into the table.
     airport_X_sighting_data_schema = "(" \
-                                      "airport_id int(8) NOT NULL REFERENCES AirportData(id)," \
-                                      "sighting_id int(8) NOT NULL REFERENCES UFOSightingData(id)," \
+                                      "airport_id int(8) NOT NULL REFERENCES Airports(id)," \
+                                      "sighting_id int(8) NOT NULL REFERENCES UFOSightings(id)," \
                                       "distance double(9, 6)," \
                                       "PRIMARY KEY (airport_id, sighting_id)" \
                                       ")"
@@ -280,12 +280,12 @@ if __name__ == "__main__":
                        "AS "
                        "SELECT mxs.*, s.date, s.time, s.shape, s.duration_seconds, "
                        "       s.latitude_deg AS sighting_lat, s.longitude_deg AS sighting_lon "
-                       "FROM UFOSightings AS s LEFT JOIN "
+                       "FROM UFOSightings s LEFT JOIN "
                        "( SELECT mxs.*, m.name AS base_name, m.type AS base_type, "
                        "         m.latitude_deg AS military_lat, m.longitude_deg AS military_lon "
-                       "  FROM MilitaryBasesXSightings AS mxs, MilitaryBases AS m "
+                       "  FROM MilitaryBasesXSightings mxs, MilitaryBases m "
                        "  WHERE m.id = mxs.military_id "
-                       ") AS mxs "
+                       ") mxs "
                        "ON s.id = mxs.sighting_id;")
 
     # Create UFO sightings mapped to airports view.
@@ -293,11 +293,11 @@ if __name__ == "__main__":
                        "AS "
                        "SELECT axs.*, s.date, s.time, s.shape, s.duration_seconds, "
                        "       s.latitude_deg AS sighting_lat, s.longitude_deg AS sighting_lon "
-                       "FROM UFOSightings AS s LEFT JOIN "
+                       "FROM UFOSightings s LEFT JOIN "
                        "( SELECT axs.*, a.airport_code, a.name AS airport_name, a.type AS airport_type, "
                        "         a.latitude_deg AS airport_lat, a.longitude_deg AS airport_lon, "
                        "         a.elevation_ft AS airport_elevation_ft "
-                       "  FROM AirportsXSightings AS axs, Airports AS a "
+                       "  FROM AirportsXSightings axs, Airports a "
                        "  WHERE a.id = axs.airport_id "
-                       ") AS axs "
+                       ") axs "
                        "ON s.id = axs.sighting_id;")

@@ -34,7 +34,9 @@ airport locations and meteorite sightings.
     * MilitaryBaseTable.csv - the military location data (MilitaryBases when inserted)
     * MilitaryXSightings.csv - the military bases mapped to the ufo sightings (MilitaryBasesXSightings when inserted)
     * UFOSightingTable.csv - the ufo sightings location data (UFOSightings when inserted)
-1. Run the database_creation.py file.
+1. Run the database_creation.py file. 
+    * <span style="color:red"><strong>Warning:</strong> This will not run on Windows unless the file 
+    paths in the code are changed for Windows.</span>
 1. A database called "ufo" should be created with the following tables:
     * Addresses - the addresses of the airports, military bases and ufo sightings
     * Airports - the table will all the airport locations
