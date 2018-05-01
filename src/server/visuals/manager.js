@@ -28,7 +28,28 @@ async function airports() {
   return conn.exec(airportsSQL, []);
 }
 
+const airportsStateSQL = `
+SELECT A.state, COUNT(*) AS num
+ FROM ufosightings U
+ INNER JOIN addresses A
+ ON U.latitude_deg = A.latitude_deg AND U.longitude_deg = A.longitude_deg
+ INNER JOIN
+ (
+   SELECT DISTINCT state
+   FROM airports AP
+   INNER JOIN addresses A
+   ON AP.latitude_deg = A.latitude_deg AND AP.longitude_deg = A.longitude_deg
+ ) AP
+ ON A.state = AP.state
+ GROUP BY A.state;
+`;
+
+async function airportsState() {
+  return conn.exec(airportsStateSQL, []);
+}
+
 module.exports = {
   all,
   airports,
+  airportsState,
 };

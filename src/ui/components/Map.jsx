@@ -61,9 +61,18 @@ class Map extends React.Component {
         console.log(err);
       });
 
+    const airportsState = loadJSON('airportsState.json')
+      .then((res) => {
+        data.state.air = res;
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
     Promise.all([
       all,
       airports,
+      airportsState,
     ])
       .then(() => {
         this.setState({
