@@ -64,6 +64,26 @@ router.get('/state/military', (req, res) => {
     });
 });
 
+router.get('/none/neither', (req, res) => {
+  manager.neither()
+    .then((data) => {
+      res.status(200).json(data);
+    })
+    .catch((err) => {
+      res.status(400).json({ message: err.toString() }).end();
+    });
+});
+
+router.get('/state/neither', (req, res) => {
+  manager.neitherState()
+    .then((data) => {
+      res.status(200).json(data);
+    })
+    .catch((err) => {
+      res.status(400).json({ message: err.toString() }).end();
+    });
+});
+
 module.exports = {
   router,
 };

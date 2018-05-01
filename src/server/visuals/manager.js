@@ -18,7 +18,14 @@ SELECT A.state, COUNT(*) AS num
 `;
 
 async function allState() {
-  return conn.exec(allStateSQL, []);
+  const res = await conn.exec(allStateSQL, []);
+  const out = {};
+
+  res.forEach((row) => {
+    out[row.state] = row.num;
+  });
+
+  return out;
 }
 
 const airportsSQL = `
@@ -47,12 +54,12 @@ SELECT A.state, COUNT(*) AS num
  ON U.latitude_deg = A.latitude_deg AND U.longitude_deg = A.longitude_deg
  INNER JOIN
  (
-   SELECT DISTINCT state
+   SELECT DISTINCT county, state
    FROM airports AP
    INNER JOIN addresses A
    ON AP.latitude_deg = A.latitude_deg AND AP.longitude_deg = A.longitude_deg
  ) AP
- ON A.state = AP.state
+ ON A.state = AP.state AND A.county = AP.county
  GROUP BY A.state;
 `;
 
@@ -93,17 +100,80 @@ SELECT A.state, COUNT(*) AS num
  ON U.latitude_deg = A.latitude_deg AND U.longitude_deg = A.longitude_deg
  INNER JOIN
  (
-   SELECT DISTINCT state
+   SELECT DISTINCT county, state
    FROM militarybases M
    INNER JOIN addresses A
    ON M.latitude_deg = A.latitude_deg AND M.longitude_deg = A.longitude_deg
  ) M
- ON A.state = M.state
+ ON A.state = M.state AND A.county = M.county
  GROUP BY A.state;
 `;
 
 async function militaryState() {
   const res = await conn.exec(militaryStateSQL, []);
+  const out = {};
+
+  res.forEach((row) => {
+    out[row.state] = row.num;
+  });
+
+  return out;
+}
+
+// TODO(NilsG-S): EXCEPT not supported by MariaDB 10.2 finish this out later
+const neitherSQL = `
+SELECT DISTINCT U.latitude_deg AS lat, U.longitude_deg AS lng
+ FROM ufosightings U
+ EXCEPT
+ SELECT DISTINCT U.latitude_deg AS lat, U.longitude_deg AS lng
+ FROM ufosightings U
+ INNER JOIN addresses A
+ ON U.latitude_deg = A.latitude_deg AND U.longitude_deg = A.longitude_deg
+ INNER JOIN
+ (
+   SELECT DISTINCT county, state
+   FROM militarybases M
+   INNER JOIN addresses A
+   ON M.latitude_deg = A.latitude_deg AND M.longitude_deg = A.longitude_deg
+   UNION
+   SELECT DISTINCT county, state
+   FROM airports AP
+   INNER JOIN addresses A
+   ON AP.latitude_deg = A.latitude_deg AND AP.longitude_deg = A.longitude_deg
+ ) C
+ ON A.state = C.state AND A.county = C.county;
+`;
+
+async function neither() {
+  return conn.exec(neitherSQL, []);
+}
+
+// TODO(NilsG-S): EXCEPT not supported by MariaDB 10.2 finish this out later
+const neitherStateSQL = `
+SELECT DISTINCT U.latitude_deg AS lat, U.longitude_deg AS lng
+ FROM ufosightings U
+ EXCEPT
+ SELECT DISTINCT U.latitude_deg AS lat, U.longitude_deg AS lng
+ FROM ufosightings U
+ INNER JOIN addresses A
+ ON U.latitude_deg = A.latitude_deg AND U.longitude_deg = A.longitude_deg
+ INNER JOIN
+ (
+   SELECT DISTINCT county, state
+   FROM militarybases M
+   INNER JOIN addresses A
+   ON M.latitude_deg = A.latitude_deg AND M.longitude_deg = A.longitude_deg
+   UNION
+   SELECT DISTINCT county, state
+   FROM airports AP
+   INNER JOIN addresses A
+   ON AP.latitude_deg = A.latitude_deg AND AP.longitude_deg = A.longitude_deg
+ ) C
+ ON A.state = C.state AND A.county = C.county;
+`;
+
+async function neitherState() {
+  const res = await conn.exec(neitherStateSQL, []);
   const out = {};
 
   res.forEach((row) => {
@@ -120,4 +190,6 @@ module.exports = {
   airportsState,
   military,
   militaryState,
+  neither,
+  neitherState,
 };
