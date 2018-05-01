@@ -10,7 +10,7 @@ async function all() {
 }
 
 const airportsSQL = `
-SELECT DISTINCT U.id, U.latitude_deg AS lat, U.longitude_deg AS lng
+SELECT DISTINCT U.latitude_deg AS lat, U.longitude_deg AS lng
  FROM ufosightings U
  INNER JOIN addresses A
  ON U.latitude_deg = A.latitude_deg AND U.longitude_deg = A.longitude_deg
