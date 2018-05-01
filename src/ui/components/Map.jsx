@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
+
+import { withStyles } from 'material-ui/styles';
 
 import { loadJSON } from 'utils/server.js';
 
@@ -27,13 +28,11 @@ const data = {
   },
 };
 
-function polygonHandler(area) {
-  return null;
-}
-
-function markerHandler(pos) {
-  return <Marker key={pos.id} position={{ lat: pos.lat, lng: pos.lng }} />;
-}
+const styles = () => ({
+  map: {
+    flexGrow: 1,
+  },
+});
 
 class Map extends React.Component {
   constructor(props) {
@@ -42,43 +41,33 @@ class Map extends React.Component {
     this.state = {
       ready: false,
     };
+    this.mapRef = React.createRef();
   }
 
   componentDidMount() {
+    const states = loadJSON('states.json')
+      .then((res) => { data.state.mil = Object.entries(res); })
+      .catch((err) => { console.log(err); });
+
     const all = loadJSON('all.json')
-      .then((res) => {
-        data.none.all = res;
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+      .then((res) => { data.none.all = Object.entries(res); })
+      .catch((err) => { console.log(err); });
 
     const airports = loadJSON('airports.json')
-      .then((res) => {
-        data.none.air = res;
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+      .then((res) => { data.none.air = Object.entries(res); })
+      .catch((err) => { console.log(err); });
 
     const airportsState = loadJSON('airportsState.json')
-      .then((res) => {
-        data.state.air = res;
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+      .then((res) => { data.state.air = Object.entries(res); })
+      .catch((err) => { console.log(err); });
 
     Promise.all([
+      states,
       all,
       airports,
       airportsState,
     ])
-      .then(() => {
-        this.setState({
-          ready: true,
-        });
-      });
+      .then(() => { this.setState({ ready: true }); });
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -97,38 +86,28 @@ class Map extends React.Component {
     return false;
   }
 
-  render() {
-    let dataHandler = polygonHandler;
-    if (this.props.geoChecked === 'none') {
-      dataHandler = markerHandler;
-    }
+  componentDidUpdate() {
+    const map = new google.maps.Map(this.mapRef.current, {
+      zoom: 4,
+      center: { lat: 33.584466, lng: -101.874670 },
+    });
 
+    // if (this.props.geoChecked === 'none') {
+    // } else {
+    // }
+  }
+
+  render() {
     return (
-      <GoogleMap
-        defaultZoom={4}
-        defaultCenter={{ lat: 33.584466, lng: -101.874670 }}
-      >
-        {data[this.props.geoChecked][this.props.dataChecked].map(dataHandler)}
-      </GoogleMap>
+      <div className={this.props.classes.map} ref={this.mapRef} />
     );
   }
 }
 
 Map.propTypes = {
+  classes: PropTypes.object.isRequired,
   dataChecked: PropTypes.string.isRequired,
   geoChecked: PropTypes.string.isRequired,
 };
 
-function inject(Wrapped) {
-  return props => (
-    <Wrapped
-      googleMapURL='https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places'
-      loadingElement={<div style={{ height: '100%' }} />}
-      containerElement={<div style={{ flexGrow: 1 }} />}
-      mapElement={<div style={{ height: '100%' }} />}
-      {...props}
-    />
-  );
-}
-
-export default inject(withScriptjs(withGoogleMap(Map)));
+export default withStyles(styles)(Map);
