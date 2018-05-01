@@ -1,0 +1,10 @@
+geographiclib==1.49
+geopy==1.13.0
+mysql-connector-python==8.0.11
+numpy==1.14.3
+pandas==0.22.0
+protobuf==3.5.2.post1
+python-dateutil==2.7.2
+python-dotenv==0.8.2
+pytz==2018.4
+six==1.10.0

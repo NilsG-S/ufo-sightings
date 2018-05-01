@@ -205,7 +205,7 @@ if __name__ == "__main__":
                           ")"
     db_manager.create_table("Airports", airport_data_schema)
     db_manager.insert_csv_into_table("Airports",
-                                     "%s/DatabaseTables/AirportTable.csv" % cur_dir)
+            os.path.join(cur_dir, 'DatabaseTables', 'AirportTable.csv'))
 
     # Create MilitaryBaseData table and put the MilitaryBaseTable.csv data into the table.
     military_base_data_schema = "(" \
@@ -218,7 +218,7 @@ if __name__ == "__main__":
                                 ")"
     db_manager.create_table("MilitaryBases", military_base_data_schema)
     db_manager.insert_csv_into_table("MilitaryBases",
-                                     "%s/DatabaseTables/MilitaryBaseTable.csv" % cur_dir)
+            os.path.join(cur_dir, 'DatabaseTables', 'MilitaryBaseTable.csv'))
 
     # Create UFOSightingData table and put the UFOSightingTable.csv data into the table.
     ufo_sighting_data_schema = "(" \
@@ -233,7 +233,7 @@ if __name__ == "__main__":
                                ")"
     db_manager.create_table("UFOSightings", ufo_sighting_data_schema)
     db_manager.insert_csv_into_table("UFOSightings",
-                                     "%s/DatabaseTables/UFOSightingTable.csv" % cur_dir)
+            os.path.join(cur_dir, 'DatabaseTables', 'UFOSightingTable.csv'))
 
     # Create MilitaryXSighting table and put the MilitaryXSightingsTable.csv data into the table.
     military_X_sighting_data_schema = "(" \
@@ -244,7 +244,7 @@ if __name__ == "__main__":
                                ")"
     db_manager.create_table("MilitaryBasesXSightings", military_X_sighting_data_schema)
     db_manager.insert_csv_into_table("MilitaryBasesXSightings",
-                                     "%s/DatabaseTables/MilitaryXSightingsTable.csv" % cur_dir)
+            os.path.join(cur_dir, 'DatabaseTables', 'MilitaryXSightingsTable.csv'))
 
     # Create AirportXSighting table and put the AirportXSightingsTable.csv data into the table.
     airport_X_sighting_data_schema = "(" \
@@ -255,7 +255,7 @@ if __name__ == "__main__":
                                       ")"
     db_manager.create_table("AirportsXSightings", airport_X_sighting_data_schema)
     db_manager.insert_csv_into_table("AirportsXSightings",
-                                     "%s/DatabaseTables/AirportXSightingsTable.csv" % cur_dir)
+            os.path.join(cur_dir, 'DatabaseTables', 'AirportXSightingsTable.csv'))
 
     # Create Address table and put the AddressTable.csv data into the table.
     address_data_schema = "(" \
@@ -270,7 +270,7 @@ if __name__ == "__main__":
                             ")"
     db_manager.create_table("Addresses", address_data_schema)
     db_manager.insert_csv_into_table("Addresses",
-                                     "%s/DatabaseTables/AddressTable.csv" % cur_dir)
+            os.path.join(cur_dir, 'DatabaseTables', 'AddressTable.csv'))
 
     # Create an index for AddressData.
     db_manager.run_sql("CREATE INDEX AddressesIndex ON Addresses(latitude_deg, longitude_deg);")

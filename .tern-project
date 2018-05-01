@@ -1,0 +1,15 @@
+{
+  "plugins": {
+    "modules": {},
+    "node_resolve": {},
+    "es_modules": {},
+    "webpack": {
+      "configPath": "./webpack/prod.js"
+    }
+  },
+  "libs": [
+    "browser",
+    "react"
+  ],
+  "ecmaVersion": 6
+}
