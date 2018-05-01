@@ -3,6 +3,7 @@ node_js:
   - "8"
 cache: yarn
 script:
+  - yarn install
   - yarn run prod
 deploy:
   provider: pages
