@@ -43,6 +43,7 @@ class Map extends React.Component {
     };
     this.mapRef = React.createRef();
     this.map = null;
+    this.markers = [];
   }
 
   componentDidMount() {
@@ -98,12 +99,26 @@ class Map extends React.Component {
   }
 
   componentDidUpdate() {
-    if (this.props.geoChecked === 'none') {
-      this.map.data.addGeoJson(data.states);
-    } else {
-      this.map.data.forEach((feature) => {
-        this.map.data.remove(feature);
+    const { dataChecked, geoChecked } = this.props;
+
+    this.map.data.forEach((feature) => {
+      this.map.data.remove(feature);
+    });
+    this.markers.forEach((marker) => {
+      marker.setMap(null);
+    });
+
+    if (geoChecked === 'none') {
+      data[geoChecked][dataChecked].forEach((pos) => {
+        const marker = new google.maps.Marker({
+          position: { lat: pos.lat, lng: pos.lng },
+        });
+
+        this.markers.push(marker);
+        marker.setMap(this.map);
       });
+    } else {
+      this.map.data.addGeoJson(data.states);
     }
   }
 
