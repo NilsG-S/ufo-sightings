@@ -65,12 +65,10 @@ class MapPage extends React.Component {
       mil: { name: 'mil', text: 'Military Bases' },
       air: { name: 'air', text: 'Airports' },
       all: { name: 'all', text: 'All' },
-      neither: { name: 'neither', text: 'Neither' },
     };
     this.geo = {
       none: { name: 'none', text: 'None' },
       state: { name: 'state', text: 'State' },
-      county: { name: 'county', text: 'County' },
     };
 
     this.handleDrawerToggle = this.handleDrawerToggle.bind(this);

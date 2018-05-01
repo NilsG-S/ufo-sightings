@@ -72,6 +72,10 @@ class Map extends React.Component {
       .then((res) => { data.none.all = res; })
       .catch((err) => { console.log(err); });
 
+    const allState = loadJSON('allState.json')
+      .then((res) => { data.state.all = res; })
+      .catch((err) => { console.log(err); });
+
     const airports = loadJSON('airports.json')
       .then((res) => { data.none.air = res; })
       .catch((err) => { console.log(err); });
@@ -80,12 +84,23 @@ class Map extends React.Component {
       .then((res) => { data.state.air = res; })
       .catch((err) => { console.log(err); });
 
+    const military = loadJSON('military.json')
+      .then((res) => { data.none.mil = res; })
+      .catch((err) => { console.log(err); });
+
+    const militaryState = loadJSON('militaryState.json')
+      .then((res) => { data.state.mil = res; })
+      .catch((err) => { console.log(err); });
+
     Promise.all([
       states,
       counties,
       all,
+      allState,
       airports,
       airportsState,
+      military,
+      militaryState,
     ])
       .then(() => { this.setState({ ready: true }); });
   }
@@ -129,9 +144,19 @@ class Map extends React.Component {
       this.map.data.addGeoJson(data[geoChecked].poly);
       this.map.data.setStyle((feature) => {
         const index = Math.floor(data[geoChecked][dataChecked][feature.f.NAME] / 553);
+        const color = colors[index];
+
+        if (color === undefined) {
+          return {
+            strokeWeight: 0.5,
+            fillColor: '#EF5350',
+            fillOpacity: 1.0,
+          };
+        }
+
         return {
           strokeWeight: 0.5,
-          fillColor: colors[index],
+          fillColor: color,
           fillOpacity: 1.0,
         };
       });
