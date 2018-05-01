@@ -6,8 +6,6 @@ import { withStyles } from 'material-ui/styles';
 import { loadJSON } from 'utils/server.js';
 
 const data = {
-  states: [],
-  counties: [],
   none: {
     mil: [],
     air: [],
@@ -15,12 +13,14 @@ const data = {
     neither: [],
   },
   state: {
+    poly: [],
     mil: [],
     air: [],
     all: [],
     neither: [],
   },
   county: {
+    poly: [],
     mil: [],
     air: [],
     all: [],
@@ -53,11 +53,11 @@ class Map extends React.Component {
     });
 
     const states = loadJSON('states.geojson')
-      .then((res) => { data.states = res; })
+      .then((res) => { data.state.poly = res; })
       .catch((err) => { console.log(err); });
 
     const counties = loadJSON('counties.geojson')
-      .then((res) => { data.counties = res; })
+      .then((res) => { data.county.poly = res; })
       .catch((err) => { console.log(err); });
 
     const all = loadJSON('all.json')
@@ -118,7 +118,13 @@ class Map extends React.Component {
         marker.setMap(this.map);
       });
     } else {
-      this.map.data.addGeoJson(data.states);
+      this.map.data.addGeoJson(data[geoChecked].poly);
+      this.map.data.setStyle((feature) => {
+        return {
+          strokeWeight: 0.5,
+          fillColor: 'red',
+        };
+      });
     }
   }
 
