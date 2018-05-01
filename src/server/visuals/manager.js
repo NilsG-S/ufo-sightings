@@ -45,7 +45,14 @@ SELECT A.state, COUNT(*) AS num
 `;
 
 async function airportsState() {
-  return conn.exec(airportsStateSQL, []);
+  const res = await conn.exec(airportsStateSQL, []);
+  const out = {};
+
+  res.forEach((row) => {
+    out[row.state] = row.num;
+  });
+
+  return out;
 }
 
 module.exports = {

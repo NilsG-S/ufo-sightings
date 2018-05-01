@@ -28,6 +28,14 @@ const data = {
   },
 };
 
+const colors = [
+  '#F44336',
+  '#E53935',
+  '#D32F2F',
+  '#C62828',
+  '#B71C1C',
+];
+
 const styles = () => ({
   map: {
     flexGrow: 1,
@@ -120,9 +128,11 @@ class Map extends React.Component {
     } else {
       this.map.data.addGeoJson(data[geoChecked].poly);
       this.map.data.setStyle((feature) => {
+        const index = Math.floor(data[geoChecked][dataChecked][feature.f.NAME] / 553);
         return {
           strokeWeight: 0.5,
-          fillColor: 'red',
+          fillColor: colors[index],
+          fillOpacity: 1.0,
         };
       });
     }
